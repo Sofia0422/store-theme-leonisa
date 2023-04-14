@@ -3,3 +3,7 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
+
+.flexRowContent--header1__menu-item_desktop {
+    background-color: #2c2a29;    
+}
