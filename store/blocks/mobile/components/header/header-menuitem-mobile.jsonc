@@ -1,0 +1,143 @@
+{
+    "header-layout.mobile": {
+        "children": [
+          "sticky-layout#mobile__menu-item"
+        ]
+      },
+      "sticky-layout#mobile__menu-item": {
+        "title":"Headers for mobile",
+        "props": {
+          "blockClass": "sticky__header-mobile"
+        },
+        "children": [
+            "flex-layout.row#header1__menu-item_mobile",
+            "slider-layout#header__slider_mobile"            
+        ]
+      },
+
+    
+
+    "flex-layout.row#header1__menu-item_mobile" : {
+        "title":"Menu items for first header",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "header1__menu-item_mobile"
+        },
+        "children": [               
+          "vtex.menu@2.x:menu#sites__genero_mobile"         
+        ]
+      },
+
+      "vtex.menu@2.x:menu#sites__genero_mobile":{
+        "children": [
+            "menu-item#site__leonisa_mobile",
+            "menu-item#site__leo_mobile",
+            "menu-item#site__aliados-leonisa_mobile"
+            
+        ]
+    },
+
+    "menu-item#site__leonisa_mobile": {
+        "title":"Leonisa option",
+        "props": {
+            "id": "menu-item-category-women",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,            
+            "blockClass":"item__category_leonisa-mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Women",
+                "text": "LEONISA"
+            }
+        }
+    },
+
+    "menu-item#site__leo_mobile":{
+      "title":"Leo option",
+        "props": {
+            "id": "menu-item-category-men",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,            
+            "blockClass":"item__category_leo-mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "/home",
+                "noFollow": false,
+                "tagTitle": "Men",
+                "text": "LEO"
+            }
+        }
+    },
+
+    "menu-item#site__aliados-leonisa_mobile":{
+      "title":"Leonisa allies option",
+        "props": {
+            "id": "menu-item-category-allies",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,            
+            "blockClass":"item__category_allies-mobile",
+            "itemProps": {
+                "type": "internal",
+                "href": "/home",
+                "noFollow": false,
+                "tagTitle": "Allies",
+                "text": "ALIADOS LEONISA"
+            }
+        }
+    },
+
+    "slider-layout#header__slider_mobile":{
+      "title": "Slider-layout for header mobile",
+      "props":{
+        "itemsPerPage":{
+          "desktop":1,
+          "tablet":1,
+          "phone":1
+        },
+        "infinite": true,
+        "blockClass": "header__slider_mobile",
+        "showNavigationArrows": "never", 
+        "showPaginationDots": "never",            
+        "autoplay":{
+          "timeout":5000
+          
+        }
+      },
+      "children":[
+        "rich-text#1__mobile",                
+        "rich-text#2__mobile",      
+        "rich-text#3__mobile"                
+      ]
+    },
+  
+    "rich-text#1__mobile": {
+      "props":{
+        "blockClass":"rich-text__slider-mobile_one",
+        "text":"ENVIO GRATIS en órdenes de $60.000 o más"
+      }
+  
+    },
+    "rich-text#2__mobile": {
+      "props":{
+        "blockClass":"rich-text__slider-mobile_two",
+        "text":"CAMBIOS Y DEVOLUCIONES Sin complicaciones"      
+      }
+      
+    },
+    "rich-text#3__mobile": {
+      "props":{
+        "blockClass":"rich-text__slider-mobile_three",
+        "text":"OFERTAS DISPONIBLES Descúbrelas"      
+      }
+      
+    }
+}

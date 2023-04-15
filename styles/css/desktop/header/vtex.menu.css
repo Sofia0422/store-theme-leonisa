@@ -2,3 +2,9 @@
 .styledLinkContainer {
     margin: 0 12px;
 } */
+.styledLinkContent--item__category_leonisa-desktop, .styledLinkContent--item__category_leo-desktop, .styledLinkContent--item__category_allies-desktop{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
