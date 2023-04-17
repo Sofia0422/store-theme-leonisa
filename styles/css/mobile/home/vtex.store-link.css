@@ -1,0 +1,14 @@
+.label--link__slider-mobile_one, .label--link__slider-mobile_two, .label--link__slider-mobile_three {    
+    letter-spacing: 0.2em;
+    font-size: 0.8em;   
+    color: #2a2c29;
+    margin-top: 10px;
+    
+    
+}
+
+.link--link__slider-mobile_one, .link--link__slider-mobile_two, .link--link__slider-mobile_three {
+    text-decoration-color: #2a2c29;
+    text-align: center;
+}
+

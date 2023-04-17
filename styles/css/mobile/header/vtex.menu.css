@@ -1,9 +1,14 @@
 .styledLinkContent--item__category_leonisa-mobile, .styledLinkContent--item__category_leo-mobile, .styledLinkContent--item__category_allies-mobile{
     color: #ffffff;
-    font-weight: 700;
-    padding: 0 4rem;
+    font-weight: 700;    
+    font-size: 0.8rem;  
 }
 
-.menuItem--item__category_leonisa-desktop {
-    margin-left: 5rem;
+.styledLinkContent--item__category_allies-mobile{
+      
+    font-size: 0.7rem;  
 }
+
+
+
+

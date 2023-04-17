@@ -1,31 +1,33 @@
 {
     "header-layout.mobile": {
+      "title":"Header for mobile view",
         "children": [
-          "sticky-layout#mobile__menu-item"
+          "sticky-layout#header__rows-mobile"
         ]
       },
-      "sticky-layout#mobile__menu-item": {
-        "title":"Headers for mobile",
+      "sticky-layout#header__rows-mobile": {
+        "title":"Header elements for mobile view",
         "props": {
           "blockClass": "sticky__header-mobile"
         },
         "children": [
-            "flex-layout.row#header1__menu-item_mobile",
-            "slider-layout#header__slider_mobile"            
+            "flex-layout.row#1-header__menu-item_mobile",
+            "slider-layout#header__slider_mobile"
+           /*  "flex-layout.row#2-header__elements_mobile"   */            
         ]
       },
 
-    
+    // row 1
 
-    "flex-layout.row#header1__menu-item_mobile" : {
-        "title":"Menu items for first header",
+    "flex-layout.row#1-header__menu-item_mobile": {
+        "title":"Menu items for first row-header",
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
           "fullWidth": true,
-          "blockClass": "header1__menu-item_mobile"
+          "blockClass": "header-row1__menu-item_mobile"
         },
         "children": [               
           "vtex.menu@2.x:menu#sites__genero_mobile"         
@@ -33,16 +35,17 @@
       },
 
       "vtex.menu@2.x:menu#sites__genero_mobile":{
+        "title":"Menu items in header for mobile view",
         "children": [
-            "menu-item#site__leonisa_mobile",
-            "menu-item#site__leo_mobile",
+            "menu-item#site__leonisa_mobile",          
+            "menu-item#site__leo_mobile",           
             "menu-item#site__aliados-leonisa_mobile"
             
         ]
     },
 
     "menu-item#site__leonisa_mobile": {
-        "title":"Leonisa option",
+        "title":"Leonisa option as a menu item",
         "props": {
             "id": "menu-item-category-women",
             "type": "custom",
@@ -60,7 +63,7 @@
     },
 
     "menu-item#site__leo_mobile":{
-      "title":"Leo option",
+        "title":"Leo option as a menu item",
         "props": {
             "id": "menu-item-category-men",
             "type": "custom",
@@ -78,7 +81,7 @@
     },
 
     "menu-item#site__aliados-leonisa_mobile":{
-      "title":"Leonisa allies option",
+        "title":"Leonisa allies option as a menu item",
         "props": {
             "id": "menu-item-category-allies",
             "type": "custom",
@@ -106,38 +109,48 @@
         "infinite": true,
         "blockClass": "header__slider_mobile",
         "showNavigationArrows": "never", 
-        "showPaginationDots": "never",            
+        "showPaginationDots": "never",             
         "autoplay":{
-          "timeout":5000
-          
+          "timeout":5000          
         }
       },
+      
       "children":[
-        "rich-text#1__mobile",                
-        "rich-text#2__mobile",      
-        "rich-text#3__mobile"                
+        "link#1__mobile_free-shipping",                
+        "link#2__mobile_returns-exchanges",      
+        "link#3__mobile_offers-available"                
       ]
     },
   
-    "rich-text#1__mobile": {
+    "link#1__mobile_free-shipping": {
+      "title":"First link of slider ",
       "props":{
-        "blockClass":"rich-text__slider-mobile_one",
-        "text":"ENVIO GRATIS en órdenes de $60.000 o más"
+        "blockClass":"link__slider-mobile_one",
+        "label":"ENVIO GRATIS en órdenes de $60.000 o más",
+        "href":"/home"
       }
   
     },
-    "rich-text#2__mobile": {
+    "link#2__mobile_returns-exchanges": {
+      "title":"Second link of slider",
       "props":{
-        "blockClass":"rich-text__slider-mobile_two",
-        "text":"CAMBIOS Y DEVOLUCIONES Sin complicaciones"      
+        "blockClass":"link__slider-mobile_two",
+        "label":"CAMBIOS Y DEVOLUCIONES Sin complicaciones",
+        "href":"/home"   
       }
       
     },
-    "rich-text#3__mobile": {
+    "link#3__mobile_offers-available": {
+      "title":"Third link of slider",
       "props":{
-        "blockClass":"rich-text__slider-mobile_three",
-        "text":"OFERTAS DISPONIBLES Descúbrelas"      
+        "blockClass":"link__slider-mobile_three",
+        "label":"OFERTAS DISPONIBLES Descúbrelas",
+        "href":"/home"     
       }
       
     }
+
+    
+
+    
 }

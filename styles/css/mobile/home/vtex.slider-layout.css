@@ -1,3 +1,11 @@
 .slide--header__slider_mobile{
     background-color: #ffffff;
 }
+
+.slideChildrenContainer--header__slider_mobile {
+    margin-top: 20px;
+    padding: 0 2rem;
+}
+
+
+

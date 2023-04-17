@@ -1,10 +1,11 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+
 .styledLinkContent--item__category_leonisa-desktop, .styledLinkContent--item__category_leo-desktop, .styledLinkContent--item__category_allies-desktop{
     color: #ffffff;
     font-weight: 700;
+    font-size: 0.9rem;  
 }
 
 
+.styledLinkContent--item__category_leonisa-desktop{
+    margin-left: 5rem;
+}
