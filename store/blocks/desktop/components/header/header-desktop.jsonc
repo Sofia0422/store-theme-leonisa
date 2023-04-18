@@ -11,8 +11,9 @@
           "blockClass": "sticky__header-desktop"
         },
         "children": [
-            "flex-layout.row#1-header__menu-item_desktop"
-            /* "flex-layout.row#2-header__elements_desktop"      */                
+            "flex-layout.row#1-header__menu-item_desktop",
+            "flex-layout.row#2-header__elements_desktop",
+            "flex-layout.row#3-header__menu_desktop"                   
         ]
       },
 
@@ -126,8 +127,8 @@
       "title":"First link of slider ",
       "props":{
         "blockClass":"link__slider-desktop_one",
-        "label":"ENVIO GRATIS en órdenes de $60.000 o más",
-        "href":"/home"
+        "label":"ENVIO GRATIS en órdenes de $60.000 o más ",       
+        "href":"https://www.google.com/?hl=es"
       }
   
     },
@@ -136,7 +137,7 @@
       "props":{
         "blockClass":"link__slider-desktop_two",
         "label":"CAMBIOS Y DEVOLUCIONES Sin complicaciones",
-        "href":"/home"        
+        "href":"https://www.google.com/?hl=es"        
       }
       
     },
@@ -145,11 +146,518 @@
       "props":{
         "blockClass":"link__slider-desktop_three",
         "label":"OFERTAS DISPONIBLES Descúbrelas",
-        "href":"/home"          
+        "href":"https://www.google.com/?hl=es"          
       }
       
-    }
+    },
 
+    //row 2
+
+    "flex-layout.row#2-header__elements_desktop":{
+        "title":"Elements for second row-header desktop",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "header-row2__elements_desktop"
+        },
+        "children": [            
+          "search-bar",
+          "flex-layout.col#spacer", 
+          "flex-layout.col#logo-desktop",
+          "flex-layout.col#spacer", 
+          "locale-switcher",
+          "login#header__desktop",
+          "minicart.v2"
+        ]
+      },
+     
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": [
+            "logo"        
+        ]
+      },
+      "logo": {
+        "title": "Logo",
+        "props": {      
+          "href": "/",
+          "url": "assets/img/header/logo-leonisa.jpg",
+          "width": "180"
+        }
+    },
+    "login#header__desktop": {
+      "title":"Login for desktop",
+      "props": {   
+        "iconLabel":".",        
+        "emailAndPasswordTitle": "LOG-IN",
+        "accessCodeTitle": "Acess Code LOG-IN",
+        "emailPlaceholder": "e-mail",
+        "passwordPlaceholder": "password",
+        "showPasswordVerificationIntoTooltip": true,
+        "showIconProfile": true
+      }
+    },
+
+    //row 3 - Menu
+    
+    "flex-layout.row#3-header__menu_desktop":{
+      "children":[
+        "vtex.menu@2.x:menu#header__desktop"
+      ]
+    },
+    "vtex.menu@2.x:menu#header__desktop":{
+      "children":[        
+        "menu-item#department__one_desktop",
+        "menu-item#department__two_desktop",
+        "menu-item#department__three_desktop",
+        "menu-item#department__four_desktop",
+        "menu-item#department__five_desktop",
+        "menu-item#department__six_desktop",
+        "menu-item#department__seven_desktop",
+        "menu-item#department__eight_desktop",
+        "menu-item#department__nine_desktop"
+      ]
+     /*  "props":{
+        "orientation":""
+      } */
+    },
+
+    //Department one
+    "menu-item#department__one_desktop":{
+      "props":{
+        "id":"department-one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Brasieres",
+          "text":"Brasieres"        
+        }
+      },
+      "blocks":["submenu.accordion#department__one_desktop"]
+      },
+
+      "submenu.accordion#department__one_desktop":{
+        "children":[
+          "menu#department__one_desktop"
+        ]        
+      },
+
+      "menu#department__one_desktop":{
+        "children":[
+          "menu-item#category__one_desktop",
+          "menu-item#category__two_desktop",
+          "menu-item#category__three_desktop",
+          "menu-item#category__four_desktop",
+          "menu-item#category__five_desktop",
+          "menu-item#category__six_desktop",
+          "menu-item#category__seven_desktop",
+          "menu-item#category__eight_desktop"
+        ],
+        "props":{
+          "orientation":"vertical"
+        }
+      },
+      //Category one
+      "menu-item#category__one_desktop":{
+        "props":{
+          "id": "category-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Ver todos los Brasieres",
+            "text":"Ver todos los Brasieres"
+          }
+        }
+      },
+      //Category two
+      "menu-item#category__two_desktop":{
+        "props":{
+          "id": "category-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Nuevos Brasieres y Bralettes",
+            "text":"Nuevos Brasieres y Bralettes"
+          }
+        }
+      },
+      //Category three
+      "menu-item#category__three_desktop":{
+        "props":{
+          "id": "category-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Nuevos Bra #1",
+            "text":"Nuevos Bra #1"
+          }
+        }
+      },
+      //Category four
+      "menu-item#category__four_desktop":{
+        "props":{
+          "id": "category-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Brasieres más Vendidos",
+            "text":"Brasieres más Vendidos"
+          }
+        }
+      },
+      //Category five
+      "menu-item#category__five_desktop":{
+        "props":{
+          "id": "category-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Encuentra Tu Estilo de Brasier",
+            "text":"Encuentra Tu Estilo de Brasier"
+          }
+        }
+      },
+      //Category six
+      "menu-item#category__six_desktop":{
+        "props":{
+          "id": "category-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tipos de Brasieres",
+            "text":"Tipos de Brasieres"
+          }
+        },
+        "blocks":["submenu.accordion#category__six_desktop"]        
+      },
+
+      "submenu.accordion#category__six_desktop":{
+        "children":[
+          "menu#category__six_desktop"
+        ]        
+      },
+
+      "menu#category__six_desktop":{
+        "children":[
+          "menu-item#subcategory__one_desktop",
+          "menu-item#subcategory__two_desktop",
+          "menu-item#subcategory__three_desktop",
+          "menu-item#subcategory__four_desktop",
+          "menu-item#subcategory__five_desktop",
+          "menu-item#subcategory__six_desktop",
+          "menu-item#subcategory__seven_desktop",
+          "menu-item#subcategory__eight_desktop",
+          "menu-item#subcategory__nine_desktop",
+          "menu-item#subcategory__ten_desktop"
+        ],
+        "props":{
+          "orientation":"vertical"
+        }
+      },
+
+      //Subcategory one
+      "menu-item#subcategory__one_desktop":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Bralettes y Tops",
+            "text":"Bralettes y Tops"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#subcategory__two_desktop":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Encaje y Seducción",
+            "text":"Encaje y Seducción"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#subcategory__three_desktop":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Strapless",
+            "text":"Strapless"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#subcategory__four_desktop":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Brasieres sin Varillas",
+            "text":"Brasieres sin Varillas"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#subcategory__five_desktop":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Con Relleno",
+            "text":"Con Relleno"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#subcategory__six_desktop":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Sin Relleno",
+            "text":"Sin Relleno"
+          }
+        }
+      },
+      //Subcategory seven
+      "menu-item#subcategory__seven_desktop":{
+        "props":{
+          "id": "subcategory-seve-desktopn",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Lencería para Novias",
+            "text":"Lencería para Novias"
+          }
+        }
+      },
+      //Subcategory eight
+      "menu-item#subcategory__eight_desktop":{
+        "props":{
+          "id": "subcategory-eight-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Copa Completa",
+            "text":"Copa Completa"
+          }
+        }
+      },
+      //Subcategory nine
+      "menu-item#subcategory__nine_desktop":{
+        "props":{
+          "id": "subcategory-nine-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tops para Niñas",
+            "text":"Tops para Niñas"
+          }
+        }
+      },
+      //Subcategory ten
+      "menu-item#subcategory__ten_desktop":{
+        "props":{
+          "id": "subcategory-ten-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Accesorios Brasieres",
+            "text":"Accesorios Brasieres"
+          }
+        }
+      },
+
+      //Category seven
+      "menu-item#category__seven_desktop":{
+        "props":{
+          "id": "category-seven-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tamaño de Busto",
+            "text":"Tamaño de Busto"
+          }
+        }
+      },
+      //Category eight
+      "menu-item#category__eight_desktop":{
+        "props":{
+          "id": "category-eight-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Beneficios",
+            "text":"Beneficios"
+          }
+        }
+      },
+    
+    // Department two
+    "menu-item#department__two_desktop":{
+      "props":{
+        "id":"department-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Panties",
+          "text":"Panties"        
+        }
+      }
+    }, 
+    
+    //Department three
+    "menu-item#department__three_desktop":{
+      "props":{
+        "id":"department-three-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Fajas",
+          "text":"Fajas"       
+        }
+      }
+
+    },
+    //Departmen four
+    "menu-item#department__four_desktop":{
+      "props":{
+        "id":"department-four-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Deporte",
+          "text":"Deporte"       
+        }
+      }
+    },
+     //Departmen five
+    "menu-item#department__five_desktop":{
+      "props":{
+        "id":"department-five-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Ropa y Moda",
+          "text":"Ropa y Moda"      
+        }
+      }
+    },
+     //Departmen six"
+    "menu-item#department__six_desktop":{
+      "props":{
+        "id":"department-six-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Vestido de Baño",
+          "text":"Vestido de Baño"    
+        }
+      }
+    },
+     //Departmen seven
+    "menu-item#department__seven_desktop":{
+      "props":{
+        "id":"department-seven-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Leggins",
+          "text":"Leggins"    
+        }
+      }
+    },
+     //Departmen eight
+    "menu-item#department__eight_desktop":{
+      "props":{
+        "id":"department-eight-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Ofertas",
+          "text":"Ofertas"    
+        }
+      }
+    },
+     //Departmen nine"
+    "menu-item#department__nine_desktop":{
+      "props":{
+        "id":"department-nine-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href":"https://www.google.com/",
+          "noFollow":true,
+          "tagTitle":"Sostenibilidad",
+          "text":"Sostenibilidad"   
+        }
+      }
+    }       
     
 
 }

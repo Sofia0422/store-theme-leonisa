@@ -12,8 +12,8 @@
         },
         "children": [
             "flex-layout.row#1-header__menu-item_mobile",
-            "slider-layout#header__slider_mobile"
-           /*  "flex-layout.row#2-header__elements_mobile"   */            
+            "slider-layout#header__slider_mobile",
+            "flex-layout.row#2-header__elements_mobile"           
         ]
       },
 
@@ -148,9 +148,53 @@
         "href":"/home"     
       }
       
+    },
+
+    // row 2
+
+    "flex-layout.row#2-header__elements_mobile": {
+      "title":"Elements for second row-header mobile",
+      "children": [
+        "drawer#header__mobile_menu", 
+        "search-bar",               
+        "flex-layout.col#spacer",
+        "locale-switcher",
+        "login#header__mobile",
+        "minicart.v2"
+      ],      
+      "props": {
+        "title":"Mobile view",
+        "blockClass": "header-row2__elements_mobile",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+
+    //Login
+    "login#header__mobile": {
+      "title":"Login for mobile",
+      "props": {        
+        "emailAndPasswordTitle": "LOG-IN",
+        "accessCodeTitle": "Acess Code LOG-IN",
+        "emailPlaceholder": "e-mail",
+        "passwordPlaceholder": "password",
+        "showPasswordVerificationIntoTooltip": true,
+        "showIconProfile": true
+      }
+    },
+
+    //Menu
+    "drawer#header__mobile_menu":{
+      "title":"Mega-Menu mobile view",
+      "children":[        
+        "mega-menu#mobile__menu"
+      ],
+      "props":{
+        "orientation":"horizontal"     
+      }     
+    },
+    "mega-menu#mobile__menu":{    
     }
-
-    
-
     
 }

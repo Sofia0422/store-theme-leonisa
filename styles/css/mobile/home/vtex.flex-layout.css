@@ -8,3 +8,7 @@
     max-width: 100%;   
     background-color: #2c2a29;
 }
+
+.flexRowContent--header-row2__elements_mobile {
+    margin-top: 15px;
+}
