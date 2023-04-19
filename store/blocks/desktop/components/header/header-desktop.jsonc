@@ -127,7 +127,7 @@
       "title":"First link of slider ",
       "props":{
         "blockClass":"link__slider-desktop_one",
-        "label":"ENVIO GRATIS en órdenes de $60.000 o más ",       
+        "label":"**[ENVIO GRATIS](https://eff.org)** en órdenes de $60.000 o más",       
         "href":"https://www.google.com/?hl=es"
       }
   
@@ -222,9 +222,7 @@
         "menu-item#department__eight_desktop",
         "menu-item#department__nine_desktop"
       ]
-     /*  "props":{
-        "orientation":""
-      } */
+     
     },
 
     //Department one
@@ -556,7 +554,17 @@
           "tagTitle":"Panties",
           "text":"Panties"        
         }
-      }
+      },
+      "children":[
+        "menu-item#category__one_desktop",
+        "menu-item#category__two_desktop",
+        "menu-item#category__three_desktop",
+        "menu-item#category__four_desktop",
+        "menu-item#category__five_desktop",
+        "menu-item#category__six_desktop",
+        "menu-item#category__seven_desktop",
+        "menu-item#category__eight_desktop"
+      ]
     }, 
     
     //Department three

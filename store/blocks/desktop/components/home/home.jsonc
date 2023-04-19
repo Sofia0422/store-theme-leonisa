@@ -2,7 +2,8 @@
   "flex-layout.row#home__section-1": {
     "title": "DESKTOP Row with text",
     "children": [
-      "rich-text#section-1"
+      "rich-text#section-1",
+      "rich-text"
     ]
   },
 
@@ -14,6 +15,14 @@
       "font": "t-heading-2",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
+    }
+  },
+  "rich-text": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visit our [help](https://developers.vtex.com/docs/guides/welcome) section.\n**Be Bold!**\n*This is italic*",     
+      "blockClass": "help-message"
     }
   }
   

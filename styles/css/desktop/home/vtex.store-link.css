@@ -1,11 +1,11 @@
 .label--link__slider-desktop_one, .label--link__slider-desktop_two, .label--link__slider-desktop_three {
     color: #ffffff;
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: 0.2em;
     font-size: 0.9em; 
     
 }
 
 .link--link__slider-desktop_one, .link--link__slider-desktop_two, .link--link__slider-desktop_three {
-    text-decoration-color:#ffffff
+    text-decoration: none
 }
