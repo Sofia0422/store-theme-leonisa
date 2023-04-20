@@ -1,12 +1,26 @@
 
-.styledLinkContent--item__category_leonisa-desktop, .styledLinkContent--item__category_leo-desktop, .styledLinkContent--item__category_allies-desktop{
+.styledLinkContent--desktop__item_category--leonisa, .styledLinkContent--desktop__item_category--leo, .styledLinkContent--desktop__item_category--allies{
     color: #ffffff;
     font-weight: 700;
     font-size: 0.9rem;  
 }
 
 
-.styledLinkContent--item__category_leonisa-desktop{
+.styledLinkContent--desktop__item_category--leonisa{
     margin-left: 5rem;
   background-color: tr;
+}
+
+.styledLinkContainer--desktop__menu_department:hover{  
+  border-bottom: 2px solid #2a2c29;  
+  animation: grow 5s linear;
+  animation-fill-mode: forwards;
+}
+
+.submenuWrapper--isOpen{
+  padding: 39px 0;
+  line-height: 1.8;
+  transform: none;  
+  transition: all .3s cubic-bezier(.2,.06,.05,.95);
+  transition-delay:.3s;
 }

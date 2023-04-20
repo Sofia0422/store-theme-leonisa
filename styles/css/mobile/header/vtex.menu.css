@@ -1,10 +1,10 @@
-.styledLinkContent--item__category_leonisa-mobile, .styledLinkContent--item__category_leo-mobile, .styledLinkContent--item__category_allies-mobile{
+.styledLinkContent--mobile__item_category-leonisa, .styledLinkContent--mobile__item_category-leo, .styledLinkContent--mobile__item_category-allies{
     color: #ffffff;
     font-weight: 700;    
     font-size: 0.8rem;  
 }
 
-.styledLinkContent--item__category_allies-mobile{
+.styledLinkContent--mobile__item_category-allies{
       
     font-size: 0.7rem;  
 }

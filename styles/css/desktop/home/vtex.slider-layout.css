@@ -1,8 +1,3 @@
-.slideChildrenContainer--header__slider_desktop {
-    color: #ffffff;
-}
-
-.sliderLayoutContainer--header__slider_desktop {    
+.slideChildrenContainer--desktop__header_slider{   
     margin-left: 10rem;
-    
 }
