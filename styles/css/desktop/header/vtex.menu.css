@@ -1,4 +1,48 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+
+
+.styledLinkContent--desktop__item_category--leonisa, .styledLinkContent--desktop__item_category--leo, .styledLinkContent--desktop__item_category--allies{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.9rem;  
+}
+
+
+.styledLinkContent--desktop__item_category--leonisa{
+    margin-left: 5rem;
+
+}
+
+.styledLink--desktop__menu_department{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.025em;
+}
+
+
+.styledLinkContainer--desktop__menu_department:hover{  
+  border-bottom: 2px solid #2a2c29;  
+  animation: grow 5s linear;
+  animation-fill-mode: forwards;
+}
+
+.menuContainerNav--desktop__header_department{
+  display: flex;
+  justify-content: center;
+}
+
+.styledLink--menu__category{
+  letter-spacing: .3em;
+  font-size: .75em;
+  margin-bottom: 10px;
+}
+
+.submenuWrapper--categories_departments{
+  padding-top: 20px; 
+  line-height: 1.8;
+  transform: none;  
+  transition: all .3s cubic-bezier(.2,.06,.05,.95);
+  transition-delay:.3s;
+  width: 100%;
+  height: 415px;
+
+}

@@ -1,0 +1,25 @@
+{
+    "header": {
+      "title":"Header",
+      "blocks": [
+        "header-layout.desktop",
+        "header-layout.mobile"
+
+      ]
+    },
+    "header.full": {
+      "title":"Header full",
+      "blocks": [
+        "header-layout.desktop",
+        "header-layout.mobile"          
+        ]
+    },
+    
+    "flex-layout.col#spacer": {
+      "title":"Spacer for Header",
+      "props": {
+        "width": "grow"
+      }
+    }
+  
+  }

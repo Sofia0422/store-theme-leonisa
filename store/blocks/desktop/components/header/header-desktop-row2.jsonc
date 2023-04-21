@@ -1,0 +1,53 @@
+{
+    //row 2
+
+    "flex-layout.row#2-desktop__header_elements":{
+        "title":"Elements for second row-header desktop",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "desktop__header-row2_elements"
+        },
+        "children": [            
+          "search-bar",
+          "flex-layout.col#spacer", 
+          "flex-layout.col#desktop__header_logo",
+          "flex-layout.col#spacer", 
+          "locale-switcher",
+          "login#desktop__header",
+          "minicart.v2"
+        ]
+      },
+     
+      "flex-layout.col#desktop__header_logo": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#desktop__header_leonisa"        
+        ]
+      },
+      "logo#desktop__header_leonisa": {
+        "title": "Logo",
+        "props": {      
+          "href": "/",
+          "url": "assets/img/header/logo-leonisa.jpg",
+          "width": "180"
+        }
+    },
+    "login#desktop__header": {
+      "title":"Login for desktop",
+      "props": {   
+        "iconLabel":".",        
+        "emailAndPasswordTitle": "LOG-IN",
+        "accessCodeTitle": "Acess Code LOG-IN",
+        "emailPlaceholder": "e-mail",
+        "passwordPlaceholder": "password",
+        "showPasswordVerificationIntoTooltip": true,
+        "showIconProfile": true
+      }
+    }
+}
