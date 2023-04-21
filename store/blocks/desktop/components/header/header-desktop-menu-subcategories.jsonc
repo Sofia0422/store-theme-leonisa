@@ -1,0 +1,531 @@
+{
+    //Department one - Category six
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-six":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Bralettes y Tops",
+            "text":"Bralettes y Tops"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-six":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Encaje y Seducción",
+            "text":"Encaje y Seducción"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-six":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Strapless",
+            "text":"Strapless"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-six":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Brasieres sin Varillas",
+            "text":"Brasieres sin Varillas"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-six":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Con Relleno",
+            "text":"Con Relleno"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#desktop__menu_subcategory--six-six":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Sin Relleno",
+            "text":"Sin Relleno"
+          }
+        }
+      },
+      //Subcategory seven
+      "menu-item#desktop__menu_subcategory--seven-six":{
+        "props":{
+          "id": "subcategory-seve-desktopn",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Lencería para Novias",
+            "text":"Lencería para Novias"
+          }
+        }
+      },
+      //Subcategory eight
+      "menu-item#desktop__menu_subcategory--eight-six":{
+        "props":{
+          "id": "subcategory-eight-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Copa Completa",
+            "text":"Copa Completa"
+          }
+        }
+      },
+      //Subcategory nine
+      "menu-item#desktop__menu_subcategory--nine-six":{
+        "props":{
+          "id": "subcategory-nine-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tops para Niñas",
+            "text":"Tops para Niñas"
+          }
+        }
+      },
+      //Subcategory ten
+      "menu-item#desktop__menu_subcategory--ten-six":{
+        "props":{
+          "id": "subcategory-ten-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Accesorios Brasieres",
+            "text":"Accesorios Brasieres"
+          }
+        }
+      },
+      
+      //Category seven
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-seven":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Busto Prequeño",
+            "text":"Busto Prequeño"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-seven":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Busto Regular",
+            "text":"Busto Regular"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-seven":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Busto Grande",
+            "text":"Busto Grande"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-seven":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",          
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Busto Pesado - Talla 42 o más",
+            "text":"Busto Pesado - Talla 42 o más"
+          }
+        }
+      },
+      
+      //Category eight
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-eight":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Push Up - Realce",
+            "text":"Push Up - Realce"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-eight":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Facilitadores de Postura",
+            "text":"Facilitadores de Postura"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-eight":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Maternidad y Lactancia",
+            "text":"Maternidad y Lactancia"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-eight":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Brasieres Deportivos",
+            "text":"Brasieres Deportivos"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-eight":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Post Quirúrgicos",
+            "text":"Post Quirúrgicos"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#desktop__menu_subcategory--six-eight":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Comodidad",
+            "text":"Comodidad"
+          }
+        }
+      },
+      //Subcategory seven
+      "menu-item#desktop__menu_subcategory--seven-eight":{
+        "props":{
+          "id": "subcategory-seve-desktopn",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Reducción",
+            "text":"Reducción"
+          }
+        }
+      },
+      //Subcategory eight
+      "menu-item#desktop__menu_subcategory--eight-eight":{
+        "props":{
+          "id": "subcategory-eight-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Multiusos",
+            "text":"Multiusos"
+          }
+        }
+      },
+      //Subcategory nine
+      "menu-item#desktop__menu_subcategory--nine-eight":{
+        "props":{
+          "id": "subcategory-nine-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Mastectomía",
+            "text":"Mastectomía"
+          }
+        }
+      },
+      
+    //Department two - Category five
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Paquetes de Panties X2 y X3",
+            "text":"Paquetes de Panties X2 y X3"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tangas y Brasileras",
+            "text":"Tangas y Brasileras"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Chacheteros",
+            "text":"Chacheteros"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Boxers y Shorts",
+            "text":"Boxers y Shorts"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Clásicos",
+            "text":"Clásicos"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#desktop__menu_subcategory--six-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Panties para Niñas",
+            "text":"Panties para Niñas"
+          }
+        }
+      },
+      //Subcategory seven
+      "menu-item#desktop__menu_subcategory--seven-cfive-dtwo":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Lencería para Novias",
+            "text":"Lencería para Novias"
+          }
+        }
+      },
+
+      //Department two - Category six
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-csix-dtwo":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Invisibles - Sin Costuras",
+            "text":"Invisibles - Sin Costuras"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-csix-dtwo":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Reducción y Control",
+            "text":"Reducción y Control"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-csix-dtwo":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Levanta Colas",
+            "text":"Levanta Colas"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-csix-dtwo":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Postparto y Maternidad",
+            "text":"Postparto y Maternidad"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-csix-dtwo":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Postoperatorio",
+            "text":"Postoperatorio"
+          }
+        }
+      },
+
+      //Department two - Category seven
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-cseven-dtwo":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Panties en Algodón",
+            "text":"Panties en Algodón"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cseven-dtwo":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Panties de Encaje",
+            "text":"Panties de Encaje"
+          }
+        }
+      }
+}

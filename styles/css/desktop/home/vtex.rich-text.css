@@ -1,7 +1,15 @@
-.paragraph--rich-text__slider-desktop_one, .paragraph--rich-text__slider-desktop_two, .paragraph--rich-text__slider-desktop_three {
+.paragraph--desktop__slider_rich-text--one, .paragraph--desktop__slider_rich-text--two, .paragraph--desktop__slider_rich-text--three{
     color: #ffffff;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    font-size: 0.9em
+    
 }
 
+.strong--desktop__slider_rich-text--one, .strong--desktop__slider_rich-text--two, .strong--desktop__slider_rich-text--three{
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+
+.link--desktop__slider_rich-text--one, .link--desktop__slider_rich-text--two, .link--desktop__slider_rich-text--three{
+    color: #ffffff;
+    padding-left: 5px;
+    font-size: 0.8em;
+}

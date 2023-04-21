@@ -1,5 +1,10 @@
-.paragraph--rich-text__slider-mobile_one, .paragraph--rich-text__slider-mobile_two, .paragraph--rich-text__slider-mobile_three {
-    letter-spacing: 0.2em;
+.strong--mobile__slider_rich-text--one, .strong--mobile__slider_rich-text--two, .strong--mobile__slider_rich-text--three{
+    letter-spacing: 0.1em;
     font-size: 0.9em;
-    font-weight: 700;
+}
+
+.link--mobile__slider_rich-text--one, .link--mobile__slider_rich-text--two, .link--mobile__slider_rich-text--three{
+    color: #2a2c29;
+    padding-left: 5px;
+    font-size: 0.8em;
 }

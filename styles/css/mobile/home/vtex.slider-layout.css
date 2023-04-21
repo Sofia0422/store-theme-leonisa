@@ -1,3 +1,11 @@
-.slide--header__slider_mobile{
+.slide--mobile__header_slider{
     background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
 }
+
+.slideChildrenContainer--mobile__header_slider {    
+    padding: 1rem 2rem;    
+}
+
+
+
