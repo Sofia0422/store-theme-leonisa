@@ -4,6 +4,7 @@
     max-width: 1200px;
 } */
 
+
 .flexRowContent--desktop__header-row1_menu-item {
     background-color: #2c2a29;    
 }
@@ -11,3 +12,13 @@
 .flexRow--desktop__header-row2_elements {
     padding: 2rem 6rem; 
 }
+
+.flexCol--container__department_one-to-cfive, .flexCol--container__department_one-csix, .flexCol--container__department_one-cseven, .flexCol--container__department_one-ceight{
+    margin: 0 2.5rem;
+}
+
+.flexCol--container__department_one-csix{
+    padding-left: 1rem;
+}
+
+

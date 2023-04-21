@@ -1,0 +1,332 @@
+{
+  //Department one
+    //Category one 
+    "menu-item#desktop__menu_category--one":{
+        "props":{
+          "id": "category-one-menu",
+          "type":"custom",
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"internal",
+            "href":"#",
+            "noFollow": true,
+            "tagTitle": "Ver todos los Brasieres",
+            "text":"VER TODOS LOS BRASIERES"
+          }
+        }
+      },
+      //Category two
+      "menu-item#desktop__menu_category--two":{
+        "props":{
+          "id": "category-one-desktop",
+          "type":"custom",
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"internal",
+            "href":"#",
+            "noFollow": true,
+            "tagTitle": "Nuevos Brasieres y Bralettes",
+            "text":"NUEVOS BRASIERES Y BRALETTES"
+          }
+        }
+        
+      },     
+      
+      //Category three
+      "menu-item#desktop__menu_category--three":{
+        "props":{
+          "id": "category-three-desktop",
+          "type":"custom",
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Nuevos Bra #1",
+            "text":"NUESTRO BRA #1"
+          }
+        }
+      },
+      //Category four
+      "menu-item#desktop__menu_category--four":{
+        "props":{
+          "id": "category-four-desktop",
+          "type":"custom",
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Brasieres más Vendidos",
+            "text":"BRASIERES MÁS VENDIDOS"
+          }
+        }
+      },
+      //Category five
+      "menu-item#desktop__menu_category--five":{
+        "props":{
+          "id": "category-five-desktop",
+          "type":"custom",
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Encuentra Tu Estilo de Brasier",
+            "text":"ENCUENTRA TU ESTILO DE BRASIER"
+          }
+        }
+      },
+      //Category six
+      "menu-item#desktop__menu_category--six":{
+        "props":{
+          "id": "category-six-desktop",
+          "type":"custom",
+          "onMountBehavior":"open",
+          "blockClass":"menu__category",  
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tipos de Brasieres",
+            "text":"TIPOS DE BRASIER"
+          }
+        },
+        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--six"]               
+      },
+      "vtex.menu@2.x:submenu#desktop__subcategories_category--six":{
+        "title":"Category six section",
+        "props":{
+          "orientation": "vertical"
+        },
+        "children":[
+          "menu-item#desktop__menu_subcategory--one-six",
+          "menu-item#desktop__menu_subcategory--two-six",
+          "menu-item#desktop__menu_subcategory--three-six" ,
+          "menu-item#desktop__menu_subcategory--four-six",
+          "menu-item#desktop__menu_subcategory--five-six",
+          "menu-item#desktop__menu_subcategory--six-six",
+          "menu-item#desktop__menu_subcategory--seven-six",
+          "menu-item#desktop__menu_subcategory--eight-six",
+          "menu-item#desktop__menu_subcategory--nine-six",
+          "menu-item#desktop__menu_subcategory--ten-six"   
+        ]
+      },
+      //Category seven
+      "menu-item#desktop__menu_category--seven":{
+        "props":{
+          "id": "category-seven-desktop",
+          "type":"custom",
+          "onMountBehavior":"open",  
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tamaño de Busto",
+            "text":"TAMAÑO DE BUSTO"
+          }
+        },
+        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--seven"] 
+      },
+      "vtex.menu@2.x:submenu#desktop__subcategories_category--seven":{
+        "title":"Category seven section",
+        "props":{
+          "orientation": "vertical"
+        },
+        "children":[
+          "menu-item#desktop__menu_subcategory--one-seven",
+          "menu-item#desktop__menu_subcategory--two-seven",
+          "menu-item#desktop__menu_subcategory--three-seven" ,
+          "menu-item#desktop__menu_subcategory--four-seven"           
+        ]
+      },
+      //Category eight
+      "menu-item#desktop__menu_category--eight":{
+        "props":{
+          "id": "category-eight-desktop",
+          "type":"custom",
+          "onMountBehavior":"open",  
+          "blockClass":"menu__category",
+          "itemProps":{
+            "type":"external",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Beneficios",
+            "text":"BENEFICIOS"
+          }
+        },
+        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--eight"] 
+      },
+      "vtex.menu@2.x:submenu#desktop__subcategories_category--eight":{
+        "title":"Category eight section",
+        "props":{
+          "orientation": "vertical"
+        },
+        "children":[
+          "menu-item#desktop__menu_subcategory--one-eight",
+          "menu-item#desktop__menu_subcategory--two-eight",
+          "menu-item#desktop__menu_subcategory--three-eight" ,
+          "menu-item#desktop__menu_subcategory--four-eight",
+          "menu-item#desktop__menu_subcategory--five-eight",
+          "menu-item#desktop__menu_subcategory--six-eight",
+          "menu-item#desktop__menu_subcategory--seven-eight",
+          "menu-item#desktop__menu_subcategory--eight-eight",
+          "menu-item#desktop__menu_subcategory--nine-eight"  
+        ]
+      },
+
+  //Department two
+    //Category one 
+    "menu-item#desktop__menu_category--two-one":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ver todos los Brasieres",
+          "text":"VER TODOS LOS PANTIES"
+        }
+      }
+    },
+    //Category two
+    "menu-item#desktop__menu_category--two-two":{
+      "props":{
+        "id": "category-one-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Nuevos Brasieres y Bralettes",
+          "text":"NUEVOS PANTIES"
+        }
+      }
+      
+    },     
+    
+    //Category three
+    "menu-item#desktop__menu_category--two-three":{
+      "props":{
+        "id": "category-three-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Nuevos Bra #1",
+          "text":"PANTIES MÁS VENDIDOS"
+        }
+      }
+    },
+    //Category four
+    "menu-item#desktop__menu_category--two-four":{
+      "props":{
+        "id": "category-four-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Brasieres más Vendidos",
+          "text":"EL TIPO DE PANTY IDEAL PARA TI"
+        }
+      }
+    },
+    //Category five
+    "menu-item#desktop__menu_category--two-five":{
+      "props":{
+        "id": "category-five-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Encuentra Tu Estilo de Brasier",
+          "text":"TIPOS DE PANTIES"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dtwo"]   
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dtwo":{
+      "title":"Category six section",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cfive-dtwo",
+        "menu-item#desktop__menu_subcategory--two-cfive-dtwo",
+        "menu-item#desktop__menu_subcategory--three-cfive-dtwo" ,
+        "menu-item#desktop__menu_subcategory--four-cfive-dtwo",
+        "menu-item#desktop__menu_subcategory--five-cfive-dtwo",
+        "menu-item#desktop__menu_subcategory--six-cfive-dtwo",
+        "menu-item#desktop__menu_subcategory--seven-cfive-dtwo"    
+      ]
+    },
+    //Category six
+    "menu-item#desktop__menu_category--two-six" :{
+      "props":{
+        "id": "category-six-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",
+        "blockClass":"menu__category",  
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Tipos de Brasieres",
+          "text":"BENEFICIOS"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dtwo"]               
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dtwo":{
+      "title":"Subcategory one category six - department two",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-csix-dtwo",
+        "menu-item#desktop__menu_subcategory--two-csix-dtwo",
+        "menu-item#desktop__menu_subcategory--three-csix-dtwo",
+        "menu-item#desktop__menu_subcategory--four-csix-dtwo",
+        "menu-item#desktop__menu_subcategory--five-csix-dtwo"           
+      ]
+    },
+    //Category seven
+    "menu-item#desktop__menu_category--two-seven":{
+      "props":{
+        "id": "category-seven-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",  
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Tamaño de Busto",
+          "text":"MATERIALES"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dtwo"] 
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dtwo":{
+      "title":"Subcategory one category seven - department two",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cseven-dtwo",
+        "menu-item#desktop__menu_subcategory--two-cseven-dtwo"            
+      ]
+    }  
+
+      
+}
