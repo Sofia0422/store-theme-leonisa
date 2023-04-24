@@ -174,9 +174,9 @@
           "menu-item#desktop__menu_subcategory--eight-eight",
           "menu-item#desktop__menu_subcategory--nine-eight"  
         ]
-      },
-
-  //Department two
+      }, 
+    
+    //Department two
     //Category one 
     "menu-item#desktop__menu_category--two-one":{
       "props":{
@@ -245,6 +245,7 @@
         "id": "category-five-desktop",
         "type":"custom",
         "blockClass":"menu__category",
+        "onMountBehavior":"open",
         "itemProps":{
           "type":"external",
           "href":"/",
@@ -326,7 +327,175 @@
         "menu-item#desktop__menu_subcategory--one-cseven-dtwo",
         "menu-item#desktop__menu_subcategory--two-cseven-dtwo"            
       ]
-    }  
-
+    },
+    
+    //Department three
+    //Category one 
+    "menu-item#desktop__menu_category--three-one":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ver todos las Fajas",
+          "text":"VER TODOS LAS FAJAS"
+        }
+      }
+    },
+    //Category two
+    "menu-item#desktop__menu_category--three-two":{
+      "props":{
+        "id": "category-one-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Nuevas Fajas",
+          "text":"NUEVAS FAJAS"
+        }
+      }
       
+    },     
+    
+    //Category three
+    "menu-item#desktop__menu_category--three-three":{
+      "props":{
+        "id": "category-three-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Fajas más Vendidas",
+          "text":"FAJAS MÁS VENDIDAS"
+        }
+      }
+    },
+    //Category four
+    "menu-item#desktop__menu_category--three-cfour":{
+      "props":{
+        "id": "category-four-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Beneficios",
+          "text":"BENEFICIOS"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dthree"]   
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dthree":{
+      "title":"Category four section",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cfour-dthree",
+        "menu-item#desktop__menu_subcategory--two-cfour-dthree",
+        "menu-item#desktop__menu_subcategory--three-cfour-dthree" ,
+        "menu-item#desktop__menu_subcategory--four-cfour-dthree",
+        "menu-item#desktop__menu_subcategory--five-cfour-dthree",
+        "menu-item#desktop__menu_subcategory--six-cfour-dthree" 
+      ]
+    },
+    //Category five
+    "menu-item#desktop__menu_category--three-cfive":{
+      "props":{
+        "id": "category-five-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "onMountBehavior":"open",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "tipos de Fajas",
+          "text":"TIPOS DE FAJAS"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dthree"]   
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dthree":{
+      "title":"Category five section",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cfive-dthree",
+        "menu-item#desktop__menu_subcategory--two-cfive-dthree",
+        "menu-item#desktop__menu_subcategory--three-cfive-dthree" ,
+        "menu-item#desktop__menu_subcategory--four-cfive-dthree",
+        "menu-item#desktop__menu_subcategory--five-cfive-dthree",
+        "menu-item#desktop__menu_subcategory--six-cfive-dthree",
+        "menu-item#desktop__menu_subcategory--seven-cfive-dthree"    
+      ]
+    },
+    //Category six
+    "menu-item#desktop__menu_category--three-csix" :{
+      "props":{
+        "id": "category-six-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",
+        "blockClass":"menu__category",  
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Zonas a Controlar",
+          "text":"ZONAS A CONTROLAR"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dthree"]               
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dthree":{
+      "title":"Subcategory one category six - department three",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-csix-dthree",
+        "menu-item#desktop__menu_subcategory--two-csix-dthree",
+        "menu-item#desktop__menu_subcategory--three-csix-dthree",
+        "menu-item#desktop__menu_subcategory--four-csix-dthree",
+        "menu-item#desktop__menu_subcategory--five-csix-dthree"           
+      ]
+    },
+    //Category seven
+    "menu-item#desktop__menu_category--three-cseven":{
+      "props":{
+        "id": "category-seven-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",  
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Tipos de Compresión",
+          "text":"TIPOS DE COMPRESIÓN"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dthree"] 
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dthree":{
+      "title":"Subcategory one category seven - department three",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cseven-dthree",
+        "menu-item#desktop__menu_subcategory--two-cseven-dthree",
+        "menu-item#desktop__menu_subcategory--three-cseven-dthree",
+        "menu-item#desktop__menu_subcategory--four-cseven-dthree"  
+      ]
+    }    
 }
