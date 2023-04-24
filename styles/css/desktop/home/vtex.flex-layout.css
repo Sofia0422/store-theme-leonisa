@@ -21,4 +21,25 @@
     padding-left: 1rem;
 }
 
+.flexCol--container__department_two-to-cfour, .flexCol--container__department_two-cfive,.flexCol--container__department_two-csix, .flexCol--container__department_two-seven {
+    margin: 0 2.5rem;
+}
+
+.flexCol--container__department_four-to-cfour, .flexCol--container__department_four-cfive,.flexCol--container__department_four-csix, .flexCol--container__department_four-seven {
+    margin: 0 4.2rem;
+}
+
+.flexCol--container__department_five-to-csix, .flexCol--container__department_five-seven {
+    margin: 0 6.5rem;
+}
+
+.flexCol--container__department_six-to-cthree, .flexCol--container__department_six-cfour{
+    margin: 0 2rem;
+}
+
+.flexCol--container__department_eight-cone, .flexCol--container__department_eight-ctwo{
+    margin: 0 2rem;
+}
+
+
 

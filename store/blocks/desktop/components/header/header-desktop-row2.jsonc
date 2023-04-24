@@ -21,7 +21,8 @@
           "minicart.v2"
         ]
       },
-     
+      
+      //logo
       "flex-layout.col#desktop__header_logo": {
         "props": {
           "verticalAlign": "middle"
@@ -38,6 +39,8 @@
           "width": "180"
         }
     },
+
+    //Login
     "login#desktop__header": {
       "title":"Login for desktop",
       "props": {   
@@ -50,4 +53,5 @@
         "showIconProfile": true
       }
     }
+    
 }

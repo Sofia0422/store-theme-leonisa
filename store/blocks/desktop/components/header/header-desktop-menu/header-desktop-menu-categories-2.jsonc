@@ -1,0 +1,469 @@
+{
+    //Department four
+    //Category one 
+    "menu-item#desktop__menu_category--four-one":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ver toda la Ropa Deportiva",
+          "text":"VER TODA LA ROPA DEPORTIVA"
+        }
+      }
+    },
+    //Category two
+    "menu-item#desktop__menu_category--four-two":{
+      "props":{
+        "id": "category-one-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Nueva Ropa Deportiva",
+          "text":"NUEVA ROPA DEPORTIVA"
+        }
+      }      
+    },     
+    
+    //Category three
+    "menu-item#desktop__menu_category--four-three":{
+      "props":{
+        "id": "category-three-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Ropa Deportiva más Vendidas",
+          "text":"ROPA DEPORTIVA MÁS VENDIDAS"
+        }
+      }
+    },
+    //Category four
+    "menu-item#desktop__menu_category--four-four":{
+      "props":{
+        "id": "category-four-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "El Tipo de Ropa Deportiva para Ti",
+          "text":"EL TIPO DE ROPA DEPORTIVA PARA TI"
+        }
+      }
+    },
+    //Category five
+    "menu-item#desktop__menu_category--four-cfive":{
+      "props":{
+        "id": "category-five-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "onMountBehavior":"open",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Buscar por Silueta",
+          "text":"BUSCAR POR SILUETA"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dfour"]   
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dfour":{
+      "title":"Category five section",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--two-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--three-cfive-dfour" ,
+        "menu-item#desktop__menu_subcategory--four-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--five-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--six-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--seven-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--eight-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--nine-cfive-dfour",
+        "menu-item#desktop__menu_subcategory--ten-cfive-dfour"    
+      ]
+    },
+    //Category six
+    "menu-item#desktop__menu_category--four-csix":{
+      "props":{
+        "id": "category-six-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",
+        "blockClass":"menu__category",  
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Básicos",
+          "text":"BÁSICOS"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dfour"]               
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dfour":{
+      "title":"Subcategory one category six - department four",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-csix-dfour",
+        "menu-item#desktop__menu_subcategory--two-csix-dfour",
+        "menu-item#desktop__menu_subcategory--three-csix-dfour",
+        "menu-item#desktop__menu_subcategory--four-csix-dfour"    
+      ]
+    },
+    //Category seven
+    "menu-item#desktop__menu_category--four-cseven":{
+      "props":{
+        "id": "category-seven-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",  
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Deportes",
+          "text":"DEPORTES"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dfour"] 
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dfour":{
+      "title":"Subcategory one category seven - department four",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cseven-dfour",
+        "menu-item#desktop__menu_subcategory--two-cseven-dfour",
+        "menu-item#desktop__menu_subcategory--three-cseven-dfour",
+        "menu-item#desktop__menu_subcategory--four-cseven-dfour"  
+      ]
+    },
+    //Department five
+    //Category one 
+    "menu-item#desktop__menu_category--five-one":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ver toda la Ropa",
+          "text":"VER TODA LA ROPA"
+        }
+      }
+    },
+    //Category two
+    "menu-item#desktop__menu_category--five-two":{
+      "props":{
+        "id": "category-one-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ropa Femenina",
+          "text":"ROPA FEMENINA"
+        }
+      }      
+    },     
+    
+    //Category three
+    "menu-item#desktop__menu_category--five-three":{
+      "props":{
+        "id": "category-three-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Ropa Juvenil",
+          "text":"ROPA JUVENIL"
+        }
+      }
+    },
+    //Category four
+    "menu-item#desktop__menu_category--five-four":{
+      "props":{
+        "id": "category-four-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Ropa Deportiva",
+          "text":"ROPA DEPORTIVA"
+        }
+      }
+    },
+    //Category five
+    "menu-item#desktop__menu_category--five-five":{
+      "props":{
+        "id": "category-five-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "onMountBehavior":"open",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Pijamas",
+          "text":"PIJAMAS"
+        }
+      }
+    },
+    //Category six
+    "menu-item#desktop__menu_category--five-six" :{
+      "props":{
+        "id": "category-six-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",
+        "blockClass":"menu__category",  
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Ver Todos los Accesorios",
+          "text":"VER TODOS LOS ACCESORIOS"
+        }
+      }      
+    },
+    //Category seven
+    "menu-item#desktop__menu_category--five-cseven":{
+      "props":{
+        "id": "category-seven-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",  
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Ropa",
+          "text":"ROPA"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dfive"] 
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dfive":{
+      "title":"Subcategory one category seven - department five",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--two-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--three-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--four-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--five-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--six-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--seven-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--eight-cseven-dfive",
+        "menu-item#desktop__menu_subcategory--nine-cseven-dfive"   
+      ]
+    },
+  //Department six
+    //Category one 
+    "menu-item#desktop__menu_category--six-one":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ver todos los Vestidos de Baño",
+          "text":"VER TODOS LOS VESTIDOS DE BAÑO"
+        }
+      }
+    },
+    //Category two
+    "menu-item#desktop__menu_category--six-two":{
+      "props":{
+        "id": "category-one-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Nueva Colección",
+          "text":"NUEVA COLECCIÓN"
+        }
+      }
+      
+    },     
+    
+    //Category three
+    "menu-item#desktop__menu_category--six-three":{
+      "props":{
+        "id": "category-three-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Vestidos de Baño más Vendidos",
+          "text":"VESTIDOS DE BAÑO MÁS VENDIDOS"
+        }
+      }
+    },
+    //Category four
+    "menu-item#desktop__menu_category--six-cfour" :{
+      "props":{
+        "id": "category-four-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "onMountBehavior":"open",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Control de Abdomen",
+          "text":"CONTROL DE ABDOMEN"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dsix"]   
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dsix":{
+      "title":"Category four section",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cfour-dsix",
+        "menu-item#desktop__menu_subcategory--two-cfour-dsix"       
+      ]
+    },
+    //Category five
+    "menu-item#desktop__menu_category--six-cfive":{
+      "props":{
+        "id": "category-five-desktop",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "onMountBehavior":"open",
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "tipos de Vestidos de Baño",
+          "text":"TIPOS DE VESTIOS DE BAÑO"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dsix"]   
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dsix":{
+      "title":"Category five section",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-cfive-dsix",
+        "menu-item#desktop__menu_subcategory--two-cfive-dsix",
+        "menu-item#desktop__menu_subcategory--three-cfive-dsix" ,
+        "menu-item#desktop__menu_subcategory--four-cfive-dsix",
+        "menu-item#desktop__menu_subcategory--five-cfive-dsix",
+        "menu-item#desktop__menu_subcategory--six-cfive-dsix",
+        "menu-item#desktop__menu_subcategory--seven-cfive-dsix",
+        "menu-item#desktop__menu_subcategory--eight-cfive-dsix"
+      ]
+    },
+    //Category six
+    "menu-item#desktop__menu_category--six-csix":{
+      "props":{
+        "id": "category-six-desktop",
+        "type":"custom",
+        "onMountBehavior":"open",
+        "blockClass":"menu__category",  
+        "itemProps":{
+          "type":"external",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Estilos de Top y Panty",
+          "text":"ESTILOS DE TOP Y PANTY"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dsix"]               
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dsix":{
+      "title":"Subcategory one category six - department six",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-csix-dsix",
+        "menu-item#desktop__menu_subcategory--two-csix-dsix",
+        "menu-item#desktop__menu_subcategory--three-csix-dsix",
+        "menu-item#desktop__menu_subcategory--four-csix-dsix",
+        "menu-item#desktop__menu_subcategory--five-csix-dsix"      
+      ]
+    },
+
+    //Department eight
+    //Category one 
+    "menu-item#desktop__menu_category--eight-one":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Ver todas las Ofertas",
+          "text":"VER TODAS LAS OFERTAS"
+        }
+      }
+    },
+    //Category two
+    "menu-item#desktop__menu_category--eight-ctwo":{
+      "props":{
+        "id": "category-one-menu",
+        "type":"custom",
+        "blockClass":"menu__category",
+        "onMountBehavior":"open",
+        "itemProps":{
+          "type":"internal",
+          "href":"#",
+          "noFollow": true,
+          "tagTitle": "Categorías en Oferta",
+          "text":"CATEGORÍAS EN OFERTA"
+        }
+      },
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-two-deight"]    
+    },
+    "vtex.menu@2.x:submenu#desktop__subcategories-one_category-two-deight":{
+      "title":"Subcategory one category two - department eight",
+      "props":{
+        "orientation": "vertical"
+      },
+      "children":[
+        "menu-item#desktop__menu_subcategory--one-ctwo-deight",
+        "menu-item#desktop__menu_subcategory--two-ctwo-deight",
+        "menu-item#desktop__menu_subcategory--three-ctwo-deight",
+        "menu-item#desktop__menu_subcategory--four-ctwo-deight"     
+      ]
+    }  
+}
