@@ -1,0 +1,661 @@
+{
+      //Department four - Category five
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-cfive-dfour":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Ver Todos los Tops",
+            "text":"Ver Todos los Tops"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cfive-dfour":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tops de Máximo Soporte",
+            "text":"Tops de Máximo Soporte"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-cfive-dfour":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Tops de Soporte Medio",
+            "text":"Tops de Soporte Medio"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-cfive-dfour":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Ver Todos Leggings y Capris",
+            "text":"Ver Todos Leggings y Capris"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-cfive-dfour":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Leggings y Capris Control Abdomen",
+            "text":"Leggings y Capris Control Abdomen"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#desktop__menu_subcategory--six-cfive-dfour":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Camisetas",
+            "text":"Camisetas"
+          }
+        }
+      },    
+      //Subcategory seven
+      "menu-item#desktop__menu_subcategory--seven-cfive-dfour":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Shorts Deportivos",
+            "text":"Shorts Deportivos"
+          }
+        }
+      }, 
+      //Subcategory eight
+      "menu-item#desktop__menu_subcategory--eight-cfive-dfour":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Sudaderas Deportivas",
+            "text":"Sudaderas Deportivas"
+          }
+        }
+      }, 
+      //Subcategory nine
+      "menu-item#desktop__menu_subcategory--nine-cfive-dfour":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Cinturillas y Chalecos",
+            "text":"Cinturillas y Chalecos"
+          }
+        }
+      }, 
+      //Subcategory ten
+      "menu-item#desktop__menu_subcategory--ten-cfive-dfour":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Panties para Hacer Deporte",
+            "text":"Panties para Hacer Deporte"
+          }
+        }
+      }, 
+
+      //Department four - Category six
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-csix-dfour":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Básicos en Color Negro",
+            "text":"Básicos en Color Negro"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-csix-dfour":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Conjuntos Deportivos",
+            "text":"Conjuntos Deportivos"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-csix-dfour":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Prendas Ecológicas",
+            "text":"Prendas Ecológicas"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-csix-dfour" :{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Invisibles Sin Costura",
+            "text":"Invisibles Sin Costura"
+          }
+        }
+      },      
+
+      //Department four - Category seven
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-cseven-dfour":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Baile",
+            "text":"Baile"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cseven-dfour":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Yoga - Pilates",
+            "text":"Yoga - Pilates"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-cseven-dfour":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Gimnasio",
+            "text":"Gimnasio"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-cseven-dfour":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Correr - Trotar",
+            "text":"Correr - Trotar"
+          }
+        }
+      },
+
+    //Department five - Category seven
+      //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-cseven-dfive":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Ver Todos Ropa Exterior",
+            "text":"Ver Todos Ropa Exterior"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cseven-dfive":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Blusas y Camisas",
+            "text":"Blusas y Camisas"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-cseven-dfive":{
+        "props":{
+          "id": "subcategory-three-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Camisetas y Tops",
+            "text":"Camisetas y Tops"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-cseven-dfive":{
+        "props":{
+          "id": "subcategory-four-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Bodies",
+            "text":"Bodies"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-cseven-dfive":{
+        "props":{
+          "id": "subcategory-five-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Buzos y Chaquetas",
+            "text":"Buzos y Chaquetas"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#desktop__menu_subcategory--six-cseven-dfive":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Vestidos - Kimonos y Enterizos",
+            "text":"Vestidos - Kimonos y Enterizos"
+          }
+        }
+      },    
+      //Subcategory seven
+      "menu-item#desktop__menu_subcategory--seven-cseven-dfive":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Leggings Deportivos y Casuales",
+            "text":"Leggings Deportivos y Casuales"
+          }
+        }
+      }, 
+      //Subcategory eight
+      "menu-item#desktop__menu_subcategory--eight-cseven-dfive":{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Faldas y Shorts",
+            "text":"Faldas y Shorts"
+          }
+        }
+      }, 
+      //Subcategory nine
+      "menu-item#desktop__menu_subcategory--nine-cseven-dfive" :{
+        "props":{
+          "id": "subcategory-six-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Jeans y Pantalones",
+            "text":"Jeans y Pantalones"
+          }
+        }
+      },
+    
+    //Department six - Category four
+    //Subcategory one
+      "menu-item#desktop__menu_subcategory--one-cfour-dsix":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Control Abdomen Medio",
+            "text":"Control Abdomen Medio"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cfour-dsix" :{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Control Abdomen Suave",
+            "text":"Blusas y Camisas"
+          }
+        }
+      },
+
+    //Department six - Category five
+    //Subcategory one
+    "menu-item#desktop__menu_subcategory--one-cfive-dsix":{
+        "props":{
+          "id": "subcategory-one-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle": "Control Abdomen",
+            "text":"Ver todos los Vestidos de Baño"
+          }
+        }
+      },
+      //Subcategory two
+      "menu-item#desktop__menu_subcategory--two-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Enteros y Enterizos",
+            "text":"Enteros y Enterizos"
+          }
+        }
+      },
+      //Subcategory three
+      "menu-item#desktop__menu_subcategory--three-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Bikini",
+            "text":"Bikini"
+          }
+        }
+      },
+      //Subcategory four
+      "menu-item#desktop__menu_subcategory--four-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Vestidos de Baño Tallas Grandes",
+            "text":"Vestidos de Baño Tallas Grandes"
+          }
+        }
+      },
+      //Subcategory five
+      "menu-item#desktop__menu_subcategory--five-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Colección en Material Reciclado",
+            "text":"Colección en Material Reciclado"
+          }
+        }
+      },
+      //Subcategory six
+      "menu-item#desktop__menu_subcategory--six-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Colección Limited Edition",
+            "text":"Colección Limited Edition"
+          }
+        }
+      },
+      //Subcategory seven
+      "menu-item#desktop__menu_subcategory--seven-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Pareos y Salidas de Baño",
+            "text":"Pareos y Salidas de Baño"
+          }
+        }
+      },
+      //Subcategory eight
+      "menu-item#desktop__menu_subcategory--eight-cfive-dsix":{
+        "props":{
+          "id": "subcategory-two-desktop",
+          "type":"custom",
+          "itemProps":{
+            "type":"internal",
+            "href":"/",
+            "noFollow": true,
+            "tagTitle":"Pantalonetas de Baño para Hombres",
+            "text":"Pantalonetas de Baño para Hombres"
+          }
+        }
+      },
+    
+    //Department six - Category six
+    //Subcategory one
+    "menu-item#desktop__menu_subcategory--one-csix-dsix":{
+      "props":{
+        "id": "subcategory-one-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle": "Panties Clásicos",
+          "text":"Panties Clásicos"
+        }
+      }
+    },
+    //Subcategory two
+    "menu-item#desktop__menu_subcategory--two-csix-dsix":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Shorts y Faldas",
+          "text":"Shorts y Faldas"
+        }
+      }
+    },
+    //Subcategory three
+    "menu-item#desktop__menu_subcategory--three-csix-dsix":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Bikini Cheeky",
+          "text":"Bikini Cheeky"
+        }
+      }
+    },
+    //Subcategory four
+    "menu-item#desktop__menu_subcategory--four-csix-dsix":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Copa Triangular",
+          "text":"Copa Triangular"
+        }
+      }
+    },
+    //Subcategory five
+    "menu-item#desktop__menu_subcategory--five-csix-dsix":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Strapless",
+          "text":"Strapless"
+        }
+      }
+    },
+
+    //Department eight - Category two
+    //Subcategory one
+    "menu-item#desktop__menu_subcategory--one-ctwo-deight":{
+      "props":{
+        "id": "subcategory-one-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Brasieres en Oferta",
+          "text":"Brasieres en Oferta"
+        }
+      }
+    },
+    //Subcategory two
+    "menu-item#desktop__menu_subcategory--two-ctwo-deight":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Panties en Oferta",
+          "text":"Panties en Oferta"
+        }
+      }
+    },
+    //Subcategory three
+    "menu-item#desktop__menu_subcategory--three-ctwo-deight":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Vestidos de Baño en Oferta",
+          "text":"Vestidos de Baño en Oferta"
+        }
+      }
+    },
+    //Subcategory four
+    "menu-item#desktop__menu_subcategory--four-ctwo-deight":{
+      "props":{
+        "id": "subcategory-two-desktop",
+        "type":"custom",
+        "itemProps":{
+          "type":"internal",
+          "href":"/",
+          "noFollow": true,
+          "tagTitle":"Ropa Exterior en Oferta",
+          "text":"Ropa Exterior en Oferta"
+        }
+      }
+    }     
+}

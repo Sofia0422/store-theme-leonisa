@@ -1,0 +1,317 @@
+{
+    //Menu - Departments    
+
+       //Department five       
+       "menu-item#desktop__menu_department--five":{
+        "title":"Department five - clothes and fashion",
+        "props":{
+          "id":"department-four-clothes-and-fashion",
+          "type":"custom",
+          "blockClass":"desktop__menu_department",
+          "itemProps":{
+            "type":"internal",
+            "href":"#",
+            "noFollow":true,
+            "tagTitle":"Ropa y Moda",
+            "text":"Ropa y Moda"      
+          }
+        },
+        "blocks":["vtex.menu@2.x:submenu#desktop__categories_department--five"
+        ]
+      },
+      "vtex.menu@2.x:submenu#desktop__categories_department--five":{
+        "title":"Categories by department five",
+        "props":{
+          "width":"100%",
+          "blockClass":"categories_departments" 
+        },
+        "children":[
+          "flex-layout.row#desktop__department_five"
+        ]          
+      },
+      "flex-layout.row#desktop__department_five":{
+        "title":"",
+        "props":{
+          "blockClass":"categories__departments"
+        },
+        "children":[
+          "flex-layout.col#menu__container_department-five-to-csix",          
+          "flex-layout.col#menu__container_department-five-cseven"
+        ]
+      },
+      "flex-layout.col#menu__container_department-five-to-csix":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_five-to-csix"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-five-to-csix"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-five-to-csix":{
+        "title":"Department four categories one to six",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_one-to-csix"   
+        },
+        "children":[
+          "menu-item#desktop__menu_category--five-one",
+          "menu-item#desktop__menu_category--five-two",
+          "menu-item#desktop__menu_category--five-three",
+          "menu-item#desktop__menu_category--five-four",
+          "menu-item#desktop__menu_category--five-five",
+          "menu-item#desktop__menu_category--five-six"            
+        ]
+      },
+      "flex-layout.col#menu__container_department-five-cseven":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_five-cseven"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-five-cseven"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-five-cseven":{
+        "title":"Department five category seven",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_five-cseven"   
+        },
+        "children":[          
+          "menu-item#desktop__menu_category--five-cseven"          
+        ]
+      },
+
+       //Department six       
+      "menu-item#desktop__menu_department--six":{
+        "title":"Department six - bathing dresses",
+        "props":{
+          "id":"department-six-bathing-dresses",
+          "type":"custom",
+          "blockClass":"desktop__menu_department",
+          "itemProps":{
+            "type":"internal",
+            "href":"#",
+            "noFollow":true,
+            "tagTitle":"Vestidos de Baño",
+            "text":"Vestidos de Baño"      
+          }
+        },
+        "blocks":["vtex.menu@2.x:submenu#desktop__categories_department--six"
+        ]
+      },
+      "vtex.menu@2.x:submenu#desktop__categories_department--six":{
+        "title":"Categories by department six",
+        "props":{
+          "width":"100%",
+          "blockClass":"categories_departments" 
+        },
+        "children":[
+          "flex-layout.row#desktop__department_six"
+        ]          
+      },
+      "flex-layout.row#desktop__department_six":{
+        "title":"",
+        "props":{
+          "blockClass":"categories__departments"
+        },
+        "children":[
+          "flex-layout.col#menu__container_department-six-to-cthree",
+          "flex-layout.col#menu__container_department-six-cfour",
+          "flex-layout.col#menu__container_department-six-cfive",
+          "flex-layout.col#menu__container_department-six-csix"
+        ]
+      },
+      "flex-layout.col#menu__container_department-six-to-cthree":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_six-to-cthree"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-six-to-cthree"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-six-to-cthree":{
+        "title":"Department six categories one to three",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_one-to-cthree"   
+        },
+        "children":[
+          "menu-item#desktop__menu_category--six-one" ,
+          "menu-item#desktop__menu_category--six-two",
+          "menu-item#desktop__menu_category--six-three"          
+        ]
+      },
+      "flex-layout.col#menu__container_department-six-cfour":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_six-cfour"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-six-cfour"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-six-cfour":{
+        "title":"Department six category four",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_six-cfour"   
+        },
+        "children":[          
+          "menu-item#desktop__menu_category--six-cfour"          
+        ]
+      },
+
+      "flex-layout.col#menu__container_department-six-cfive":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_six-cfive"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-six-cfive"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-six-cfive":{
+        "title":"Department six category five",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_six-cfive"   
+        },
+        "children":[          
+          "menu-item#desktop__menu_category--six-cfive"       
+        ]
+      },"flex-layout.col#menu__container_department-six-csix":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_six-csix"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-six-csix"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-six-csix":{
+        "title":"Department six category six",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_six-csix"   
+        },
+        "children":[     "menu-item#desktop__menu_category--six-csix"         
+            
+        ]
+      },
+      
+       //Department seven
+       "menu-item#desktop__menu_department--seven":{
+        "title":"Department seven - leggings",
+        "props":{
+          "id":"department-seven-desktop",
+          "type":"custom",
+          "blockClass":"desktop__menu_department",
+          "itemProps":{
+            "type":"external",
+            "href":"#",
+            "noFollow":true,
+            "tagTitle":"Leggins",
+            "text":"Leggins"    
+          }
+        }     
+      },    
+      
+       //Department eight             
+      "menu-item#desktop__menu_department--eight":{
+        "title":"Department eight - offers",
+        "props":{
+          "id":"department-eight-offers",
+          "type":"custom",
+          "blockClass":"desktop__menu_department",
+          "itemProps":{
+            "type":"internal",
+            "href":"#",
+            "noFollow":true,
+            "tagTitle":"Ofertas",
+            "text":"Ofertas"      
+          }
+        },
+        "blocks":["vtex.menu@2.x:submenu#desktop__categories_department--eight"
+        ]
+      },
+      "vtex.menu@2.x:submenu#desktop__categories_department--eight":{
+        "title":"Categories by department eight",
+        "props":{
+          "width":"100%",
+          "blockClass":"categories_departments" 
+        },
+        "children":[
+          "flex-layout.row#desktop__department_eight"
+        ]          
+      },
+      "flex-layout.row#desktop__department_eight":{
+        "title":"",
+        "props":{
+          "blockClass":"categories__departments"
+        },
+        "children":[
+          "flex-layout.col#menu__container_department-eight-cone",
+          "flex-layout.col#menu__container_department-eight-ctwo"
+          
+        ]
+      },
+      "flex-layout.col#menu__container_department-eight-cone":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_eight-cone"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-eight-cone"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-eight-cone":{
+        "title":"Department eight category one",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_eight-cone"   
+        },
+        "children":[
+          "menu-item#desktop__menu_category--eight-one"
+                   
+        ]
+      },
+      "flex-layout.col#menu__container_department-eight-ctwo":{
+        "title":"",
+        "props":{
+          "blockClass":"container__department_eight-ctwo"   
+        },
+        "children":[
+          "vtex.menu@2.x:menu#desktop__menu_department-eight-ctwo"
+        ]
+      },
+      "vtex.menu@2.x:menu#desktop__menu_department-eight-ctwo":{
+        "title":"Department eight category two",
+        "props":{
+          "orientation": "vertical",
+          "blockClass":"menu__department_eight-ctwo"   
+        },
+        "children":[          
+          "menu-item#desktop__menu_category--eight-ctwo"          
+        ]
+      },     
+
+       //Department nine"
+       "menu-item#desktop__menu_department--nine":{
+        "props":{
+          "id":"department-nine-desktop",
+          "type":"custom",
+          "blockClass":"desktop__menu_department",
+          "itemProps":{
+            "type":"external",
+            "href":"#",
+            "noFollow":true,
+            "tagTitle":"Sostenibilidad",
+            "text":"Sostenibilidad"   
+          }
+        }
+      }
+        
+}
