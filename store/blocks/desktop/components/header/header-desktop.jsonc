@@ -11,7 +11,8 @@
           "blockClass": "desktop__sticky_header"
         },
         "children": [
-            "flex-layout.row#1-desktop__header_menu-item",
+            "flex-layout.row#1-desktop__header_menu",
+            /* "flex-layout.row#1-desktop__header_menu-item", */
             "flex-layout.row#2-desktop__header_elements",            
             "vtex.menu@2.x:menu#desktop__header_department"                  
         ]

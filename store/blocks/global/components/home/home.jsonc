@@ -1,5 +1,126 @@
 {
-  "flex-layout.row#home__section--global": {
+    
+  //custom query
+   "flex-layout.row#home__section-1--global": {
+    "title": "Home section global custom query",
+    "children": [
+      "search-result-layout.customQuery#header__search"
+    ]
+  },
+  "search-result-layout.customQuery#header__search":{         
+      "props":{
+        "queySchema":{
+          "skusFilter": "ALL",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks":[
+        "search-result-layout.desktop#desktop__home--search",
+        "search-result-layout.mobile#mobile__home--search",
+        "search-not-found-layout" 
+      ]  
+  },
+  "search-result-layout.desktop#desktop__home--search":{
+    "children":[    
+      "flex-layout.row#home__search--results"      
+    ]
+  },
+  "search-result-layout.mobile#mobile__home--search":{
+    "children":[
+      "flex-layout.row#home__search--results"  
+    ]
+  },
+  "flex-layout.row#home__search--results":{
+    "children":[      
+      "flex-layout.col#home__results--search"
+    ]
+  },  
+  "flex-layout.col#home__results--search":{
+    "children":[
+      "search-content#home__results--search"
+    ]
+  },
+  "search-content#home__results--search":{
+    "blocks":[
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery":{
+    "blocks":["product-summary.shelf"]
+  },
+
+  
+
+  //productsummarylist
+
+  "flex-layout.row#home__section-2--global":{
+    "title": "Home section global productSummaryList",
+    "children":[      
+      "list-context.product-list#demo1"
+    ]
+  },
+  "product-summary.shelf#demo1": {
+    "children": [      
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["slider-layout#demo-products"],
+    "props" :{
+      "collection":"145"}    
+  },
+
+  "slider-layout#demo-products":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":5,
+        "tablet":4,
+        "phone":2        
+      },
+      "showNavigationArrows":"always"
+    }
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* "flex-layout.row#home__section--global": {
     "title": "Global Row with text example",
     "children": [
       "rich-text#home__section--global"
@@ -21,5 +142,4 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
-  }
-}
+  }, */

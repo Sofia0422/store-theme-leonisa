@@ -157,7 +157,7 @@
       "title":"Elements for second row-header mobile",
       "children": [
         "drawer#mobile__header_menu",        
-        "search-bar",               
+        "search-bar#mobile__header_search",               
         "flex-layout.col#spacer",
         "locale-switcher",
         "login#mobile__header",
@@ -206,7 +206,7 @@
     "drawer-header#my-drawer":{
       "title":"Drawer header",
       "children":[
-        "search-bar",
+        "search-bar#mobile__header_search",
         "flex-layout.row#drawer-header"
       ]
     },
@@ -241,6 +241,21 @@
         "horizontalAlign": "left",
         "paddingLeft": 4
       }
+    },
+
+    //search
+
+    "autocomplete-result-list.v2#mobile":{
+      "blocks":["product-summary"]
+    },
+
+    "search-bar#mobile__header_search":{
+      "blocks":["autocomplete-result-list.v2#mobile"],
+      "props":{
+        "openAutocompleteOnFocus":true,
+        "autocompleteAlignment":"left"
+      }
     }
+
     
 }

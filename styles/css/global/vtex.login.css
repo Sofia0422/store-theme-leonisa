@@ -1,0 +1,9 @@
+.label {
+    display:none    
+}
+
+.profileIcon {
+    width: 28px;
+    height: 28px;
+    padding-left: 1rem;
+}

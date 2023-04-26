@@ -49,7 +49,7 @@
           ]        
         },
         "flex-layout.row#desktop__department_one":{
-          "title":"",
+          "title":"Column sections categories",
           "props":{
             "blockClass":"categories__departments"   
           },
@@ -61,7 +61,7 @@
           ]
         },
         "flex-layout.col#menu__container_department-one-to-cfive":{
-          "title":"",
+          "title":"First column section - Categories one to five",
           "props":{
             "blockClass":"container__department_one-to-cfive"   
           },
@@ -84,7 +84,7 @@
           ]
         },
         "flex-layout.col#menu__container_department-one-csix":{
-          "title":"",
+          "title":"Second column section - Category six",
           "props":{
             "blockClass":"container__department_one-csix"   
           },
@@ -104,7 +104,7 @@
         },
   
         "flex-layout.col#menu__container_department-one-cseven":{
-          "title":"",
+          "title":"Third column section - Category seven",
           "props":{
             "blockClass":"container__department_one-cseven"   
           },
@@ -124,7 +124,7 @@
         },
   
         "flex-layout.col#menu__container_department-one-ceight":{
-          "title":"",
+          "title":"Quarter column section - Category eight",
           "props":{
             "blockClass":"container__department_one-ceight"   
           },
@@ -171,7 +171,7 @@
         ]        
       },
       "flex-layout.row#desktop__department_two":{
-        "title":"",
+        "title":"Column section categories department two",
         "props":{
           "blockClass":"categories__departments"
         },
@@ -184,7 +184,7 @@
         ]
       },
       "flex-layout.col#menu__container_department-two-to-cfour":{
-        "title":"",
+        "title":"First column section - Categories one to four",
         "props":{
           "blockClass":"container__department_two-to-cfour"   
         },
@@ -208,7 +208,7 @@
       },
 
       "flex-layout.col#menu__container_department-two-cfive":{
-        "title":"",
+        "title":"Second column section - Category five",
         "props":{
           "blockClass":"container__department_two-cfive"   
         },
@@ -228,7 +228,7 @@
       },
 
       "flex-layout.col#menu__container_department-two-csix":{
-        "title":"",
+        "title":"Third column section - Category six",
         "props":{
           "blockClass":"container__department_two-csix"   
         },
@@ -248,7 +248,7 @@
       },
 
       "flex-layout.col#menu__container_department-two-cseven":{
-        "title":"",
+        "title":"Quarter column section - Category seven",
         "props":{
           "blockClass":"container__department_two-seven"   
         },
@@ -262,8 +262,7 @@
           "orientation": "vertical",
           "blockClass":"menu__department_two-seven"   
         },
-        "children":[     "menu-item#desktop__menu_category--two-seven"         
-            
+        "children":["menu-item#desktop__menu_category--two-seven"            
         ]
       },
       
@@ -296,7 +295,7 @@
         ]          
       },
       "flex-layout.row#desktop__department_three":{
-        "title":"",
+        "title":"Column section categories department three",
         "props":{
           "blockClass":"categories__departments"
         },
@@ -309,7 +308,7 @@
         ]
       },
       "flex-layout.col#menu__container_department-three-to-cthree":{
-        "title":"",
+        "title":"First column section - Category one to three",
         "props":{
           "blockClass":"container__department_three-to-cthree"   
         },
@@ -330,7 +329,7 @@
         ]
       },
       "flex-layout.col#menu__container_department-three-cfour":{
-        "title":"",
+        "title":"Second column section - Category four",
         "props":{
           "blockClass":"container__department_three-cfour"   
         },
@@ -350,7 +349,7 @@
       },
 
       "flex-layout.col#menu__container_department-three-cfive":{
-        "title":"",
+        "title":"Third column section - Category five",
         "props":{
           "blockClass":"container__department_three-cfive"   
         },
@@ -368,7 +367,7 @@
           "menu-item#desktop__menu_category--three-cfive"       
         ]
       },"flex-layout.col#menu__container_department-three-csix":{
-        "title":"",
+        "title":"Quarter column section - Category six",
         "props":{
           "blockClass":"container__department_three-six"   
         },
@@ -382,12 +381,11 @@
           "orientation": "vertical",
           "blockClass":"menu__department_three-csix"   
         },
-        "children":[     "menu-item#desktop__menu_category--three-csix"         
-            
+        "children":["menu-item#desktop__menu_category--three-csix"            
         ]
       },
       "flex-layout.col#menu__container_department-three-cseven":{
-        "title":"",
+        "title":"Fifth column section - Category seven",
         "props":{
           "blockClass":"container__department_three-cseven"   
         },
@@ -401,7 +399,7 @@
           "orientation": "vertical",
           "blockClass":"menu__department_three-cseven"   
         },
-        "children":[     "menu-item#desktop__menu_category--three-cseven"            
+        "children":["menu-item#desktop__menu_category--three-cseven"            
         ]
       },
      
@@ -434,7 +432,7 @@
         ]          
       },
       "flex-layout.row#desktop__department_four":{
-        "title":"",
+        "title":"Column section categories department four",
         "props":{
           "blockClass":"categories__departments"
         },
@@ -446,7 +444,7 @@
         ]
       },
       "flex-layout.col#menu__container_department-four-to-cfour":{
-        "title":"",
+        "title":"First column section - Category one to four",
         "props":{
           "blockClass":"container__department_four-to-cfour"   
         },
@@ -468,7 +466,7 @@
         ]
       },
       "flex-layout.col#menu__container_department-four-cfive":{
-        "title":"",
+        "title":"Second column section - Category seven",
         "props":{
           "blockClass":"container__department_four-cfive"   
         },

@@ -12,13 +12,14 @@
           "blockClass": "desktop__header-row2_elements"
         },
         "children": [            
-          "search-bar",
+          "search-bar#desktop__header_search",
           "flex-layout.col#spacer", 
           "flex-layout.col#desktop__header_logo",
           "flex-layout.col#spacer", 
           "locale-switcher",
           "login#desktop__header",
           "minicart.v2"
+          
         ]
       },
       
@@ -43,14 +44,26 @@
     //Login
     "login#desktop__header": {
       "title":"Login for desktop",
-      "props": {   
-        "iconLabel":".",        
+      "props": {                
         "emailAndPasswordTitle": "LOG-IN",
         "accessCodeTitle": "Acess Code LOG-IN",
         "emailPlaceholder": "e-mail",
         "passwordPlaceholder": "password",
         "showPasswordVerificationIntoTooltip": true,
         "showIconProfile": true
+      }
+    },
+
+    //Search
+    "autocomplete-result-list.v2#desktop":{
+      "blocks":["product-summary"]
+    },
+  
+    "search-bar#desktop__header_search":{
+      "blocks":["autocomplete-result-list.v2#desktop"],
+      "props":{
+        "openAutocompleteOnFocus":true,
+        "autocompleteAlignment":"left"
       }
     }
     

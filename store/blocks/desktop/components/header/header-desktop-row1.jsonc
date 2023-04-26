@@ -1,7 +1,157 @@
 {
     // row 1
 
-    "flex-layout.row#1-desktop__header_menu-item": {
+    "flex-layout.row#1-desktop__header_menu":{
+      "title":"Items for first row-header",
+      "props": {
+        "horizontalAlign": "left",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true,
+        "blockClass": "desktop__header-row1_menu-item"
+        },
+        "children": [               
+          "flex-layout.col#desktop__header--items",
+          "flex-layout.col#desktop__header--slider"  
+                      
+        ]
+    },
+    "flex-layout.col#desktop__header--items":{
+      "title":"Items container in header for desktop view",
+      "props":{
+        "blockClass":"header__container--items"
+      },
+      "children":["flex-layout.row#header__items--container"]
+    },
+    "flex-layout.row#header__items--container":{
+      "title":"Images container in header for desktop view",
+      "props":{
+        "blockClass":"header__container--images",
+        "preventHorizontalStretch":false,
+        "width":"0%"
+        
+      },
+      "children":[
+        "image#header__item--leonisa",
+        "image#header__item--leo",
+        "image#header__item--allies"        
+      ]
+    },
+    "image#header__item--leonisa":{
+      "title":"First item row 1",
+      "props":{
+        "blockClass":"header__item--image",
+        "src":"assets/img/header/Leonisa.jpg",
+        "maxHeight": "40px",
+        "maxWidth": "140px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "image#header__item--leo":{
+      "title":"Second item row 1",
+      "props":{
+        "blockClass":"header__item--image",
+        "src":"assets/img/header/Leo.jpg",
+        "maxHeight": "40px",
+        "maxWidth": "140px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "image#header__item--allies":{
+      "title":"Third item row 1",
+      "props":{
+        "blockClass":"header__item--image",
+        "src":"assets/img/header/Aliados-leonisa.jpg",
+        "maxHeight": "40px",
+        "maxWidth": "140px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+
+    "flex-layout.col#desktop__header--slider":{
+      "title":"Slider container in header for desktop view",
+      "props":{
+        "blockClass":"header__container--slider"
+      },
+      "children":["slider-layout#desktop__header_slider"]
+    },
+   
+
+    "slider-layout#desktop__header_slider":{
+      "title": "Slider-layout for header desktop",
+      "props":{
+        "fullWidth":false,
+        "itemsPerPage":{
+          "desktop":1,
+          "tablet":1,
+          "phone":1
+        },
+        "infinite": true,        
+        "blockClass": "desktop__header_slider",
+        "showNavigationArrows": "never", 
+        "showPaginationDots": "never",            
+        "autoplay":{
+          "timeout":5000,
+          "stopOnHover":true          
+        }
+      },
+      "children":[
+        "rich-text#1__desktop_free-shipping",
+        "rich-text#2__desktop_returns-exchanges",
+        "rich-text#3__desktop_offers-available"                
+      ]
+    },
+  
+    "rich-text#1__desktop_free-shipping": {
+      "title":"First rich-text of slider ",
+      "props":{
+        "blockClass":"desktop__slider_rich-text--one",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**ENVÍO GRATIS** [en órdenes de $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  
+    },
+    "rich-text#2__desktop_returns-exchanges": {
+      "title":"Second rich-text of slider",
+      "props":{
+        "blockClass":"desktop__slider_rich-text--two",       
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**CAMBIOS Y DEVOLUCIONES** [Sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"        
+      }
+      
+    },
+    "rich-text#3__desktop_offers-available": {
+      "title":"Third rich-text of slider",
+      "props":{
+        "blockClass":"desktop__slider_rich-text--three",        
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**OFERTAS DISPONIBLES** [Descúbrelas](https://developers.vtex.com/docs/guides/welcome)"          
+      }
+      
+    }
+
+    
+
+   
+
+
+
+
+
+
+
+
+    /* "flex-layout.row#1-desktop__header_menu-item": {
         "title":"Menu items for first row-header",
         "props": {
           "horizontalAlign": "left",
@@ -135,5 +285,5 @@
       }
       
     }
-
+ */
 }

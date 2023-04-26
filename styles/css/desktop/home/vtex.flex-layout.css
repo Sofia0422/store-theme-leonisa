@@ -4,10 +4,17 @@
     max-width: 1200px;
 } */
 
+.flexRow--desktop__header-row1_menu-item{
+    margin: 0 auto;
 
-.flexRowContent--desktop__header-row1_menu-item {
-    background-color: #2c2a29;    
 }
+
+.flexRowContent--desktop__header-row1_menu-item {     
+    padding: 0 152px;
+    background-color: #2c2a29;  
+}
+
+
 
 .flexRow--desktop__header-row2_elements {
     padding: 2rem 6rem; 
