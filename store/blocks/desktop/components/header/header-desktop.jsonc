@@ -2,16 +2,16 @@
   "header-layout.desktop": {
     "title":"Header for desktop view",
       "children": [
-        "sticky-layout#desktop__header_rows"
+        "flex-layout.row#1-desktop__header_menu",
+        "sticky-layout#desktop__header_row-menu"
       ]
     },
-    "sticky-layout#desktop__header_rows": {
+    "sticky-layout#desktop__header_row-menu": {
       "title":"Header elements for desktop view",
       "props": {
         "blockClass": "desktop__sticky_header"
       },
-      "children": [
-          "flex-layout.row#1-desktop__header_menu",           
+      "children": [                    
           "flex-layout.row#2-desktop__header_elements",            
           "vtex.menu@2.x:menu#desktop__header_department"                  
       ]

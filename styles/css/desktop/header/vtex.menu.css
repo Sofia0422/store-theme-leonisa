@@ -18,8 +18,7 @@
 
 .menuContainerNav--desktop__header_department{
   display: flex;
-  justify-content: center;
-  background-color: #ffffff;
+  justify-content: center; 
 }
 
 .styledLink--menu__category{
