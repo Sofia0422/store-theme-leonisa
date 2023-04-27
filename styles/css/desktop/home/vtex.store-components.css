@@ -1,5 +1,30 @@
-.imageElementLink--header__item--image{
-    width: 0;
+.imageElement--header__item--image1, .imageElement--header__item--image2, .imageElement--header__item--image3{
+    margin-top: 7px;
+    padding: 0 12px;  
 }
+
+.imageElement--header__item--image1{
+    margin-top: 10px;   
+}
+
+.imageElement--header__item--image2{
+    margin-top: 10px;
+    padding-left: 18px;   
+    padding-right: 10px;  
+}
+
+.imageElement--header__item--image3{    
+    padding-left: 35px
+}
+
+.imageElementLink--header__item--image1, .imageElementLink--header__item--image2{
+    border-right: 1px solid #676564;
+}
+
+
+.searchIcon--desktop__header--search{
+    display: none
+}
+
 
 

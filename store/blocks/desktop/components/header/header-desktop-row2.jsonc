@@ -2,69 +2,95 @@
     //row 2
 
     "flex-layout.row#2-desktop__header_elements":{
-        "title":"Elements for second row-header desktop",
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true,
-          "blockClass": "desktop__header-row2_elements"
-        },
-        "children": [            
-          "search-bar#desktop__header_search",
-          "flex-layout.col#spacer", 
-          "flex-layout.col#desktop__header_logo",
-          "flex-layout.col#spacer", 
-          "locale-switcher",
-          "login#desktop__header",
-          "minicart.v2"
-          
-        ]
+      "title":"Elements for second row-header desktop",
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true,
+        "blockClass": "desktop__header-row2_elements"
       },
-      
-      //logo
-      "flex-layout.col#desktop__header_logo": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": [
-            "logo#desktop__header_leonisa"        
-        ]
-      },
-      "logo#desktop__header_leonisa": {
-        "title": "Logo",
-        "props": {      
-          "href": "/",
-          "url": "assets/img/header/logo-leonisa.jpg",
-          "width": "180"
-        }
+      "children": [       
+        "search-bar#desktop__header_search", 
+        "flex-layout.col#spacer",                   
+        "flex-layout.col#desktop__header_logo",
+        "flex-layout.col#spacer",
+        "flex-layout.col#desktop__header_icons"         
+      ]
     },
 
-    //Login
-    "login#desktop__header": {
-      "title":"Login for desktop",
-      "props": {                
-        "emailAndPasswordTitle": "LOG-IN",
-        "accessCodeTitle": "Acess Code LOG-IN",
-        "emailPlaceholder": "e-mail",
-        "passwordPlaceholder": "password",
-        "showPasswordVerificationIntoTooltip": true,
-        "showIconProfile": true
-      }
-    },
+    //Search  
+  "autocomplete-result-list.v2#desktop":{
+    "blocks":["product-summary"]
+  },
 
-    //Search
-    "autocomplete-result-list.v2#desktop":{
-      "blocks":["product-summary"]
-    },
-  
-    "search-bar#desktop__header_search":{
-      "blocks":["autocomplete-result-list.v2#desktop"],
-      "props":{
-        "openAutocompleteOnFocus":true,
-        "autocompleteAlignment":"left"
-      }
+  "search-bar#desktop__header_search":{
+    "blocks":["autocomplete-result-list.v2#desktop"],
+    "props":{
+      "blockClass":"desktop__header--search",
+      "openAutocompleteOnFocus":true,
+      "autocompleteAlignment":"left",     
+      "showSearchIcon": false
     }
+  },
+    
+    //logo
+    "flex-layout.col#desktop__header_logo": {
+      "props": {
+        "blockClass":"desktop__header_container--logo",
+        "verticalAlign": "middle"
+      },
+      "children": [
+          "logo#desktop__header_leonisa"        
+      ]
+    },
+    "logo#desktop__header_leonisa": {
+      "title": "Logo",
+      "props": {      
+        "href": "/",
+        "url": "assets/img/header/logo-leonisa.jpg",
+        "width": "180",
+        "blockClass":"desktop__header--logo"
+      }
+  },
+
+  //Icons
+  "flex-layout.col#desktop__header_icons":{
+    "children":[
+      "flex-layout.row#header__icons--container"
+    ]
+  },
+  "flex-layout.row#header__icons--container":{
+    "children":[
+      "locale-switcher#desktop__header--locale",
+      "login#desktop__header",
+      "minicart.v2"
+    ],
+    "props":{
+      "blockClass":"header__icons--container"
+    }
+  },
+
+  //Locale-switcher
+  "locale-switcher#desktop__header--locale":{
+    "props":{
+      "blockClass":"header__locale--icon"
+    }
+  },
+
+  //Login
+  "login#desktop__header": {
+    "title":"Login for desktop",
+    "props": {                
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,      
+      "blockClass":"desktop__header--login"
+    }
+  }
     
 }

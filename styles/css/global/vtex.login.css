@@ -2,8 +2,12 @@
     display:none    
 }
 
-.profileIcon {
+.profileIcon--desktop__header--login{
     width: 28px;
     height: 28px;
-    padding-left: 1rem;
+    padding-left: 1.1rem;  
+    padding-top: 0.3rem; 
+    
 }
+
+

@@ -1,7 +1,7 @@
 {
     
   //custom query
-   "flex-layout.row#home__section-1--global": {
+  "flex-layout.row#home__section-1--global": {
     "title": "Home section global custom query",
     "children": [
       "search-result-layout.customQuery#header__search"

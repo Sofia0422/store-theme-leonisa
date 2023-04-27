@@ -1,6 +1,7 @@
 .cartIcon {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
+    padding-top:0.3rem
 }
 
 .minicartQuantityBadge--desktop__header_minicart {
@@ -10,4 +11,10 @@
 .minicartQuantityBadgeDefault {
     top: 0.9rem;
     right: -0.4rem
+}
+
+.openIconContainer--desktop__header_minicart{
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+
 }

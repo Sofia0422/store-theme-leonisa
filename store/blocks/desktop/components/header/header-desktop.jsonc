@@ -1,20 +1,19 @@
 {
-    "header-layout.desktop": {
-      "title":"Header for desktop view",
-        "children": [
-          "sticky-layout#desktop__header_rows"
-        ]
+  "header-layout.desktop": {
+    "title":"Header for desktop view",
+      "children": [
+        "sticky-layout#desktop__header_rows"
+      ]
+    },
+    "sticky-layout#desktop__header_rows": {
+      "title":"Header elements for desktop view",
+      "props": {
+        "blockClass": "desktop__sticky_header"
       },
-      "sticky-layout#desktop__header_rows": {
-        "title":"Header elements for desktop view",
-        "props": {
-          "blockClass": "desktop__sticky_header"
-        },
-        "children": [
-            "flex-layout.row#1-desktop__header_menu",
-            /* "flex-layout.row#1-desktop__header_menu-item", */
-            "flex-layout.row#2-desktop__header_elements",            
-            "vtex.menu@2.x:menu#desktop__header_department"                  
-        ]
-      }            
+      "children": [
+          "flex-layout.row#1-desktop__header_menu",           
+          "flex-layout.row#2-desktop__header_elements",            
+          "vtex.menu@2.x:menu#desktop__header_department"                  
+      ]
+    }                
 }

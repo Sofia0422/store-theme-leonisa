@@ -1,8 +1,5 @@
-.sliderLayoutContainer--desktop__header_slider{
-    padding: 0;
-}
-
 .slideChildrenContainer--desktop__header_slider{
-    padding: 10px 0;
-    padding-left: 150px;
+    padding: 7px 0;    
+    display: flex;
+    justify-content:right;
 }

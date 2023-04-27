@@ -13,8 +13,8 @@
         },
         "children": [               
           "flex-layout.col#desktop__header--items",
-          "flex-layout.col#desktop__header--slider"  
-                      
+          "flex-layout.col#spacer",
+          "flex-layout.col#desktop__header--slider"
         ]
     },
     "flex-layout.col#desktop__header--items":{
@@ -41,10 +41,10 @@
     "image#header__item--leonisa":{
       "title":"First item row 1",
       "props":{
-        "blockClass":"header__item--image",
+        "blockClass":"header__item--image1",
         "src":"assets/img/header/Leonisa.jpg",
-        "maxHeight": "40px",
-        "maxWidth": "140px",
+        "maxHeight": "15px",
+        "maxWidth": "105px",
         "link":{
           "url":"/"
         }
@@ -53,10 +53,10 @@
     "image#header__item--leo":{
       "title":"Second item row 1",
       "props":{
-        "blockClass":"header__item--image",
+        "blockClass":"header__item--image2",
         "src":"assets/img/header/Leo.jpg",
-        "maxHeight": "40px",
-        "maxWidth": "140px",
+        "maxHeight": "18px",
+        "maxWidth": "108px",
         "link":{
           "url":"/"
         }
@@ -65,10 +65,10 @@
     "image#header__item--allies":{
       "title":"Third item row 1",
       "props":{
-        "blockClass":"header__item--image",
+        "blockClass":"header__item--image3",
         "src":"assets/img/header/Aliados-leonisa.jpg",
-        "maxHeight": "40px",
-        "maxWidth": "140px",
+        "maxHeight": "23px",
+        "maxWidth": "113px",
         "link":{
           "url":"/"
         }
@@ -139,151 +139,5 @@
       }
       
     }
-
     
-
-   
-
-
-
-
-
-
-
-
-    /* "flex-layout.row#1-desktop__header_menu-item": {
-        "title":"Menu items for first row-header",
-        "props": {
-          "horizontalAlign": "left",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true,
-          "blockClass": "desktop__header-row1_menu-item"
-        },
-        "children": [               
-          "vtex.menu@2.x:menu#desktop__sites_genero"         
-        ]
-      },
-
-      "vtex.menu@2.x:menu#desktop__sites_genero":{
-        "title":"Menu items in header for desktop view",
-        "children": [
-            "menu-item#desktop__site_leonisa",
-            "menu-item#desktop__site_leo",
-            "menu-item#desktop__site_aliados-leonisa",          
-            "slider-layout#desktop__header_slider"              
-        ]
-    },
-
-      "menu-item#desktop__site_leonisa": {
-        "title":"Leonisa option as a menu item",
-        "props": {
-            "id": "menu-item-category-women",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,            
-            "blockClass":"desktop__item_category--leonisa",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Women",
-                "text": "LEONISA"
-            }
-        }
-    },
-
-    "menu-item#desktop__site_leo":{
-        "title":"Leo option as a menu item",
-        "props": {
-            "id": "menu-item-category-men",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,            
-            "blockClass":"desktop__item_category--leo",
-            "itemProps": {
-                "type": "internal",
-                "href": "/home",
-                "noFollow": false,
-                "tagTitle": "Men",
-                "text": "LEO"
-            }
-        }
-    },
-
-    "menu-item#desktop__site_aliados-leonisa":{
-        "title":"Leonisa allies option as a menu item",
-        "props": {
-            "id": "menu-item-category-allies",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,            
-            "blockClass":"desktop__item_category--allies",
-            "itemProps": {
-                "type": "internal",
-                "href": "/home",
-                "noFollow": false,
-                "tagTitle": "Allies",
-                "text": "ALIADOS LEONISA"
-              
-            }
-        }
-    }, 
-
-    "slider-layout#desktop__header_slider":{
-      "title": "Slider-layout for header desktop",
-      "props":{
-        "itemsPerPage":{
-          "desktop":1,
-          "tablet":1,
-          "phone":1
-        },
-        "infinite": true,
-        "blockClass": "desktop__header_slider",
-        "showNavigationArrows": "never", 
-        "showPaginationDots": "never",            
-        "autoplay":{
-          "timeout":5000,
-          "stopOnHover":true          
-        }
-      },
-      "children":[
-        "rich-text#1__desktop_free-shipping",
-        "rich-text#2__desktop_returns-exchanges",
-        "rich-text#3__desktop_offers-available"                
-      ]
-    },
-  
-    "rich-text#1__desktop_free-shipping": {
-      "title":"First rich-text of slider ",
-      "props":{
-        "blockClass":"desktop__slider_rich-text--one",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text":"**ENVÍO GRATIS** [en órdenes de $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
-      }
-  
-    },
-    "rich-text#2__desktop_returns-exchanges": {
-      "title":"Second rich-text of slider",
-      "props":{
-        "blockClass":"desktop__slider_rich-text--two",       
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text":"**CAMBIOS Y DEVOLUCIONES** [Sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"        
-      }
-      
-    },
-    "rich-text#3__desktop_offers-available": {
-      "title":"Third rich-text of slider",
-      "props":{
-        "blockClass":"desktop__slider_rich-text--three",        
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text":"**OFERTAS DISPONIBLES** [Descúbrelas](https://developers.vtex.com/docs/guides/welcome)"          
-      }
-      
-    }
- */
 }
