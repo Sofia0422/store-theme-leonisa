@@ -12,15 +12,20 @@
         "blockClass": "desktop__header-row2_elements"
       },
       "children": [             
-        "search-bar#desktop__header_search", 
+        "flex-layout.col#desktop__header_search", 
         "flex-layout.col#spacer",                   
         "flex-layout.col#desktop__header_logo",
         "flex-layout.col#spacer",
         "flex-layout.col#desktop__header_icons"         
       ]
     },
+    
+  
+  // Search - autocomplete  
+  "flex-layout.col#desktop__header_search":{
+    "children":["search-bar#desktop__header_search"]
+  },
 
-    //Search  
   "autocomplete-result-list.v2#desktop":{
     "blocks":["product-summary"]
   },

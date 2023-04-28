@@ -1,12 +1,8 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
 
 .flexRow--desktop__header-row1_menu-item{
     margin: 0 auto;
     background-color: #2c2a29; 
+    width: 100%;
 }
 
 .flexRowContent--desktop__header-row1_menu-item {     
@@ -27,36 +23,28 @@
     display: flex; 
 }
 
-
-.flexCol--container__department_one-to-cfive, .flexCol--container__department_one-csix, .flexCol--container__department_one-cseven, .flexCol--container__department_one-ceight{
-    margin: 0 2.5rem;
+.flexRow--categories__departments{
+    margin-top: 20px;
+    margin-left: 14.5rem;
+    margin-right: 14.5rem;        
+    width: 100%;     
 }
 
-.flexCol--container__department_one-csix{
-    padding-left: 1rem;
-}
-
-.flexCol--container__department_two-to-cfour, .flexCol--container__department_two-cfive,.flexCol--container__department_two-csix, .flexCol--container__department_two-seven {
-    margin: 0 2.5rem;
-}
-
-.flexCol--container__department_four-to-cfour, .flexCol--container__department_four-cfive,.flexCol--container__department_four-csix, .flexCol--container__department_four-seven {
-    margin: 0 4.2rem;
-}
-
-.flexCol--container__department_five-to-csix, .flexCol--container__department_five-seven {
-    margin: 0 6.5rem;
-}
-
-.flexCol--container__department_six-to-cthree, .flexCol--container__department_six-cfour{
-    margin: 0 2rem;
-}
-
-.flexCol--container__department_eight-cone, .flexCol--container__department_eight-ctwo{
-    margin: 0 2rem;
+@media  (max-width: 1440px) {
+    .flexRow--categories__departments{        
+        margin-left: 8rem;
+        margin-right: 9.2rem;           
+    }
 }
 
 .flexCol--desktop__header_container--logo {
-    padding-right: 48px;
+    padding-left: 15px;
 }
 
+.flexCol--container__department_three-to-cthree{
+    padding-right: 21rem;
+}
+
+.flexCol--container__department_five-to-csix, .flexCol--container__department_eight-cone{
+    padding-left: 284px;
+}

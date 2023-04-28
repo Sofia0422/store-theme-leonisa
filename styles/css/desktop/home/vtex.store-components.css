@@ -23,7 +23,7 @@
 
 .searchIcon--desktop__header--search{  
     position: absolute;
-    margin-left: -164px ;
+    margin-left: -186px ;
     width: 25px;
     height: 25px;
 }
@@ -31,14 +31,20 @@
 .searchBarContainer {
     padding-top: 0.6rem !important; 
     border-radius: 6px;    
-    width: 160px !important;   
+    width: 180px !important;      
 }
 
 .searchBarInnerContainer--desktop__header--search{
-    border-radius: 6px;    
+    border-radius: 6px; 
 }
 
 .autoCompleteOuterContainer--desktop__header--search{
     border-radius: 6px;    
 }
+
+.paddingInput--desktop__header--search{
+    padding-right: 20px;
+}
+
+
 

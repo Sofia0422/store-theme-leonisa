@@ -3,11 +3,9 @@
 
     "flex-layout.row#1-desktop__header_menu":{
       "title":"Items for first row-header",
-      "props": {
-        "horizontalAlign": "left",
-        "verticalAlign": "center",
+      "props": {      
         "preventHorizontalStretch": true,
-        "preventVerticalStretch": true,
+        "preventVerticalStretch": true, 
         "fullWidth": true,
         "blockClass": "desktop__header-row1_menu-item"
         },
@@ -27,10 +25,8 @@
     "flex-layout.row#desktop__header_items--container":{
       "title":"Images container in header for desktop view",
       "props":{
-        "blockClass":"header__container--images",
-        "preventHorizontalStretch":false,
-        "width":"0%"
-        
+        "blockClass":"header__container--images"
+       
       },
       "children":[
         "image#desktop__header_item--leonisa",
@@ -87,7 +83,7 @@
     "slider-layout#desktop__header_slider":{
       "title": "Slider-layout for header desktop",
       "props":{
-        "fullWidth":false,
+        "fullWidth":false,             
         "itemsPerPage":{
           "desktop":1
         },
@@ -96,7 +92,7 @@
         "showNavigationArrows": "never", 
         "showPaginationDots": "never",            
         "autoplay":{
-          "timeout":5000,
+          "timeout":3000,
           "stopOnHover":true          
         }
       },

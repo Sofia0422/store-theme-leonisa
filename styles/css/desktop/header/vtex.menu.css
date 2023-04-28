@@ -6,15 +6,16 @@
 .styledLinkContainer--desktop__menu_department{
   margin: 0 1rem !important;
   padding-top: 0.3rem !important;
+  padding-bottom: 0.4rem !important;
   
 }
-
 
 .styledLinkContainer--desktop__menu_department:hover{  
   border-bottom: 2px solid #2a2c29;  
   animation: grow 5s linear;
   animation-fill-mode: forwards;
 }
+
 
 .menuContainerNav--desktop__header_department{
   display: flex;
@@ -23,8 +24,18 @@
 
 .styledLink--menu__category{
   letter-spacing: .3em;
-  font-size: .75em;
-  margin-bottom: 10px;  
+  font-size: .7em;  
+}
+
+.styledLinkContainer--menu__category, .styledLinkContainer--department-one__category--two, .styledLinkContent--department-four__category--three, .styledLinkContent--department-six__category--one{
+  padding-bottom: 0.7rem !important;
+}
+
+
+.styledLinkContent--department-one__category--two, .styledLinkContent--department-one__category--five, .styledLinkContent--department-two__category--four, .styledLinkContent--department-four__category--three, .styledLinkContent--department-four__category--four, .styledLinkContent--department-six__category--one, .styledLinkContent--department-six__category--three{
+  letter-spacing: .3em;
+  font-size: .8em;
+  white-space:normal !important;
 }
 
 .submenuWrapper--categories_departments{
@@ -33,7 +44,7 @@
   transform: none;  
   transition: all .3s cubic-bezier(.2,.06,.05,.95);
   transition-delay:.3s;
-  width: 100%;
-  height: 415px;
+  width: 100%;  
+  height: 440px;  
 }
 
