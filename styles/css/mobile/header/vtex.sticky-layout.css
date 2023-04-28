@@ -1,0 +1,6 @@
+.container--mobile__sticky_header{
+    background-color: #ffffff;
+    margin: 0 auto;  
+    transform: translateZ(0);
+    transition: transform .4s cubic-bezier(.165,.84,.44,1);
+}

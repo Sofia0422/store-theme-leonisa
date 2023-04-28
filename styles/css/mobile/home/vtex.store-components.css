@@ -1,0 +1,8 @@
+ .imageElement--mobile__header_item--image1, .imageElement--mobile__header_item--image2, .imageElement--mobile__header_item--image3{
+    margin: 7px 0;    
+    padding: 0 12px;  
+}
+
+.imageElementLink--mobile__header_item--image1, .imageElementLink--mobile__header_item--image2{
+    border-right: 1px solid #676564;    
+}
