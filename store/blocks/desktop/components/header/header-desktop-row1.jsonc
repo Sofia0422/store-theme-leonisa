@@ -1,100 +1,98 @@
 {
     // row 1
 
-    "flex-layout.row#1-desktop__header_menu-item": {
-        "title":"Menu items for first row-header",
-        "props": {
-          "horizontalAlign": "left",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true,
-          "blockClass": "desktop__header-row1_menu-item"
+    "flex-layout.row#1-desktop__header_menu":{
+      "title":"Items for first row-header",
+      "props": {      
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true, 
+        "fullWidth": true,
+        "blockClass": "desktop__header-row1_menu-item"
         },
         "children": [               
-          "vtex.menu@2.x:menu#desktop__sites_genero"         
+          "flex-layout.col#desktop__header--items",
+          "flex-layout.col#spacer",
+          "flex-layout.col#desktop__header--slider"
         ]
+    },
+    "flex-layout.col#desktop__header--items":{
+      "title":"Items container in header for desktop view",
+      "props":{
+        "blockClass":"desktop__header_container--items"
       },
-
-      "vtex.menu@2.x:menu#desktop__sites_genero":{
-        "title":"Menu items in header for desktop view",
-        "children": [
-            "menu-item#desktop__site_leonisa",
-            "menu-item#desktop__site_leo",
-            "menu-item#desktop__site_aliados-leonisa",          
-            "slider-layout#desktop__header_slider"              
-        ]
+      "children":["flex-layout.row#desktop__header_items--container"]
+    },
+    "flex-layout.row#desktop__header_items--container":{
+      "title":"Images container in header for desktop view",
+      "props":{
+        "blockClass":"header__container--images"
+       
+      },
+      "children":[
+        "image#desktop__header_item--leonisa",
+        "image#desktop__header_item--leo",
+        "image#desktop__header_item--allies"        
+      ]
+    },
+    "image#desktop__header_item--leonisa":{
+      "title":"First item row 1",
+      "props":{
+        "blockClass":"desktop__header_item--image1",
+        "src":"assets/img/header/Leonisa.jpg",
+        "maxHeight": "15px",
+        "maxWidth": "105px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "image#desktop__header_item--leo":{
+      "title":"Second item row 1",
+      "props":{
+        "blockClass":"desktop__header_item--image2",
+        "src":"assets/img/header/Leo.jpg",
+        "maxHeight": "18px",
+        "maxWidth": "108px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "image#desktop__header_item--allies":{
+      "title":"Third item row 1",
+      "props":{
+        "blockClass":"desktop__header_item--image3",
+        "src":"assets/img/header/Aliados-leonisa.jpg",
+        "maxHeight": "23px",
+        "maxWidth": "113px",
+        "link":{
+          "url":"/"
+        }
+      }
     },
 
-      "menu-item#desktop__site_leonisa": {
-        "title":"Leonisa option as a menu item",
-        "props": {
-            "id": "menu-item-category-women",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,            
-            "blockClass":"desktop__item_category--leonisa",
-            "itemProps": {
-                "type": "internal",
-                "href": "/",
-                "noFollow": false,
-                "tagTitle": "Women",
-                "text": "LEONISA"
-            }
-        }
+    "flex-layout.col#desktop__header--slider":{
+      "title":"Slider container in header for desktop view",
+      "props":{
+        "blockClass":"desktop__header_container--slider"
+      },
+      "children":["slider-layout#desktop__header_slider"]
     },
-
-    "menu-item#desktop__site_leo":{
-        "title":"Leo option as a menu item",
-        "props": {
-            "id": "menu-item-category-men",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,            
-            "blockClass":"desktop__item_category--leo",
-            "itemProps": {
-                "type": "internal",
-                "href": "/home",
-                "noFollow": false,
-                "tagTitle": "Men",
-                "text": "LEO"
-            }
-        }
-    },
-
-    "menu-item#desktop__site_aliados-leonisa":{
-        "title":"Leonisa allies option as a menu item",
-        "props": {
-            "id": "menu-item-category-allies",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,            
-            "blockClass":"desktop__item_category--allies",
-            "itemProps": {
-                "type": "internal",
-                "href": "/home",
-                "noFollow": false,
-                "tagTitle": "Allies",
-                "text": "ALIADOS LEONISA"
-              
-            }
-        }
-    }, 
+   
 
     "slider-layout#desktop__header_slider":{
       "title": "Slider-layout for header desktop",
       "props":{
+        "fullWidth":false,             
         "itemsPerPage":{
-          "desktop":1,
-          "tablet":1,
-          "phone":1
+          "desktop":1
         },
-        "infinite": true,
+        "infinite": true,        
         "blockClass": "desktop__header_slider",
         "showNavigationArrows": "never", 
         "showPaginationDots": "never",            
         "autoplay":{
-          "timeout":5000,
+          "timeout":3000,
           "stopOnHover":true          
         }
       },
@@ -135,5 +133,5 @@
       }
       
     }
-
+    
 }

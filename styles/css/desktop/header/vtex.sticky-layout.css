@@ -1,0 +1,7 @@
+.container--desktop__sticky_header{
+    margin: 0 auto;      
+    background-color: #ffffff;
+    transform: translateZ(0);
+    transition: transform .4s cubic-bezier(.165,.84,.44,1);
+}
+

@@ -1,3 +1,5 @@
-.slideChildrenContainer--desktop__header_slider{   
-    margin-left: 10rem;
+.slideChildrenContainer--desktop__header_slider{
+    padding: 7px 0;    
+    display: flex;
+    justify-content:right;
 }

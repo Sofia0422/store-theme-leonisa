@@ -1,0 +1,20 @@
+.cartIcon {
+    width: 28px;
+    height: 28px;
+    padding-top:0.3rem
+}
+
+.minicartQuantityBadge--desktop__header_minicart {
+    background-color: #0197a1 ;
+}
+
+.minicartQuantityBadgeDefault {
+    top: 0.9rem;
+    right: -0.4rem
+}
+
+.openIconContainer--desktop__header_minicart{
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+
+}

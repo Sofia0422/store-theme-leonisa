@@ -1,10 +1,14 @@
-.strong--mobile__slider_rich-text--one, .strong--mobile__slider_rich-text--two, .strong--mobile__slider_rich-text--three{
+.strong--mobile__slider_free-shipping--one, .strong--mobile__slider_returns-exchanges--one, .strong--mobile__slider_offers-available--one{
     letter-spacing: 0.1em;
-    font-size: 0.9em;
+    font-size: 0.7em;
+    font-weight: 700;
 }
 
-.link--mobile__slider_rich-text--one, .link--mobile__slider_rich-text--two, .link--mobile__slider_rich-text--three{
-    color: #2a2c29;
-    padding-left: 5px;
-    font-size: 0.8em;
+.link--mobile__slider_free-shipping--two, .link--mobile__slider_returns-exchanges--two, .link--mobile__slider_offers-available--two{
+    color: #2a2c29;  
+    font-size: 0.75em;  
+}
+
+.container--mobile__slider_free-shipping--two, .container--mobile__slider_returns-exchanges--two, .container--mobile__slider_offers-available--two {
+    margin-top: -10px;
 }

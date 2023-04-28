@@ -20,7 +20,7 @@
         "props":{
           "id": "category-one-desktop",
           "type":"custom",
-          "blockClass":"menu__category",
+          "blockClass":"department-one__category--two",
           "itemProps":{
             "type":"internal",
             "href":"#",
@@ -67,7 +67,7 @@
         "props":{
           "id": "category-five-desktop",
           "type":"custom",
-          "blockClass":"menu__category",
+          "blockClass":"department-one__category--five",
           "itemProps":{
             "type":"external",
             "href":"/",
@@ -229,7 +229,7 @@
       "props":{
         "id": "category-four-desktop",
         "type":"custom",
-        "blockClass":"menu__category",
+        "blockClass":"department-two__category--four",
         "itemProps":{
           "type":"external",
           "href":"/",
@@ -383,6 +383,7 @@
         "id": "category-four-desktop",
         "type":"custom",
         "blockClass":"menu__category",
+        "onMountBehavior":"open",
         "itemProps":{
           "type":"external",
           "href":"/",

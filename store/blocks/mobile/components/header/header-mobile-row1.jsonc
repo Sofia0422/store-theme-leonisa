@@ -1,0 +1,183 @@
+{
+     // row 1
+
+     "flex-layout.row#1-mobile__header_menu": {
+        "title":"Menu items for first row-header",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "mobile__header-row1_menu"
+        },
+        "children": [               
+          "flex-layout.col#mobile__header--items"         
+        ]
+      },
+
+      "flex-layout.col#mobile__header--items":{
+        "title":"Items container in header for mobile view",
+        "props":{
+        "blockClass":"mobile__header_container--items"
+        },
+        "children":["flex-layout.row#mobile__header_items--container"]
+      },
+      "flex-layout.row#mobile__header_items--container":{
+        "title":"Images container in header for mobile view",
+        "props":{
+          "blockClass":"mobile__header_container--images",
+          "preventHorizontalStretch":false,
+          "width":"0%"        
+        },
+        "children":[
+          "image#mobile__header_item--leonisa",
+          "image#mobile__header_item--leo",
+          "image#mobile__header_item--allies"        
+        ]
+    },
+    "image#mobile__header_item--leonisa":{
+      "title":"First item row 1-header mobile view",
+      "props":{
+        "blockClass":"mobile__header_item--image1",
+        "src":"assets/img/header/Leonisa.jpg",
+        "maxHeight": "15px",
+        "maxWidth": "105px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "image#mobile__header_item--leo":{
+      "title":"Second item row 1-header mobile view",
+      "props":{
+        "blockClass":"mobile__header_item--image2",
+        "src":"assets/img/header/Leo.jpg",
+        "maxHeight": "18px",
+        "maxWidth": "108px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+    "image#mobile__header_item--allies":{
+      "title":"Third item row 1-header mobile view",
+      "props":{
+        "blockClass":"mobile__header_item--image3",
+        "src":"assets/img/header/Aliados-leonisa.jpg",
+        "maxHeight": "23px",
+        "maxWidth": "113px",
+        "link":{
+          "url":"/"
+        }
+      }
+    },
+
+    "slider-layout#mobile__header_slider":{
+      "title": "Slider-layout for header mobile",
+      "props":{
+        "itemsPerPage":{          
+          "tablet":1
+        },
+        "infinite": true,
+        "blockClass": "mobile__header_slider",
+        "showNavigationArrows": "never", 
+        "showPaginationDots": "never",             
+        "autoplay":{
+          "timeout":5000          
+        }
+      },      
+      "children":[
+        "flex-layout.row#mobile__slider--container-1",
+        "flex-layout.row#mobile__slider--container-2",
+        "flex-layout.row#mobile__slider--container-3"
+      ]     
+    },
+
+    //Container 1
+    "flex-layout.row#mobile__slider--container-1":{
+      "children":["flex-layout.col#mobile__slider--container-1"]      
+    },
+    "flex-layout.col#mobile__slider--container-1":{
+      "children":[
+        "rich-text#1mobile__free-shipping--one",
+        "rich-text#1mobile__free-shipping--two"
+      ]
+    },  
+    "rich-text#1mobile__free-shipping--one": {
+      "title":"First part rich-text one of slider ",
+      "props":{
+        "blockClass":"mobile__slider_free-shipping--one",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**ENVÍO GRATIS**"
+      }  
+    },
+    "rich-text#1mobile__free-shipping--two": {
+      "title":"Second part rich-text one of slider ",
+      "props":{
+        "blockClass":"mobile__slider_free-shipping--two",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[en órdenes de $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
+      }  
+    },
+
+    //Container 2
+    "flex-layout.row#mobile__slider--container-2":{
+      "children":["flex-layout.col#mobile__slider--container-2"]      
+    },
+    "flex-layout.col#mobile__slider--container-2":{
+      "children":[
+        "rich-text#1mobile__returns-exchanges--one",
+        "rich-text#1mobile__returns-exchanges--two"
+      ]
+    },  
+    "rich-text#1mobile__returns-exchanges--one": {
+      "title":"First part rich-text two of slider ",
+      "props":{
+        "blockClass":"mobile__slider_returns-exchanges--one",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**CAMBIOS Y DEVOLUCIONES**"
+      }  
+    },
+    "rich-text#1mobile__returns-exchanges--two": {
+      "title":"Second part rich-text two of slider ",
+      "props":{
+        "blockClass":"mobile__slider_returns-exchanges--two",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"
+      }  
+    },
+
+    //Container 3
+    "flex-layout.row#mobile__slider--container-3":{
+      "children":["flex-layout.col#mobile__slider--container-3"]      
+    },
+    "flex-layout.col#mobile__slider--container-3":{
+      "children":[
+        "rich-text#1mobile__offers-available--one",
+        "rich-text#1mobile__offers-available--two"
+      ]
+    },  
+    "rich-text#1mobile__offers-available--one": {
+      "title":"First part rich-text three of slider ",
+      "props":{
+        "blockClass":"mobile__slider_offers-available--one",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**OFERTAS DISPONIBLES**"
+      }  
+    },
+    "rich-text#1mobile__offers-available--two": {
+      "title":"Second part rich-text three of slider ",
+      "props":{
+        "blockClass":"mobile__slider_offers-available--two",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Descúbrelas](https://developers.vtex.com/docs/guides/welcome)"
+      }  
+    }   
+}
