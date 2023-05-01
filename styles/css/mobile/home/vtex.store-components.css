@@ -1,8 +1,32 @@
  .imageElement--mobile__header_item--image1, .imageElement--mobile__header_item--image2, .imageElement--mobile__header_item--image3{
     margin: 7px 0;    
-    padding: 0 12px;  
+    padding: 0 75px;  
 }
 
 .imageElementLink--mobile__header_item--image1, .imageElementLink--mobile__header_item--image2{
     border-right: 1px solid #676564;    
 }
+
+.autoCompleteOuterContainer--mobile__header--search :first-child{
+    border: none;     
+    padding-top: 1px;
+   
+}
+
+.searchIcon--mobile__header--search{       
+    width: 25px;
+    height: 25px;   
+}
+
+@media  (max-width: 425px) {
+    .imageElement--mobile__header_item--image1, .imageElement--mobile__header_item--image2, .imageElement--mobile__header_item--image3{        
+        padding: 0;        
+    }
+
+    .autoCompleteOuterContainer--mobile__header--search{      
+        padding-left: 1.2rem;
+    }
+}
+
+
+

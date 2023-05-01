@@ -34,17 +34,8 @@
     width: 180px !important;      
 }
 
-.searchBarInnerContainer--desktop__header--search{
-    border-radius: 6px; 
-}
-
-.autoCompleteOuterContainer--desktop__header--search{
-    border-radius: 6px;    
-}
-
 .paddingInput--desktop__header--search{
     padding-right: 20px;
 }
-
 
 

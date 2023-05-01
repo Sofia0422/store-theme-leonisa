@@ -41,10 +41,27 @@
 .submenuWrapper--categories_departments{
   padding-top: 20px; 
   line-height: 1.8;
-  transform: none;  
+  transform: none;   
   transition: all .3s cubic-bezier(.2,.06,.05,.95);
-  transition-delay:.3s;
+  transition-delay:.3s;   
   width: 100%;  
   height: 440px;  
 }
+
+
+.submenuWrapper--menu__category--subcategories--isOpen{
+  border-color: #ffffff !important;  
+  padding-top: 0 !important;
+}
+
+.submenuWrapper--menu__category--subcategories{
+  line-height: 1;  
+}
+
+.styledLink--menu__category--subcategories{
+  letter-spacing: .05em;
+  font-size: .8em; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 

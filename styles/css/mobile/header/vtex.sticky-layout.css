@@ -4,3 +4,8 @@
     transform: translateZ(0);
     transition: transform .4s cubic-bezier(.165,.84,.44,1);
 }
+
+.wrapper--mobile__sticky_header{
+    display: flex;
+    justify-content: space-evenly;
+}

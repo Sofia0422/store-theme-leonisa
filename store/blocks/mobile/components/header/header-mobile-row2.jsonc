@@ -5,9 +5,8 @@
         "title":"Elements for second row-header mobile",
         "children": [
           "drawer#mobile__header_menu",        
-          "search-bar#mobile__header_search",               
-          "flex-layout.col#spacer",
-          "locale-switcher",
+          "flex-layout.col#mobile__header--search",           
+          "locale-switcher#mobile__header--locale",
           "login#mobile__header",
           "minicart.v2"
         ],      
@@ -19,8 +18,109 @@
           "fullWidth": true
         }
       },
+
+    //Menu
+     "drawer#mobile__header_menu":{
+      "title":"Drawer mega-Menu mobile view",
+      "children":[        
+        "mega-menu#mobile__menu"       
+      ],
+      "blocks":[
+        "drawer-header#my__drawer"
+      ]         
+    },
+    "mega-menu#mobile__menu":{
+      "title":"Mega-Menu mobile view",
+      "props":{
+        "defaultDepartmentActive": "...",
+        "orientation": "vertical",
+        "openOnly": "vertical",
+        "blockClass":"mobile__mega--menu"  
+      }       
+    },
+    "drawer-header#my__drawer":{
+      "title":"Drawer header",
+      "children":[
+        "search-bar#mobile__header--search",
+        "flex-layout.row#drawer__header"
+      ]
+    },
+    "flex-layout.row#drawer__header":{
+      "title":"Drawer head elements",
+      "children":[
+        "flex-layout.col#mega-menu__go-back--btn",
+        "flex-layout.col#spacer",
+        "flex-layout.col#drawer__close--button"
+      ],
+      "props":{
+        "blockClass": "drawer-header",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#drawer__close--button": {
+      "title":"Drawer close button",
+      "children": ["drawer-close-button"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "right",
+        "blockClass":"drawer__close--button"
+      }
+    },
+    "flex-layout.col#mega-menu__go-back--btn": {
+      "title":"Mega-menu go back button",
+      "children": ["mega-menu-go-back-btn"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "left",
+        "paddingLeft": 4
+      }
+    },
+
+    //Search - autocomplete
+    "flex-layout.col#mobile__header--search":{
+      "children":["modal-trigger#mobile__search--modal"],
+      "props":{
+        "blockClass":"header__container--search"
+      }
+    },
+
+    "autocomplete-result-list.v2#mobile":{
+      "blocks":["product-summary"]
+    },
+
+    "search-bar#mobile__header--search":{
+      "blocks":["autocomplete-result-list.v2#mobile"],
+      "props":{
+        "blockClass":"mobile__header--search",
+        "openAutocompleteOnFocus":true,
+        "autocompleteAlignment":"left",
+        "hasIconLeft": false
+      }
+    },  
+
+    // Search - modal
+
+  "modal-trigger#mobile__search--modal":{
+    "children":[ 
+      "search-bar#mobile__header--search",   
+      "modal-layout#header__search--modal"
+    ],
+    "props":{
+      "blockClass":"mobile__search--modal-active"
+    }    
+  },  
+
+    //Locale-switcher
+    "locale-switcher#mobile__header--locale":{
+      "props":{
+        "blockClass":"header__locale--icon"
+      }
+    },
   
-      //Login
+    //Login
       "login#mobile__header": {
         "title":"Login for mobile",
         "props": {        
@@ -29,80 +129,8 @@
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true
+          "showIconProfile": true,
+          "blockClass":"header__login--icon"
         }
-      },
-  
-      //Menu
-     "drawer#mobile__header_menu":{
-        "title":"Drawer mega-Menu mobile view",
-        "children":[        
-          "mega-menu#mobile__menu"       
-        ],
-        "blocks":[
-          "drawer-header#my-drawer"
-        ]         
-      },
-      "mega-menu#mobile__menu":{
-        "title":"Mega-Menu mobile view",
-        "props":{
-          "defaultDepartmentActive": "...",
-          "orientation": "vertical",
-          "openOnly": "vertical"   
-        }       
-      },
-      "drawer-header#my-drawer":{
-        "title":"Drawer header",
-        "children":[
-          "search-bar#mobile__header_search",
-          "flex-layout.row#drawer-header"
-        ]
-      },
-      "flex-layout.row#drawer-header":{
-        "title":"Drawer head elements",
-        "children":[
-          "flex-layout.col#mega-menu-go-back-btn",
-          "flex-layout.col#spacer",
-          "flex-layout.col#drawer-close-button"
-        ],
-        "props":{
-          "blockClass": "drawer-header",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "preserveLayoutOnMobile": true,
-          "fullWidth": true
-        }
-      },
-      "flex-layout.col#drawer-close-button": {
-        "title":"Drawer close button",
-        "children": ["drawer-close-button"],
-        "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "right"
-        }
-      },
-      "flex-layout.col#mega-menu-go-back-btn": {
-        "title":"Mega-menu go back button",
-        "children": ["mega-menu-go-back-btn"],
-        "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "left",
-          "paddingLeft": 4
-        }
-      },
-  
-      //search
-  
-      "autocomplete-result-list.v2#mobile":{
-        "blocks":["product-summary"]
-      },
-  
-      "search-bar#mobile__header_search":{
-        "blocks":["autocomplete-result-list.v2#mobile"],
-        "props":{
-          "openAutocompleteOnFocus":true,
-          "autocompleteAlignment":"left"
-        }
-      }
-  
+      }      
 }
