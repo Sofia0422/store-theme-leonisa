@@ -1,0 +1,16 @@
+.menuIcon{
+    width: 30px;
+    height: 30px;       
+}
+
+.openIconContainer{
+    margin-left: -9.5rem; 
+    margin-top: 4px;
+    
+}
+
+@media  (max-width: 425px) {   
+    .openIconContainer{
+        margin-left: -3rem;
+    }
+}

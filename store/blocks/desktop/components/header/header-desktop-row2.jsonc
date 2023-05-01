@@ -23,7 +23,8 @@
   
   // Search - autocomplete  
   "flex-layout.col#desktop__header_search":{
-    "children":["search-bar#desktop__header_search"]
+    "children":[      
+      "modal-trigger#desktop__search--modal"]      
   },
 
   "autocomplete-result-list.v2#desktop":{
@@ -38,7 +39,20 @@
       "autocompleteAlignment":"left"       
     }
   },
+
+  // Search - modal
+
+  "modal-trigger#desktop__search--modal":{
+    "children":[ 
+      "search-bar#desktop__header_search",     
+      "modal-layout#header__search--modal"
+    ],
+    "props":{
+      "blockClass":"desktop__search--modal-active"
+    }
     
+  },
+     
     //logo
     "flex-layout.col#desktop__header_logo": {
       "props": {
@@ -93,7 +107,7 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,      
-      "blockClass":"desktop__header--login"
+      "blockClass":"header__login--icon"
     }
   }
     

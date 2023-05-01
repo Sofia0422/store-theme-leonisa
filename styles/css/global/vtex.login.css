@@ -2,12 +2,25 @@
     display:none    
 }
 
-.profileIcon--desktop__header--login{
+.profileIcon--header__login--icon{
     width: 28px;
     height: 28px;
     padding-left: 1.1rem;  
-    padding-top: 0.3rem; 
-    
+    padding-top: 0.3rem;     
 }
 
+@media  (max-width: 768px) {
+    .profileIcon--header__login--icon{        
+        position: absolute;
+        padding-left: 0;               
+    }
+}
+
+@media  (max-width: 425px) {
+    .container{     
+        padding-left: 0;
+        margin-left: -4.5rem; 
+        margin-top: -2px;         
+    }
+}
 

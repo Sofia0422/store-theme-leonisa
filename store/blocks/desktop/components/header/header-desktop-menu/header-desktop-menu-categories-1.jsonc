@@ -97,7 +97,8 @@
       "vtex.menu@2.x:submenu#desktop__subcategories_category--six":{
         "title":"Category six section",
         "props":{
-          "orientation": "vertical"
+          "orientation": "vertical",
+          "blockClass": "menu__category--subcategories"
         },
         "children":[
           "menu-item#desktop__menu_subcategory--one-six",
@@ -132,7 +133,8 @@
       "vtex.menu@2.x:submenu#desktop__subcategories_category--seven":{
         "title":"Category seven section",
         "props":{
-          "orientation": "vertical"
+          "orientation": "vertical",
+          "blockClass": "menu__category--subcategories"
         },
         "children":[
           "menu-item#desktop__menu_subcategory--one-seven",
@@ -161,7 +163,8 @@
       "vtex.menu@2.x:submenu#desktop__subcategories_category--eight":{
         "title":"Category eight section",
         "props":{
-          "orientation": "vertical"
+          "orientation": "vertical",
+          "blockClass": "menu__category--subcategories"
         },
         "children":[
           "menu-item#desktop__menu_subcategory--one-eight",
@@ -259,7 +262,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dtwo":{
       "title":"Category six section",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-cfive-dtwo",
@@ -291,7 +295,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dtwo":{
       "title":"Subcategory one category six - department two",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-csix-dtwo",
@@ -321,7 +326,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dtwo":{
       "title":"Subcategory one category seven - department two",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-cseven-dtwo",
@@ -397,7 +403,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dthree":{
       "title":"Category four section",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-cfour-dthree",
@@ -428,7 +435,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dthree":{
       "title":"Category five section",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-cfive-dthree",
@@ -460,7 +468,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dthree":{
       "title":"Subcategory one category six - department three",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-csix-dthree",
@@ -490,7 +499,8 @@
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dthree":{
       "title":"Subcategory one category seven - department three",
       "props":{
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu__category--subcategories"
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-cseven-dthree",
