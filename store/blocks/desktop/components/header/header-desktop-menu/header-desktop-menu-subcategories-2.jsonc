@@ -3,6 +3,7 @@
       //Subcategory one
       "menu-item#desktop__menu_subcategory--one-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-one-desktop",
           "type":"custom",
           "itemProps":{
@@ -17,6 +18,7 @@
       //Subcategory two
       "menu-item#desktop__menu_subcategory--two-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -31,6 +33,7 @@
       //Subcategory three
       "menu-item#desktop__menu_subcategory--three-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-three-desktop",
           "type":"custom",
           "itemProps":{
@@ -45,6 +48,7 @@
       //Subcategory four
       "menu-item#desktop__menu_subcategory--four-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-four-desktop",
           "type":"custom",
           "itemProps":{
@@ -59,6 +63,7 @@
       //Subcategory five
       "menu-item#desktop__menu_subcategory--five-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-five-desktop",
           "type":"custom",
           "itemProps":{
@@ -73,6 +78,7 @@
       //Subcategory six
       "menu-item#desktop__menu_subcategory--six-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -87,6 +93,7 @@
       //Subcategory seven
       "menu-item#desktop__menu_subcategory--seven-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -101,6 +108,7 @@
       //Subcategory eight
       "menu-item#desktop__menu_subcategory--eight-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -115,6 +123,7 @@
       //Subcategory nine
       "menu-item#desktop__menu_subcategory--nine-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -129,6 +138,7 @@
       //Subcategory ten
       "menu-item#desktop__menu_subcategory--ten-cfive-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -145,6 +155,7 @@
       //Subcategory one
       "menu-item#desktop__menu_subcategory--one-csix-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-one-desktop",
           "type":"custom",
           "itemProps":{
@@ -159,6 +170,7 @@
       //Subcategory two
       "menu-item#desktop__menu_subcategory--two-csix-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -173,6 +185,7 @@
       //Subcategory three
       "menu-item#desktop__menu_subcategory--three-csix-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-three-desktop",
           "type":"custom",
           "itemProps":{
@@ -187,6 +200,7 @@
       //Subcategory four
       "menu-item#desktop__menu_subcategory--four-csix-dfour" :{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-four-desktop",
           "type":"custom",
           "itemProps":{
@@ -203,6 +217,7 @@
       //Subcategory one
       "menu-item#desktop__menu_subcategory--one-cseven-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-one-desktop",
           "type":"custom",
           "itemProps":{
@@ -217,6 +232,7 @@
       //Subcategory two
       "menu-item#desktop__menu_subcategory--two-cseven-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -231,6 +247,7 @@
       //Subcategory three
       "menu-item#desktop__menu_subcategory--three-cseven-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -245,6 +262,7 @@
       //Subcategory four
       "menu-item#desktop__menu_subcategory--four-cseven-dfour":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -261,6 +279,7 @@
       //Subcategory one
       "menu-item#desktop__menu_subcategory--one-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-one-desktop",
           "type":"custom",
           "itemProps":{
@@ -275,6 +294,7 @@
       //Subcategory two
       "menu-item#desktop__menu_subcategory--two-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -289,6 +309,7 @@
       //Subcategory three
       "menu-item#desktop__menu_subcategory--three-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-three-desktop",
           "type":"custom",
           "itemProps":{
@@ -303,6 +324,7 @@
       //Subcategory four
       "menu-item#desktop__menu_subcategory--four-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-four-desktop",
           "type":"custom",
           "itemProps":{
@@ -317,6 +339,7 @@
       //Subcategory five
       "menu-item#desktop__menu_subcategory--five-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-five-desktop",
           "type":"custom",
           "itemProps":{
@@ -331,6 +354,7 @@
       //Subcategory six
       "menu-item#desktop__menu_subcategory--six-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -345,6 +369,7 @@
       //Subcategory seven
       "menu-item#desktop__menu_subcategory--seven-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -359,6 +384,7 @@
       //Subcategory eight
       "menu-item#desktop__menu_subcategory--eight-cseven-dfive":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -373,6 +399,7 @@
       //Subcategory nine
       "menu-item#desktop__menu_subcategory--nine-cseven-dfive" :{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-six-desktop",
           "type":"custom",
           "itemProps":{
@@ -389,6 +416,7 @@
     //Subcategory one
       "menu-item#desktop__menu_subcategory--one-cfour-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-one-desktop",
           "type":"custom",
           "itemProps":{
@@ -403,6 +431,7 @@
       //Subcategory two
       "menu-item#desktop__menu_subcategory--two-cfour-dsix" :{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -419,6 +448,7 @@
     //Subcategory one
     "menu-item#desktop__menu_subcategory--one-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-one-desktop",
           "type":"custom",
           "itemProps":{
@@ -433,6 +463,7 @@
       //Subcategory two
       "menu-item#desktop__menu_subcategory--two-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -447,6 +478,7 @@
       //Subcategory three
       "menu-item#desktop__menu_subcategory--three-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -461,6 +493,7 @@
       //Subcategory four
       "menu-item#desktop__menu_subcategory--four-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -475,6 +508,7 @@
       //Subcategory five
       "menu-item#desktop__menu_subcategory--five-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -489,6 +523,7 @@
       //Subcategory six
       "menu-item#desktop__menu_subcategory--six-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -503,6 +538,7 @@
       //Subcategory seven
       "menu-item#desktop__menu_subcategory--seven-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -517,6 +553,7 @@
       //Subcategory eight
       "menu-item#desktop__menu_subcategory--eight-cfive-dsix":{
         "props":{
+          "blockClass": "menu__category--subcategories",
           "id": "subcategory-two-desktop",
           "type":"custom",
           "itemProps":{
@@ -533,6 +570,7 @@
     //Subcategory one
     "menu-item#desktop__menu_subcategory--one-csix-dsix":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-one-desktop",
         "type":"custom",
         "itemProps":{
@@ -547,6 +585,7 @@
     //Subcategory two
     "menu-item#desktop__menu_subcategory--two-csix-dsix":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{
@@ -561,6 +600,7 @@
     //Subcategory three
     "menu-item#desktop__menu_subcategory--three-csix-dsix":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{
@@ -575,6 +615,7 @@
     //Subcategory four
     "menu-item#desktop__menu_subcategory--four-csix-dsix":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{
@@ -589,6 +630,7 @@
     //Subcategory five
     "menu-item#desktop__menu_subcategory--five-csix-dsix":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{
@@ -605,6 +647,7 @@
     //Subcategory one
     "menu-item#desktop__menu_subcategory--one-ctwo-deight":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-one-desktop",
         "type":"custom",
         "itemProps":{
@@ -619,6 +662,7 @@
     //Subcategory two
     "menu-item#desktop__menu_subcategory--two-ctwo-deight":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{
@@ -633,6 +677,7 @@
     //Subcategory three
     "menu-item#desktop__menu_subcategory--three-ctwo-deight":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{
@@ -647,6 +692,7 @@
     //Subcategory four
     "menu-item#desktop__menu_subcategory--four-ctwo-deight":{
       "props":{
+        "blockClass": "menu__category--subcategories",
         "id": "subcategory-two-desktop",
         "type":"custom",
         "itemProps":{

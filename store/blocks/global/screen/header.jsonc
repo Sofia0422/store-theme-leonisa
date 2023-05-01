@@ -20,6 +20,39 @@
       "props": {
         "width": "grow"
       }
+    },
+
+    //search - modal    
+  
+    "modal-layout#header__search--modal":{
+      "children":[
+        "modal-content#header__search--modal"],
+      "props":{
+        "blockClass":"header__modal--content"         
+      }
+    },
+    "modal-content#header__search--modal": {
+      "title": "Container Modal section search global",
+      "children": [
+        "modal-header#header__search--modal"
+      ],
+      "props": {
+        "blockClass":"header__modal--container" 
+      }
+    },
+    "modal-header#header__search--modal": {
+      "children":["search-bar#header__search--modal"],
+      "props": {
+        "blockClass": "header__modal--header" 
+      }
+    },  
+    "search-bar#header__search--modal":{
+      "blocks":["autocomplete-result-list.v2"],
+      "props":{
+        "blockClass":"header__search--modal",
+        "openAutocompleteOnFocus":true,
+        "autocompleteAlignment":"left"
+      }
     }
   
   }
