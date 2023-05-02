@@ -38,4 +38,45 @@
     padding-right: 20px;
 }
 
+.infoCardHeadline--desktop__infocard--best-seller{
+    margin-top: 40px;
+}
+
+.infoCardHeadline--desktop__infocard--best-seller, .infoCardHeadline--desktop__infocard--blog{
+    font-size: 22px;
+    font-weight: 700;
+}
+.infoCardCallActionContainer--desktop__infocard--best-seller :global(.vtex-button){
+    background-color: transparent;
+    color: #2c2a29;
+    letter-spacing: 0.1rem;
+    border: 1px solid;
+    border-color: #2c2a29;
+    padding: 8px 14px !important;
+    min-width: 90px;
+    margin-top: -8px;
+}
+
+
+.infoCardCallActionContainer--desktop__infocard--best-seller :global(.vtex-button__label){
+    padding: 0 !important;
+    font-size: 13px;
+}
+
+.infoCardCallActionContainer--desktop__infocard--blog :global(.vtex-button){
+    background-color: transparent;
+    color: #2c2a29;
+    letter-spacing: 0.1rem;
+    border: 1px solid;
+    border-color: #2c2a29;
+    padding: 8px 14px !important;
+    min-width: 90px;
+    margin-top: -8px;
+}
+
+.infoCardCallActionContainer--desktop__infocard--blog :global(.vtex-button__label){
+    padding: 0 !important;
+    font-size: 13px;
+}
+
 

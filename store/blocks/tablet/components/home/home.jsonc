@@ -1,19 +1,463 @@
 {
-  /* "flex-layout.row#tablet__home__section-1": {
-    "title": "TABLET Row with text",
+  "flex-layout.row#tablet__home--section-1": {
+    "title": "tablet Row with elements part 1",
     "children": [
-      "rich-text#tablet__section-1"
+      "flex-layout.col#tablet__home--section-1"      
+    ],
+    "props":{
+      "blockClass":"home__section--one",
+      "fullWidth":true      
+    }
+  },
+
+  "flex-layout.col#tablet__home--section-1"  :{
+    "title":"Elements container section one",
+    "children":[
+      "image#tablet__home--image-one",
+      "rich-text#tablet__home--text-one",
+      "image#tablet__home--image-two",
+      "image#tablet__home--image-three",
+      "image#tablet__home--image-four",
+      "image#tablet__home--image-five",
+      "image#tablet__home--image-six",
+      "image#tablet__home--image-seven",
+      "image#tablet__home--image-eight",
+      "image#tablet__home--image-nine",
+      "image#tablet__home--image-ten",
+      "image#tablet__home--image-eleven",
+      "image#tablet__home--image-twelve",  
+      "info-card#tablet__home--best-seller"
+    ],
+    "props":{
+      "blockClass":"home__section--one-cotainer"
+    }
+  },    
+
+  "image#tablet__home--image-one": {
+    "title":"Image home one",
+    "props":{
+      "blockClass":"tablet__home--image-one",
+      "src":"assets/img/home/tablet/image-one.jpg",        
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#tablet__home--text-one":{
+    "title":"rich-text home one ",
+      "props":{
+        "blockClass":"tablet__home--text-one",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Ropa interior femenina y fajas de alta tecnología que funcionan de verdad"
+      }
+  },  
+  
+  "image#tablet__home--image-two":{
+    "title":"Image home two",
+    "props":{
+      "blockClass":"tablet__home--image-two",
+      "src":"assets/img/home/tablet/image-two.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-three":{
+    "title":"Image home three",
+    "props":{
+      "blockClass":"tablet__home--image-three",
+      "src":"assets/img/home/tablet/image-three.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  
+  "image#tablet__home--image-four":{
+    "title":"Image home four",
+    "props":{
+      "blockClass":"tablet__home--image-four",
+      "src":"assets/img/home/tablet/image-four.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-five":{
+    "title":"Image home five",
+    "props":{
+      "blockClass":"tablet__home--image-five",
+      "src":"assets/img/home/tablet/image-five.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-six":{
+    "title":"Image home six",
+    "props":{
+      "blockClass":"tablet__home--image-six",
+      "src":"assets/img/home/tablet/image-six.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#tablet__home--image-seven":{
+    "title":"Image home seven",
+    "props":{
+      "blockClass":"tablet__home--image-seven",
+      "src":"assets/img/home/tablet/image-seven.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-eight":{
+    "title":"Image home eight",
+    "props":{
+      "blockClass":"tablet__home--image-eight",
+      "src":"assets/img/home/tablet/image-eight.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-nine":{
+    "title":"Image home nine",
+    "props":{
+      "blockClass":"tablet__home--image-nine",
+      "src":"assets/img/home/tablet/image-nine.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-ten":{
+    "title":"Image home ten",
+    "props":{
+      "blockClass":"tablet__home--image-ten",
+      "src":"assets/img/home/tablet/image-ten.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-eleven":{
+    "title":"Image home eleven",
+    "props":{
+      "blockClass":"tablet__home--image-eleven",
+      "src":"assets/img/home/tablet/image-eleven.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#tablet__home--image-twelve":{
+    "title":"Image home twelve",
+    "props":{
+      "blockClass":"tablet__home--image-twelve",
+      "src":"assets/img/home/tablet/image-twelve.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "info-card#tablet__home--best-seller":{
+    "title":"Info-car for best seller",
+    "props": {
+      "id": "info-card-best-seller",
+      "isFullModeStyle": true,
+      "textPosition": "center",      
+      "headline": "Los más vendidos",
+      "callToActionText": "TODOS",
+      "callToActionUrl": "/",
+      "blockClass": "tablet__infocard--best-seller",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row#tablet__home--section-2":{
+    "title": "tablet Row with elements part 2",
+    "children": [
+      "flex-layout.col#tablet__home--section-2"      
+    ],
+    "props":{
+      "fullWidth":true,
+      "blockClass":"home__section--two"     
+    }
+  },
+  "flex-layout.col#tablet__home--section-2":{
+    "title":"Elements container section two",
+    "children":[      
+      "image#tablet__home--image-thirteen",
+      "image#tablet__home--image-fourteen",
+      "image#tablet__home--image-fifteen",      
+      "rich-text#tablet__home--text-two",
+      "image#tablet__home--image-sixteen",
+      "image#tablet__home--image-seventeen",
+      "image#tablet__home--image-eighteen",
+      "image#tablet__home--image-nineteen",     
+      "slider-layout#tablet__home--slider",
+      "rich-text#tablet__home--text-three",
+      "image#tablet__home--lqs-one",
+      "image#tablet__home--lqs-two",
+      "image#tablet__home--lqs-three",
+      "image#tablet__home--lqs-four",     
+      "info-card#tablet__home--blog",
+      "image#tablet__home--blog-one",
+      "image#tablet__home--blog-two",
+      "image#tablet__home--blog-three" 
+    ],
+    "props":{
+      "blockClass":"home__section--two-cotainer"
+    }
+  },   
+  "image#tablet__home--image-thirteen":{
+    "title":"Image home thirteen",
+    "props":{
+      "blockClass":"tablet__home--image-thirteen",
+      "src":"assets/img/home/tablet/image-thirteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-fourteen":{
+    "title":"Image home fourteen",
+    "props":{
+      "blockClass":"tablet__home--image-fourteen",
+      "src":"assets/img/home/tablet/image-fourteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-fifteen":{
+    "title":"Image home fifteen",
+    "props":{
+      "blockClass":"tablet__home--image-fifteen",
+      "src":"assets/img/home/tablet/image-fifteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#tablet__home--text-two":{
+    "title":"rich-text home two",
+      "props":{
+        "blockClass":"tablet__home--text-two",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Una experiencia de compra única"
+      }
+  },  
+  "image#tablet__home--image-sixteen":{
+    "title":"Image home sixteen",
+    "props":{
+      "blockClass":"tablet__home--image-sixteen",
+      "src":"assets/img/home/tablet/image-sixteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-seventeen":{
+    "title":"Image home seventeen",
+    "props":{
+      "blockClass":"tablet__home--image-seventeen",
+      "src":"assets/img/home/tablet/image-seventeen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#tablet__home--image-eighteen":{
+    "title":"Image home eighteen",
+    "props":{
+      "blockClass":"tablet__home--image-eighteen",
+      "src":"assets/img/home/tablet/image-eighteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#tablet__home--image-nineteen":{
+    "title":"Image home nineteen",
+    "props":{
+      "blockClass":"tablet__home--image-nineteen",
+      "src":"assets/img/home/tablet/image-nineteen.jpg"      
+    }
+  },
+
+  "slider-layout#tablet__home--slider":{
+    "title": "Slider-layout IG tablet view",
+    "props":{
+      "showPaginationDots": "never", 
+      "itemsPerPage":{
+        "desktop":5,
+        "tablet":2,
+        "phone":1
+      },
+      "infinite": true,
+      "blockClass": "home__slider--one"      
+    },
+    "children":[
+      "image#home__tablet--slider-one",
+      "image#home__tablet--slider-two",
+      "image#home__tablet--slider-three",
+      "image#home__tablet--slider-four",
+      "image#home__tablet--slider-five",
+      "image#home__tablet--slider-six",
+      "image#home__tablet--slider-seven",
+      "image#home__tablet--slider-eight",
+      "image#home__tablet--slider-nine",
+      "image#home__tablet--slider-ten"          
     ]
   },
 
-  "rich-text#tablet__section-1": {
-    "title": "Text Favorites",
-    "props": {
-      "blockClass": "",
-      "text": "Favoritos en TABLET",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+  "image#home__tablet--slider-one": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-1.jpg"
     }
-  } */
+  },
+  "image#home__tablet--slider-two": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-2.jpg"     
+    }    
+  },
+  "image#home__tablet--slider-three": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-3.jpg"     
+    }    
+  },
+  "image#home__tablet--slider-four": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-4.jpg"
+    }
+  },
+  "image#home__tablet--slider-five": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-5.jpg"
+    }
+  },
+
+  "image#home__tablet--slider-six": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-6.jpg"
+    }
+  },
+  "image#home__tablet--slider-seven": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-7.jpg"
+    }
+  },
+  "image#home__tablet--slider-eight": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-8.jpg"
+    }
+  },
+  "image#home__tablet--slider-nine": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-9.jpg"
+    }
+  },
+  "image#home__tablet--slider-ten": {
+    "props":{
+      "src":"assets/img/home/slider/slide-img-10.jpg"
+    }
+  },
+  "rich-text#tablet__home--text-three":{
+    "title":"rich-text home two",
+      "props":{
+        "blockClass":"tablet__home--text-three",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Lo que somos"
+      }
+  },
+  
+  "image#tablet__home--lqs-one":{
+    "title":"Section What we are image one",
+    "props":{
+      "blockClass":"tablet__lqs--one",
+      "src":"assets/img/home/tablet/lqs-one.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--lqs-two":{
+    "title":"Section What we are image two",
+    "props":{
+      "blockClass":"tablet__lqs--two",
+      "src":"assets/img/home/tablet/lqs-two.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--lqs-three":{
+    "title":"Section What we are image three",
+    "props":{
+      "blockClass":"tablet__lqs--three",
+      "src":"assets/img/home/tablet/lqs-three.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--lqs-four":{
+    "title":"Section What we are image four",
+    "props":{
+      "blockClass":"tablet__lqs--four",
+      "src":"assets/img/home/tablet/lqs-four.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+
+  "info-card#tablet__home--blog":{
+    "title":"Info-car for Leonisa blog",
+    "props": {
+      "id": "info-card-blog",
+      "isFullModeStyle": true,
+      "textPosition": "center",      
+      "headline": "Blog Leonisa",
+      "callToActionText": "VER TODO",
+      "callToActionUrl": "/",
+      "blockClass": "tablet__infocard--blog",
+      "textAlignment": "center"
+    }
+  },
+  
+  "image#tablet__home--blog-one":{
+    "title":"Section Leonisa blog image one",
+    "props":{
+      "blockClass":"tablet__blog--one",
+      "src":"assets/img/home/tablet/blog-one.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },"image#tablet__home--blog-two":{
+    "title":"Section Leonisa blog image two",
+    "props":{
+      "blockClass":"tablet__blog--two",
+      "src":"assets/img/home/tablet/blog-two.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },"image#tablet__home--blog-three":{
+    "title":"Section Leonisa blog image three",
+    "props":{
+      "blockClass":"tablet__blog--three",
+      "src":"assets/img/home/tablet/blog-three.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }
 }

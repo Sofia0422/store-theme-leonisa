@@ -1,0 +1,8 @@
+.departmentsTitle--mobile__mega--menu{
+    display: none;
+}
+
+.menuContainerVertical--mobile__mega--menu {
+    padding: 0rem  1rem !important;
+    margin-top: 0 !important;
+}

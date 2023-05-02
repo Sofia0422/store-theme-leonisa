@@ -28,5 +28,13 @@
     }
 }
 
+.imageElement--tablet__home--image-one{
+    width: 100%;
+}
+
+.imageElement--tablet__blog--one, .imageElement--tablet__blog--two, .imageElement--tablet__blog--three {
+    max-width: 100%;
+}
+
 
 

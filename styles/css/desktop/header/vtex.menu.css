@@ -1,5 +1,5 @@
 .styledLink--desktop__menu_department{
-  font-size: 18px; 
+  font-size: 16px; 
   letter-spacing: 0.025em;
 }
 
@@ -20,7 +20,9 @@
 .menuContainerNav--desktop__header_department{
   display: flex;
   justify-content: center; 
+  padding-bottom: 20px;
 }
+
 
 .styledLink--menu__category{
   letter-spacing: .3em;
@@ -63,5 +65,6 @@
   font-size: .8em; 
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 

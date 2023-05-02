@@ -5,9 +5,3 @@
     letter-spacing: 0.05em
 }
 
-@media  (max-width: 768px) {
-    .input {        
-       display: none;         
-    }
-}
-

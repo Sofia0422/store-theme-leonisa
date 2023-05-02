@@ -41,7 +41,7 @@
     "drawer-header#my__drawer":{
       "title":"Drawer header",
       "children":[
-        "search-bar#mobile__header--search",
+        "icon#mobile__header--search",
         "flex-layout.row#drawer__header"
       ]
     },
@@ -91,7 +91,14 @@
       "blocks":["product-summary"]
     },
 
-    "search-bar#mobile__header--search":{
+    "icon#mobile__header--search":{
+      "props":{
+        "id": "hpa-search",
+        "size":25 
+      }      
+    },
+
+    /* "search-bar#mobile__header--search":{
       "blocks":["autocomplete-result-list.v2#mobile"],
       "props":{
         "blockClass":"mobile__header--search",
@@ -99,13 +106,14 @@
         "autocompleteAlignment":"left",
         "hasIconLeft": false
       }
-    },  
+    },  */ 
 
     // Search - modal
 
+    
   "modal-trigger#mobile__search--modal":{
     "children":[ 
-      "search-bar#mobile__header--search",   
+      "icon#mobile__header--search",   
       "modal-layout#header__search--modal"
     ],
     "props":{

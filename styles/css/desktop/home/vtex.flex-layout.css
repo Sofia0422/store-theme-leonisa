@@ -6,7 +6,7 @@
 }
 
 .flexRowContent--desktop__header-row1_menu-item {     
-    padding-left:140px;   
+    padding-left:145px;   
     padding-right: 210px;
     background-color: #2c2a29;  
 }
@@ -47,4 +47,13 @@
 
 .flexCol--container__department_five-to-csix, .flexCol--container__department_eight-cone{
     padding-left: 284px;
+}
+
+.flexRowContent--desktop__image--container-one, .flexRowContent--desktop__image--container-two, .flexRowContent--desktop__image--container-three, .flexRowContent--desktop__image--container-four,.flexRowContent--desktop__image--container-six,.flexRowContent--desktop__image--container-eight, .flexRowContent--desktop__image--container-six,.flexRowContent--desktop__image--container-eleven, .flexRowContent--desktop__image--container-six,.flexRowContent--desktop__image--container-twelve  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 0.2rem;
+    align-items: center;
+    text-align: center;
 }

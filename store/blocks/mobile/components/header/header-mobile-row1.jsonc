@@ -27,8 +27,7 @@
         "title":"Images container in header for mobile view",
         "props":{
           "blockClass":"mobile__header_container--images",
-          "preventHorizontalStretch":false,
-          "width":"0%"        
+          "preventHorizontalStretch":false                 
         },
         "children":[
           "image#mobile__header_item--leonisa",
@@ -41,8 +40,8 @@
       "props":{
         "blockClass":"mobile__header_item--image1",
         "src":"assets/img/header/Leonisa.jpg",
-        "maxHeight": "15px",
-        "maxWidth": "105px",
+        "maxHeight": "10px",
+        "maxWidth": "100px",
         "link":{
           "url":"/"
         }
@@ -53,8 +52,8 @@
       "props":{
         "blockClass":"mobile__header_item--image2",
         "src":"assets/img/header/Leo.jpg",
-        "maxHeight": "18px",
-        "maxWidth": "108px",
+        "maxHeight": "10px",
+        "maxWidth": "100px",
         "link":{
           "url":"/"
         }
@@ -65,8 +64,8 @@
       "props":{
         "blockClass":"mobile__header_item--image3",
         "src":"assets/img/header/Aliados-leonisa.jpg",
-        "maxHeight": "23px",
-        "maxWidth": "113px",
+        "maxHeight": "20px",
+        "maxWidth": "110px",
         "link":{
           "url":"/"
         }

@@ -16,3 +16,31 @@
     letter-spacing: 0.05em;      
 }
 
+
+.container--desktop__home--text-1{
+    margin: 2rem 0;
+}
+.container--desktop__home--text-2 {
+    margin-bottom:  50px;
+}
+
+.container--desktop__home--text-two {
+    margin: 20px 0 !important;
+}
+
+.container--desktop__home--text-three{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.paragraph--desktop__home--text-1, .paragraph--desktop__home--text-2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 0.3;
+}
+
+.paragraph--desktop__home--text-two, .paragraph--desktop__home--text-three{
+    font-size: 22px;
+    font-weight: 700;
+}
+

@@ -1,9 +1,12 @@
 {
   "store.home": {
     "title": "Store home",
-    "blocks": [               
-      "flex-layout.row#home__section-1--global",
-      "flex-layout.row#home__section-2--global"       
+    "blocks": [              
+      /* "responsive-layout.phone#home__sections",*/
+      "responsive-layout.tablet#home__sections", 
+      "responsive-layout.desktop#home__sections",             
+      "flex-layout.row#home__custom-query--global",          
+      "flex-layout.row#home__product-summary--global"  
     ]
   }
   
@@ -31,7 +34,4 @@
 
 
 
-/* "responsive-layout.desktop#home__section-1",
-      "responsive-layout.tablet#home__section-1",
-      "responsive-layout.phone#home__section-1",
-      "responsive-layout.mobile#phone__and__tablet",*/
+
