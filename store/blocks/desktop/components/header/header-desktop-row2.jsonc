@@ -45,12 +45,43 @@
   "modal-trigger#desktop__search--modal":{
     "children":[ 
       "search-bar#desktop__header_search",     
-      "modal-layout#header__search--modal"
+      "modal-layout#desktop__search--modal"
     ],
     "props":{
       "blockClass":"desktop__search--modal-active"
     }
     
+  },  
+  
+  "modal-layout#desktop__search--modal":{
+    "children":[
+      "modal-content#desktop__search--modal"],
+    "props":{
+      "blockClass":"desktop__modal--search-layout"         
+    }
+  },
+  "modal-content#desktop__search--modal": {
+    "title": "Container Modal section search desktop",
+    "children": [
+      "modal-header#desktop__search--modal"
+    ],
+    "props": {
+      "blockClass":"desktop__modal--search-content" 
+    }
+  },
+  "modal-header#desktop__search--modal": {
+    "children":["search-bar#desktop__search--modal"],
+    "props": {
+      "blockClass": "desktop__modal--header" 
+    }
+  },  
+  "search-bar#desktop__search--modal":{
+    "blocks":["autocomplete-result-list.v2"],
+    "props":{
+      "blockClass":"header__search--modal",
+      "openAutocompleteOnFocus":true,
+      "autocompleteAlignment":"left"
+    }
   },
      
     //logo
@@ -77,7 +108,10 @@
   "flex-layout.col#desktop__header_icons":{
     "children":[
       "flex-layout.row#header__icons--container"
-    ]
+    ], 
+    "props":{
+      "blockClass":"header__icons--column"
+    }
   },
   "flex-layout.row#header__icons--container":{
     "children":[

@@ -43,11 +43,14 @@
 .submenuWrapper--categories_departments{
   padding-top: 20px; 
   line-height: 1.8;
-  transform: none;   
-  transition: all .3s cubic-bezier(.2,.06,.05,.95);
-  transition-delay:.3s;   
+   
   width: 100%;  
   height: 440px;  
+}
+.submenuWrapper--categories_departments--isOpen{
+  transform: none; 
+  transition: all .3s cubic-bezier(.2,.06,.05,.95);
+  transition-delay:.3s;  
 }
 
 

@@ -396,6 +396,7 @@
     "title": "Slider-layout IG",
     "props":{
       "showPaginationDots": "never", 
+      "arrowSize":15,
       "itemsPerPage":{
         "desktop":5,
         "tablet":3,

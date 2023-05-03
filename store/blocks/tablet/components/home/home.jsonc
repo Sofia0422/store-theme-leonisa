@@ -14,7 +14,7 @@
     "title":"Elements container section one",
     "children":[
       "image#tablet__home--image-one",
-      "rich-text#tablet__home--text-one",
+      "flex-layout.row#tablet__home--text",
       "image#tablet__home--image-two",
       "image#tablet__home--image-three",
       "image#tablet__home--image-four",
@@ -36,27 +36,48 @@
   "image#tablet__home--image-one": {
     "title":"Image home one",
     "props":{
-      "blockClass":"tablet__home--image-one",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-one.jpg",        
       "link":{
         "url":"/"
       }
     }
   },
-  "rich-text#tablet__home--text-one":{
+  "flex-layout.row#tablet__home--text":{
+    "children":["flex-layout.col#tablet__home--text-col"],   
+    "props":{
+      "blockClass":"tablet__home--text-container"      
+    }
+  },
+  "flex-layout.col#tablet__home--text-col":{
+    "children":[
+      "rich-text#tablet__home--text-1",
+      "rich-text#tablet__home--text-2"
+    ]
+  },
+  "rich-text#tablet__home--text-1":{
     "title":"rich-text home one ",
       "props":{
-        "blockClass":"tablet__home--text-one",
+        "blockClass":"tablet__home--text-1",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"Ropa interior femenina y fajas de alta tecnología que funcionan de verdad"
+        "text":"Ropa interior femenina y fajas de alta tecnología"
+      }
+  },
+  "rich-text#tablet__home--text-2":{
+    "title":"rich-text home one ",
+      "props":{
+        "blockClass":"tablet__home--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"que funcionan de verdad"
       }
   },  
   
   "image#tablet__home--image-two":{
     "title":"Image home two",
     "props":{
-      "blockClass":"tablet__home--image-two",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-two.jpg",          
       "link":{
         "url":"/"
@@ -66,7 +87,7 @@
   "image#tablet__home--image-three":{
     "title":"Image home three",
     "props":{
-      "blockClass":"tablet__home--image-three",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-three.jpg",          
       "link":{
         "url":"/"
@@ -77,7 +98,7 @@
   "image#tablet__home--image-four":{
     "title":"Image home four",
     "props":{
-      "blockClass":"tablet__home--image-four",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-four.jpg",          
       "link":{
         "url":"/"
@@ -87,7 +108,7 @@
   "image#tablet__home--image-five":{
     "title":"Image home five",
     "props":{
-      "blockClass":"tablet__home--image-five",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-five.jpg",          
       "link":{
         "url":"/"
@@ -97,7 +118,7 @@
   "image#tablet__home--image-six":{
     "title":"Image home six",
     "props":{
-      "blockClass":"tablet__home--image-six",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-six.jpg",          
       "link":{
         "url":"/"
@@ -107,7 +128,7 @@
   "image#tablet__home--image-seven":{
     "title":"Image home seven",
     "props":{
-      "blockClass":"tablet__home--image-seven",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-seven.jpg",          
       "link":{
         "url":"/"
@@ -117,7 +138,7 @@
   "image#tablet__home--image-eight":{
     "title":"Image home eight",
     "props":{
-      "blockClass":"tablet__home--image-eight",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-eight.jpg",          
       "link":{
         "url":"/"
@@ -127,7 +148,7 @@
   "image#tablet__home--image-nine":{
     "title":"Image home nine",
     "props":{
-      "blockClass":"tablet__home--image-nine",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-nine.jpg",          
       "link":{
         "url":"/"
@@ -137,7 +158,7 @@
   "image#tablet__home--image-ten":{
     "title":"Image home ten",
     "props":{
-      "blockClass":"tablet__home--image-ten",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-ten.jpg",          
       "link":{
         "url":"/"
@@ -147,7 +168,7 @@
   "image#tablet__home--image-eleven":{
     "title":"Image home eleven",
     "props":{
-      "blockClass":"tablet__home--image-eleven",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-eleven.jpg",          
       "link":{
         "url":"/"
@@ -157,7 +178,7 @@
   "image#tablet__home--image-twelve":{
     "title":"Image home twelve",
     "props":{
-      "blockClass":"tablet__home--image-twelve",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-twelve.jpg",          
       "link":{
         "url":"/"
@@ -216,7 +237,7 @@
   "image#tablet__home--image-thirteen":{
     "title":"Image home thirteen",
     "props":{
-      "blockClass":"tablet__home--image-thirteen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-thirteen.jpg",          
       "link":{
         "url":"/"
@@ -226,7 +247,7 @@
   "image#tablet__home--image-fourteen":{
     "title":"Image home fourteen",
     "props":{
-      "blockClass":"tablet__home--image-fourteen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-fourteen.jpg",          
       "link":{
         "url":"/"
@@ -236,7 +257,7 @@
   "image#tablet__home--image-fifteen":{
     "title":"Image home fifteen",
     "props":{
-      "blockClass":"tablet__home--image-fifteen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-fifteen.jpg",          
       "link":{
         "url":"/"
@@ -255,7 +276,7 @@
   "image#tablet__home--image-sixteen":{
     "title":"Image home sixteen",
     "props":{
-      "blockClass":"tablet__home--image-sixteen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-sixteen.jpg",          
       "link":{
         "url":"/"
@@ -265,7 +286,7 @@
   "image#tablet__home--image-seventeen":{
     "title":"Image home seventeen",
     "props":{
-      "blockClass":"tablet__home--image-seventeen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-seventeen.jpg",          
       "link":{
         "url":"/"
@@ -275,7 +296,7 @@
   "image#tablet__home--image-eighteen":{
     "title":"Image home eighteen",
     "props":{
-      "blockClass":"tablet__home--image-eighteen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-eighteen.jpg",          
       "link":{
         "url":"/"
@@ -285,7 +306,7 @@
   "image#tablet__home--image-nineteen":{
     "title":"Image home nineteen",
     "props":{
-      "blockClass":"tablet__home--image-nineteen",
+      "blockClass":"tablet__home--image",
       "src":"assets/img/home/tablet/image-nineteen.jpg"      
     }
   },
@@ -380,7 +401,7 @@
   "image#tablet__home--lqs-one":{
     "title":"Section What we are image one",
     "props":{
-      "blockClass":"tablet__lqs--one",
+      "blockClass":"tablet__lqs",
       "src":"assets/img/home/tablet/lqs-one.jpg",          
       "link":{
         "url":"/"
@@ -390,7 +411,7 @@
   "image#tablet__home--lqs-two":{
     "title":"Section What we are image two",
     "props":{
-      "blockClass":"tablet__lqs--two",
+      "blockClass":"tablet__lqs",
       "src":"assets/img/home/tablet/lqs-two.jpg",          
       "link":{
         "url":"/"
@@ -400,7 +421,7 @@
   "image#tablet__home--lqs-three":{
     "title":"Section What we are image three",
     "props":{
-      "blockClass":"tablet__lqs--three",
+      "blockClass":"tablet__lqs",
       "src":"assets/img/home/tablet/lqs-three.jpg",          
       "link":{
         "url":"/"
@@ -410,7 +431,7 @@
   "image#tablet__home--lqs-four":{
     "title":"Section What we are image four",
     "props":{
-      "blockClass":"tablet__lqs--four",
+      "blockClass":"tablet__lqs",
       "src":"assets/img/home/tablet/lqs-four.jpg",          
       "link":{
         "url":"/"

@@ -16,6 +16,17 @@
     margin-top: 15px;
 }    
 
+.flexRowContent--megamenu__icons--container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%!important;
+    position: absolute;
+    margin-left: 2rem;
+}
+
+
 @media  (min-width: 320px) {
     .flexRowContent--mobile__header_container--images{        
         min-width: 320px;          
@@ -29,11 +40,11 @@
 }
 
 
-@media  (max-width: 425px) {
+/* @media  (max-width: 425px) {
     .flexColChild--drawer__close--button{        
         padding-left: 1.8rem;        
     }
-}
+} */
 
 
 

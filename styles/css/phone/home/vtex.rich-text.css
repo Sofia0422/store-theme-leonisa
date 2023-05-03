@@ -1,0 +1,37 @@
+.container--phone__home--text-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container--phone__home--text-2 {
+    margin-bottom:  50px;
+}
+
+.paragraph--phone__home--text-1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.paragraph--phone__home--text-2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -25px !important;
+}
+
+
+
+.container--phone__home--text-two {
+    margin: 20px 0 !important;
+    padding: 0 2rem;
+}
+
+.container--phone__home--text-three{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.paragraph--phone__home--text-two, .paragraph--phone__home--text-three{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1;
+}

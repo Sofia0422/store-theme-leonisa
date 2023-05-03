@@ -9,6 +9,14 @@
     padding-top: 0.3rem;     
 }
 
+.container :last-child{
+    background-color: white;
+}
+
+.container :first-child{
+    background-color: transparent;
+}
+
 @media  (max-width: 768px) {
     .profileIcon--header__login--icon{        
         position: absolute;

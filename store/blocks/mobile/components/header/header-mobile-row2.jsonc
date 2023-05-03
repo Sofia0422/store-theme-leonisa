@@ -22,13 +22,19 @@
     //Menu
      "drawer#mobile__header_menu":{
       "title":"Drawer mega-Menu mobile view",
-      "children":[        
-        "mega-menu#mobile__menu"       
+      "children":[  
+        "flex-layout.col#mobile__megamenu--container"  
       ],
       "blocks":[
         "drawer-header#my__drawer"
-      ]         
+      ]               
     },
+    "flex-layout.col#mobile__megamenu--container":{
+      "children":[
+        "mega-menu#mobile__menu",
+        "flex-layout.row#megamenu__icons--container" 
+      ]
+    },     
     "mega-menu#mobile__menu":{
       "title":"Mega-Menu mobile view",
       "props":{
@@ -41,7 +47,7 @@
     "drawer-header#my__drawer":{
       "title":"Drawer header",
       "children":[
-        "icon#mobile__header--search",
+        "search-bar#mobile__search--modal",
         "flex-layout.row#drawer__header"
       ]
     },
@@ -73,6 +79,7 @@
       "title":"Mega-menu go back button",
       "children": ["mega-menu-go-back-btn"],
       "props": {
+        "blockClass":"drawer__goback--button",
         "verticalAlign": "middle",
         "horizontalAlign": "left",
         "paddingLeft": 4
@@ -98,28 +105,85 @@
       }      
     },
 
-    /* "search-bar#mobile__header--search":{
-      "blocks":["autocomplete-result-list.v2#mobile"],
-      "props":{
-        "blockClass":"mobile__header--search",
-        "openAutocompleteOnFocus":true,
-        "autocompleteAlignment":"left",
-        "hasIconLeft": false
-      }
-    },  */ 
-
     // Search - modal
 
-    
   "modal-trigger#mobile__search--modal":{
     "children":[ 
       "icon#mobile__header--search",   
-      "modal-layout#header__search--modal"
+      "modal-layout#mobile__search--modal"
     ],
     "props":{
       "blockClass":"mobile__search--modal-active"
     }    
   },  
+  "modal-layout#mobile__search--modal":{
+    "children":[
+      "modal-content#mobile__search--modal"],
+    "props":{
+      "blockClass":"mobile__modal--search-layout"         
+    }
+  },
+  "modal-content#mobile__search--modal": {
+    "title": "Container Modal section search mobile",
+    "children": [
+      "modal-header#mobile__search--modal"
+    ],
+    "props": {
+      "blockClass":"mobile__modal--search-content" 
+    }
+  },
+  "modal-header#mobile__search--modal": {
+    "children":["search-bar#mobile__search--modal"],
+    "props": {
+      "blockClass": "mobile__modal--header" 
+    }
+  },  
+  "search-bar#mobile__search--modal":{
+    "blocks":["autocomplete-result-list.v2"],
+    "props":{
+      "blockClass":"mobile__search--modal",
+      "openAutocompleteOnFocus":true,
+      "autocompleteAlignment":"left"
+    }
+  },
+
+  //mega-menu icons
+  "flex-layout.row#megamenu__icons--container":{
+    "children":[
+      "icon#mobile__megamenu--icon-insta",
+      "icon#mobile__megamenu--icon-face",
+      "icon#mobile__megamenu--icon-yout",
+      "icon#mobile__megamenu--icon-pint"
+    ],
+    "props":{
+      "blockClass":"megamenu__icons--container"
+    }
+  },
+  "icon#mobile__megamenu--icon-insta":{
+    "props":{
+      "id": "mega-instagram",
+      "size":20 
+    }  
+  },
+  "icon#mobile__megamenu--icon-face":{
+    "props":{
+      "id": "mega-facebook",
+      "size":20 
+    }      
+  },
+  "icon#mobile__megamenu--icon-yout":{
+    "props":{
+      "id": "mega-youtube",
+      "size":20 
+    }      
+  },
+  "icon#mobile__megamenu--icon-pint":{
+    "props":{
+      "id": "mega-pinterest",
+      "size":20 
+    }      
+  },
+ 
 
     //Locale-switcher
     "locale-switcher#mobile__header--locale":{

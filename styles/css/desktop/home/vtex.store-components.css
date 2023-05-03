@@ -28,14 +28,38 @@
     height: 25px;
 }
 
+.searchIcon--header__search--modal{       
+    width: 25px;
+    height: 25px;  
+    position: absolute;
+    margin-left: -11.5rem; 
+}
+
 .searchBarContainer {
     padding-top: 0.6rem !important; 
     border-radius: 6px;    
     width: 180px !important;      
 }
 
+.searchBarInnerContainer--header__search--modal{
+    margin-left: 2rem;
+}
+
 .paddingInput--desktop__header--search{
     padding-right: 20px;
+}
+
+.autoCompleteOuterContainer--header__search--modal :first-child{
+    border: none;     
+    padding-top: 1px;     
+}
+
+
+
+
+.infoCardContainer--desktop__infocard--blog, .infoCardContainer--desktop_infocard--best-seller{
+    border-bottom: none;
+
 }
 
 .infoCardHeadline--desktop__infocard--best-seller{

@@ -1,5 +1,5 @@
 {
-  /* "flex-layout.row#phone__home--section-1": {
+  "flex-layout.row#phone__home--section-1": {
     "title": "phone Row with elements part 1",
     "children": [
       "flex-layout.col#phone__home--section-1"      
@@ -14,12 +14,18 @@
     "title":"Elements container section one",
     "children":[
       "image#phone__home--image-one",
-      "rich-text#phone__home--text-one",
-      "flex-layout.row#phone__home--one-imgs",
-      "flex-layout.row#phone__home--two-imgs",
-      "flex-layout.row#phone__home--three-imgs",
-      "flex-layout.row#phone__home--four-imgs",
-      "flex-layout.row#phone__home--five-img",
+      "flex-layout.row#phone__home--text",
+      "image#phone__home--image-two",
+      "image#phone__home--image-three",
+      "image#phone__home--image-four",
+      "image#phone__home--image-five",
+      "image#phone__home--image-six",
+      "image#phone__home--image-seven",
+      "image#phone__home--image-eight",
+      "image#phone__home--image-nine",
+      "image#phone__home--image-ten",
+      "image#phone__home--image-eleven",
+      "image#phone__home--image-twelve",  
       "info-card#phone__home--best-seller"
     ],
     "props":{
@@ -30,38 +36,48 @@
   "image#phone__home--image-one": {
     "title":"Image home one",
     "props":{
-      "blockClass":"phone__home--image-one",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-one.jpg",        
       "link":{
         "url":"/"
       }
     }
   },
-  "rich-text#phone__home--text-one":{
+  "flex-layout.row#phone__home--text":{
+    "children":["flex-layout.col#phone__home--text-col"],   
+    "props":{
+      "blockClass":"phone__home--text-container"      
+    }
+  },
+  "flex-layout.col#phone__home--text-col":{
+    "children":[
+      "rich-text#phone__home--text-1",
+      "rich-text#phone__home--text-2"
+    ]
+  },
+  "rich-text#phone__home--text-1":{
     "title":"rich-text home one ",
       "props":{
-        "blockClass":"phone__home--text-one",
+        "blockClass":"phone__home--text-1",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"Ropa interior femenina y fajas de alta tecnología que funcionan de verdad"
+        "text":"Ropa interior femenina y fajas de alta tecnología"
       }
   },
-
-  "flex-layout.row#phone__home--one-imgs":{
-    "title":"Home image container one",
-    "children":[      
-      "image#phone__home--image-two",
-      "image#phone__home--image-three"
-    ],
-    "props":{
-      "blockClass":"image__container--one"
-    }
-    
-  },
+  "rich-text#phone__home--text-2":{
+    "title":"rich-text home one ",
+      "props":{
+        "blockClass":"phone__home--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"que funcionan de verdad"
+      }
+  },  
+  
   "image#phone__home--image-two":{
     "title":"Image home two",
     "props":{
-      "blockClass":"phone__home--image-two",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-two.jpg",          
       "link":{
         "url":"/"
@@ -71,29 +87,18 @@
   "image#phone__home--image-three":{
     "title":"Image home three",
     "props":{
-      "blockClass":"phone__home--image-three",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-three.jpg",          
       "link":{
         "url":"/"
       }
     }
   },
-  "flex-layout.row#phone__home--two-imgs":{
-    "title":"Home image container two",
-    "children":[      
-      "image#phone__home--image-four",
-      "image#phone__home--image-five",
-      "image#phone__home--image-six"
-    ],
-    "props":{
-      "blockClass":"image__container--two"
-    }
-   
-  },
+  
   "image#phone__home--image-four":{
     "title":"Image home four",
     "props":{
-      "blockClass":"phone__home--image-four",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-four.jpg",          
       "link":{
         "url":"/"
@@ -103,7 +108,7 @@
   "image#phone__home--image-five":{
     "title":"Image home five",
     "props":{
-      "blockClass":"phone__home--image-five",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-five.jpg",          
       "link":{
         "url":"/"
@@ -113,28 +118,17 @@
   "image#phone__home--image-six":{
     "title":"Image home six",
     "props":{
-      "blockClass":"phone__home--image-six",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-six.jpg",          
       "link":{
         "url":"/"
       }
     }
-  },
-
-  "flex-layout.row#phone__home--three-imgs":{
-    "title":"Home image container three",
-    "children":[      
-      "image#phone__home--image-seven",
-      "image#phone__home--image-eight"
-    ],
-    "props":{
-      "blockClass":"image__container--three"
-    }
-  },
+  }, 
   "image#phone__home--image-seven":{
     "title":"Image home seven",
     "props":{
-      "blockClass":"phone__home--image-seven",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-seven.jpg",          
       "link":{
         "url":"/"
@@ -144,28 +138,17 @@
   "image#phone__home--image-eight":{
     "title":"Image home eight",
     "props":{
-      "blockClass":"phone__home--image-eight",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-eight.jpg",          
       "link":{
         "url":"/"
       }
     }
   },
-  "flex-layout.row#phone__home--four-imgs":{
-    "title":"Home image container four",
-    "children":[      
-      "image#phone__home--image-nine",
-      "image#phone__home--image-ten",
-      "image#phone__home--image-eleven"
-    ],
-    "props":{
-      "blockClass":"image__container--four"
-    }
-  },
   "image#phone__home--image-nine":{
     "title":"Image home nine",
     "props":{
-      "blockClass":"phone__home--image-nine",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-nine.jpg",          
       "link":{
         "url":"/"
@@ -175,7 +158,7 @@
   "image#phone__home--image-ten":{
     "title":"Image home ten",
     "props":{
-      "blockClass":"phone__home--image-ten",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-ten.jpg",          
       "link":{
         "url":"/"
@@ -185,31 +168,23 @@
   "image#phone__home--image-eleven":{
     "title":"Image home eleven",
     "props":{
-      "blockClass":"phone__home--image-eleven",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-eleven.jpg",          
       "link":{
         "url":"/"
       }
     }
-  },
-  "flex-layout.row#phone__home--five-img":{
-    "title":"Home image container five",
-    "children":["image#phone__home--image-twelve"],
-    "props":{
-      "blockClass":"image__container--five"
-    }
-  },
+  }, 
   "image#phone__home--image-twelve":{
     "title":"Image home twelve",
     "props":{
-      "blockClass":"phone__home--image-twelve",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-twelve.jpg",          
       "link":{
         "url":"/"
       }
     }
   },
-
   "info-card#phone__home--best-seller":{
     "title":"Info-car for best seller",
     "props": {
@@ -223,7 +198,6 @@
       "textAlignment": "center"
     }
   },
-
   "flex-layout.row#phone__home--section-2":{
     "title": "phone Row with elements part 2",
     "children": [
@@ -237,36 +211,33 @@
   "flex-layout.col#phone__home--section-2":{
     "title":"Elements container section two",
     "children":[      
-      "flex-layout.row#phone__home--six-imgs",
-      "flex-layout.row#phone__home--seven-imgs",
+      "image#phone__home--image-thirteen",
+      "image#phone__home--image-fourteen",
+      "image#phone__home--image-fifteen",      
       "rich-text#phone__home--text-two",
-      "flex-layout.row#phone__home--eight-imgs",
-      "flex-layout.row#phone__home--nine-imgs",
-      "flex-layout.row#phone__home--ten-imgs",
-      "slider-layout#home__slider--children",
+      "image#phone__home--image-sixteen",
+      "image#phone__home--image-seventeen",
+      "image#phone__home--image-eighteen",
+      "image#phone__home--image-nineteen",     
+      "slider-layout#phone__home--slider",
       "rich-text#phone__home--text-three",
-      "flex-layout.row#phone__home--eleven-imgs",
+      "image#phone__home--lqs-one",
+      "image#phone__home--lqs-two",
+      "image#phone__home--lqs-three",
+      "image#phone__home--lqs-four",     
       "info-card#phone__home--blog",
-      "flex-layout.row#phone__home--twelve-imgs"      
+      "image#phone__home--blog-one",
+      "image#phone__home--blog-two",
+      "image#phone__home--blog-three" 
     ],
     "props":{
       "blockClass":"home__section--two-cotainer"
     }
-  },  
-  "flex-layout.row#phone__home--six-imgs":{
-    "title":"Home image container six",
-    "children":[
-      "image#phone__home--image-thirteen",
-      "image#phone__home--image-fourteen"
-    ],
-    "props":{
-      "blockClass":"image__container--six"
-    }
-  },
+  },   
   "image#phone__home--image-thirteen":{
     "title":"Image home thirteen",
     "props":{
-      "blockClass":"phone__home--image-thirteen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-thirteen.jpg",          
       "link":{
         "url":"/"
@@ -276,24 +247,17 @@
   "image#phone__home--image-fourteen":{
     "title":"Image home fourteen",
     "props":{
-      "blockClass":"phone__home--image-fourteen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-fourteen.jpg",          
       "link":{
         "url":"/"
       }
     }
   },
-  "flex-layout.row#phone__home--seven-imgs" :{
-    "title":"Home image container seven",
-    "children":["image#phone__home--image-fifteen"],
-    "props":{
-      "blockClass":"image__container--seven"
-    }
-  },
   "image#phone__home--image-fifteen":{
     "title":"Image home fifteen",
     "props":{
-      "blockClass":"phone__home--image-fifteen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-fifteen.jpg",          
       "link":{
         "url":"/"
@@ -308,21 +272,11 @@
         "textPosition": "CENTER",
         "text":"Una experiencia de compra única"
       }
-  },
-  "flex-layout.row#phone__home--eight-imgs":{
-    "title":"Home image container eight",
-    "children":[
-      "image#phone__home--image-sixteen",
-      "image#phone__home--image-seventeen"
-    ],
-    "props":{
-      "blockClass":"image__container--eight"
-    }
-  },
+  },  
   "image#phone__home--image-sixteen":{
     "title":"Image home sixteen",
     "props":{
-      "blockClass":"phone__home--image-sixteen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-sixteen.jpg",          
       "link":{
         "url":"/"
@@ -332,127 +286,104 @@
   "image#phone__home--image-seventeen":{
     "title":"Image home seventeen",
     "props":{
-      "blockClass":"phone__home--image-seventeen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-seventeen.jpg",          
       "link":{
         "url":"/"
       }
     }
-  },
-  "flex-layout.row#phone__home--nine-imgs":{
-    "title":"Home image container nine",
-    "children":["image#phone__home--image-eighteen"],
-    "props":{
-      "blockClass":"image__container--nine"
-    }
-  },
+  }, 
   "image#phone__home--image-eighteen":{
     "title":"Image home eighteen",
     "props":{
-      "blockClass":"phone__home--image-eighteen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-eighteen.jpg",          
       "link":{
         "url":"/"
       }
     }
-  },
-  "flex-layout.row#phone__home--ten-imgs":{
-    "title":"Home image container ten",
-    "children":["image#phone__home--image-nineteen"],
-    "props":{
-      "blockClass":"image__container--ten"
-    }
-  },
+  }, 
   "image#phone__home--image-nineteen":{
     "title":"Image home nineteen",
     "props":{
-      "blockClass":"phone__home--image-nineteen",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-nineteen.jpg"      
     }
   },
 
-  "slider-layout#home__slider--children":{
-    "title": "Slider-layout IG",
+  "slider-layout#phone__home--slider":{
+    "title": "Slider-layout IG phone view",
     "props":{
       "showPaginationDots": "never", 
       "itemsPerPage":{
         "desktop":5,
-        "tablet":3,
+        "tablet":2,
         "phone":1
       },
       "infinite": true,
-      "blockClass": "home__slider--one"
-      
+      "blockClass": "home__slider--one"      
     },
     "children":[
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three",
-      "image#home__slider--four",
-      "image#home__slider--five",
-      "image#home__slider--six",
-      "image#home__slider--seven",
-      "image#home__slider--eight",
-      "image#home__slider--nine",
-      "image#home__slider--ten"          
+      "image#home__phone--slider-one",
+      "image#home__phone--slider-two",
+      "image#home__phone--slider-three",
+      "image#home__phone--slider-four",
+      "image#home__phone--slider-five",
+      "image#home__phone--slider-six",
+      "image#home__phone--slider-seven",
+      "image#home__phone--slider-eight",
+      "image#home__phone--slider-nine",
+      "image#home__phone--slider-ten"          
     ]
   },
 
-  "image#home__slider--one": {
+  "image#home__phone--slider-one": {
     "props":{
       "src":"assets/img/home/slider/slide-img-1.jpg"
     }
-
   },
-  "image#home__slider--two": {
+  "image#home__phone--slider-two": {
     "props":{
       "src":"assets/img/home/slider/slide-img-2.jpg"     
-    }
-    
+    }    
   },
-  "image#home__slider--three": {
+  "image#home__phone--slider-three": {
     "props":{
       "src":"assets/img/home/slider/slide-img-3.jpg"     
     }    
   },
-
-  "image#home__slider--four": {
+  "image#home__phone--slider-four": {
     "props":{
       "src":"assets/img/home/slider/slide-img-4.jpg"
     }
   },
-
-  "image#home__slider--five": {
+  "image#home__phone--slider-five": {
     "props":{
       "src":"assets/img/home/slider/slide-img-5.jpg"
     }
   },
 
-  "image#home__slider--six": {
+  "image#home__phone--slider-six": {
     "props":{
       "src":"assets/img/home/slider/slide-img-6.jpg"
     }
   },
-
-  "image#home__slider--seven": {
+  "image#home__phone--slider-seven": {
     "props":{
       "src":"assets/img/home/slider/slide-img-7.jpg"
     }
   },
-
-  "image#home__slider--eight": {
+  "image#home__phone--slider-eight": {
     "props":{
       "src":"assets/img/home/slider/slide-img-8.jpg"
     }
   },
-
-  "image#home__slider--nine": {
+  "image#home__phone--slider-nine": {
     "props":{
       "src":"assets/img/home/slider/slide-img-9.jpg"
     }
   },
-
-  "image#home__slider--ten": {
+  "image#home__phone--slider-ten": {
     "props":{
       "src":"assets/img/home/slider/slide-img-10.jpg"
     }
@@ -466,25 +397,12 @@
         "text":"Lo que somos"
       }
   },
-
-  "flex-layout.row#phone__home--eleven-imgs":{
-    "title":"Home image container eleven",
-    "children":[
-      "image#phone__home--lqs-one",
-      "image#phone__home--lqs-two",
-      "image#phone__home--lqs-three",
-      "image#phone__home--lqs-four"   
-    ],
-    "props":{
-      "horizontalAlign":"center",
-      "blockClass":"image__container--eleven"     
-    }
-  },
+  
   "image#phone__home--lqs-one":{
     "title":"Section What we are image one",
     "props":{
-      "blockClass":"phone__lqs--one",
-      "src":"assets/img/home/phone/lqs-one.jpg",          
+      "blockClass":"phone__lqs",
+      "src":"assets/img/home/tablet/lqs-one.jpg",          
       "link":{
         "url":"/"
       }
@@ -493,8 +411,8 @@
   "image#phone__home--lqs-two":{
     "title":"Section What we are image two",
     "props":{
-      "blockClass":"phone__lqs--two",
-      "src":"assets/img/home/phone/lqs-two.jpg",          
+      "blockClass":"phone__lqs",
+      "src":"assets/img/home/tablet/lqs-two.jpg",          
       "link":{
         "url":"/"
       }
@@ -503,8 +421,8 @@
   "image#phone__home--lqs-three":{
     "title":"Section What we are image three",
     "props":{
-      "blockClass":"phone__lqs--three",
-      "src":"assets/img/home/phone/lqs-three.jpg",          
+      "blockClass":"phone__lqs",
+      "src":"assets/img/home/tablet/lqs-three.jpg",          
       "link":{
         "url":"/"
       }
@@ -513,8 +431,8 @@
   "image#phone__home--lqs-four":{
     "title":"Section What we are image four",
     "props":{
-      "blockClass":"phone__lqs--four",
-      "src":"assets/img/home/phone/lqs-four.jpg",          
+      "blockClass":"phone__lqs",
+      "src":"assets/img/home/tablet/lqs-one.jpg",          
       "link":{
         "url":"/"
       }
@@ -534,17 +452,7 @@
       "textAlignment": "center"
     }
   },
-  "flex-layout.row#phone__home--twelve-imgs":{
-    "title":"Home image container twelve",
-    "children":[
-      "image#phone__home--blog-one",
-      "image#phone__home--blog-two",
-      "image#phone__home--blog-three"  
-    ],
-    "props":{      
-      "blockClass":"image__container--twelve"     
-    }
-  },
+  
   "image#phone__home--blog-one":{
     "title":"Section Leonisa blog image one",
     "props":{
@@ -572,5 +480,5 @@
         "url":"/"
       }
     }
-  } */
+  }
 }

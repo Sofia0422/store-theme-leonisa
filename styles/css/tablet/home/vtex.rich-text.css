@@ -1,0 +1,28 @@
+.container--tablet__home--text-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container--tablet__home--text-2 {
+    margin-bottom:  50px;
+}
+
+
+.paragraph--tablet__home--text-1, .paragraph--tablet__home--text-2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 0.3;
+}
+
+.container--tablet__home--text-two {
+    margin: 20px 0 !important;
+}
+
+.container--tablet__home--text-three{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.paragraph--tablet__home--text-two, .paragraph--tablet__home--text-three{
+    font-size: 19px;
+    font-weight: 700;
+}
