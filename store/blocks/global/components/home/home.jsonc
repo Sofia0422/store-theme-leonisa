@@ -1,6 +1,6 @@
 {      
 
-//custom query
+/* //custom query
   "flex-layout.row#home__custom-query--global": {
     "title": "Home section global custom query",
     "children": [
@@ -86,7 +86,7 @@
       "showNavigationArrows":"always"
     }
   }
-
+ */
   
 }
 

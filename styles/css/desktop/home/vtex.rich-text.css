@@ -44,3 +44,27 @@
     font-weight: 700;
 }
 
+.container--desktop__shipment--text-1, .container--desktop__change--text-1, .container--desktop__order--text-1, .container--desktop__advisory--text-1{
+    margin: 0 0 15px;    
+}
+
+/* .container--desktop__shipment--text-1, .container--desktop__change--text-1{
+    padding: 0 1rem;
+}
+.container--desktop__change--text-1{
+    padding: 0 0.5rem;
+} */
+
+.link--desktop__shipment--text-1, .link--desktop__change--text-1, .link--desktop__order--text-1, .link--desktop__advisory--text-1{
+    color: #2a2c29;  
+    text-decoration: none;
+}
+
+.link--desktop__shipment--text-2{
+    color: #2a2c29;  
+}
+
+
+
+
+

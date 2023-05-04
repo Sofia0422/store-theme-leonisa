@@ -12,10 +12,8 @@
 
 .styledLinkContainer--desktop__menu_department:hover{  
   border-bottom: 2px solid #2a2c29;  
-  animation: grow 5s linear;
-  animation-fill-mode: forwards;
+  transition: transform .3s ease-in-out;
 }
-
 
 .menuContainerNav--desktop__header_department{
   display: flex;

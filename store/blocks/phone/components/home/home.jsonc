@@ -208,6 +208,68 @@
       "blockClass":"home__section--two"     
     }
   },
+
+
+   //custom query
+   "flex-layout.row#home__custom-query--phone": {
+    "title": "Home section phone custom query",
+    "children": [
+      "search-result-layout.customQuery#phone__search"
+    ]
+  },
+  "search-result-layout.customQuery#phone__search":{         
+      "props":{
+        "queySchema":{
+          "skusFilter": "ALL",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks":[       
+        "search-result-layout.mobile#phone__home--search"        
+      ]  
+  },
+  "search-result-layout.mobile#phone__home--search":{
+    "children":[
+      "flex-layout.row#home__search--results"  
+    ]
+  },
+  
+  //productsummarylist
+
+  "flex-layout.row#home__product-summary--phone":{
+    "title": "Home section phone productSummaryList",
+    "children":[      
+      "list-context.product-list#phone__list--product"
+    ]
+  },
+  "product-summary.shelf#phone__list--product": {
+    "children": [      
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#phone__list--product": {
+    "blocks": ["product-summary.shelf#phone__list--product"],
+    "children": ["slider-layout#phone__list--product"],
+    "props" :{
+      "collection":"145"}    
+  },
+
+  "slider-layout#phone__list--product":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":4,
+        "tablet":2,
+        "phone":1        
+      },
+      "showNavigationArrows":"always"
+    }
+  },
+
+
   "flex-layout.col#phone__home--section-2":{
     "title":"Elements container section two",
     "children":[      
@@ -314,7 +376,8 @@
   "slider-layout#phone__home--slider":{
     "title": "Slider-layout IG phone view",
     "props":{
-      "showPaginationDots": "never", 
+      "showPaginationDots": "never",
+      "arrowSize":12, 
       "itemsPerPage":{
         "desktop":5,
         "tablet":2,

@@ -127,7 +127,7 @@
   //Locale-switcher
   "locale-switcher#desktop__header--locale":{
     "props":{
-      "blockClass":"header__locale--icon"
+      "blockClass":"desktop__locale--icon"
     }
   },
 
@@ -141,7 +141,7 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,      
-      "blockClass":"header__login--icon"
+      "blockClass":"desktop__login--icon"
     }
   }
     

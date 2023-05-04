@@ -208,6 +208,68 @@
       "blockClass":"home__section--two"     
     }
   },
+
+  //custom query
+  "flex-layout.row#home__custom-query--tablet": {
+    "title": "Home section tablet custom query",
+    "children": [
+      "search-result-layout.customQuery#tablet__search"
+    ]
+  },
+  "search-result-layout.customQuery#tablet__search":{         
+      "props":{
+        "queySchema":{
+          "skusFilter": "ALL",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks":[       
+        "search-result-layout.mobile#tablet__home--search"        
+      ]  
+  },
+  "search-result-layout.mobile#tablet__home--search":{
+    "children":[
+      "flex-layout.row#home__search--results"  
+    ]
+  },
+  
+  //productsummarylist
+
+  "flex-layout.row#home__product-summary--tablet":{
+    "title": "Home section tablet productSummaryList",
+    "children":[      
+      "list-context.product-list#tablet__list--product"
+    ]
+  },
+  "product-summary.shelf#tablet__list--product": {
+    "children": [      
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#tablet__list--product": {
+    "blocks": ["product-summary.shelf#tablet__list--product"],
+    "children": ["slider-layout#tablet__list--product"],
+    "props" :{
+      "collection":"145"}    
+  },
+
+  "slider-layout#tablet__list--product":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":4,
+        "tablet":2,
+        "phone":1        
+      },
+      "showNavigationArrows":"always"
+    }
+  },
+
+
+
   "flex-layout.col#tablet__home--section-2":{
     "title":"Elements container section two",
     "children":[      
@@ -215,6 +277,9 @@
       "image#tablet__home--image-fourteen",
       "image#tablet__home--image-fifteen",      
       "rich-text#tablet__home--text-two",
+      "flex-layout.row#tablet__home--experience",
+
+
       "image#tablet__home--image-sixteen",
       "image#tablet__home--image-seventeen",
       "image#tablet__home--image-eighteen",
@@ -273,6 +338,155 @@
         "text":"Una experiencia de compra única"
       }
   },  
+
+
+  "flex-layout.row#tablet__home--experience":{
+    "children":[
+      "flex-layout.col#tablet__experience--shipment",
+      "flex-layout.col#tablet__experience--change",
+      "flex-layout.col#tablet__experience--order",
+      "flex-layout.col#tablet__experience--advisory"
+    ],
+    "props":{
+      "blockClass":"tablet__experience--container-row"
+    }
+  },
+
+  "flex-layout.col#tablet__experience--shipment":{
+    "children":[
+      "image#tablet__experience--shipment",
+      "rich-text#tablet__experience--shipment",
+      "rich-text#tablet__experience--general"      
+    ],
+    "props":{
+      "blockClass":"tablet__experience--shipment-col"
+    }
+  },
+  "image#tablet__experience--shipment":{
+    "title":"Shipment image in experience section tablet view",
+    "props":{
+      "blockClass":"tablet__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-envios_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#tablet__experience--shipment":{
+    "title":"First Shipment rich-text in experience section tablet view",
+      "props":{
+        "blockClass":"tablet__shipment--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Recibe **envío GRATIS** comprando $60.000 o más"
+      }
+  },
+  "rich-text#tablet__experience--general":{
+    "title":"Second Shipment rich-text in experience section tablet view",
+      "props":{
+        "blockClass":"tablet__shipment--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  }, 
+
+
+  "flex-layout.col#tablet__experience--change":{
+    "children":[
+      "image#tablet__experience--change",
+      "rich-text#tablet__experience--change",
+      "rich-text#tablet__experience--general"      
+    ],
+    "props":{
+      "blockClass":"tablet__experience--change-col"
+    }
+  },
+  "image#tablet__experience--change":{
+    "title":"Change image in experience section tablet view",
+    "props":{
+      "blockClass":"tablet__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-cambia-devuelve_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#tablet__experience--change":{
+    "title":"First change rich-text in experience section tablet view",
+      "props":{
+        "blockClass":"tablet__change--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**Cambia o devuelve** sin complicaciones"
+      }
+  },  
+
+  "flex-layout.col#tablet__experience--order":{
+    "children":[
+      "image#tablet__experience--order",
+      "rich-text#tablet__experience--order",
+      "rich-text#tablet__experience--general"      
+    ],
+    "props":{
+      "blockClass":"tablet__experience--order-col"
+    }
+  },
+  "image#tablet__experience--order":{
+    "title":"Order image in experience section tablet view",
+    "props":{
+      "blockClass":"tablet__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-estado-orden_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#tablet__experience--order":{
+    "title":"First order rich-text in experience section tablet view",
+      "props":{
+        "blockClass":"tablet__order--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Consulta fácilmente el **estado de tu orden**"
+      }
+  },  
+  "flex-layout.col#tablet__experience--advisory":{
+    "children":[
+      "image#tablet__experience--advisory",
+      "rich-text#tablet__experience--advisory",
+      "rich-text#tablet__experience--general"      
+    ],
+    "props":{
+      "blockClass":"tablet__experience--advisory-col"
+    }
+  },
+  "image#tablet__experience--advisory":{
+    "title":"Advisory image in experience section tablet view",
+    "props":{
+      "blockClass":"tablet__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-contactanos_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#tablet__experience--advisory":{
+    "title":"First advisory rich-text in experience section",
+      "props":{
+        "blockClass":"tablet__advisory--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"**Déjanos asesorarte,** comunícate con nosotros"
+      }
+  }, 
+
+
+
+
+
+
+
   "image#tablet__home--image-sixteen":{
     "title":"Image home sixteen",
     "props":{
@@ -314,7 +528,8 @@
   "slider-layout#tablet__home--slider":{
     "title": "Slider-layout IG tablet view",
     "props":{
-      "showPaginationDots": "never", 
+      "showPaginationDots": "never",
+      "arrowSize":13, 
       "itemsPerPage":{
         "desktop":5,
         "tablet":2,

@@ -150,37 +150,53 @@
   //mega-menu icons
   "flex-layout.row#megamenu__icons--container":{
     "children":[
-      "icon#mobile__megamenu--icon-insta",
-      "icon#mobile__megamenu--icon-face",
-      "icon#mobile__megamenu--icon-yout",
-      "icon#mobile__megamenu--icon-pint"
+      "image#mobile__megamenu--icon-insta",
+      "image#mobile__megamenu--icon-face",
+      "image#mobile__megamenu--icon-yout",
+      "image#mobile__megamenu--icon-pint"
     ],
     "props":{
       "blockClass":"megamenu__icons--container"
     }
   },
-  "icon#mobile__megamenu--icon-insta":{
+  "image#mobile__megamenu--icon-insta":{
+    "title":"Icon instagram in mega-menu",
     "props":{
-      "id": "mega-instagram",
-      "size":20 
-    }  
+      "blockClass":"megamenu__icon--general",
+      "src":"assets/img/header/iconos-mega-menu/instagram-icon.svg",          
+      "link":{
+        "url":"https://www.instagram.com/"
+      }
+    } 
   },
-  "icon#mobile__megamenu--icon-face":{
+  "image#mobile__megamenu--icon-face":{
+    "title":"Icon facebook in mega-menu",
     "props":{
-      "id": "mega-facebook",
-      "size":20 
+      "blockClass":"megamenu__icon--general",
+      "src":"assets/img/header/iconos-mega-menu/fb-icon.svg",          
+      "link":{
+        "url":"https://es-la.facebook.com/"
+      }
+    }       
+  },
+  "image#mobile__megamenu--icon-yout":{
+    "title":"Icon youtube in mega-menu",
+    "props":{
+      "blockClass":"megamenu__icon--general",
+      "src":"assets/img/header/iconos-mega-menu/youtube-icon.svg",          
+      "link":{
+        "url":"https://www.youtube.com/"
+      }
     }      
   },
-  "icon#mobile__megamenu--icon-yout":{
+  "image#mobile__megamenu--icon-pint":{
+    "title":"Icon pinterest in mega-menu",
     "props":{
-      "id": "mega-youtube",
-      "size":20 
-    }      
-  },
-  "icon#mobile__megamenu--icon-pint":{
-    "props":{
-      "id": "mega-pinterest",
-      "size":20 
+      "blockClass":"megamenu__icon--general",
+      "src":"assets/img/header/iconos-mega-menu/pinterest-icon.svg",          
+      "link":{
+        "url":"https://co.pinterest.com/"
+      }
     }      
   },
  
@@ -188,7 +204,7 @@
     //Locale-switcher
     "locale-switcher#mobile__header--locale":{
       "props":{
-        "blockClass":"header__locale--icon"
+        "blockClass":"mobile__locale--icon"
       }
     },
   
@@ -202,7 +218,7 @@
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
           "showIconProfile": true,
-          "blockClass":"header__login--icon"
+          "blockClass":"mobile__login--icon"
         }
       }      
 }

@@ -4,11 +4,7 @@
     justify-content:right;
 }
 
-/* .caretIcon--home__slider--one{
-    background-color: #ffffff;
-    background-size: 100px;    
-}
- */
+
 .sliderArrows--home__slider--one{
     top: 50%;
     cursor: pointer;

@@ -255,12 +255,97 @@
       "blockClass":"home__section--two"     
     }
   },
+
+  //custom query
+  "flex-layout.row#home__custom-query--desktop": {
+    "title": "Home section desktop custom query",
+    "children": [
+      "search-result-layout.customQuery#desktop__search"
+    ]
+  },
+  "search-result-layout.customQuery#desktop__search":{         
+      "props":{
+        "queySchema":{
+          "skusFilter": "ALL",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks":[
+        "search-result-layout.desktop#desktop__home--search"     
+      ]  
+  },
+  "search-result-layout.desktop#desktop__home--search":{
+    "children":[    
+      "flex-layout.row#home__search--results"      
+    ]
+  },
+  
+  "flex-layout.row#home__search--results":{
+    "children":[      
+      "flex-layout.col#home__results--search"
+    ]
+  },  
+  "flex-layout.col#home__results--search":{
+    "children":[
+      "search-content#home__results--search"
+    ]
+  },
+  "search-content#home__results--search":{
+    "blocks":[
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery":{
+    "blocks":["product-summary.shelf"]
+  },
+ 
+
+  //productsummarylist
+
+  "flex-layout.row#home__product-summary--desktop":{
+    "title": "Home section desktop productSummaryList",
+    "children":[      
+      "list-context.product-list#desktop__list--product"
+    ]
+  },
+  "product-summary.shelf#desktop__list--product": {
+    "children": [      
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#desktop__list--product": {
+    "blocks": ["product-summary.shelf#desktop__list--product"],
+    "children": ["slider-layout#desktop__list--product"],
+    "props" :{
+      "collection":"145"}    
+  },
+
+  "slider-layout#desktop__list--product":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":4,
+        "tablet":2,
+        "phone":1        
+      },
+      "showNavigationArrows":"always"
+    }
+  },
+
+
   "flex-layout.col#desktop__home--section-2":{
     "title":"Elements container section two",
     "children":[      
       "flex-layout.row#desktop__home--six-imgs",
       "flex-layout.row#desktop__home--seven-imgs",
       "rich-text#desktop__home--text-two",
+      "flex-layout.row#desktop__home--experience",
+
+
       "flex-layout.row#desktop__home--eight-imgs",
       "flex-layout.row#desktop__home--nine-imgs",
       "flex-layout.row#desktop__home--ten-imgs",
@@ -330,6 +415,149 @@
         "text":"Una experiencia de compra única"
       }
   },
+
+  "flex-layout.row#desktop__home--experience":{
+    "children":[
+      "flex-layout.col#desktop__experience--shipment",
+      "flex-layout.col#desktop__experience--change",
+      "flex-layout.col#desktop__experience--order",
+      "flex-layout.col#desktop__experience--advisory"
+    ],
+    "props":{
+      "blockClass":"desktop__experience--container-row"
+    }
+  },
+
+  "flex-layout.col#desktop__experience--shipment":{
+    "children":[
+      "image#desktop__experience--shipment",
+      "rich-text#desktop__experience--shipment",
+      "rich-text#desktop__experience--general"      
+    ],
+    "props":{
+      "blockClass":"desktop__experience--shipment-col"
+    }
+  },
+  "image#desktop__experience--shipment":{
+    "title":"Shipment image in experience section",
+    "props":{
+      "blockClass":"desktop__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-envios_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#desktop__experience--shipment":{
+    "title":"First Shipment rich-text in experience section",
+      "props":{
+        "blockClass":"desktop__shipment--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Recibe **envío GRATIS** comprando $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  },
+  "rich-text#desktop__experience--general":{
+    "title":"Second Shipment rich-text in experience section",
+      "props":{
+        "blockClass":"desktop__shipment--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  }, 
+
+
+  "flex-layout.col#desktop__experience--change":{
+    "children":[
+      "image#desktop__experience--change",
+      "rich-text#desktop__experience--change",
+      "rich-text#desktop__experience--general"      
+    ],
+    "props":{
+      "blockClass":"desktop__experience--change-col"
+    }
+  },
+  "image#desktop__experience--change":{
+    "title":"Change image in experience section",
+    "props":{
+      "blockClass":"desktop__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-cambia-devuelve_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#desktop__experience--change":{
+    "title":"First change rich-text in experience section",
+      "props":{
+        "blockClass":"desktop__change--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[**Cambia o devuelve** sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  },  
+
+  "flex-layout.col#desktop__experience--order":{
+    "children":[
+      "image#desktop__experience--order",
+      "rich-text#desktop__experience--order",
+      "rich-text#desktop__experience--general"      
+    ],
+    "props":{
+      "blockClass":"desktop__experience--order-col"
+    }
+  },
+  "image#desktop__experience--order":{
+    "title":"Order image in experience section",
+    "props":{
+      "blockClass":"desktop__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-estado-orden_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#desktop__experience--order":{
+    "title":"First order rich-text in experience section",
+      "props":{
+        "blockClass":"desktop__order--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Consulta fácilmente el **estado de tu orden**](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  },  
+  "flex-layout.col#desktop__experience--advisory":{
+    "children":[
+      "image#desktop__experience--advisory",
+      "rich-text#desktop__experience--advisory",
+      "rich-text#desktop__experience--general"      
+    ],
+    "props":{
+      "blockClass":"desktop__experience--advisory-col"
+    }
+  },
+  "image#desktop__experience--advisory":{
+    "title":"Advisory image in experience section",
+    "props":{
+      "blockClass":"desktop__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-contactanos_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#desktop__experience--advisory":{
+    "title":"First advisory rich-text in experience section",
+      "props":{
+        "blockClass":"desktop__advisory--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[**Déjanos asesorarte,** comunícate con nosotros](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  }, 
+
+
   "flex-layout.row#desktop__home--eight-imgs":{
     "title":"Home image container eight",
     "children":[
@@ -421,61 +649,101 @@
 
   "image#home__desktop--slider-one": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-1.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-1.jpg",
+      "link":{
+        "url":"/"
+      }
     }
 
   },
   "image#home__desktop--slider-two": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-2.jpg"     
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-2.jpg",
+      "link":{
+        "url":"/"
+      }     
     }
     
   },
   "image#home__desktop--slider-three": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-3.jpg"     
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-3.jpg",
+      "link":{
+        "url":"/"
+      }     
     }    
   },
 
   "image#home__desktop--slider-four": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-4.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-4.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
 
   "image#home__desktop--slider-five": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-5.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-5.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
 
   "image#home__desktop--slider-six": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-6.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-6.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
 
   "image#home__desktop--slider-seven": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-7.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-7.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
 
   "image#home__desktop--slider-eight": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-8.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-8.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
 
   "image#home__desktop--slider-nine": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-9.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-9.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
 
   "image#home__desktop--slider-ten": {
     "props":{
-      "src":"assets/img/home/slider/slide-img-10.jpg"
+      "blockClass": "desktop__slider--img",
+      "src":"assets/img/home/slider/slide-img-10.jpg",
+      "link":{
+        "url":"/"
+      }
     }
   },
   "rich-text#desktop__home--text-three":{

@@ -54,6 +54,10 @@
     padding-top: 1px;     
 }
 
+.logoImage--desktop__header--logo{
+    width: 210px !important;
+    height: 50px;
+}
 
 
 
@@ -103,4 +107,25 @@
     font-size: 13px;
 }
 
+
+
+.imageElement--desktop__slider--img:hover{
+    color: #3c3a39;
+    transition: color 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: 0.8;
+    content: 'COMPRA ESTE LOOK';    
+}
+
+/* .imageElement--desktop__slider--img:hover{    
+    transition:opacity 0.5s ease 0s;
+    opacity: .8;
+}
+ */
+
+ .imageElement--desktop__experience--image{
+    width: 160px;
+    height: 160px;
+ }
 
