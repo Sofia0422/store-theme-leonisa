@@ -1,7 +1,7 @@
 {   
   "minicart.v2":{
     "props":{
-      "blockClass":"desktop__header_minicart",
+      "blockClass":"global__header_minicart",
       /* "MinicartIcon":"icon#home__orders_icon", */
       "variation:":"popup",
       "itemCountMode": "total",

@@ -10,7 +10,8 @@
       "sticky-layout#mobile__header_rows": {
         "title":"Header elements for mobile view",
         "props": {
-          "blockClass": "mobile__sticky_header"
+          "blockClass": "mobile__sticky_header",
+          "position": "top"
         },
         "children": [             
             "flex-layout.row#2-mobile__header_elements"           

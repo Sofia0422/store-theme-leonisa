@@ -28,14 +28,104 @@
     height: 25px;
 }
 
+.searchIcon--header__search--modal{       
+    width: 25px;
+    height: 25px;  
+    position: absolute;
+    margin-left: -11.5rem; 
+}
+
 .searchBarContainer {
     padding-top: 0.6rem !important; 
     border-radius: 6px;    
     width: 180px !important;      
 }
 
+.searchBarInnerContainer--header__search--modal{
+    margin-left: 2rem;
+}
+
 .paddingInput--desktop__header--search{
     padding-right: 20px;
 }
 
+.autoCompleteOuterContainer--header__search--modal :first-child{
+    border: none;     
+    padding-top: 1px;     
+}
+
+.logoImage--desktop__header--logo{
+    width: 210px !important;
+    height: 50px;
+}
+
+
+
+.infoCardContainer--desktop__infocard--blog, .infoCardContainer--desktop_infocard--best-seller{
+    border-bottom: none;
+
+}
+
+.infoCardHeadline--desktop__infocard--best-seller{
+    margin-top: 40px;
+}
+
+.infoCardHeadline--desktop__infocard--best-seller, .infoCardHeadline--desktop__infocard--blog{
+    font-size: 22px;
+    font-weight: 700;
+}
+.infoCardCallActionContainer--desktop__infocard--best-seller :global(.vtex-button){
+    background-color: transparent;
+    color: #2c2a29;
+    letter-spacing: 0.1rem;
+    border: 1px solid;
+    border-color: #2c2a29;
+    padding: 8px 14px !important;
+    min-width: 90px;
+    margin-top: -8px;
+}
+
+
+.infoCardCallActionContainer--desktop__infocard--best-seller :global(.vtex-button__label){
+    padding: 0 !important;
+    font-size: 13px;
+}
+
+.infoCardCallActionContainer--desktop__infocard--blog :global(.vtex-button){
+    background-color: transparent;
+    color: #2c2a29;
+    letter-spacing: 0.1rem;
+    border: 1px solid;
+    border-color: #2c2a29;
+    padding: 8px 14px !important;
+    min-width: 90px;
+    margin-top: -8px;
+}
+
+.infoCardCallActionContainer--desktop__infocard--blog :global(.vtex-button__label){
+    padding: 0 !important;
+    font-size: 13px;
+}
+
+
+
+.imageElement--desktop__slider--img:hover{
+    color: #3c3a39;
+    transition: color 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: 0.8;
+    content: 'COMPRA ESTE LOOK';    
+}
+
+/* .imageElement--desktop__slider--img:hover{    
+    transition:opacity 0.5s ease 0s;
+    opacity: .8;
+}
+ */
+
+ .imageElement--desktop__experience--image{
+    width: 160px;
+    height: 160px;
+ }
 

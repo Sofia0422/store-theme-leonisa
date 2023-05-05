@@ -1,6 +1,12 @@
 {
-  /* "responsive-layout.tablet#home__section-1": {
-    "title": "Section 1 Tablet Home",
-    "children": ["flex-layout.row#tablet__home__section-1"]
-  } */
+  "responsive-layout.tablet#home__sections":{
+    "title": "Home sections tablet ",
+    "children": [
+      "flex-layout.row#tablet__home--section-1",                
+      "flex-layout.row#home__product-summary--tablet",
+      /* "flex-layout.row#home__custom-query--tablet", */        
+      "flex-layout.row#tablet__home--section-2"
+    ]
+  }
+
 }
