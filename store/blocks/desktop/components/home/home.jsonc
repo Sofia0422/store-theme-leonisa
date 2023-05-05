@@ -252,11 +252,47 @@
     ],
     "props":{
       "fullWidth":true,
-      "blockClass":"home__section--two"     
+      "blockClass":"desktop__home--section-one"    
     }
   },
 
-  //custom query
+  //productsummarylist
+
+  "flex-layout.row#home__product-summary--desktop":{
+    "title": "Home section desktop productSummaryList",
+    "children":[      
+      "list-context.product-list#desktop__list--product"
+    ]
+  },
+  "product-summary.shelf#desktop__list--product": {
+    "children": [   
+      "product-summary-image",   
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "list-context.product-list#desktop__list--product": {
+    "blocks": ["product-summary.shelf#desktop__list--product"],
+    "children": ["slider-layout#desktop__list--product"],
+    "props" :{
+      "collection":"145"}    
+  },
+
+  "slider-layout#desktop__list--product":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":4,
+        "tablet":2,
+        "phone":1        
+      },
+      "showNavigationArrows":"always"
+    }
+  },
+
+ /*  //custom query
   "flex-layout.row#home__custom-query--desktop": {
     "title": "Home section desktop custom query",
     "children": [
@@ -298,43 +334,7 @@
   },
   "gallery":{
     "blocks":["product-summary.shelf"]
-  },
- 
-
-  //productsummarylist
-
-  "flex-layout.row#home__product-summary--desktop":{
-    "title": "Home section desktop productSummaryList",
-    "children":[      
-      "list-context.product-list#desktop__list--product"
-    ]
-  },
-  "product-summary.shelf#desktop__list--product": {
-    "children": [      
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
-  },
-  "list-context.product-list#desktop__list--product": {
-    "blocks": ["product-summary.shelf#desktop__list--product"],
-    "children": ["slider-layout#desktop__list--product"],
-    "props" :{
-      "collection":"145"}    
-  },
-
-  "slider-layout#desktop__list--product":{
-    "props":{
-      "itemsPerPage":{
-        "desktop":4,
-        "tablet":2,
-        "phone":1        
-      },
-      "showNavigationArrows":"always"
-    }
-  },
+  }, */ 
 
 
   "flex-layout.col#desktop__home--section-2":{
@@ -344,8 +344,6 @@
       "flex-layout.row#desktop__home--seven-imgs",
       "rich-text#desktop__home--text-two",
       "flex-layout.row#desktop__home--experience",
-
-
       "flex-layout.row#desktop__home--eight-imgs",
       "flex-layout.row#desktop__home--nine-imgs",
       "flex-layout.row#desktop__home--ten-imgs",
@@ -356,7 +354,7 @@
       "flex-layout.row#desktop__home--twelve-imgs"      
     ],
     "props":{
-      "blockClass":"home__section--two-cotainer"
+      "blockClass":"home__section--two-container"
     }
   },  
   "flex-layout.row#desktop__home--six-imgs":{
@@ -460,7 +458,7 @@
   "rich-text#desktop__experience--general":{
     "title":"Second Shipment rich-text in experience section",
       "props":{
-        "blockClass":"desktop__shipment--text-2",
+        "blockClass":"desktop__experience--text-2",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
@@ -826,13 +824,21 @@
   "flex-layout.row#desktop__home--twelve-imgs":{
     "title":"Home image container twelve",
     "children":[
-      "image#desktop__home--blog-one",
-      "image#desktop__home--blog-two",
-      "image#desktop__home--blog-three"  
+      "flex-layout.col#desktop__blog--one",
+      "flex-layout.col#desktop__blog--two",
+      "flex-layout.col#desktop__blog--three"       
     ],
     "props":{      
       "blockClass":"desktop__image--container-twelve"    
     }
+  },
+
+  "flex-layout.col#desktop__blog--one":{
+    "children":[
+      "image#desktop__home--blog-one",
+      "rich-text#desktop__blog-one--text-1",
+      "rich-text#desktop__blog-one--text-2"
+    ]
   },
   "image#desktop__home--blog-one":{
     "title":"Section Leonisa blog image one",
@@ -843,7 +849,34 @@
         "url":"/"
       }
     }
-  },"image#desktop__home--blog-two":{
+  },
+  "rich-text#desktop__blog-one--text-1":{
+    "title":"First blog rich-text in blog one Leonisa section",
+      "props":{
+        "blockClass":"desktop__blog-one--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[#SomosFamiliaLeonisa](https://developers.vtex.com/docs/guides/welcome) - 31 de agosto, 2020"
+      }
+  },
+  "rich-text#desktop__blog-one--text-2":{
+    "title":"Second blog rich-text in blog one Leonisa section",
+      "props":{
+        "blockClass":"desktop__blog-one--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Alimentáte De Manera Consciente"
+      }
+  },
+
+  "flex-layout.col#desktop__blog--two":{
+    "children":[
+      "image#desktop__home--blog-two",
+      "rich-text#desktop__blog-two--text-1",
+      "rich-text#desktop__blog-two--text-2"
+    ]
+  },
+  "image#desktop__home--blog-two":{
     "title":"Section Leonisa blog image two",
     "props":{
       "blockClass":"desktop__blog--two",
@@ -852,7 +885,34 @@
         "url":"/"
       }
     }
-  },"image#desktop__home--blog-three":{
+  },
+  "rich-text#desktop__blog-two--text-1":{
+    "title":"First blog rich-text in blog two Leonisa section",
+      "props":{
+        "blockClass":"desktop__blog-two--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[MODA Y TENDENCIAS](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+      }
+  },
+  "rich-text#desktop__blog-two--text-2":{
+    "title":"Second blog rich-text in blog two Leonisa section",
+      "props":{
+        "blockClass":"desktop__blog-two--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"8 Prendas Por Las Que Estabas Esperando"
+      }
+  },
+
+  "flex-layout.col#desktop__blog--three":{
+    "children":[
+      "image#desktop__home--blog-three",
+      "rich-text#desktop__blog-three--text-1",
+      "rich-text#desktop__blog-three--text-2"
+    ]
+  },  
+  "image#desktop__home--blog-three":{
     "title":"Section Leonisa blog image three",
     "props":{
       "blockClass":"desktop__blog--three",
@@ -861,5 +921,23 @@
         "url":"/"
       }
     }
+  },
+  "rich-text#desktop__blog-three--text-1":{
+    "title":"First blog rich-text in blog three Leonisa section",
+      "props":{
+        "blockClass":"desktop__blog-three--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[ESTILO DE VIDA](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+      }
+  },
+  "rich-text#desktop__blog-three--text-2":{
+    "title":"Second blog rich-text in blog three Leonisa section",
+      "props":{
+        "blockClass":"desktop__blog-three--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Multifunctional, Un Bra Para Toda Ocasión"
+      }
   }
 }

@@ -2,9 +2,9 @@
   "responsive-layout.phone#home__sections":{
     "title": "Home sections phone ",
     "children": [
-      "flex-layout.row#phone__home--section-1", 
-      "flex-layout.row#home__custom-query--phone",          
-      "flex-layout.row#home__product-summary--phone",       
+      "flex-layout.row#phone__home--section-1",
+      "flex-layout.row#home__product-summary--phone",  
+      /* "flex-layout.row#home__custom-query--phone", */            
       "flex-layout.row#phone__home--section-2"
     ]
   }

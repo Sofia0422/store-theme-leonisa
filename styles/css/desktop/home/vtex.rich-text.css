@@ -48,22 +48,38 @@
     margin: 0 0 15px;    
 }
 
-/* .container--desktop__shipment--text-1, .container--desktop__change--text-1{
-    padding: 0 1rem;
-}
-.container--desktop__change--text-1{
-    padding: 0 0.5rem;
-} */
 
 .link--desktop__shipment--text-1, .link--desktop__change--text-1, .link--desktop__order--text-1, .link--desktop__advisory--text-1{
     color: #2a2c29;  
     text-decoration: none;
 }
 
-.link--desktop__shipment--text-2{
+.link--desktop__experience--text-2{
     color: #2a2c29;  
 }
 
+.container--desktop__change--text-1{
+    margin-bottom: 28px;
+}
+
+.container--desktop__blog-one--text-1, .container--desktop__blog-two--text-1,.container--desktop__blog-three--text-1{
+    margin-top: 20px;
+
+}
+
+.link--desktop__blog-one--text-1, .link--desktop__blog-two--text-1, .link--desktop__blog-three--text-1{
+    color: #2a2c29;  
+    text-decoration: none;
+}
+
+.paragraph--desktop__blog-one--text-1, .paragraph--desktop__blog-two--text-1, .paragraph--desktop__blog-three--text-1{
+    font-size: 12px;
+}
+
+.paragraph--desktop__blog-one--text-2, .paragraph--desktop__blog-two--text-2, .paragraph--desktop__blog-three--text-2 {
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 

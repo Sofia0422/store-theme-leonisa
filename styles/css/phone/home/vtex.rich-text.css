@@ -35,3 +35,35 @@
     font-weight: 700;
     line-height: 1;
 }
+
+.container--phone__shipment--text-1, .container--phone__change--text-1, .container--phone__order--text-1, .container--phone__advisory--text-1{
+    margin: 0 0 15px; 
+}
+
+.container--phone__change--text-1{
+    margin-bottom: 40px;
+}
+
+
+.link--phone__shipment--text-1, .link--phone__change--text-1, .link--phone__order--text-1, .link--phone__advisory--text-1{
+    color: #2a2c29;  
+    text-decoration: none;
+}
+
+.link--phone__experience--text-2{
+    color: #2a2c29;
+}
+
+.link--phone__blog-one--text-1, .link--phone__blog-two--text-1, .link--phone__blog-three--text-1{
+    color: #2a2c29;  
+    text-decoration: none;
+}
+
+.paragraph--phone__blog-one--text-1, .paragraph--phone__blog-two--text-1, .paragraph--phone__blog-three--text-1{
+    font-size: 12px;
+}
+
+.paragraph--phone__blog-one--text-2, .paragraph--phone__blog-two--text-2, .paragraph--phone__blog-three--text-2 {
+    font-size: 16px;
+    font-weight: 500;
+}

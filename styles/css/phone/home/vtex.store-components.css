@@ -58,3 +58,13 @@
     font-size: 13px;
 }
 
+.imageElement--phone__experience--image{
+    width: 110px;
+    height: 110px;
+ }
+
+ .imageElementLink--phone__blog--two{
+    max-width: 80%;
+ }
+
+

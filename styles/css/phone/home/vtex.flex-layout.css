@@ -2,3 +2,18 @@
     padding: 0 1rem;
     background-color: #e6e7e8;
 }
+
+.flexRowContent--phone__experience--container-row1, .flexRowContent--phone__experience--container-row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    margin-bottom: 40px;   
+    padding: 0 2rem;
+    flex-direction: row;
+}
+
+.flexCol--phone__containerb--text-1, .flexCol--phone__containerb--text-2, .flexCol--phone__containerb--text-3 {      
+    display: flex;
+    align-items: flex-start;
+ }

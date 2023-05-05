@@ -29,7 +29,7 @@
       "info-card#tablet__home--best-seller"
     ],
     "props":{
-      "blockClass":"home__section--one-cotainer"
+      "blockClass":"home__section--one-container"
     }
   },    
 
@@ -209,30 +209,6 @@
     }
   },
 
-  //custom query
-  "flex-layout.row#home__custom-query--tablet": {
-    "title": "Home section tablet custom query",
-    "children": [
-      "search-result-layout.customQuery#tablet__search"
-    ]
-  },
-  "search-result-layout.customQuery#tablet__search":{         
-      "props":{
-        "queySchema":{
-          "skusFilter": "ALL",
-          "simulationBehavior": "skip"
-        }
-      },
-      "blocks":[       
-        "search-result-layout.mobile#tablet__home--search"        
-      ]  
-  },
-  "search-result-layout.mobile#tablet__home--search":{
-    "children":[
-      "flex-layout.row#home__search--results"  
-    ]
-  },
-  
   //productsummarylist
 
   "flex-layout.row#home__product-summary--tablet":{
@@ -242,7 +218,8 @@
     ]
   },
   "product-summary.shelf#tablet__list--product": {
-    "children": [      
+    "children": [   
+      "product-summary-image",   
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
@@ -268,7 +245,31 @@
     }
   },
 
-
+ /*  //custom query
+  "flex-layout.row#home__custom-query--tablet": {
+    "title": "Home section tablet custom query",
+    "children": [
+      "search-result-layout.customQuery#tablet__search"
+    ]
+  },
+  "search-result-layout.customQuery#tablet__search":{         
+      "props":{
+        "queySchema":{
+          "skusFilter": "ALL",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks":[       
+        "search-result-layout.mobile#tablet__home--search"        
+      ]  
+  },
+  "search-result-layout.mobile#tablet__home--search":{
+    "children":[
+      "flex-layout.row#home__search--results"  
+    ]
+  }, */
+  
+  
 
   "flex-layout.col#tablet__home--section-2":{
     "title":"Elements container section two",
@@ -278,8 +279,6 @@
       "image#tablet__home--image-fifteen",      
       "rich-text#tablet__home--text-two",
       "flex-layout.row#tablet__home--experience",
-
-
       "image#tablet__home--image-sixteen",
       "image#tablet__home--image-seventeen",
       "image#tablet__home--image-eighteen",
@@ -291,12 +290,12 @@
       "image#tablet__home--lqs-three",
       "image#tablet__home--lqs-four",     
       "info-card#tablet__home--blog",
-      "image#tablet__home--blog-one",
-      "image#tablet__home--blog-two",
-      "image#tablet__home--blog-three" 
+      "flex-layout.row#tablet__blog--container-1",
+      "flex-layout.row#tablet__blog--container-2",
+      "flex-layout.row#tablet__blog--container-3"     
     ],
     "props":{
-      "blockClass":"home__section--two-cotainer"
+      "blockClass":"home__section--two-container"
     }
   },   
   "image#tablet__home--image-thirteen":{
@@ -378,13 +377,13 @@
         "blockClass":"tablet__shipment--text-1",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"Recibe **envío GRATIS** comprando $60.000 o más"
+        "text":"[Recibe **envío GRATIS** comprando $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
       }
   },
   "rich-text#tablet__experience--general":{
     "title":"Second Shipment rich-text in experience section tablet view",
       "props":{
-        "blockClass":"tablet__shipment--text-2",
+        "blockClass":"tablet__experience--text-2",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
@@ -418,7 +417,7 @@
         "blockClass":"tablet__change--text-1",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"**Cambia o devuelve** sin complicaciones"
+        "text":"[**Cambia o devuelve** sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"
       }
   },  
 
@@ -448,7 +447,7 @@
         "blockClass":"tablet__order--text-1",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"Consulta fácilmente el **estado de tu orden**"
+        "text":"[Consulta fácilmente el **estado de tu orden**](https://developers.vtex.com/docs/guides/welcome)"
       }
   },  
   "flex-layout.col#tablet__experience--advisory":{
@@ -477,13 +476,9 @@
         "blockClass":"tablet__advisory--text-1",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text":"**Déjanos asesorarte,** comunícate con nosotros"
+        "text":"[**Déjanos asesorarte,** comunícate con nosotros](https://developers.vtex.com/docs/guides/welcome)"
       }
   }, 
-
-
-
-
 
 
 
@@ -667,7 +662,16 @@
       "textAlignment": "center"
     }
   },
-  
+
+  "flex-layout.row#tablet__blog--container-1":{
+    "children":[
+      "image#tablet__home--blog-one",
+      "flex-layout.col#tablet__containerb-text-1"      
+    ],
+    "props":{
+      "blockClass":"tablet__blog--container-1"
+    }
+  },  
   "image#tablet__home--blog-one":{
     "title":"Section Leonisa blog image one",
     "props":{
@@ -677,7 +681,45 @@
         "url":"/"
       }
     }
-  },"image#tablet__home--blog-two":{
+  },
+
+  "flex-layout.col#tablet__containerb-text-1":{
+    "children":[
+      "rich-text#tablet__blog-one--text-1",
+      "rich-text#tablet__blog-one--text-2"
+    ],
+    "props":{
+      "blockClass":"tablet__containerb--text-1"
+    }
+  },
+  "rich-text#tablet__blog-one--text-1":{
+    "title":"First blog rich-text in blog one Leonisa section - tablet view",
+      "props":{
+        "blockClass":"tablet__blog-one--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[#SomosFamiliaLeonisa](https://developers.vtex.com/docs/guides/welcome) - 31 de agosto, 2020"
+      }
+  },
+  "rich-text#tablet__blog-one--text-2":{
+    "title":"Second blog rich-text in blog one Leonisa section - tablet view",
+      "props":{
+        "blockClass":"tablet__blog-one--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Alimentáte De Manera Consciente"
+      }
+  },
+  "flex-layout.row#tablet__blog--container-2":{
+    "children":[
+      "image#tablet__home--blog-two",
+      "flex-layout.col#tablet__containerb-text-2"    
+    ],
+    "props":{
+      "blockClass":"tablet__blog--container-2"
+    }
+  },
+  "image#tablet__home--blog-two":{
     "title":"Section Leonisa blog image two",
     "props":{
       "blockClass":"tablet__blog--two",
@@ -686,7 +728,46 @@
         "url":"/"
       }
     }
-  },"image#tablet__home--blog-three":{
+  },
+
+  "flex-layout.col#tablet__containerb-text-2":{
+    "children":[
+      "rich-text#tablet__blog-two--text-1",
+      "rich-text#tablet__blog-two--text-2"
+    ],
+    "props":{
+      "blockClass":"tablet__containerb--text-2"
+    }
+  },
+  "rich-text#tablet__blog-two--text-1":{
+    "title":"First blog rich-text in blog two Leonisa section - tablet view",
+      "props":{
+        "blockClass":"tablet__blog-two--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[MODA Y TENDENCIAS](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+      }
+  },
+  "rich-text#tablet__blog-two--text-2":{
+    "title":"Second blog rich-text in blog two Leonisa section - tablet view",
+      "props":{
+        "blockClass":"tablet__blog-two--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"8 Prendas Por Las Que Estabas Esperando"
+      }
+  },
+
+  "flex-layout.row#tablet__blog--container-3":{
+    "children":[
+      "image#tablet__home--blog-three",
+      "flex-layout.col#tablet__containerb-text-3"     
+    ],
+    "props":{
+      "blockClass":"tablet__blog--container-3"
+    }
+  },  
+  "image#tablet__home--blog-three":{
     "title":"Section Leonisa blog image three",
     "props":{
       "blockClass":"tablet__blog--three",
@@ -695,5 +776,33 @@
         "url":"/"
       }
     }
+  },
+
+  "flex-layout.col#tablet__containerb-text-3":{
+    "children":[
+      "rich-text#tablet__blog-three--text-1",
+      "rich-text#tablet__blog-three--text-2"
+    ],
+    "props":{
+      "blockClass":"tablet__containerb--text-3"
+    }
+  },
+  "rich-text#tablet__blog-three--text-1":{
+    "title":"First blog rich-text in blog three Leonisa section - tablet view",
+      "props":{
+        "blockClass":"tablet__blog-three--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[ESTILO DE VIDA](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+      }
+  },
+  "rich-text#tablet__blog-three--text-2":{
+    "title":"Second blog rich-text in blog three Leonisa section - tablet view",
+      "props":{
+        "blockClass":"tablet__blog-three--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Multifunctional, Un Bra Para Toda Ocasión"
+      }
   }
 }

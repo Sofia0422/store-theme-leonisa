@@ -209,31 +209,6 @@
     }
   },
 
-
-   //custom query
-   "flex-layout.row#home__custom-query--phone": {
-    "title": "Home section phone custom query",
-    "children": [
-      "search-result-layout.customQuery#phone__search"
-    ]
-  },
-  "search-result-layout.customQuery#phone__search":{         
-      "props":{
-        "queySchema":{
-          "skusFilter": "ALL",
-          "simulationBehavior": "skip"
-        }
-      },
-      "blocks":[       
-        "search-result-layout.mobile#phone__home--search"        
-      ]  
-  },
-  "search-result-layout.mobile#phone__home--search":{
-    "children":[
-      "flex-layout.row#home__search--results"  
-    ]
-  },
-  
   //productsummarylist
 
   "flex-layout.row#home__product-summary--phone":{
@@ -243,7 +218,8 @@
     ]
   },
   "product-summary.shelf#phone__list--product": {
-    "children": [      
+    "children": [    
+      "product-summary-image",  
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
@@ -269,6 +245,32 @@
     }
   },
 
+   /* //custom query
+   "flex-layout.row#home__custom-query--phone": {
+    "title": "Home section phone custom query",
+    "children": [
+      "search-result-layout.customQuery#phone__search"
+    ]
+  },
+  "search-result-layout.customQuery#phone__search":{         
+      "props":{
+        "queySchema":{
+          "skusFilter": "ALL",
+          "simulationBehavior": "skip"
+        }
+      },
+      "blocks":[       
+        "search-result-layout.mobile#phone__home--search"        
+      ]  
+  },
+  "search-result-layout.mobile#phone__home--search":{
+    "children":[
+      "flex-layout.row#home__search--results"  
+    ]
+  }, */
+  
+  
+
 
   "flex-layout.col#phone__home--section-2":{
     "title":"Elements container section two",
@@ -277,6 +279,8 @@
       "image#phone__home--image-fourteen",
       "image#phone__home--image-fifteen",      
       "rich-text#phone__home--text-two",
+      "flex-layout.row#phone__home--experience-1",
+      "flex-layout.row#phone__home--experience-2",
       "image#phone__home--image-sixteen",
       "image#phone__home--image-seventeen",
       "image#phone__home--image-eighteen",
@@ -288,9 +292,9 @@
       "image#phone__home--lqs-three",
       "image#phone__home--lqs-four",     
       "info-card#phone__home--blog",
-      "image#phone__home--blog-one",
-      "image#phone__home--blog-two",
-      "image#phone__home--blog-three" 
+      "flex-layout.row#phone__blog--container-1",
+      "flex-layout.row#phone__blog--container-2",
+      "flex-layout.row#phone__blog--container-3"  
     ],
     "props":{
       "blockClass":"home__section--two-cotainer"
@@ -335,6 +339,158 @@
         "text":"Una experiencia de compra única"
       }
   },  
+
+  "flex-layout.row#phone__home--experience-1":{
+    "title":"Second row of experience section phone view",
+    "children":[
+      "flex-layout.col#phone__experience--shipment",
+      "flex-layout.col#phone__experience--change"      
+    ],
+    "props":{
+      "blockClass":"phone__experience--container-row1"
+    }
+  },
+
+  "flex-layout.col#phone__experience--shipment":{
+    "children":[
+      "image#phone__experience--shipment",
+      "rich-text#phone__experience--shipment",
+      "rich-text#phone__experience--general"      
+    ],
+    "props":{
+      "blockClass":"phone__experience--shipment-col"
+    }
+  },
+  "image#phone__experience--shipment":{
+    "title":"Shipment image in experience section phone view",
+    "props":{
+      "blockClass":"phone__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-envios_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#phone__experience--shipment":{
+    "title":"First Shipment rich-text in experience section phone view",
+      "props":{
+        "blockClass":"phone__shipment--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Recibe **envío GRATIS** comprando $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  },
+  "rich-text#phone__experience--general":{
+    "title":"Second Shipment rich-text in experience section phone view",
+      "props":{
+        "blockClass":"phone__experience--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  }, 
+
+
+  "flex-layout.col#phone__experience--change":{
+    "children":[
+      "image#phone__experience--change",
+      "rich-text#phone__experience--change",
+      "rich-text#phone__experience--general"      
+    ],
+    "props":{
+      "blockClass":"phone__experience--change-col"
+    }
+  },
+  "image#phone__experience--change":{
+    "title":"Change image in experience section phone view",
+    "props":{
+      "blockClass":"phone__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-cambia-devuelve_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#phone__experience--change":{
+    "title":"First change rich-text in experience section phone view",
+      "props":{
+        "blockClass":"phone__change--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[**Cambia o devuelve** sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  },    
+
+  "flex-layout.row#phone__home--experience-2":{
+    "title":"Second row of experience section phone view",
+    "children":[      
+      "flex-layout.col#phone__experience--order",
+      "flex-layout.col#phone__experience--advisory"
+    ],
+    "props":{
+      "blockClass":"phone__experience--container-row2"
+    }
+  },
+  "flex-layout.col#phone__experience--order":{
+    "children":[
+      "image#phone__experience--order",
+      "rich-text#phone__experience--order",
+      "rich-text#phone__experience--general"      
+    ],
+    "props":{
+      "blockClass":"phone__experience--order-col"
+    }
+  },
+  "image#phone__experience--order":{
+    "title":"Order image in experience section phone view",
+    "props":{
+      "blockClass":"phone__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-estado-orden_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#phone__experience--order":{
+    "title":"First order rich-text in experience section phone view",
+      "props":{
+        "blockClass":"phone__order--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[Consulta fácilmente el **estado de tu orden**](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  },  
+  "flex-layout.col#phone__experience--advisory":{
+    "children":[
+      "image#phone__experience--advisory",
+      "rich-text#phone__experience--advisory",
+      "rich-text#phone__experience--general"      
+    ],
+    "props":{
+      "blockClass":"phone__experience--advisory-col"
+    }
+  },
+  "image#phone__experience--advisory":{
+    "title":"Advisory image in experience section phone view",
+    "props":{
+      "blockClass":"phone__experience--image",
+      "src":"assets/img/home/desktop/experience-section/icono-contactanos_360x.avif",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "rich-text#phone__experience--advisory":{
+    "title":"First advisory rich-text in experience section phone view",
+      "props":{
+        "blockClass":"phone__advisory--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[**Déjanos asesorarte,** comunícate con nosotros](https://developers.vtex.com/docs/guides/welcome)"
+      }
+  }, 
+
+
   "image#phone__home--image-sixteen":{
     "title":"Image home sixteen",
     "props":{
@@ -515,7 +671,16 @@
       "textAlignment": "center"
     }
   },
-  
+
+  "flex-layout.row#phone__blog--container-1":{
+    "children":[
+      "image#phone__home--blog-one",
+      "flex-layout.col#phone__containerb-text-1"      
+    ],
+    "props":{
+      "blockClass":"phone__blog--container-1"
+    }
+  }, 
   "image#phone__home--blog-one":{
     "title":"Section Leonisa blog image one",
     "props":{
@@ -525,7 +690,44 @@
         "url":"/"
       }
     }
-  },"image#phone__home--blog-two":{
+  },
+  "flex-layout.col#phone__containerb-text-1":{
+    "children":[
+      "rich-text#phone__blog-one--text-1",
+      "rich-text#phone__blog-one--text-2"
+    ],
+    "props":{
+      "blockClass":"phone__containerb--text-1"
+    }
+  },
+  "rich-text#phone__blog-one--text-1":{
+    "title":"First blog rich-text in blog one Leonisa section - phone view",
+      "props":{
+        "blockClass":"phone__blog-one--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[#SomosFamiliaLeonisa](https://developers.vtex.com/docs/guides/welcome) - 31 de agosto, 2020"
+      }
+  },
+  "rich-text#phone__blog-one--text-2":{
+    "title":"Second blog rich-text in blog one Leonisa section - phone view",
+      "props":{
+        "blockClass":"phone__blog-one--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Alimentáte De Manera Consciente"
+      }
+  },
+  "flex-layout.row#phone__blog--container-2":{
+    "children":[
+      "image#phone__home--blog-two",
+      "flex-layout.col#phone__containerb-text-2"    
+    ],
+    "props":{
+      "blockClass":"phone__blog--container-2"
+    }
+  },  
+  "image#phone__home--blog-two":{
     "title":"Section Leonisa blog image two",
     "props":{
       "blockClass":"phone__blog--two",
@@ -534,7 +736,44 @@
         "url":"/"
       }
     }
-  },"image#phone__home--blog-three":{
+  },
+  "flex-layout.col#phone__containerb-text-2":{
+    "children":[
+      "rich-text#phone__blog-two--text-1",
+      "rich-text#phone__blog-two--text-2"
+    ],
+    "props":{
+      "blockClass":"phone__containerb--text-2"
+    }
+  },
+  "rich-text#phone__blog-two--text-1":{
+    "title":"First blog rich-text in blog two Leonisa section - phone view",
+      "props":{
+        "blockClass":"phone__blog-two--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[MODA Y TENDENCIAS](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+      }
+  },
+  "rich-text#phone__blog-two--text-2":{
+    "title":"Second blog rich-text in blog two Leonisa section - phone view",
+      "props":{
+        "blockClass":"phone__blog-two--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"8 Prendas Por Las Que Estabas Esperando"
+      }
+  },
+    "flex-layout.row#phone__blog--container-3":{
+    "children":[
+      "image#phone__home--blog-three",
+      "flex-layout.col#phone__containerb-text-3"     
+    ],
+    "props":{
+      "blockClass":"phone__blog--container-3"
+    }
+  },   
+  "image#phone__home--blog-three":{
     "title":"Section Leonisa blog image three",
     "props":{
       "blockClass":"phone__blog--three",
@@ -543,5 +782,32 @@
         "url":"/"
       }
     }
+  },
+   "flex-layout.col#phone__containerb-text-3":{
+    "children":[
+      "rich-text#phone__blog-three--text-1",
+      "rich-text#phone__blog-three--text-2"
+    ],
+    "props":{
+      "blockClass":"phone__containerb--text-3"
+    }
+  },
+  "rich-text#phone__blog-three--text-1":{
+    "title":"First blog rich-text in blog three Leonisa section - phone view",
+      "props":{
+        "blockClass":"phone__blog-three--text-1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"[ESTILO DE VIDA](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+      }
+  },
+  "rich-text#phone__blog-three--text-2":{
+    "title":"Second blog rich-text in blog three Leonisa section - phone view",
+      "props":{
+        "blockClass":"phone__blog-three--text-2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Multifunctional, Un Bra Para Toda Ocasión"
+      }
   }
 }

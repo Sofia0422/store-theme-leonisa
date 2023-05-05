@@ -52,21 +52,22 @@
     padding-left: 284px;
 }
 
-.flexRowContent--desktop__image--container-one, .flexRowContent--desktop__image--container-two, .flexRowContent--desktop__image--container-three, .flexRowContent--desktop__image--container-four,.flexRowContent--desktop__image--container-six,.flexRowContent--desktop__image--container-eight, .flexRowContent--desktop__image--container-six,.flexRowContent--desktop__image--container-eleven, .flexRowContent--desktop__image--container-six,.flexRowContent--desktop__image--container-twelve  {
+.flexRowContent--desktop__home--section-one, .flexRowContent--desktop__home--section-two {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 0.2rem;
     align-items: center;
     text-align: center;
+
 }
+
 
 .flexRowContent--desktop__experience--container-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+    text-align: center;    
     padding: 0 23rem;
 }
 
