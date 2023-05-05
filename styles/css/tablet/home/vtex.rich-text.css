@@ -1,0 +1,67 @@
+.container--tablet__home--text-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container--tablet__home--text-2 {
+    margin-bottom:  50px;
+}
+
+
+.paragraph--tablet__home--text-1, .paragraph--tablet__home--text-2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 0.3;
+}
+
+.container--tablet__home--text-two {
+    margin: 20px 0 !important;
+}
+
+.container--tablet__home--text-three{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.paragraph--tablet__home--text-two, .paragraph--tablet__home--text-three{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+.container--tablet__shipment--text-1, .container--tablet__change--text-1, .container--tablet__order--text-1, .container--tablet__advisory--text-1{
+    margin: 0 0 15px;
+}
+
+.container--tablet__shipment--text-1, .container--tablet__change--text-1{
+    padding: 0 1rem;
+}
+.container--tablet__change--text-1{
+    padding: 0 0.5rem;
+}
+
+.link--tablet__shipment--text-1, .link--tablet__change--text-1, .link--tablet__order--text-1, .link--tablet__advisory--text-1{
+    color: #2a2c29;  
+    text-decoration: none;
+}
+
+.link--tablet__experience--text-2{
+    color: #2a2c29;
+}
+
+.container--tablet__change--text-1{
+    margin-bottom: 40px;
+}
+
+.link--tablet__blog-one--text-1, .link--tablet__blog-two--text-1, .link--tablet__blog-three--text-1{
+    color: #2a2c29;  
+    text-decoration: none;
+}
+
+.paragraph--tablet__blog-one--text-1, .paragraph--tablet__blog-two--text-1, .paragraph--tablet__blog-three--text-1{
+    font-size: 12px;
+}
+
+.paragraph--tablet__blog-one--text-2, .paragraph--tablet__blog-two--text-2, .paragraph--tablet__blog-three--text-2 {
+    font-size: 18px;
+    font-weight: 500;
+}

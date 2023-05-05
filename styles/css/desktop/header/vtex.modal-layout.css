@@ -1,0 +1,26 @@
+.paper--desktop__modal--search-layout{
+    min-width: 100%;
+    margin:0 !important;    
+    padding: 1.7rem 1.9rem;       
+    border-radius: 0 !important; 
+    position: absolute;
+    top: 36px;     
+}
+
+.headerContainer--desktop__modal--header{
+    border-bottom-style:none !important; 
+}
+/* 
+.headerContainer{
+    border-bottom-style:none !important; 
+}
+
+.contentContainer--header__modal--container {
+    padding: 0 2.5rem;
+}
+
+.triggerContainer--mobile__search--modal-active{    
+    margin-left: -9rem;
+    margin-top: 18px;
+    padding: 0 10rem;
+} */

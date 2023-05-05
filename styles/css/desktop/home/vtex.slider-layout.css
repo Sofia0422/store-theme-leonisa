@@ -3,3 +3,24 @@
     display: flex;
     justify-content:right;
 }
+
+
+.sliderArrows--home__slider--one{
+    top: 50%;
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 100px;
+    z-index: 4;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px -2px;
+    border: 1px solid rgba(221, 221, 221, 0.3);
+    transform: translateY(-50%) scale(1);
+    transition: transform 0.15s ease-in-out 0s;
+    opacity: 1;
+}
