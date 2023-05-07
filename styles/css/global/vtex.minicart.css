@@ -4,7 +4,7 @@
     padding-top:0.3rem
 }
 
-.minicartQuantityBadge--global__header_minicart {
+.minicartQuantityBadge--global__header--minicart {
     background-color: #0197a1 ;
 }
 
@@ -13,19 +13,19 @@
     right: -0.4rem
 }
 
-.openIconContainer--global__header_minicart{
+.openIconContainer--global__header--minicart{
     padding-left: 0 !important;
     padding-right: 30px !important;   
 }
 
-.openIconContainer--global__header_minicart :first-child{
+.openIconContainer--global__header--minicart :first-child{
     background-color: transparent;
 }
 
 
 
 @media  (max-width: 768px) {
-    .openIconContainer--global__header_minicart{
+    .openIconContainer--global__header--minicart{
         position: absolute;        
         padding-right: 0 !important;
         margin-top: -34px;
@@ -34,7 +34,7 @@
 }
 
 @media  (max-width: 425px) {
-    .openIconContainer--global__header_minicart{         
+    .openIconContainer--global__header--minicart{         
         margin-left: -6.5rem !important;        
     }
 }

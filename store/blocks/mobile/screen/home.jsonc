@@ -1,0 +1,83 @@
+{
+    /* "responsive-layout.mobile#home__sections":{
+        "title": "Home sections mobile ",
+        "children": [
+          "flex-layout.row#mobile__home--section-1",                
+          "flex-layout.row#home__product-summary--global",                  
+          "flex-layout.row#mobile__home--section-2"
+        ]
+      },
+      "flex-layout.row#mobile__home--section-1": {
+        "title": "mobile Row with elements part 1",
+        "children": [
+          "flex-layout.col#mobile__home--section-1"      
+        ],
+        "props":{
+          "blockClass":"home__section--one",
+          "fullWidth":true      
+        }
+      },
+    
+      "flex-layout.col#mobile__home--section-1"  :{
+        "title":"Elements container section one",
+        "children":[
+          "image#mobile__home--image-one",
+          "flex-layout.row#mobile__home--text",
+          "image#mobile__home--image-two",
+          "image#mobile__home--image-three",
+          "image#mobile__home--image-four",
+          "image#mobile__home--image-five",
+          "image#mobile__home--image-six",
+          "image#mobile__home--image-seven",
+          "image#mobile__home--image-eight",
+          "image#mobile__home--image-nine",
+          "image#mobile__home--image-ten",
+          "image#mobile__home--image-eleven",          
+          "image#mobile__home--image-twelve",  
+          "info-card#mobile__home--best-seller"
+        ],
+        "props":{
+          "blockClass":"home__section--one-container"
+        }
+      },
+      
+
+      "flex-layout.row#mobile__home--section-2":{
+        "title": "mobile Row with elements part 2",
+        "children": [
+          "flex-layout.col#mobile__home--section-2"      
+        ],
+        "props":{
+          "fullWidth":true,
+          "blockClass":"home__section--two"     
+        }
+      },
+
+      "flex-layout.col#mobile__home--section-2":{
+        "title":"Elements container section two",
+        "children":[      
+          "image#mobile__home--image-thirteen",
+          "image#mobile__home--image-fourteen",
+          "image#mobile__home--image-fifteen",      
+          "rich-text#mobile__home--text-two",
+          "flex-layout.row#mobile__home--experience",
+          "image#mobile__home--image-sixteen",
+          "image#mobile__home--image-seventeen",
+          "image#mobile__home--image-eighteen",
+          "image#mobile__home--image-nineteen",     
+          "slider-layout#mobile__home--slider",
+          "rich-text#mobile__home--text-three",
+          "image#mobile__home--lqs-one",
+          "image#mobile__home--lqs-two",
+          "image#mobile__home--lqs-three",
+          "image#mobile__home--lqs-four",     
+          "info-card#mobile__home--blog",
+          "flex-layout.row#mobile__blog--container-1",
+          "flex-layout.row#mobile__blog--container-2",
+          "flex-layout.row#mobile__blog--container-3"     
+        ],
+        "props":{
+          "blockClass":"home__section--two-container"
+        }
+      } */
+}

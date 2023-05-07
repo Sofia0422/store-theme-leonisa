@@ -1,3 +1,4 @@
+/*Home*/
 
 .imageElement--tablet__home--image, .imageElement--tablet__lqs{
     width: 100%;
@@ -14,7 +15,6 @@
 .infoCardContainer--tablet__infocard--blog, .infoCardContainer--tablet__infocard--best-seller{
     border-bottom: none;
 }
-
 
 .infoCardHeadline--tablet__infocard--best-seller{
     margin-top: 40px;
@@ -62,4 +62,8 @@
     height: 110px;
  }
 
- 
+ @media  (max-width: 425px) {
+    .imageElement--tablet__blog--one, .imageElement--tablet__blog--two,.imageElement--tablet__blog--three {
+        width: 85px;        
+    }
+}

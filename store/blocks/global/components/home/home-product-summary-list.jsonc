@@ -1,4 +1,39 @@
-{      
+{  //productsummarylist   
+  
+  "flex-layout.row#global__home--product-summary":{
+    "title": "Home section global productSummaryList",
+    "children":[      
+      "list-context.product-list#global__list--product"
+    ]
+  },
+  "product-summary.shelf#global__list--product": {
+    "children": [   
+      "product-summary-image",   
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+      "list-context.product-list#global__list--product": {
+        "blocks": ["product-summary.shelf#global__list--product"],
+        "children": ["slider-layout#global__list--product"],
+        "props" :{
+          "collection":"145"}    
+      },
+    
+      "slider-layout#global__list--product":{
+        "props":{
+          "itemsPerPage":{
+            "desktop":4,
+            "tablet":2,
+            "phone":1        
+          },
+          "showNavigationArrows":"always"
+        }
+      }
+      
 
 /* //custom query
   "flex-layout.row#home__custom-query--global": {
@@ -48,44 +83,7 @@
   },
   "gallery":{
     "blocks":["product-summary.shelf"]
-  },
-
-  
-
-  //productsummarylist
-
-  "flex-layout.row#home__product-summary--global":{
-    "title": "Home section global productSummaryList",
-    "children":[      
-      "list-context.product-list#demo1"
-    ]
-  },
-  "product-summary.shelf#demo1": {
-    "children": [      
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#demo1"],
-    "children": ["slider-layout#demo-products"],
-    "props" :{
-      "collection":"145"}    
-  },
-
-  "slider-layout#demo-products":{
-    "props":{
-      "itemsPerPage":{
-        "desktop":4,
-        "tablet":2,
-        "phone":1        
-      },
-      "showNavigationArrows":"always"
-    }
-  }
+  },  
  */
   
 }

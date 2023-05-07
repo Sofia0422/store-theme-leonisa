@@ -1,0 +1,151 @@
+{  
+    "rich-text#desktop__home--text-two":{
+    "title":"rich-text home two",
+      "props":{
+        "blockClass":"desktop__home--text-two",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text":"Una experiencia de compra única"
+      }
+  },    
+    "flex-layout.row#desktop__home--experience":{
+        "children":[
+          "flex-layout.col#desktop__experience--shipment",
+          "flex-layout.col#desktop__experience--change",
+          "flex-layout.col#desktop__experience--order",
+          "flex-layout.col#desktop__experience--advisory"
+        ],
+        "props":{
+          "blockClass":"desktop__experience--container-row"
+        }
+      },
+    
+      "flex-layout.col#desktop__experience--shipment":{
+        "children":[
+          "image#desktop__experience--shipment",
+          "rich-text#desktop__experience--shipment",
+          "rich-text#desktop__experience--general"      
+        ],
+        "props":{
+          "blockClass":"desktop__experience--shipment-col"
+        }
+      },
+      "image#desktop__experience--shipment":{
+        "title":"Shipment image in experience section",
+        "props":{
+          "blockClass":"desktop__experience--image",
+          "src":"assets/img/global/experience-section/icono-envios_360x.avif",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "rich-text#desktop__experience--shipment":{
+        "title":"First Shipment rich-text in experience section",
+          "props":{
+            "blockClass":"desktop__shipment--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[Recibe **envío GRATIS** comprando $60.000 o más](https://developers.vtex.com/docs/guides/welcome)"
+          }
+      },
+      "rich-text#desktop__experience--general":{
+        "title":"Second Shipment rich-text in experience section",
+          "props":{
+            "blockClass":"desktop__experience--text-2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
+          }
+      }, 
+    
+    
+      "flex-layout.col#desktop__experience--change":{
+        "children":[
+          "image#desktop__experience--change",
+          "rich-text#desktop__experience--change",
+          "rich-text#desktop__experience--general"      
+        ],
+        "props":{
+          "blockClass":"desktop__experience--change-col"
+        }
+      },
+      "image#desktop__experience--change":{
+        "title":"Change image in experience section",
+        "props":{
+          "blockClass":"desktop__experience--image",
+          "src":"assets/img/global/experience-section/icono-cambia-devuelve_360x.avif",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "rich-text#desktop__experience--change":{
+        "title":"First change rich-text in experience section",
+          "props":{
+            "blockClass":"desktop__change--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[**Cambia o devuelve** sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"
+          }
+      },  
+    
+      "flex-layout.col#desktop__experience--order":{
+        "children":[
+          "image#desktop__experience--order",
+          "rich-text#desktop__experience--order",
+          "rich-text#desktop__experience--general"      
+        ],
+        "props":{
+          "blockClass":"desktop__experience--order-col"
+        }
+      },
+      "image#desktop__experience--order":{
+        "title":"Order image in experience section",
+        "props":{
+          "blockClass":"desktop__experience--image",
+          "src":"assets/img/global/experience-section/icono-estado-orden_360x.avif",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "rich-text#desktop__experience--order":{
+        "title":"First order rich-text in experience section",
+          "props":{
+            "blockClass":"desktop__order--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[Consulta fácilmente el **estado de tu orden**](https://developers.vtex.com/docs/guides/welcome)"
+          }
+      },  
+      "flex-layout.col#desktop__experience--advisory":{
+        "children":[
+          "image#desktop__experience--advisory",
+          "rich-text#desktop__experience--advisory",
+          "rich-text#desktop__experience--general"      
+        ],
+        "props":{
+          "blockClass":"desktop__experience--advisory-col"
+        }
+      },
+      "image#desktop__experience--advisory":{
+        "title":"Advisory image in experience section",
+        "props":{
+          "blockClass":"desktop__experience--image",
+          "src":"assets/img/global/experience-section/icono-contactanos_360x.avif",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "rich-text#desktop__experience--advisory":{
+        "title":"First advisory rich-text in experience section",
+          "props":{
+            "blockClass":"desktop__advisory--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[**Déjanos asesorarte,** comunícate con nosotros](https://developers.vtex.com/docs/guides/welcome)"
+          }
+      }
+}

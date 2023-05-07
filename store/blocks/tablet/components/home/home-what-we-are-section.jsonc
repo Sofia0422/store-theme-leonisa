@@ -1,0 +1,52 @@
+{
+    "rich-text#tablet__home--text-three":{
+        "title":"rich-text home two",
+          "props":{
+            "blockClass":"tablet__home--text-three",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Lo que somos"
+          }
+      },
+      
+      "image#tablet__home--lqs-one":{
+        "title":"Section What we are image one",
+        "props":{
+          "blockClass":"tablet__lqs",
+          "src":"assets/img/home/tablet/lqs-one.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "image#tablet__home--lqs-two":{
+        "title":"Section What we are image two",
+        "props":{
+          "blockClass":"tablet__lqs",
+          "src":"assets/img/home/tablet/lqs-two.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "image#tablet__home--lqs-three":{
+        "title":"Section What we are image three",
+        "props":{
+          "blockClass":"tablet__lqs",
+          "src":"assets/img/home/tablet/lqs-three.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "image#tablet__home--lqs-four":{
+        "title":"Section What we are image four",
+        "props":{
+          "blockClass":"tablet__lqs",
+          "src":"assets/img/home/tablet/lqs-four.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      }
+}

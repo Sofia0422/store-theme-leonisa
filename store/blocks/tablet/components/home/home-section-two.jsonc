@@ -1,0 +1,72 @@
+{    
+//"flex-layout.row#tablet__home--section-2"
+  "image#tablet__home--image-thirteen":{
+    "title":"Image home thirteen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-thirteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-fourteen":{
+    "title":"Image home fourteen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-fourteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-fifteen":{
+    "title":"Image home fifteen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-fifteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+
+  "image#tablet__home--image-sixteen":{
+    "title":"Image home sixteen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-sixteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#tablet__home--image-seventeen":{
+    "title":"Image home seventeen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-seventeen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#tablet__home--image-eighteen":{
+    "title":"Image home eighteen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-eighteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#tablet__home--image-nineteen":{
+    "title":"Image home nineteen",
+    "props":{
+      "blockClass":"tablet__home--image",
+      "src":"assets/img/home/tablet/image-nineteen.jpg"      
+    }
+  }   
+}
+  
