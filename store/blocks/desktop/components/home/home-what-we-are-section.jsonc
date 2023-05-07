@@ -1,0 +1,65 @@
+{
+    "rich-text#desktop__home--text-three":{
+        "title":"rich-text home two",
+          "props":{
+            "blockClass":"desktop__home--text-three",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Lo que somos"
+          }
+      },
+    
+      "flex-layout.row#desktop__home--eleven-imgs":{
+        "title":"Home image container eleven",
+        "children":[
+          "image#desktop__home--lqs-one",
+          "image#desktop__home--lqs-two",
+          "image#desktop__home--lqs-three",
+          "image#desktop__home--lqs-four"   
+        ],
+        "props":{
+          "horizontalAlign":"center",
+          "blockClass":"desktop__image--container-eleven"    
+        }
+      },
+      "image#desktop__home--lqs-one":{
+        "title":"Section What we are image one",
+        "props":{
+          "blockClass":"desktop__lqs--one",
+          "src":"assets/img/home/desktop/lqs-one.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "image#desktop__home--lqs-two":{
+        "title":"Section What we are image two",
+        "props":{
+          "blockClass":"desktop__lqs--two",
+          "src":"assets/img/home/desktop/lqs-two.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "image#desktop__home--lqs-three":{
+        "title":"Section What we are image three",
+        "props":{
+          "blockClass":"desktop__lqs--three",
+          "src":"assets/img/home/desktop/lqs-three.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      "image#desktop__home--lqs-four":{
+        "title":"Section What we are image four",
+        "props":{
+          "blockClass":"desktop__lqs--four",
+          "src":"assets/img/home/desktop/lqs-four.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      }
+}

@@ -1,0 +1,158 @@
+{
+    "info-card#tablet__home--blog":{
+        "title":"Info-car for Leonisa blog",
+        "props": {
+          "id": "info-card-blog",
+          "isFullModeStyle": true,
+          "textPosition": "center",      
+          "headline": "Blog Leonisa",
+          "callToActionText": "VER TODO",
+          "callToActionUrl": "/",
+          "blockClass": "tablet__infocard--blog",
+          "textAlignment": "center"
+        }
+      },
+    
+      "flex-layout.row#tablet__blog--container-1":{
+        "children":[
+          "image#tablet__home--blog-one",
+          "flex-layout.col#tablet__containerb-text-1"      
+        ],
+        "props":{
+          "blockClass":"tablet__blog--container-1"
+        }
+      },  
+      "image#tablet__home--blog-one":{
+        "title":"Section Leonisa blog image one",
+        "props":{
+          "blockClass":"tablet__blog--one",
+          "src":"assets/img/home/tablet/blog-one.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+    
+      "flex-layout.col#tablet__containerb-text-1":{
+        "children":[
+          "rich-text#tablet__blog-one--text-1",
+          "rich-text#tablet__blog-one--text-2"
+        ],
+        "props":{
+          "blockClass":"tablet__containerb--text-1"
+        }
+      },
+      "rich-text#tablet__blog-one--text-1":{
+        "title":"First blog rich-text in blog one Leonisa section - tablet view",
+          "props":{
+            "blockClass":"tablet__blog-one--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[#SomosFamiliaLeonisa](https://developers.vtex.com/docs/guides/welcome) - 31 de agosto, 2020"
+          }
+      },
+      "rich-text#tablet__blog-one--text-2":{
+        "title":"Second blog rich-text in blog one Leonisa section - tablet view",
+          "props":{
+            "blockClass":"tablet__blog-one--text-2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Alimentáte De Manera Consciente"
+          }
+      },
+      "flex-layout.row#tablet__blog--container-2":{
+        "children":[
+          "image#tablet__home--blog-two",
+          "flex-layout.col#tablet__containerb-text-2"    
+        ],
+        "props":{
+          "blockClass":"tablet__blog--container-2"
+        }
+      },
+      "image#tablet__home--blog-two":{
+        "title":"Section Leonisa blog image two",
+        "props":{
+          "blockClass":"tablet__blog--two",
+          "src":"assets/img/home/tablet/blog-two.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+    
+      "flex-layout.col#tablet__containerb-text-2":{
+        "children":[
+          "rich-text#tablet__blog-two--text-1",
+          "rich-text#tablet__blog-two--text-2"
+        ],
+        "props":{
+          "blockClass":"tablet__containerb--text-2"
+        }
+      },
+      "rich-text#tablet__blog-two--text-1":{
+        "title":"First blog rich-text in blog two Leonisa section - tablet view",
+          "props":{
+            "blockClass":"tablet__blog-two--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[MODA Y TENDENCIAS](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+          }
+      },
+      "rich-text#tablet__blog-two--text-2":{
+        "title":"Second blog rich-text in blog two Leonisa section - tablet view",
+          "props":{
+            "blockClass":"tablet__blog-two--text-2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"8 Prendas Por Las Que Estabas Esperando"
+          }
+      },
+    
+      "flex-layout.row#tablet__blog--container-3":{
+        "children":[
+          "image#tablet__home--blog-three",
+          "flex-layout.col#tablet__containerb-text-3"     
+        ],
+        "props":{
+          "blockClass":"tablet__blog--container-3"
+        }
+      },  
+      "image#tablet__home--blog-three":{
+        "title":"Section Leonisa blog image three",
+        "props":{
+          "blockClass":"tablet__blog--three",
+          "src":"assets/img/home/tablet/blog-three.jpg",          
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+    
+      "flex-layout.col#tablet__containerb-text-3":{
+        "children":[
+          "rich-text#tablet__blog-three--text-1",
+          "rich-text#tablet__blog-three--text-2"
+        ],
+        "props":{
+          "blockClass":"tablet__containerb--text-3"
+        }
+      },
+      "rich-text#tablet__blog-three--text-1":{
+        "title":"First blog rich-text in blog three Leonisa section - tablet view",
+          "props":{
+            "blockClass":"tablet__blog-three--text-1",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"[ESTILO DE VIDA](https://developers.vtex.com/docs/guides/welcome) - 19 de diciembre, 2019"
+          }
+      },
+      "rich-text#tablet__blog-three--text-2":{
+        "title":"Second blog rich-text in blog three Leonisa section - tablet view",
+          "props":{
+            "blockClass":"tablet__blog-three--text-2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"Multifunctional, Un Bra Para Toda Ocasión"
+          }
+      }
+}

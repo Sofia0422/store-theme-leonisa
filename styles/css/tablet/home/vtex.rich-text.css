@@ -1,3 +1,5 @@
+/*Home*/
+
 .container--tablet__home--text-1{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -64,4 +66,28 @@
 .paragraph--tablet__blog-one--text-2, .paragraph--tablet__blog-two--text-2, .paragraph--tablet__blog-three--text-2 {
     font-size: 18px;
     font-weight: 500;
+}
+
+
+@media  (max-width: 425px) {
+      
+    .paragraph--tablet__home--text-1 {      
+        line-height: 1;
+    }    
+    .paragraph--tablet__home--text-2 {        
+        margin-top: -12px !important;
+    }       
+    .container--tablet__home--text-two {       
+        padding: 0 2rem;
+    }      
+    .paragraph--tablet__home--text-two, .paragraph--tablet__home--text-three{       
+        line-height: 1;
+    }        
+    .paragraph--tablet__blog-one--text-2, .paragraph--tablet__blog-two--text-2, .paragraph--tablet__blog-three--text-2 {
+        font-size: 16px;        
+    }
+    .wrapper--tablet__blog-one--text-1, .wrapper--tablet__blog-one--text-2, .wrapper--tablet__blog-two--text-1, .wrapper--tablet__blog-two--text-2, .wrapper--tablet__blog-three--text-1, .wrapper--tablet__blog-three--text-2{
+        display: flex;
+        text-align: left;
+    }
 }

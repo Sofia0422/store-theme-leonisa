@@ -1,0 +1,129 @@
+{   //Slider
+
+    "slider-layout#global__home--slider":{
+        "title": "Slider-layout IG",
+        "props":{
+          "showPaginationDots": "never", 
+          "arrowSize":15,
+          "itemsPerPage":{
+            "desktop":5,
+            "tablet":3,
+            "phone":1
+          },
+          "infinite": true,
+          "blockClass": "home__slider--one"    
+        },
+        "children":[
+          "image#home__global--slider-one",
+          "image#home__global--slider-two",
+          "image#home__global--slider-three",
+          "image#home__global--slider-four",
+          "image#home__global--slider-five",
+          "image#home__global--slider-six",
+          "image#home__global--slider-seven",
+          "image#home__global--slider-five",
+          "image#home__global--slider-six",
+          "image#home__global--slider-seven"     
+        ]
+      },
+      
+      "image#home__global--slider-one": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-1.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      
+      },
+      "image#home__global--slider-two": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-2.jpg",
+          "link":{
+            "url":"/"
+          }     
+        }
+        
+      },
+      "image#home__global--slider-three": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-3.jpg",
+          "link":{
+            "url":"/"
+          }     
+        }    
+      },
+      
+      "image#home__global--slider-four": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-4.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      
+      "image#home__global--slider-five": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-5.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      
+      "image#home__global--slider-six": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-6.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      
+      "image#home__global--slider-seven": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-7.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      
+      "image#home__global--slider-eight": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-3.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      
+      "image#home__global--slider-nine": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-9.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      },
+      
+      "image#home__global--slider-ten": {
+        "props":{
+          "blockClass": "global__slider--img",
+          "src":"assets/img/global/slider/slide-img-10.jpg",
+          "link":{
+            "url":"/"
+          }
+        }
+      }
+}

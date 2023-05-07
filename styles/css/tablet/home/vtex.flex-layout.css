@@ -1,9 +1,5 @@
-/* Example Tablet:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
 
+/*Home*/
 .flexRowContent--tablet__experience--container-row {
     display: flex;
     justify-content: center;
@@ -26,6 +22,36 @@
     display: flex;
     align-items: flex-start;
     height: 20%;    
+}
+
+@media  (max-width: 425px) {
+    .flexRowContent--tablet__home--text-container{
+        padding: 0 1rem;
+        background-color: #e6e7e8;
+    } 
+
+    .flexRowContent--tablet__blog--container-1,.flexRowContent--tablet__blog--container-2,.flexRowContent--tablet__blog--container-3{
+        display: flex;
+    }
+    
+    .flexCol--tablet__containerb--text-1, .flexCol--tablet__containerb--text-2, .flexCol--tablet__containerb--text-3{      
+        display: flex;          
+        align-items: flex-start;
+        margin: 0;
+        height: 100%;        
+     }
+
+    .flexColChild--tablet__containerb--text-1, .flexColChild--tablet__containerb--text-2, .flexColChild--tablet__containerb--text-3{
+        width: 200px;
+        padding-right: 3rem;
+    } 
+
+    .flexRow--tablet__blog--container-1, .flexRow--tablet__blog--container-2, .flexRow--tablet__blog--container-3 {
+        padding-left: 1rem;   
+    }
+    .flexColChild--home__section--two-container {
+        margin-top: 20px;
+    }
 }
 
 
