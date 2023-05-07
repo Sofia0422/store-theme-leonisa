@@ -1,40 +1,3 @@
-.container--phone__home--text-1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.container--phone__home--text-2 {
-    margin-bottom:  50px;
-}
-
-.paragraph--phone__home--text-1 {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1;
-}
-
-.paragraph--phone__home--text-2 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-top: -25px !important;
-}
-
-
-
-.container--phone__home--text-two {
-    margin: 20px 0 !important;
-    padding: 0 2rem;
-}
-
-.container--phone__home--text-three{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.paragraph--phone__home--text-two, .paragraph--phone__home--text-three{
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 1;
-}
 
 .container--phone__shipment--text-1, .container--phone__change--text-1, .container--phone__order--text-1, .container--phone__advisory--text-1{
     margin: 0 0 15px; 
@@ -43,7 +6,6 @@
 .container--phone__change--text-1{
     margin-bottom: 40px;
 }
-
 
 .link--phone__shipment--text-1, .link--phone__change--text-1, .link--phone__order--text-1, .link--phone__advisory--text-1{
     color: #2a2c29;  
@@ -54,16 +16,3 @@
     color: #2a2c29;
 }
 
-.link--phone__blog-one--text-1, .link--phone__blog-two--text-1, .link--phone__blog-three--text-1{
-    color: #2a2c29;  
-    text-decoration: none;
-}
-
-.paragraph--phone__blog-one--text-1, .paragraph--phone__blog-two--text-1, .paragraph--phone__blog-three--text-1{
-    font-size: 12px;
-}
-
-.paragraph--phone__blog-one--text-2, .paragraph--phone__blog-two--text-2, .paragraph--phone__blog-three--text-2 {
-    font-size: 16px;
-    font-weight: 500;
-}

@@ -1,0 +1,115 @@
+{
+    //"flex-layout.col#mobile__home--section-1"
+"image#phone__home--image-one": {
+    "title":"Image home one phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-one.jpg",        
+      "link":{
+        "url":"/"
+      }
+    }
+  },   
+  
+  "image#phone__home--image-two":{
+    "title":"Image home two phone view",
+    "props":{
+      "blockClass":"phonw__home--image",
+      "src":"assets/img/home/phone/image-two.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-three":{
+    "title":"Image home three phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-three.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  
+  "image#phone__home--image-four":{
+    "title":"Image home four phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-four.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-five":{
+    "title":"Image home five phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-five.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-six":{
+    "title":"Image home six phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-six.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#phone__home--image-seven":{
+    "title":"Image home seven phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-seven.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-eight":{
+    "title":"Image home eight phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-eight.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-nine":{
+    "title":"Image home nine phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-nine.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-ten":{
+    "title":"Image home ten phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-ten.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-eleven":{
+    "title":"Image home eleven phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-eleven.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }
+}

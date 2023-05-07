@@ -1,0 +1,74 @@
+{     
+    
+//"flex-layout.row#tablet__home--section-2"
+  "image#phone__home--image-thirteen":{
+    "title":"Image home thirteen phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-thirteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-fourteen":{
+    "title":"Image home fourteen phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-fourteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-fifteen":{
+    "title":"Image home fifteen phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-fifteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  
+
+  "image#phone__home--image-sixteen":{
+    "title":"Image home sixteen phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-sixteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-seventeen":{
+    "title":"Image home  phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-seventeen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#phone__home--image-eighteen":{
+    "title":"Image home eighteen phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-eighteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  }, 
+  "image#phone__home--image-nineteen":{
+    "title":"Image home nineteen phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-nineteen.jpg"      
+    }
+  }
+
+}

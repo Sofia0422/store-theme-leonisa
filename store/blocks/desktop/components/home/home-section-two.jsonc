@@ -1,0 +1,112 @@
+{     
+  "flex-layout.row#desktop__home--six-imgs":{
+    "title":"Home image container six",
+    "children":[
+      "image#desktop__home--image-thirteen",
+      "image#desktop__home--image-fourteen"
+    ],
+    "props":{
+      "blockClass":"desktop__image--container-six"
+    }
+  },
+  "image#desktop__home--image-thirteen":{
+    "title":"Image home thirteen",
+    "props":{
+      "blockClass":"desktop__home--image-thirteen",
+      "src":"assets/img/home/desktop/image-thirteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#desktop__home--image-fourteen":{
+    "title":"Image home fourteen",
+    "props":{
+      "blockClass":"desktop__home--image-fourteen",
+      "src":"assets/img/home/desktop/image-fourteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.row#desktop__home--seven-imgs" :{
+    "title":"Home image container seven",
+    "children":["image#desktop__home--image-fifteen"],
+    "props":{
+      "blockClass":"desktop__image--container-seven"
+    }
+  },
+  "image#desktop__home--image-fifteen":{
+    "title":"Image home fifteen",
+    "props":{
+      "blockClass":"desktop__home--image-fifteen",
+      "src":"assets/img/home/desktop/image-fifteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+
+  "flex-layout.row#desktop__home--eight-imgs":{
+    "title":"Home image container eight",
+    "children":[
+      "image#desktop__home--image-sixteen",
+      "image#desktop__home--image-seventeen"
+    ],
+    "props":{
+      "blockClass":"desktop__image--container-eight"
+    }
+  },
+  "image#desktop__home--image-sixteen":{
+    "title":"Image home sixteen",
+    "props":{
+      "blockClass":"desktop__home--image-sixteen",
+      "src":"assets/img/home/desktop/image-sixteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#desktop__home--image-seventeen":{
+    "title":"Image home seventeen",
+    "props":{
+      "blockClass":"desktop__home--image-seventeen",
+      "src":"assets/img/home/desktop/image-seventeen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.row#desktop__home--nine-imgs":{
+    "title":"Home image container nine",
+    "children":["image#desktop__home--image-eighteen"],
+    "props":{
+      "blockClass":"desktop__image--container-nine"
+    }
+  },
+  "image#desktop__home--image-eighteen":{
+    "title":"Image home eighteen",
+    "props":{
+      "blockClass":"desktop__home--image-eighteen",
+      "src":"assets/img/home/desktop/image-eighteen.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "flex-layout.row#desktop__home--ten-imgs":{
+    "title":"Home image container ten",
+    "children":["image#desktop__home--image-nineteen"],
+    "props":{
+      "blockClass":"desktop__image--container-ten"
+    }
+  },
+  "image#desktop__home--image-nineteen":{
+    "title":"Image home nineteen",
+    "props":{
+      "blockClass":"desktop__home--image-nineteen",
+      "src":"assets/img/home/desktop/image-nineteen.jpg"      
+    }
+  }
+  
+}
