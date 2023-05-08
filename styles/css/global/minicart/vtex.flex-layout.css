@@ -1,0 +1,15 @@
+.flexRowContent--minicart__product--container{
+    margin-top: 20px;
+    border-top: 1px solid #bbb; 
+}
+
+.flexCol--minicart__container--footer-col{
+    height: 38% !important;
+}
+
+@media  (max-width: 425px) {
+    .flexCol--minicart__container--footer-col{
+        height: 50% !important;
+    } 
+}
+

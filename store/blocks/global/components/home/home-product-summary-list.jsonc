@@ -4,35 +4,54 @@
     "title": "Home section global productSummaryList",
     "children":[      
       "list-context.product-list#global__list--product"
-    ]
+    ],
+    "props":{
+      "blockClass":"global__home--product-summary"
+    }
   },
   "product-summary.shelf#global__list--product": {
     "children": [   
-      "product-summary-image",   
+      "product-summary-image#global__product--image",   
       "product-summary-name",
-      "product-rating-inline",
+      "product-summary-price",      
       "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
+      "product-rating-inline",      
+      "add-to-cart-button"
+      /* "product-summary-buy-button" */
+    ],
+    "props":{
+      "blockClass":"global__list-product-container"
+    }
   },
-      "list-context.product-list#global__list--product": {
-        "blocks": ["product-summary.shelf#global__list--product"],
-        "children": ["slider-layout#global__list--product"],
-        "props" :{
-          "collection":"145"}    
+  "product-summary-image#global__product--image":{
+    "title":"Product summary images",
+    "props":{
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight":400,
+      "blockClass": "global__products--image"
+    }
+  },
+
+  "list-context.product-list#global__list--product": {
+    "blocks": ["product-summary.shelf#global__list--product"],
+    "children": ["slider-layout#global__list--product"],
+      "props":{
+          "blockClass":"global__list--product"
+        }        
+  },
+  "slider-layout#global__list--product":{
+    "props":{
+      "showPaginationDots": "never", 
+      "blockClass":"global__slider--list-product",
+      "itemsPerPage":{
+        "desktop":4,
+        "tablet":2,
+        "phone":1        
       },
-    
-      "slider-layout#global__list--product":{
-        "props":{
-          "itemsPerPage":{
-            "desktop":4,
-            "tablet":2,
-            "phone":1        
-          },
-          "showNavigationArrows":"always"
-        }
-      }
+      "showNavigationArrows":"always"
+    }
+  }
       
 
 /* //custom query

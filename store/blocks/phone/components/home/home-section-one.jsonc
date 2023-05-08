@@ -111,5 +111,15 @@
         "url":"/"
       }
     }
+  },
+  "image#phone__home--image-twelve":{
+    "title":"Image home twelve phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-twelve.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
   }
 }

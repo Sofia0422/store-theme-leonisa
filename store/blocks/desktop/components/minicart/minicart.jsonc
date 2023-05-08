@@ -1,0 +1,99 @@
+{
+    "product-list-content-desktop":{
+        "title":"Product list contente desktop view",
+        "children":[
+            "flex-layout.row#minicart__row--desktop"
+        ],
+        "props":{
+            "blockClass":"minicar__row--desktop"
+        }
+    },
+
+    "flex-layout.row#minicart__row--desktop":{
+        "title":"Image and info product container desktop view",
+        "children":[
+            "flex-layout.col#minicart__col--image",
+            "flex-layout.col#minicart__col--info"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colGap": 5,
+            "horizontalAlign":"left",
+            "fullWidth": true,
+            "paddingBottom": "7",
+            "paddingTop": "6",            
+            "preserveLayoutOnMobile": "true",
+            "blockClass":"minicart__product--container"
+        }
+    },
+    "flex-layout.col#minicart__col--image":{
+        "title":"Image product desktop view",
+        "children":[
+            "product-list-image"
+        ],
+        "props":{
+            "blockClass":"minicart__col--image"
+        }
+    },
+    "flex-layout.col#minicart__col--info":{
+        "title":"Info product container desktop view",
+        "children":[
+            "vtex.product-list:product-name",
+            "rich-text#desktop__color--selector", 
+            "rich-text#desktop__size--selector",  
+            "flex-layout.row#quantity__row--desktop"                      
+        ],
+        "props":{
+            "blockClass":"minicart__col--info"
+        }
+    },
+
+    "flex-layout.row#quantity__row--desktop":{
+        "title":"Quantity and price product container desktop view",
+        "children":[
+            "quantity-selector",
+            "price"           
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"quantity__row--desktop"            
+        }
+    },
+    "quantity-selector":{
+        "title":"Quantity selector product desktop view",
+        "props":{
+            "mode":"stepper",
+            "blockClass":"desktop__minicart--quantity-selector"
+        }
+    },
+    "price" :{
+        "props":{
+            "blockClass":"desktop__minicart--price"
+        }
+    },
+
+    "rich-text#desktop__color--selector":{
+        "title": "Color selector text",
+        "props": {
+        "text": "**Color**: 259 Vino",
+        "blockClass": "desktop__color--selector"
+        }
+        
+    }, 
+    "rich-text#desktop__size--selector":{
+        "title": "Size selector text",
+        "props": {
+        "text": "**Talla**: 36B",
+        "blockClass": "desktop__size--selector"
+        }
+    },
+    "link.product#desktop__button--add-product": {
+        "title": "Add more products button",
+        "props": {
+          "href": "/{slug}/p",
+          "label": "AGREGAR MÁS PRODUCTOS",
+          "blockClass": "desktop__button--add-product"
+        }
+      }
+    
+}

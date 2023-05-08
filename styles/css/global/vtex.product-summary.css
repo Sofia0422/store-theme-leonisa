@@ -1,0 +1,4 @@
+.element--global__list-product-container :global(.vtex-button){
+    background-color: transparent;
+    border: none
+}

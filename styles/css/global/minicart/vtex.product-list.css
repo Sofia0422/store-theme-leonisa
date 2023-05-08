@@ -1,0 +1,30 @@
+.removeButtonContainer, .unitPriceContainer, .availabilityMessageTextContainer {
+    display: none;
+}
+
+.quantitySelectorButton{
+    width: 25px;
+    height: 25px;
+    padding: 0.4rem !important;
+}
+
+.inputContainer{
+    width: 3rem;
+    font-size: 15px;
+}
+
+@media  (max-width: 425px) {
+    .inputContainer{  
+        font-size: 14px;
+        flex: none;                
+    }
+}
+
+.productPriceContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+
