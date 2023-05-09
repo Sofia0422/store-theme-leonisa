@@ -1,0 +1,16 @@
+{   
+  "login#global__header": {
+    "title":"Login for global",
+    "props": {                  
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,  
+      "logInButtonBehavior":"link",  
+      "labelClasses":"global__login--container",  
+      "blockClass":"global__login--icon"
+    }
+  }
+}

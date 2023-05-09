@@ -1,3 +1,13 @@
-.paragraph--desktop__color--selector, .paragraph--desktop__size--selector{
+
+.container--minicart__empty--tex{
+    position: absolute;
+    top: 65px;
+    left: 1.5rem;
+    border-top: 1px solid #2a2c29;
+    padding-top: 20px;
+}
+
+.paragraph--minicart__empty--tex{
     font-size: 14px;
+    letter-spacing: 0.025em;
 }

@@ -7,7 +7,7 @@
           "drawer#mobile__header_menu",        
           "flex-layout.col#mobile__header--search",           
           "locale-switcher#mobile__header--locale",
-          "login#mobile__header",
+          "login#global__header",
           "minicart.v2"
         ],      
         "props": {
@@ -92,11 +92,7 @@
       "props":{
         "blockClass":"header__container--search"
       }
-    },
-
-    "autocomplete-result-list.v2#mobile":{
-      "blocks":["product-summary"]
-    },
+    },   
 
     "icon#mobile__header--search":{
       "props":{
@@ -139,7 +135,7 @@
     }
   },  
   "search-bar#mobile__search--modal":{
-    "blocks":["autocomplete-result-list.v2"],
+    "blocks":["autocomplete-result-list.v2#desktop"],
     "props":{
       "blockClass":"mobile__search--modal",
       "openAutocompleteOnFocus":true,
@@ -206,19 +202,7 @@
       "props":{
         "blockClass":"mobile__locale--icon"
       }
-    },
+    }
   
-    //Login
-      "login#mobile__header": {
-        "title":"Login for mobile",
-        "props": {        
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "blockClass":"mobile__login--icon"
-        }
-      }      
+      
 }

@@ -28,11 +28,11 @@
   },
 
   "autocomplete-result-list.v2#desktop":{
-    "blocks":["product-summary"]
+    "blocks":["product-summary.shelf#global__listproduct--search"]
   },
 
   "search-bar#desktop__header_search":{
-    "blocks":["autocomplete-result-list.v2#desktop"],
+    /* "blocks":["autocomplete-result-list.v2#desktop"], */
     "props":{
       "blockClass":"desktop__header--search",
       "openAutocompleteOnFocus":true,
@@ -76,7 +76,7 @@
     }
   },  
   "search-bar#desktop__search--modal":{
-    "blocks":["autocomplete-result-list.v2"],
+    "blocks":["autocomplete-result-list.v2#desktop"],
     "props":{
       "blockClass":"header__search--modal",
       "openAutocompleteOnFocus":true,
@@ -116,7 +116,7 @@
   "flex-layout.row#header__icons--container":{
     "children":[
       "locale-switcher#desktop__header--locale",
-      "login#desktop__header",
+      "login#global__header",
       "minicart.v2"
     ],
     "props":{
@@ -129,20 +129,8 @@
     "props":{
       "blockClass":"desktop__locale--icon"
     }
-  },
-
-  //Login
-  "login#desktop__header": {
-    "title":"Login for desktop",
-    "props": {                
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,      
-      "blockClass":"desktop__login--icon"
-    }
   }
+
+  
     
 }

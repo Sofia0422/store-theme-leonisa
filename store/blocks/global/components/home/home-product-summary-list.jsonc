@@ -16,7 +16,8 @@
       "product-summary-price",      
       "product-summary-space",
       "product-rating-inline",      
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "flex-layout.row#shelf__drops--color-container"      
       /* "product-summary-buy-button" */
     ],
     "props":{
@@ -50,6 +51,72 @@
         "phone":1        
       },
       "showNavigationArrows":"always"
+    }
+  },
+
+  "flex-layout.row#shelf__drops--color-container":{
+    "children":[
+      "link.product#shelf__drops--color-1",
+      "link.product#shelf__drops--color-2",
+      "link.product#shelf__drops--color-3"
+    ],
+    "props":{
+      "blockClass":"drops__color--container"
+    }
+  },
+  "link.product#shelf__drops--color-1": {
+    "title": "First drop color",
+    "props": {
+      "href": "/{slug}/p",       
+      "blockClass": "shelf__drops--color-1"
+    }
+  },
+  "link.product#shelf__drops--color-2": {
+    "title": "Second drop color",
+    "props": {
+      "href": "/{slug}/p",
+      "label":".",       
+      "blockClass": "shelf__drops--color-2"
+    }
+  },
+  "link.product#shelf__drops--color-3": {
+    "title": "Third drop color",
+    "props": {
+      "href": "/{slug}/p",            
+      "blockClass": "shelf__drops--color-3"
+    }
+  },
+
+  //Productsummaylist for search
+
+  "product-summary.shelf#global__listproduct--search": {
+    "children": [   
+      "product-summary-image#search__product--image",   
+      "product-summary-name#search__product--name",
+      "product-summary-price#search__product--price",          
+      "add-to-cart-button"      
+    ],
+    "props":{
+      "blockClass":"global__list-product-container"
+    }
+  },
+  "product-summary-image#search__product--image":{
+    "title":"Product summary images for search",
+    "props":{
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight":100,
+      "blockClass": "search__products--image"
+    }
+  },
+  "product-summary-name#search__product--name":{
+    "props":{
+      "blockClass":"search__product--name"
+    }
+  },
+  "product-summary-price#search__product--price":{
+    "props":{
+      "blockClass":"search__product--price"
     }
   }
       
