@@ -1,0 +1,22 @@
+
+.container--minicart__empty--tex{
+    position: absolute;
+    top: 65px;
+    left: 1.5rem;
+    border-top: 1px solid #2a2c29;
+    padding-top: 20px;
+}
+
+.paragraph--minicart__empty--tex{
+    font-size: 14px;
+    letter-spacing: 0.025em;
+}
+
+.container--quantity__display--label{
+    position: absolute;
+    top: 1.25rem;
+    left: 7.5rem;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.0em;
+}

@@ -105,7 +105,10 @@
     "title":"Image home nineteen",
     "props":{
       "blockClass":"desktop__home--image-nineteen",
-      "src":"assets/img/home/desktop/image-nineteen.jpg"      
+      "src":"assets/img/home/desktop/image-nineteen.jpg",
+      "link":{
+        "url":"https://www.instagram.com/"
+      }      
     }
   }
   

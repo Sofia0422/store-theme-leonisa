@@ -14,7 +14,7 @@
   "image#phone__home--image-two":{
     "title":"Image home two phone view",
     "props":{
-      "blockClass":"phonw__home--image",
+      "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-two.jpg",          
       "link":{
         "url":"/"
@@ -107,6 +107,16 @@
     "props":{
       "blockClass":"phone__home--image",
       "src":"assets/img/home/phone/image-eleven.jpg",          
+      "link":{
+        "url":"/"
+      }
+    }
+  },
+  "image#phone__home--image-twelve":{
+    "title":"Image home twelve phone view",
+    "props":{
+      "blockClass":"phone__home--image",
+      "src":"assets/img/home/phone/image-twelve.jpg",          
       "link":{
         "url":"/"
       }
