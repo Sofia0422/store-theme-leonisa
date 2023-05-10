@@ -1,0 +1,18 @@
+.label--mobile__button--add-product{
+    position: relative;
+    top: -1.8rem;
+    border: 1px solid black;
+    left: 1.7rem;
+    padding: 18px 70px;
+    font-size: 12px;
+    letter-spacing: 0.12em;  
+    font-weight: 600;    
+}
+
+
+@media  (max-width: 425px) {
+    .label--mobile__button--add-product{
+        left: 1rem;
+        padding: 18px 23px;
+    }    
+}

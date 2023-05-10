@@ -1,9 +1,3 @@
-.slideChildrenContainer--global__header_slider{
-    padding: 7px 0;    
-    display: flex;
-    justify-content:right;
-}
-
 
 .sliderArrows--home__slider--one{
     top: 50%;
@@ -23,4 +17,9 @@
     transform: translateY(-50%) scale(1);
     transition: transform 0.15s ease-in-out 0s;
     opacity: 1;
+}
+
+.sliderTrackContainer--global__slider--list-product {
+    margin-bottom: 50px;
+    padding: 0 70px;
 }

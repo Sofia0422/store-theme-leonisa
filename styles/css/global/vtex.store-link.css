@@ -1,0 +1,43 @@
+.link--shelf__drops--color-1{
+    border-width: 3px;
+    border-radius: 100%;
+    box-shadow: rgb(44, 42, 41) 0px 0px 0px 2px;
+    width: 16% !important;
+    background-color:rgba(205, 152, 133, 0.81);  
+    position: relative;
+    left: 4rem;  
+}
+
+.link--shelf__drops--color-2{
+    border-width: 3px;
+    border-radius: 100%;
+    box-shadow: rgb(44, 42, 41) 0px 0px 0px 2px;
+    width: 16% !important;
+    background-color:rgb(17, 16, 16);    
+}
+
+.link--shelf__drops--color-3{
+    border-width: 3px;
+    border-radius: 100%;
+    box-shadow: rgb(44, 42, 41) 0px 0px 0px 2px;
+    width: 16% !important;
+    background-color:rgba(49, 9, 85, 0.717); 
+    position: relative;
+    right: 4rem;     
+}
+
+@media  (max-width: 425px) {
+    .link--shelf__drops--color-1{
+        left:1.2rem;
+        width: 24% !important;             
+    }
+    .link--shelf__drops--color-2{        
+        width: 24% !important;             
+    }    
+    .link--shelf__drops--color-3{
+        right: 1.2rem ;
+        width: 24% !important;             
+    }     
+}
+
+

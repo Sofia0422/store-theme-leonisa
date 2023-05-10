@@ -65,7 +65,10 @@
     "title":"Image home nineteen",
     "props":{
       "blockClass":"tablet__home--image",
-      "src":"assets/img/home/tablet/image-nineteen.jpg"      
+      "src":"assets/img/home/tablet/image-nineteen.jpg",
+      "link":{
+        "url":"https://www.instagram.com/"
+      }      
     }
   }   
 }

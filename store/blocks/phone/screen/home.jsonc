@@ -33,7 +33,7 @@
       "image#phone__home--image-nine",
       "image#phone__home--image-ten",
       "image#phone__home--image-eleven",          
-      "image#tablet__home--image-twelve",  
+      "image#phone__home--image-twelve",  
       "info-card#tablet__home--best-seller"
     ],
     "props":{

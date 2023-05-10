@@ -1,0 +1,8 @@
+.price--mobile__minicart--price{
+    font-size: 14px;
+}
+@media  (max-width: 425px) {
+    .price--mobile__minicart--price{
+        font-weight: 500 !important;
+    }
+}
