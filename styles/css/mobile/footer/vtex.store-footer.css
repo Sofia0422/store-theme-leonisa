@@ -1,0 +1,9 @@
+.footerLayout--mobile__footer--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 17px;
+}

@@ -1,6 +1,17 @@
 {
     "footer":{
         "title": "Footer",
-        "blocks":["footer-layout.desktop", "footer-layout.mobile"]    
+        "blocks":[
+            "footer-layout.desktop", 
+            "footer-layout.mobile"]    
+    },
+    "footer-layout.mobile":{
+        "title":"Footer container mobile",
+        "children":[
+            "flex-layout.row#mobile__disclosure--container-row"
+        ],
+        "props":{
+            "blockClass":"mobile__footer--container"
+        }
     }
 }

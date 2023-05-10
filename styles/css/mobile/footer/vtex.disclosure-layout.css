@@ -1,0 +1,9 @@
+.trigger--disclosure__trigger--container{
+    border-style: none;
+    border-bottom: 1px solid #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    width: 100%;
+
+}
