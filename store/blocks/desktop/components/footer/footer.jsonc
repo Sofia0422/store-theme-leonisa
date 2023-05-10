@@ -1,0 +1,26 @@
+{
+   
+    "footer-layout.desktop":{
+        "children":[
+            "rich-text#footer__desktop"
+        ]
+    }, 
+
+    "footer-layout.mobile":{
+        "children":[
+            "rich-text#footer__mobile"
+        ]
+    },
+    "rich-text#footer__desktop":{
+        "props":{
+            "text":"Desktop"
+        }       
+    },
+
+    "rich-text#footer__mobile":{
+        "props":{
+            "text":"Mobile"
+        }       
+    }
+
+}

@@ -1,8 +1,9 @@
 {
   "product-list-content-mobile":{
       "title":"Product list contente mobile view",
-      "children":[
+      "children":[        
           "flex-layout.row#minicart__row--mobile"
+          
       ],
       "props":{
           "blockClass":"minicar__row--mobile"

@@ -1,7 +1,7 @@
 {
     "product-list-content-desktop":{
         "title":"Product list contente desktop view",
-        "children":[
+        "children":[            
             "flex-layout.row#minicart__row--desktop"
         ],
         "props":{

@@ -11,3 +11,12 @@
     font-size: 14px;
     letter-spacing: 0.025em;
 }
+
+.container--quantity__display--label{
+    position: absolute;
+    top: 1.25rem;
+    left: 7.5rem;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.0em;
+}

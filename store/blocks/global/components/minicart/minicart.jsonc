@@ -14,14 +14,23 @@
   "minicart-base-content":{
     "title":"Mini cart base content",
     "blocks":["minicart-empty-state"],
-    "children":["minicart-product-list", "flex-layout.col#minicart__footer"],
+    "children":["minicart.v2#quantity__display", "rich-text#quantity__display--label","minicart-product-list", "flex-layout.col#minicart__footer"],
     "props":{
       "blockClass":"minicart__base--content"       
     }
   },
+
+  "rich-text#quantity__display--label":{
+    "title": "Quantity display label",
+    "props": {
+      "text": "ítems",
+      "blockClass": "quantity__display--label"
+        }
+  },
+
   "minicart-empty-state":{
     "title":"Mini cart empty",
-    "children":["flex-layout.row#minicart__empty"],
+    "children":["minicart.v2#quantity__display", "rich-text#quantity__display--label","flex-layout.row#minicart__empty"],
     "props":{
       "blockClass":"minicart__empty-state"
     }
@@ -118,6 +127,17 @@
       "showTotal": true,
       "showDeliveryTotal": false,
       "blockClass":"checkout__summary--totalizer"
+    }
+  },
+
+  //mini cart 2
+
+  "minicart.v2#quantity__display":{
+    "title":"Mini cart to create quantity display",
+    "props":{
+      "blockClass":"quantity__display",     
+      "itemCountMode": "total",
+      "quantityDisplay":"always"          
     }
   }
  
