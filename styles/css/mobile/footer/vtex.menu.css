@@ -1,0 +1,31 @@
+.menuContainer--disclosure__menu{    
+    align-items: center;
+    padding: 0 0 15px;
+}
+
+.menuItem--disclosure__menu--item{
+    margin-bottom: 0.25em;
+}
+
+.styledLinkContent--disclosure__menu--item{
+    font-size: 13px;
+}
+
+.menuContainer--policies__menu--container-row {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.styledLinkContainer--policies__menu--item{
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+
+.styledLinkContent--policies__menu--item{
+    font-size: 14px;
+
+}

@@ -1,14 +1,16 @@
 {  
-    "footer-layout.desktop":{
+    "flex-layout.row#desktop__footer--container-row":{
+        "title":"Footer container main desktop",
         "children":[
-            "rich-text#footer__desktop"
-        ]
-    }, 
-
-    "rich-text#footer__desktop":{
+            "flex-layout.col#desktop__footer--inlove",
+            "flex-layout.col#desktop__footer--help",
+            "flex-layout.col#desktop__footer--connect",
+            "flex-layout.col#desktop__footer--subscribe" 
+        ],
         "props":{
-            "text":"Desktop"
-        }       
+            "blockClass":"desktop__footer--container-row",
+            "fullWidth": true
+        }  
     }    
-
+ 
 }

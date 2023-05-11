@@ -43,7 +43,7 @@
 
     .flexColChild--tablet__containerb--text-1, .flexColChild--tablet__containerb--text-2, .flexColChild--tablet__containerb--text-3{
         width: 200px;
-        padding-right: 3rem;
+        padding-right: 1rem;        
     } 
 
     .flexRow--tablet__blog--container-1, .flexRow--tablet__blog--container-2, .flexRow--tablet__blog--container-3 {

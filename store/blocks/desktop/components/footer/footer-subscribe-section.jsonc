@@ -1,0 +1,15 @@
+{
+    "flex-layout.col#desktop__footer--subscribe" :{
+        "title":"Subscribe section en footer desktop",
+        "children":[
+            "menu#subscribe",
+            "rich-text#discount",
+            "rich-text#privacy-policy",
+            "newsletter-form#footer__newsletter--container",
+            "flex-layout.row#icons__socialnetwork--container"
+        ],
+        "props":{
+            "blockClass":"desktop__footer--subscribe"
+        }
+    }
+}
