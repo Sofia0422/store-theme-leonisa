@@ -1,0 +1,53 @@
+{
+      
+    "flex-layout.row#desktop__payment--container-row":{
+        "title":"Payment methods container row", 
+        "children":[       
+          "flex-layout.col#desktop__payment--container-one",
+          "flex-layout.col#desktop__payment--container-two"           
+          ],       
+        "props":{
+            "blockClass":"desktop__payment--container-row",
+            "fullWidth": true
+        }  
+    },
+
+    "flex-layout.col#desktop__payment--container-one":{
+      "children":[
+          "image#desktop__payment--safe"      
+        ],
+        "props":{
+          "blockClass":"desktop__payment--container-one"          
+      }
+    },
+    "image#desktop__payment--safe":{
+      "title":"Icon payment safe in footer",
+      "props":{
+        "blockClass":"desktop__payment--safe",
+        "src":"assets/img/footer/payment/pago-seguro.avif"         
+      } 
+    }, 
+    "flex-layout.col#desktop__payment--container-two":{
+      "children":[     
+          "flex-layout.row#desktop__payment--container-icons"           
+        ],
+        "props":{
+          "blockClass":"desktop__payment--container-two"          
+      }
+    },
+    "flex-layout.row#desktop__payment--container-icons":{
+      "children":[
+          "image#mobile__payment--visa",
+          "image#mobile__payment--mastercard",
+          "image#mobile__payment--amex",
+          "image#mobile__payment--diners",
+          "image#mobile__payment--pse",
+          "image#mobile__payment--efecty",
+          "image#mobile__payment--cash"
+        ],
+      "props":{
+        "blockClass":"desktop__payment--container-icons"          
+      }  
+    }     
+      
+}

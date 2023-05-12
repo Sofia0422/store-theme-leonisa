@@ -1,0 +1,192 @@
+{
+    "disclosure-layout#connect":{
+        "children":[
+            "disclosure-trigger#connect",
+            "disclosure-content#connect"
+        ],
+        "props":{
+            "blockClass":"disclosure__connect--container"
+        }
+    },
+    "disclosure-trigger#connect":{
+        "children":["rich-text#connect", "disclosure-state-indicator"],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#connect":{
+        "props":{
+            "text": "CONÉCTATE",
+            "blockClass":"disclosure__text--title"
+        }
+    },
+
+    "disclosure-content#connect":{
+        "children":["menu#connect"],
+        "props":{            
+            "blockClass":"disclosure__content--connect"
+        }
+    },
+    "menu#connect":{
+        "children":[
+            "menu-item#privileges",
+            "menu-item#shoppers",
+            "menu-item#for-you",
+            "menu-item#shopping",
+            "menu-item#mail-list",
+            "menu-item#partners", 
+            "menu-item#limited-edition",
+            "menu-item#store-locator",
+            "menu-item#wholesales",
+            "menu-item#sell-catalog",
+            "menu-item#work-with-us"        
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu"
+        }
+    },
+    "menu-item#privileges":{
+        "props":{
+            "id":"menu-privileges",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Privilegios Leonisa",
+                "text":"Privilegios Leonisa"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#shoppers":{
+        "props":{
+            "id":"menu-shopper",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Personal Shoppers",
+                "text":"Personal Shoppers"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#for-you":{
+        "props":{
+            "id":"menu-for-you",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Leonisa en mujeres como tú",
+                "text":"Leonisa en mujeres como tú"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#shopping":{
+        "props":{
+            "id":"menu-shopping",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Live Shopping y Streamings",
+                "text":"Live Shopping y Streamings"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#mail-list":{
+        "props":{
+            "id":"menu-mail-list",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Lista de Correo",
+                "text":"Lista de Correo"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#partners":{
+        "props":{
+            "id":"menu-partners",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Cómplices de tu interior",
+                "text":"Cómplices de tu interior"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#limited-edition":{
+        "props":{
+            "id":"menu-limited-edition",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Tú eres una Edición Limitada",
+                "text":"Tú eres una Edición Limitada"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#store-locator":{
+        "props":{
+            "id":"menu-store-locator",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Localizador de Tiendas",
+                "text":"Localizador de Tiendas"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#wholesales":{
+        "props":{
+            "id":"menu-wholesales",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Ventas al por Mayor",
+                "text":"Ventas al por Mayor"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#sell-catalog":{
+        "props":{
+            "id":"menu-sell-catalog",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Vende por Catálogo",
+                "text":"Vende por Catálogo"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    },
+    "menu-item#work-with-us":{
+        "props":{
+            "id":"menu-work-with-us",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Trabaja con Nosotros",
+                "text":"Trabaja con Nosotros"
+            },
+            "blockClass":"disclosure__menu--item"
+        }
+    }
+}

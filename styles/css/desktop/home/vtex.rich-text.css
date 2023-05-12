@@ -81,6 +81,20 @@
     font-weight: 500;
 }
 
+.wrapper--desktop__subscribe--text, .wrapper--desktop__discount--text, .wrapper--desktop__agree--text, .link--desktop__agree--text{
+    color: #ffffff;
+}
+
+.paragraph--desktop__subscribe--text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.paragraph--desktop__discount--text{
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+}
 
 
 

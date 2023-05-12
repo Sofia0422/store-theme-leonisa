@@ -1,0 +1,99 @@
+.imageElement--socialnetwork__icon--general{
+    width: 22px;
+    height: 22px;
+}
+
+.imageElement--payment__icon--safe{
+    width: 101px;
+    height: 20px;
+    position: absolute;
+    right: 32rem;
+    margin-top: 48px;
+}
+
+
+.imageElement--payment__icon--visa, .imageElement--payment__icon--amex, .imageElement--payment__icon--diners{
+    width: 38px;
+    height: 24px;
+}
+
+.imageElement--payment__icon--mastercard{
+    width: 50px;
+    height: 36px;
+}
+
+.imageElement--payment__icon--pse, .imageElement--payment__icon--cash {
+    width: 28px;
+    height: 28px;
+}
+
+.imageElement--payment__icon--efecty{
+    width: 30px;
+    height: 30px;
+}
+
+@media  (max-width: 425px) {
+    .imageElement--payment__icon--safe{        
+        right: 16.8rem;
+        margin-top: 48px;
+    }
+    .imageElement--payment__icon--visa, .imageElement--payment__icon--amex, .imageElement--payment__icon--diners, .imageElement--payment__icon--mastercard, .imageElement--payment__icon--pse, .imageElement--payment__icon--cash,
+    .imageElement--payment__icon--efecty{
+        position: absolute;
+    }
+    .imageElement--payment__icon--amex{
+        transform: translateY(6px);
+        left: 17.2rem;
+    }
+    .imageElement--payment__icon--diners{
+        transform: translateY(6px);
+        left: 20.2rem;
+    }
+    .imageElement--payment__icon--pse{
+        transform: translateY(36px);
+        left: 9.6rem;
+    }
+    .imageElement--payment__icon--efecty{
+        transform: translateY(36px);
+        left: 12rem;
+    }
+    .imageElement--payment__icon--cash{
+        transform: translateY(36px);
+        left: 14.7rem;
+    }
+    .imageElement--payment__icon--mastercard{
+        left: 13.8rem;
+    }
+    .imageElement--payment__icon--visa{
+        transform: translateY(6px);
+        left: 11rem;
+    }          
+}
+
+@media  (max-width: 375px) {
+    .imageElement--payment__icon--safe{        
+        right: 13.8rem;        
+    }   
+   
+    .imageElement--payment__icon--diners{
+        transform: translateY(36px);
+        left: 6.6rem;
+    }    
+}
+
+@media  (max-width: 320px) {
+    .imageElement--payment__icon--safe{        
+        right: 10.2rem;       
+    }
+  
+    .imageElement--payment__icon--amex{
+        transform: translateY(36px);
+        left: 3.7rem;
+    }        
+}
+
+@media  (min-width: 1024px) {
+    .imageElement--payment__icon--safe{        
+        right: 44.2rem;        
+    }  
+}

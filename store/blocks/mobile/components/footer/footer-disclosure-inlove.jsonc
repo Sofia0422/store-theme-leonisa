@@ -1,0 +1,87 @@
+{
+    "disclosure-layout#inlove":{
+        "children":[
+            "disclosure-trigger#inlove",
+            "disclosure-content#inlove"           
+        ],
+        "props":{
+            "blockClass":"disclosure__inlove--container"
+        }
+    },
+   
+    "disclosure-trigger#inlove":{
+        "children":["rich-text#inlove", "disclosure-state-indicator"],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#inlove":{
+        "props":{
+            "text": "ENAMÓRATE DE LEONISA",
+            "blockClass":"disclosure__text--title"
+        }
+    },
+    "disclosure-state-indicator": {
+        "props": {
+          "Show": "icon-caret#down",
+          "Hide": "icon-caret#up",
+          "blockClass":"disclosure__state--indicator"
+        }
+      },
+      "icon-caret#down": {
+        "props": {
+          "orientation": "down",
+          "blockClass":"disclosure__icon"
+        }
+      },
+      "icon-caret#up": {
+        "props": {
+          "orientation": "up",
+          "blockClass":"disclosure__icon"
+        }
+      },
+
+    "disclosure-content#inlove":{
+        "children":["menu#inlove"],
+        "props":{
+            "blockClass":"disclosure__content--inlove"
+        }
+    },
+    "menu#inlove":{
+        "children":[
+            "rich-text#brand-project",
+            "rich-text#meet-here",
+            "link#meet-us"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu--inlove"
+        }
+    },
+    "rich-text#brand-project":{
+        "title":"rich-text brand project",
+        "props":{
+          "blockClass":"disclosure__inlove--text-1",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"Damos forma a nuestros proyectos de marca y compañía de manera responsable y sostenible."
+        }
+    },
+    "rich-text#meet-here":{
+        "title":"rich-text meet here",
+        "props":{
+          "blockClass":"disclosure__inlove--text-2",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"Conoce aquí por qué **enamorarte de Leonisa**."
+        }
+    },
+    "link#meet-us": {
+        "title": "Know us link",
+        "props": {
+          "href": "/",
+          "label": "CONÓCENOS",
+          "blockClass": "disclosure__inlove--link-1"
+        }
+      }
+}

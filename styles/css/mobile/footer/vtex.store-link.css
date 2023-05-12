@@ -1,0 +1,13 @@
+.label--disclosure__inlove--link-1{
+    text-decoration: none !important;
+    background-color: #2a2c29;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid #2c2a29;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.link--disclosure__inlove--link-1{
+    margin: 0 0 15px;
+}

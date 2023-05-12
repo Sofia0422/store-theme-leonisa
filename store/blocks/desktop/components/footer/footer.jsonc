@@ -1,26 +1,16 @@
-{
-   
-    "footer-layout.desktop":{
+{  
+    "flex-layout.row#desktop__footer--container-row":{
+        "title":"Footer container main desktop",
         "children":[
-            "rich-text#footer__desktop"
-        ]
-    }, 
-
-    "footer-layout.mobile":{
-        "children":[
-            "rich-text#footer__mobile"
-        ]
-    },
-    "rich-text#footer__desktop":{
+            "flex-layout.col#desktop__footer--inlove",
+            "flex-layout.col#desktop__footer--help",
+            "flex-layout.col#desktop__footer--connect",
+            "flex-layout.col#desktop__footer--subscribe" 
+        ],
         "props":{
-            "text":"Desktop"
-        }       
-    },
-
-    "rich-text#footer__mobile":{
-        "props":{
-            "text":"Mobile"
-        }       
-    }
-
+            "blockClass":"desktop__footer--container-row",
+            "fullWidth": true
+        }  
+    }    
+ 
 }

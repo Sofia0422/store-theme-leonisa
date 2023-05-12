@@ -1,0 +1,29 @@
+.wrapper--disclosure__text--title{
+    padding: 15px 0;    
+    letter-spacing: .3em;
+    font-size: .75em;  
+    text-align: center;
+}
+
+.paragraph--disclosure__inlove--text-1, .paragraph--disclosure__inlove--text-2,.paragraph--disclosure__subscribe--text-1, .paragraph--disclosure__subscribe--text-2{
+    margin: 0 0 15px !important;
+    font-size: 14px;
+}
+
+.link--disclosure__subscribe--text-2{
+    color: #2a2c29;
+}
+
+.container--mobile__copyright--text {
+    padding-top: 15px;
+}
+
+.wrapper--mobile__copyright--text{
+    padding: 7.5px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 14px
+}
+
+
+

@@ -1,0 +1,102 @@
+{
+    "flex-layout.row#mobile__policies--container-row":{
+        "title":"Policies main container", 
+        "children":["menu#mobile__footer--policies"],       
+        "props":{            
+            "blockClass":"mobile__policies--container-row"           
+        }  
+    },
+
+    "menu#mobile__footer--policies":{
+        "children":[
+            "menu-item#term-and-conds",
+            "menu-item#privacy",
+            "menu-item#data-protection",
+            "menu-item#consent",
+            "menu-item#accessibility" 
+        ],
+        "props":{            
+            "blockClass":"policies__menu--container-row"           
+        } 
+    },
+
+    "menu-item#term-and-conds":{
+        "props":{
+            "id":"menu-term-and-conds",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Términos y Condiciones",
+                "text":"Términos y Condiciones"
+            },
+            "blockClass":"policies__menu--item"
+        }
+    },
+    "menu-item#privacy":{
+        "props":{
+            "id":"menu-privacy",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Política de Privacidad",
+                "text":"Política de Privacidad"
+            },
+            "blockClass":"policies__menu--item"
+        }
+    },
+    "menu-item#data-protection":{
+        "props":{
+            "id":"menu-data-protection",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Política de Protección de Datos Personales",
+                "text":"Política de Protección de Datos Personales"
+            },
+            "blockClass":"policies__menu--item"
+        }
+    },
+    "menu-item#consent":{
+        "props":{
+            "id":"menu-consent",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Preferencias de Consentimiento",
+                "text":"Preferencias de Consentimiento"
+            },
+            "blockClass":"policies__menu--item"
+        }
+    },
+    "menu-item#accessibility":{
+        "props":{
+            "id":"menu-accessibility",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Accesibilidad",
+                "text":"Accesibilidad"
+            },
+            "iconProps": {
+                "id": "icon-acces",
+                "size": 20,
+                "viewBox": "0 0 16 16"               
+              },            
+            "blockClass":"policies__menu--item"
+        }
+    },
+    "rich-text#mobile__copyright--text":{
+        "title":"Copyright text in footer",
+          "props":{
+            "blockClass":"mobile__copyright--text",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text":"© 2023 Leonisa Colombia"
+          }
+    }
+}
