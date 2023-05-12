@@ -5,7 +5,7 @@
             "rich-text#inlove",
             "rich-text#desktop__brand--project",
             "rich-text#desktop__meet--here",
-            "link#meet-us"
+            "link#desktop__meet--us"
         ],
         "props":{
             "blockClass":"desktop__footer--inlove"
@@ -25,5 +25,13 @@
           "blockClass":"desktop__inlove--text-2",          
           "text":"Conoce aquí por qué **enamorarte de Leonisa**."
         }
-    }
+    },
+    "link#desktop__meet--us": {
+        "title": "Know us link",
+        "props": {
+          "href": "/",
+          "label": "CONÓCENOS",
+          "blockClass": "desktop__inlove--link-1"
+        }
+      }
 }

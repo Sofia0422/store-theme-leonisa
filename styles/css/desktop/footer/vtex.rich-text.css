@@ -1,0 +1,20 @@
+.container--desktop__inlove--text-1, .container--desktop__inlove--text-2 {
+    margin-top: -26px;
+}
+
+.wrapper--desktop__inlove--text-1, .wrapper--desktop__inlove--text-2, .wrapper--desktop__subscribe--text-1, .wrapper--desktop__subscribe--text-2{
+    font-size: 14px;
+    padding-right: 5rem;
+}
+
+.link--desktop__subscribe--text-2{
+    color: #2a2c29;
+}
+
+.wrapper--desktop__subscribe--text-1{
+    margin-top: -16px;
+}
+
+.wrapper--desktop__subscribe--text-2{
+    margin-top: 10px;
+}

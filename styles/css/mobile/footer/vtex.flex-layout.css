@@ -73,4 +73,11 @@
         margin-left: 3.5rem;
     }    
 }
+@media  (min-width: 1024px) {
+    .flexRowContent--icons__socialnetwork--container{        
+        margin-left: 25.5rem;
+    } 
+}
+
+
 

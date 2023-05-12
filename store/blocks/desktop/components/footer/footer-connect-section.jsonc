@@ -25,7 +25,7 @@
         ],
         "props":{
             "orientation": "vertical",
-            "blockClass":"desktop__menu--help"
+            "blockClass":"desktop__menu--connect"
         }
     },
     "menu-item#desktop__privileges":{

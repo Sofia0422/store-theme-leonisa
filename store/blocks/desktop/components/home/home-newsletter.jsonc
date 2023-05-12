@@ -1,0 +1,88 @@
+{
+    "flex-layout.row#desktop__home--newsletter":{
+        "title":"Subscribe section in home desktop view",
+        "children":[
+            "flex-layout.col#desktop__home--newsletter"
+        ],
+        "props":{     
+            "fullWidth": true,       
+            "blockClass":"desktop__home--newsletter-row"            
+        }
+    },
+    "flex-layout.col#desktop__home--newsletter":{
+        "title":"Main container of subscribe section",
+        "children":[
+            "rich-text#desktop__subscribe--text",
+            "rich-text#desktop__discount--text",
+            "newsletter-form#home__newsletter--container",
+            "rich-text#desktop__agree--text"
+        ],
+        "props":{            
+            "blockClass":"desktop__home--newsletter-col"            
+        }
+    },
+    "rich-text#desktop__subscribe--text":{
+        "title":"rich-text subscribe",
+        "props":{
+          "blockClass":"desktop__subscribe--text",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"SUSCRÍBETE Y RECIBE 15% DE DESCUENTO."
+        }
+    },
+    "rich-text#desktop__discount--text":{
+        "title":"rich-text discount",
+        "props":{
+          "blockClass":"desktop__discount--text",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"15% DE DESCUENTO en tu primera compra. Entérate de lanzamientos, tendencias y ofertas especiales."
+        }
+    },
+    "newsletter-form#home__newsletter--container": {
+        "title": "Newsletter container in home",
+        "children":["flex-layout.row#desktop__newsletter--container"],
+        "props": {          
+          "blockClass": "home__newsletter--container"
+        }
+      },
+
+      "flex-layout.row#desktop__newsletter--container":{
+        "title":"Newsletter container in home desktop - input and button",
+        "children":[
+            "newsletter-input-email#home__input--email",
+            "newsletter-submit#home__button--submit"
+        ],
+        "props":{
+            "blockClass":"desktop__newsletter--container",
+            "horizontalAlign": "center",
+            "preventHorizontalStrech": false,
+            "fullWidth": true
+        }
+      },
+
+      "newsletter-input-email#home__input--email":{
+        "title":"Input email for newsletter section in home",
+        "props":{
+            "placeholderText":"Correo electrónico",
+            "blockClass":"home__input--email"
+        }
+      },
+      "newsletter-submit#home__button--submit":{
+        "title":"button submit for newsletter section in home",
+        "props":{
+            "submitButtonLabel":"SUSCRIBIR",
+            "blockClass":"home__button--submit"
+        }
+
+      },
+      "rich-text#desktop__agree--text":{
+        "title":"rich-text agree",
+        "props":{
+          "blockClass":"desktop__agree--text",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"Al registrarte aceptas el tratamiento de tus datos. Conoce, actualiza, rectifica o retira escribiendo a [protecciondatos@leonisa.com](https://www.google.com/gmail/about/). Ver [Política de Privacidad]((https://www.google.com/))."
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.styledLinkContent--desktop__footer--menu-item{
+    font-size: 14px;
+}
+
+.menuContainerNav--desktop__menu--help{    
+    transform: translateY(-126px);
+    margin-left: -1.5rem;
+}
+
+.menuContainerNav--desktop__menu--connect{
+    margin-left: -1.5rem;
+}
+
+.styledLinkContainer--desktop__footer--menu-item{
+    margin-bottom: 0.25em;
+}
