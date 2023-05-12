@@ -1,0 +1,37 @@
+{
+    "flex-layout.col#desktop__footer--inlove":{
+        "title":"In love section en footer desktop",
+        "children":[
+            "rich-text#inlove",
+            "rich-text#desktop__brand--project",
+            "rich-text#desktop__meet--here",
+            "link#desktop__meet--us"
+        ],
+        "props":{
+            "blockClass":"desktop__footer--inlove"
+        }
+    },
+
+    "rich-text#desktop__brand--project":{
+        "title":"rich-text brand project",
+        "props":{
+          "blockClass":"desktop__inlove--text-1",          
+          "text":"Damos forma a nuestros proyectos de marca y compañía de manera responsable y sostenible."
+        }
+    },
+    "rich-text#desktop__meet--here":{
+        "title":"rich-text meet here",
+        "props":{
+          "blockClass":"desktop__inlove--text-2",          
+          "text":"Conoce aquí por qué **enamorarte de Leonisa**."
+        }
+    },
+    "link#desktop__meet--us": {
+        "title": "Know us link",
+        "props": {
+          "href": "/",
+          "label": "CONÓCENOS",
+          "blockClass": "desktop__inlove--link-1"
+        }
+      }
+}

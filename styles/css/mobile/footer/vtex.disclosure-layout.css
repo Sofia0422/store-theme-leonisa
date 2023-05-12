@@ -1,0 +1,21 @@
+.trigger--disclosure__trigger--container{
+    border-style: none;
+    border-top: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    width: 100%;
+    margin: 0 0 7.5px;
+    background: none;
+}
+
+.content--disclosure__content--inlove--visible{    
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s cubic-bezier(.25,.46,.45,.94),height .35s cubic-bezier(.25,.46,.45,.94);
+    padding: 0 0 15px;
+}
+.content--disclosure__content--subscribe{
+    padding: 0 0 15px;
+}
+

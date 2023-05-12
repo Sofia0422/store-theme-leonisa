@@ -1,0 +1,150 @@
+{
+    "disclosure-layout#subscribe":{
+        "children":[
+            "disclosure-trigger#subscribe",
+            "disclosure-content#subscribe"
+        ],
+        "props":{
+            "blockClass":"disclosure__subscribe--container"
+        }
+    },
+    "disclosure-trigger#subscribe":{
+        "children":["rich-text#subscribe", "disclosure-state-indicator"],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#subscribe":{
+        "props":{
+            "text": "SUSCRÍBETE A NUESTRA LISTA",
+            "blockClass":"disclosure__text--title"
+        }
+    },
+
+    "disclosure-content#subscribe":{
+        "children":["menu#subscribe"],
+        "props":{            
+            "blockClass":"disclosure__content--subscribe"
+        }
+    },
+    "menu#subscribe":{
+        "children":[
+            "rich-text#discount",
+            "rich-text#privacy-policy",
+            "newsletter-form#footer__newsletter--container",
+            "flex-layout.row#icons__socialnetwork--container"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu--subscribe"            
+        }
+    },
+    "rich-text#discount":{
+        "title":"rich-text discounts",
+        "props":{
+          "blockClass":"disclosure__subscribe--text-1",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"Recibe **15% de descuento** en tu primera compra. Enteráte de lanzamientos, tendencias y ofertas especiales."
+        }
+    },
+    "rich-text#privacy-policy":{
+        "title":"rich-text privacy policy",
+        "props":{
+          "blockClass":"disclosure__subscribe--text-2",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text":"Ver [Politica de Privacidad](https://www.google.com/)"
+        }
+    },
+    "newsletter-form#footer__newsletter--container": {
+        "title": "Newsletter container in disclosure",
+        "children":["flex-layout.row#subscribe__newsletter--container"],
+        "props": {          
+          "blockClass": "disclosure__subscribe--newsletter"
+        }
+      },
+
+      "flex-layout.row#subscribe__newsletter--container":{
+        "title":"Newsletter container - input and button",
+        "children":[
+            "newsletter-input-email#footer__input--email",
+            "newsletter-submit#footer__button--submit"
+        ],
+        "props":{
+            "blockClass":"subscribe__newsletter--container",
+            "horizontalAlign": "center",
+            "preventHorizontalStrech": false,
+            "fullWidth": true
+        }
+      },
+
+      "newsletter-input-email#footer__input--email":{
+        "title":"Input email for newsletter section in footer",
+        "props":{
+            "placeholderText":"Correo electrónico",
+            "blockClass":"footer__input--email"
+        }
+      },
+      "newsletter-submit#footer__button--submit":{
+        "title":"button submit for newsletter section in footer",
+        "props":{
+            "submitButtonLabel":"SUSCRIBIR",
+            "blockClass":"footer__button--submit"
+        }
+
+      },
+
+ // Icons footer - Social Network
+ "flex-layout.row#icons__socialnetwork--container":{
+    "children":[
+      "image#mobile__socialnetwork--icon-insta",
+      "image#mobile__socialnetwork--icon-face",
+      "image#mobile__socialnetwork--icon-yout",
+      "image#mobile__socialnetwork--icon-pint"
+    ],
+    "props":{
+      "blockClass":"icons__socialnetwork--container"
+    }
+  },
+  "image#mobile__socialnetwork--icon-insta":{
+    "title":"Icon instagram in footer",
+    "props":{
+      "blockClass":"socialnetwork__icon--general",
+      "src":"assets/img/footer/social-network/instagram-icon.svg",          
+      "link":{
+        "url":"https://www.instagram.com/"
+      }
+    } 
+  },
+  "image#mobile__socialnetwork--icon-face":{
+    "title":"Icon facebook in footer",
+    "props":{
+      "blockClass":"socialnetwork__icon--general",
+      "src":"assets/img/footer/social-network/facebook-icon.svg",          
+      "link":{
+        "url":"https://es-la.facebook.com/"
+      }
+    }       
+  },
+  "image#mobile__socialnetwork--icon-yout":{
+    "title":"Icon youtube in footer",
+    "props":{
+      "blockClass":"socialnetwork__icon--general",
+      "src":"assets/img/footer/social-network/youtube-icon.svg",          
+      "link":{
+        "url":"https://www.youtube.com/"
+      }
+    }      
+  },
+  "image#mobile__socialnetwork--icon-pint":{
+    "title":"Icon pinterest in footer",
+    "props":{
+      "blockClass":"socialnetwork__icon--general",
+      "src":"assets/img/footer/social-network/pinterest-icon.svg",          
+      "link":{
+        "url":"https://co.pinterest.com/"
+      }
+    }      
+  }
+}

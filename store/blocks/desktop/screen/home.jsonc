@@ -64,7 +64,8 @@
       "rich-text#desktop__home--text-three",
       "flex-layout.row#desktop__home--eleven-imgs",
       "info-card#desktop__home--blog",
-      "flex-layout.row#desktop__home--twelve-imgs"      
+      "flex-layout.row#desktop__home--twelve-imgs",
+      "flex-layout.row#desktop__home--newsletter"       
     ],
     "props":{
       "blockClass":"home__section--two-container"

@@ -1,0 +1,105 @@
+{
+    "flex-layout.col#desktop__footer--help":{
+        "title":"Help section en footer desktop",
+        "children":[
+            "rich-text#help",
+            "menu#desktop__help"
+        ],
+        "props":{
+            "blockClass":"desktop__footer--help"
+        }
+    },
+    "menu#desktop__help":{
+        "children":[
+            "menu-item#desktop__contact--us",
+            "menu-item#desktop__order--state",
+            "menu-item#desktop__shipping",
+            "menu-item#desktop__changes",
+            "menu-item#desktop__offerts",
+            "menu-item#desktop__questions"         
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"desktop__menu--help"
+        }
+    },
+    "menu-item#desktop__contact--us":{
+        "props":{
+            "id":"menu-contact-us",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Contáctanos",
+                "text":"Contáctanos"
+            },
+            "blockClass":"desktop__footer--menu-item"
+        }
+    },
+    "menu-item#desktop__order--state":{
+        "props":{
+            "id":"menu-order-state",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Estado de tu Orden",
+                "text":"Estado de tu Orden"
+            },
+            "blockClass":"desktop__footer--menu-item"
+        }
+    },
+    "menu-item#desktop__shipping":{
+        "props":{
+            "id":"menu-shipping",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Tarifas y Tiempos de Envío",
+                "text":"Tarifas y Tiempos de Envío"
+            },
+            "blockClass":"desktop__footer--menu-item"
+        }
+    },
+    "menu-item#desktop__changes":{
+        "props":{
+            "id":"menu-changes",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Cambios y Devoluciones",
+                "text":"Cambios y Devoluciones"
+            },
+            "blockClass":"desktop__footer--menu-item"
+        }
+    },
+    "menu-item#desktop__offerts":{
+        "props":{
+            "id":"menu-offerts",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Ofertas y Cupones",
+                "text":"Ofertas y Cupones"
+            },
+            "blockClass":"desktop__footer--menu-item"
+        }
+    },
+    "menu-item#desktop__questions":{
+        "props":{
+            "id":"menu-questions",
+            "type": "custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"/",
+                "tagTitle":"Preguntas Frecuentes",
+                "text":"Preguntas Frecuentes"
+            },
+            "blockClass":"desktop__footer--menu-item"
+        }
+    }
+
+}

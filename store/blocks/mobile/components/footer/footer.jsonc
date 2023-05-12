@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#mobile__disclosure--container-row":{
+        "title":"Disclosure container main",
+        "children":[
+            "flex-layout.col#mobile__disclosure--container-col"
+        ],
+        "props":{
+            "blockClass":"mobile__disclosure--container-row",
+            "fullWidth": true
+        }         
+    },
+
+    "flex-layout.col#mobile__disclosure--container-col":{
+        "title":"diclosure container column",
+        "children":["disclosure-layout-group#footer__menu--group"],
+        "props":{
+            "blockClass":"flex-layout.col#mobile__disclosure--container-col"
+        }
+    },
+    
+    "disclosure-layout-group#footer__menu--group":{
+        "title":"Disclosure for footer menu group",
+        "children":[
+            "disclosure-layout#inlove",
+            "disclosure-layout#help",
+            "disclosure-layout#connect",
+            "disclosure-layout#subscribe"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"footer__menu--group",
+            "maxVisible":"many"
+        }
+    }
+}

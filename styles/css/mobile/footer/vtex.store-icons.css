@@ -1,0 +1,27 @@
+.caretIcon--disclosure__icon{
+    width: 10px;
+    height: 10px;
+    transition: all .1s ease-in;
+    color: #2a2c29;
+    position: absolute;
+    left: 44rem;
+}
+
+
+@media  (max-width: 425px) {
+    .caretIcon--disclosure__icon{
+        left: 24.2rem;
+    }
+}
+
+@media  (max-width: 375px) {
+    .caretIcon--disclosure__icon{
+        left: 21.2rem;
+    }
+}
+
+@media  (max-width: 320px) {
+    .caretIcon--disclosure__icon{
+        left: 18.2rem;
+    }
+}

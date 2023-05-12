@@ -1,0 +1,78 @@
+{
+    "image#mobile__payment--safe":{
+        "title":"Icon payment safe in footer",
+        "props":{
+          "blockClass":"payment__icon--safe",
+          "src":"assets/img/footer/payment/pago-seguro.avif"         
+        } 
+      },    
+    
+    "flex-layout.row#mobile__payment--container-row":{
+        "title":"Payment methods container", 
+        "children":[          
+            "image#mobile__payment--visa",
+            "image#mobile__payment--mastercard",
+            "image#mobile__payment--amex",
+            "image#mobile__payment--diners",
+            "image#mobile__payment--pse",
+            "image#mobile__payment--efecty",
+            "image#mobile__payment--cash"
+          
+          ],       
+        "props":{
+            "blockClass":"mobile__payment--container-row",
+            "fullWidth": true
+        }  
+    },         
+      "image#mobile__payment--visa":{
+        "title":"Icon visa in footer",
+        "props":{
+          "blockClass":"payment__icon--visa",
+          "src":"assets/img/footer/payment/visa-payment.svg"         
+        } 
+      },
+      "image#mobile__payment--mastercard":{
+        "title":"Icon mastercard in footer",
+        "props":{
+          "blockClass":"payment__icon--mastercard",
+          "src":"assets/img/footer/payment/mastercard-logo.svg"         
+        } 
+      },
+      "image#mobile__payment--amex":{
+        "title":"Icon amex in footer",
+        "props":{
+          "blockClass":"payment__icon--amex",
+          "src":"assets/img/footer/payment/amex.png"         
+        } 
+      },
+      "image#mobile__payment--diners":{
+        "title":"Icon diners club in footer",
+        "props":{
+          "blockClass":"payment__icon--diners",
+          "src":"assets/img/footer/payment/diners-club.svg"         
+        } 
+      },
+      "image#mobile__payment--pse":{
+        "title":"Icon pse in footer",
+        "props":{
+          "blockClass":"payment__icon--pse",
+          "src":"assets/img/footer/payment/pse.svg"         
+        } 
+      },
+      "image#mobile__payment--efecty":{
+        "title":"Icon efecty in footer",
+        "props":{
+          "blockClass":"payment__icon--efecty",
+          "src":"assets/img/footer/payment/efecty.svg"         
+        } 
+      },
+      "image#mobile__payment--cash":{
+        "title":"Icon cash in footer",
+        "props":{
+          "blockClass":"payment__icon--cash",
+          "src":"assets/img/footer/payment/cash.svg"         
+        } 
+      }
+    
+      
+}

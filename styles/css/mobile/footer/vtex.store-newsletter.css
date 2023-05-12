@@ -1,0 +1,35 @@
+.emailInputContainer--footer__input--email :global(.vtex-styleguide-9-x-input){
+    padding: 10px 10px 10px 0;
+}
+
+/* .emailInputContainer--footer__input--email::placeholder :global(.vtex-styleguide-9-x-input){
+    color: #2a2c29;
+} */
+
+.emailInputContainer--footer__input--email :global(.vtex-input-prefix__group){
+    border: none
+
+}
+
+.formSubmitContainer--footer__button--submit :global(.vtex-button){
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    color: #2a2c29;
+    padding: 0;
+    background: none;   
+    border: none; 
+    display: inline-block;
+}
+
+.formSubmitContainer--footer__button--submit :global(.vtex-button__label){
+    border: 1px solid #2c2a29;
+    padding: 5px;
+    border-radius: 50px;
+    background: #2c2a29;
+    color: #ffffff;
+    text-decoration: none!important;
+    font-size: 12px;
+
+}

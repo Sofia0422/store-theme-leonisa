@@ -33,7 +33,7 @@
 
 @media  (max-width: 425px) {
     .flexRowContent--mobile__header_container--images{        
-        min-width: 320px;          
+        min-width: 300px;          
     }
 
     .flexColChild--drawer__close--button{

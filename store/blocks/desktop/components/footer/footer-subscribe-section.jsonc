@@ -1,0 +1,81 @@
+{
+    "flex-layout.col#desktop__footer--subscribe" :{
+        "title":"Subscribe section en footer desktop",
+        "children":[
+            "rich-text#subscribe",
+            "rich-text#desktop__discount",
+            "rich-text#desktop__privacy--policy",
+            "newsletter-form#footer__newsletter--container" ,
+            "flex-layout.row#desktop__icons--container"
+        ],
+        "props":{
+            "blockClass":"desktop__footer--subscribe"
+        }
+    },
+    "rich-text#desktop__discount":{
+        "title":"rich-text discounts",
+        "props":{
+          "blockClass":"desktop__subscribe--text-1",          
+          "text":"Recibe **15% de descuento** en tu primera compra. Enteráte de lanzamientos, tendencias y ofertas especiales."
+        }
+    },
+    "rich-text#desktop__privacy--policy":{
+        "title":"rich-text privacy policy",
+        "props":{
+          "blockClass":"desktop__subscribe--text-2",          
+          "text":"Ver [Politica de Privacidad](https://www.google.com/)"
+        }
+    },
+
+    "flex-layout.row#desktop__icons--container":{
+        "children":[
+          "image#desktop__socialnetwork--icon-insta",
+          "image#desktop__socialnetwork--icon-face",
+          "image#desktop__socialnetwork--icon-yout",
+          "image#desktop__socialnetwork--icon-pint"
+        ],
+        "props":{
+          "blockClass":"desktop__icons--container"
+        }
+      },
+      "image#desktop__socialnetwork--icon-insta":{
+        "title":"Icon instagram in footer",
+        "props":{
+          "blockClass":"desktop__icon--general",
+          "src":"assets/img/footer/social-network/instagram-icon.svg",          
+          "link":{
+            "url":"https://www.instagram.com/"
+          }
+        } 
+      },
+      "image#desktop__socialnetwork--icon-face":{
+        "title":"Icon facebook in footer",
+        "props":{
+          "blockClass":"desktop__icon--general",
+          "src":"assets/img/footer/social-network/facebook-icon.svg",          
+          "link":{
+            "url":"https://es-la.facebook.com/"
+          }
+        }       
+      },
+      "image#desktop__socialnetwork--icon-yout":{
+        "title":"Icon youtube in footer",
+        "props":{
+          "blockClass":"desktop__icon--general",
+          "src":"assets/img/footer/social-network/youtube-icon.svg",          
+          "link":{
+            "url":"https://www.youtube.com/"
+          }
+        }      
+      },
+      "image#desktop__socialnetwork--icon-pint":{
+        "title":"Icon pinterest in footer",
+        "props":{
+          "blockClass":"desktop__icon--general",
+          "src":"assets/img/footer/social-network/pinterest-icon.svg",          
+          "link":{
+            "url":"https://co.pinterest.com/"
+          }
+        }      
+      }
+}
