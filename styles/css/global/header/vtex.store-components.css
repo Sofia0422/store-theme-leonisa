@@ -1,0 +1,18 @@
+@media  (max-width: 425px) {
+    .imageElement--global__locale--icon{
+        transform: translateX(14px);
+    }
+}
+
+@media  (max-width: 375px) {
+    .imageElement--global__locale--icon{
+        transform: translateX(43px);
+    }
+}
+
+@media  (max-width: 320px) {
+    .imageElement--global__locale--icon{
+        transform: translateX(18px);
+    }
+}
+

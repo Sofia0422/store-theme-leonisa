@@ -1,0 +1,154 @@
+{
+    //Option 1
+
+    "flex-layout.row#locator__icon-title--option-1" :{
+        "title":"Icon and title container of option one",
+        "children":[
+          "icon#global__locator--icon",
+          "rich-text#locator__title--options-1"          
+        ],
+        "props": {
+          "colSizing":"auto",
+          "colGap":3,
+          "blockClass": "locator__icon-title--options"
+        }        
+      },
+
+      "icon#global__locator--icon":{
+        "title":"Location icon",
+        "props":{
+          "id": "mpa-globe",
+          "size":20
+        }      
+      },
+
+      "rich-text#locator__title--options-1":{
+        "title":"Title for option one",
+        "props": {
+          "text": "Norteamérica",
+          "blockClass":"locator__title--options"
+        }
+      },
+    
+      "flex-layout.row#locator__content--option-1":{
+        "title":"Countries container for option one",
+        "children":[
+          "flex-layout.col#locator__option-1--country-1",
+          "flex-layout.col#locator__option-1--country-2",
+          "flex-layout.col#locator__option-1--country-3",
+          "flex-layout.col#locator__option-1--country-4"
+        ],
+        "props":{
+          "colSizing":"auto",
+          "colGap":7,
+          "blockClass":"locator__content--option-1"
+        }
+      },
+
+      //Country one
+      "flex-layout.col#locator__option-1--country-1":{
+        "title":"Image and name container of country one",
+        "children":[
+          "image#locator__option-1--usa",
+          "rich-text#locator__country--name-usa" 
+        ],
+        "props":{
+          "paddingRight": 4
+        }
+        
+      },
+      "image#locator__option-1--usa":{
+        "title":"Icon USA flag - option one ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/usa.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }               
+        } 
+      },
+      "rich-text#locator__country--name-usa" :{
+        "title":"Country name - USA-English",
+        "props": {
+          "text": "[USA / English](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+
+      //Country two
+      "flex-layout.col#locator__option-1--country-2":{
+        "title":"Image and name container of country two",
+        "children":[
+          "image#locator__option-1--usa",
+          "rich-text#locator__country--name-usa2" 
+        ]
+      },      
+      "rich-text#locator__country--name-usa2" :{
+        "title":"Country name - USA-Español",
+        "props": {
+          "text": "[USA / Español](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+
+      //Country three
+      "flex-layout.col#locator__option-1--country-3":{
+        "title":"Image and name container of country three",
+        "children":[
+          "image#locator__option-1--can",
+          "rich-text#locator__country--name-can" 
+        ],
+        "props":{
+          "paddingRight":7
+        }
+      },
+      "image#locator__option-1--can":{
+        "title":"Icon Canada flag - option one ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/canada.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-can" :{
+        "title":"Country name - Canada",
+        "props": {
+          "text": "[Canadá](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+
+      //Country four
+      "flex-layout.col#locator__option-1--country-4":{
+        "title":"Image and name container of country four",
+        "children":[
+          "image#locator__option-1--mx",
+          "rich-text#locator__country--name-mx" 
+        ],
+        "props":{
+          "paddingLeft":2
+        }
+      },
+      "image#locator__option-1--mx":{
+        "title":"Icon Mexico flag - option one ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/mexico.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-mx" :{
+        "title":"Country name - Mexico",
+        "props": {
+          "text": "[México](/)",
+          "blockClass":"locator__country--name"
+        }
+      }
+}

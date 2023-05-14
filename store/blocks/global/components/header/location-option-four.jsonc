@@ -1,0 +1,61 @@
+{
+    //Options 4
+
+      "flex-layout.row#locator__icon-title--option-4" :{
+        "title":"Icon and title container of option four",
+        "children":[
+          "icon#global__locator--icon",
+          "rich-text#locator__title--options-4"          
+        ],
+        "props": {
+          "colSizing":"auto",
+          "colGap":3,
+          "blockClass": "locator__icon-title--options"
+        }        
+      },    
+
+      "rich-text#locator__title--options-4":{
+        "title":"Title for option four",
+        "props": {
+          "text": "Asia Pacífico",
+          "blockClass":"locator__title--options"
+        }
+      },
+
+      "flex-layout.row#locator__content--option-4":{
+        "title":"Countries container for option four",
+        "children":[
+          "flex-layout.col#locator__option-4--country-1"
+        ],
+        "props":{          
+          "blockClass":"locator__content--option-2"
+        }
+      },
+
+      //Country one
+      "flex-layout.col#locator__option-4--country-1":{
+        "title":"Image and name container of country one",
+        "children":[
+          "image#locator__option-4--au",
+          "rich-text#locator__country--name-au" 
+        ]
+      },
+      "image#locator__option-4--au":{
+        "title":"Icon Australia flag - option four ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/australia.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-au" :{
+        "title":"Country name - Australia",
+        "props": {
+          "text": "[Australia](/)",
+          "blockClass":"locator__country--name"
+        }
+      }
+}

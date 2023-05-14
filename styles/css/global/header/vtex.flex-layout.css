@@ -1,0 +1,32 @@
+.flexRowContent--header__icons--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent--locator__icon-title--options{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+}
+
+.flexRowContent--locator__content--option-1, .flexRowContent--locator__content--option-2, .flexRowContent--locator__content--option-3 .flexRowContent--locator__content--option-4{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    justify-content: left;
+    padding-bottom: 20px;
+}
+
+.flexRowContent--locator__content--option-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 16.66667%!important;
+    margin-bottom: 15px;  
+}
+
+.flexColChild--global__locator--options{
+    height: auto !important;
+}
+
+
+

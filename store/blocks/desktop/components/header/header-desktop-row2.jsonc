@@ -115,22 +115,13 @@
   },
   "flex-layout.row#header__icons--container":{
     "children":[
-      "locale-switcher#desktop__header--locale",
+      "flex-layout.row#global__header_locator",
       "login#global__header",
       "minicart.v2"
     ],
     "props":{
       "blockClass":"header__icons--container"
     }
-  },
-
-  //Locale-switcher
-  "locale-switcher#desktop__header--locale":{
-    "props":{
-      "blockClass":"desktop__locale--icon"
-    }
-  }
-
-  
+  }  
     
 }
