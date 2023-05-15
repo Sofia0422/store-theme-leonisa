@@ -1,5 +1,31 @@
-.emailInputContainer--home__input--email{
+.emailInputContainer--home__input--email :global(.vtex-input-prefix__group){
     border-radius: 50px 0 0 50px;
     background: #fff;
-    color: #2c2a29!important;    
+    color: #2c2a29!important;  
+    border: none;  
+}
+
+
+.formSubmitContainer--home__button--submit{
+    background-color: #ffffff;
+    border-radius: 0 50px 50px 0;
+}
+
+.formSubmitContainer--home__button--submit :global(.vtex-button){
+    border-radius: 0 50px 50px 0;
+    background-color: #d73043;    
+    /* margin-left: 4rem; */
+    transform: translateX(27px);
+    border: 1px solid transparent;
+}
+
+.formSubmitContainer--home__button--submit :global(.vtex-button__label){
+    line-height: 1.42;
+    text-align: center;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    color: #ffffff;
+   
 }

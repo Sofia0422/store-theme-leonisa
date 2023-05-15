@@ -24,6 +24,25 @@
     height: 20%;    
 }
 
+.flexRowContent--tablet__home--newsletter-row{
+    margin-top: 50px;
+    background-color: #2a2c29;
+}
+
+.flexCol--tablet__home--newsletter-col{
+    padding: 40px 17px;
+}
+
+.flexColChild--tablet__home--newsletter-col{
+    margin-bottom: 25px;
+}
+
+.flexRowContent--tablet__newsletter--container{
+    margin: 0 auto 20px;
+    max-width: 370px;
+    display: flex;
+}
+
 @media  (max-width: 425px) {
     .flexRowContent--tablet__home--text-container{
         padding: 0 1rem;
@@ -53,6 +72,8 @@
         margin-top: 20px;
     }
 }
+
+
 
 
 

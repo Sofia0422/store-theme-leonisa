@@ -1,0 +1,38 @@
+.triggerContainer--global__locator--modal-active{
+    margin-top: 8px;
+   /*  transform: translateX(50px); */
+}
+
+
+
+@media  (max-width: 1024px){
+    .triggerContainer--global__locator--modal-active{            
+        margin-right: 6rem; 
+        margin-top: 16px                  
+    } 
+}
+
+@media  (max-width: 425px){
+    .triggerContainer--global__locator--modal-active{            
+        margin-left: -2rem;
+        margin-top: 22px;                        
+    } 
+}
+
+@media  (max-width: 320px){
+    .triggerContainer--global__locator--modal-active{            
+        margin-left: 0;
+        margin-right: 3rem;                             
+    } 
+}
+
+.paper--global__modal--locator-layout{
+    width: 750px;
+    max-width: 90%;
+    height: 700px;
+    margin-top: 163px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 1em;
+    animation: fade-in .4s .2s both, slide-up .4s .2s both;
+}

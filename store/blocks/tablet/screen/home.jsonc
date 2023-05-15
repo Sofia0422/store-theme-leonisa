@@ -74,7 +74,8 @@
       "info-card#tablet__home--blog",
       "flex-layout.row#tablet__blog--container-1",
       "flex-layout.row#tablet__blog--container-2",
-      "flex-layout.row#tablet__blog--container-3"     
+      "flex-layout.row#tablet__blog--container-3",
+      "flex-layout.row#tablet__home--newsletter"     
     ],
     "props":{
       "blockClass":"home__section--two-container"

@@ -3,12 +3,9 @@
     height: 22px;
 }
 
-.imageElement--payment__icon--safe{
+.imageElement--mobile__payment--safe {
     width: 101px;
     height: 20px;
-    position: absolute;
-    right: 32rem;
-    margin-top: 48px;
 }
 
 
@@ -33,9 +30,10 @@
 }
 
 @media  (max-width: 425px) {
-    .imageElement--payment__icon--safe{        
-        right: 16.8rem;
-        margin-top: 48px;
+    .imageElement--mobile__payment--safe{ 
+        position: absolute;       
+        left: 3.8rem;
+        transform: translateY(7px);
     }
     .imageElement--payment__icon--visa, .imageElement--payment__icon--amex, .imageElement--payment__icon--diners, .imageElement--payment__icon--mastercard, .imageElement--payment__icon--pse, .imageElement--payment__icon--cash,
     .imageElement--payment__icon--efecty{
@@ -92,8 +90,4 @@
     }        
 }
 
-@media  (min-width: 1024px) {
-    .imageElement--payment__icon--safe{        
-        right: 44.2rem;        
-    }  
-}
+

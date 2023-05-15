@@ -1,0 +1,278 @@
+{
+    //Option 2 
+    "flex-layout.row#locator__icon-title--option-2" :{
+      "title":"Icon and title container of option two",
+        "children":[
+          "icon#global__locator--icon",
+          "rich-text#locator__title--options-2"          
+        ],
+        "props": {
+          "colSizing":"auto",
+          "colGap":3,
+          "blockClass": "locator__icon-title--options"
+        }        
+      },    
+
+      "rich-text#locator__title--options-2":{
+        "title":"Title for option two",
+        "props": {
+          "text": "América Central y del Sur",
+          "blockClass":"locator__title--options"
+        }
+      },
+
+      "flex-layout.row#locator__content--option-2":{
+        "title":"Countries container for option two",
+        "children":[
+          "flex-layout.col#locator__option-2--country-1",
+          "flex-layout.col#locator__option-2--country-2",
+          "flex-layout.col#locator__option-2--country-3",
+          "flex-layout.col#locator__option-2--country-4",
+          "flex-layout.col#locator__option-2--country-5",
+          "flex-layout.col#locator__option-2--country-6",
+          "flex-layout.col#locator__option-2--country-7",
+          "flex-layout.col#locator__option-2--country-8"
+        ],
+        "props":{
+          "colSizing":"auto",
+          "colGap":7,
+          "blockClass":"locator__content--option-2"
+        }
+      },
+
+      //Country one
+      "flex-layout.col#locator__option-2--country-1":{
+        "title":"Image and name container of country one",
+        "children":[
+          "image#locator__option-2--col",
+          "rich-text#locator__country--name-col" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        } 
+        
+      },
+      "image#locator__option-2--col":{
+        "title":"Icon Colombia flag - option two ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/colombia.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-col" :{
+        "title":"Country name - Colombia",
+        "props": {
+          "text": "[Colombia](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country two
+      "flex-layout.col#locator__option-2--country-2":{
+        "title":"Image and name container of country two",
+        "children":[
+          "image#locator__option-2--pe",
+          "rich-text#locator__country--name-pe" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        }         
+      },
+      "image#locator__option-2--pe":{
+        "title":"Icon Peru flag - option two ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/peru.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-pe" :{
+        "title":"Country name - Peru",
+        "props": {
+          "text": "[Perú](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country three
+      "flex-layout.col#locator__option-2--country-3":{
+        "title":"Image and name container of country three",
+        "children":[
+          "image#locator__option-2--cl",
+          "rich-text#locator__country--name-cl" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        }
+        
+      },
+      "image#locator__option-2--cl":{
+        "title":"Icon Chile flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/chile.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-cl" :{
+        "title":"Country name - Chile",
+        "props": {
+          "text": "[Chile](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country four
+      "flex-layout.col#locator__option-2--country-4":{
+        "title":"Image and name container of country four",
+        "children":[
+          "image#locator__option-2--ec",
+          "rich-text#locator__country--name-ec" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        }
+      },
+      "image#locator__option-2--ec":{
+        "title":"Icon Ecuador flag - option four ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/ecuador.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                
+        } 
+      },
+      "rich-text#locator__country--name-ec" :{
+        "title":"Country name - Ecuador",
+        "props": {
+          "text": "[Ecuador](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country five
+      "flex-layout.col#locator__option-2--country-5":{
+        "title":"Image and name container of country five",
+        "children":[
+          "image#locator__option-2--cr",
+          "rich-text#locator__country--name-cr" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        } 
+      },
+      "image#locator__option-2--cr":{
+        "title":"Icon Costa Rica flag - option five ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/costa-rica.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-cr" :{
+        "title":"Country name - Costa Rica",
+        "props": {
+          "text": "[Costa Rica](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+
+      //Country six
+      "flex-layout.col#locator__option-2--country-6":{
+        "title":"Image and name container of country six",
+        "children":[
+          "image#locator__option-2--pa",
+          "rich-text#locator__country--name-pa" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        } 
+      },
+      "image#locator__option-2--pa":{
+        "title":"Icon Panama flag - option six ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/panama.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-pa" :{
+        "title":"Country name - Panama",
+        "props": {
+          "text": "[Panamá](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country seven
+      "flex-layout.col#locator__option-2--country-7":{
+        "title":"Image and name container of country seven",
+        "children":[
+          "image#locator__option-2--pr",
+          "rich-text#locator__country--name-pr" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        } 
+      },
+      "image#locator__option-2--pr":{
+        "title":"Icon Puerto Rico flag - option six ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/pr-caribbean.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-pr" :{
+        "title":"Country name - Puerto Rico",
+        "props": {
+          "text": "[Puerto Rico & Caribbean](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country eight
+      "flex-layout.col#locator__option-2--country-8":{
+        "title":"Image and name container of country eight",
+        "children":[
+          "image#locator__option-2--dr",
+          "rich-text#locator__country--name-dr" 
+        ],
+        "props":{
+          "blockClass":"locator__option-2--country"
+        }       
+      },
+      "image#locator__option-2--dr":{
+        "title":"Icon Dominican Republic flag - option six ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/rep-dominican.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                
+        } 
+      },
+      "rich-text#locator__country--name-dr" :{
+        "title":"Country name - Dominican Republic",
+        "props": {
+          "text": "[República Dominicana](/)",
+          "blockClass":"locator__country--name"
+        }
+      }      
+}

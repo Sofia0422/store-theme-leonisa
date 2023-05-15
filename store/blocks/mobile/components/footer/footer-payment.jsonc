@@ -1,13 +1,45 @@
 {
-    "image#mobile__payment--safe":{
-        "title":"Icon payment safe in footer",
-        "props":{
-          "blockClass":"payment__icon--safe",
-          "src":"assets/img/footer/payment/pago-seguro.avif"         
-        } 
-      },    
-    
+     
     "flex-layout.row#mobile__payment--container-row":{
+      "title":"Payment methods container row mobile view", 
+      "children":[       
+        "flex-layout.col#mobile__payment--container-one",
+        "flex-layout.col#mobile__payment--container-two"           
+        ],       
+      "props":{
+          "blockClass":"mobile__payment--container-row",
+          "colSizing":"auto",
+          "fullWidth": false,
+          "horizontalAlign":"center",
+          "colGap": 4
+        }  
+    },
+
+    "flex-layout.col#mobile__payment--container-one":{
+      "children":[
+          "image#mobile__payment--safe"      
+        ],
+        "props":{
+          "blockClass":"mobile__payment--container-one"          
+      }
+    },
+    "image#mobile__payment--safe":{
+      "title":"Icon payment safe in footer - mobile view",
+      "props":{
+        "blockClass":"mobile__payment--safe",
+        "src":"assets/img/footer/payment/pago-seguro.avif"         
+      } 
+    }, 
+    "flex-layout.col#mobile__payment--container-two":{
+      "children":[     
+          "flex-layout.row#mobile__payment--container-icons"           
+        ],
+        "props":{
+          "blockClass":"mobile__payment--container-two"          
+      }
+    },
+    
+    "flex-layout.row#mobile__payment--container-icons":{
         "title":"Payment methods container", 
         "children":[          
             "image#mobile__payment--visa",
@@ -16,12 +48,10 @@
             "image#mobile__payment--diners",
             "image#mobile__payment--pse",
             "image#mobile__payment--efecty",
-            "image#mobile__payment--cash"
-          
+            "image#mobile__payment--cash"          
           ],       
         "props":{
-            "blockClass":"mobile__payment--container-row",
-            "fullWidth": true
+            "blockClass":"mobile__payment--container-icons"
         }  
     },         
       "image#mobile__payment--visa":{
@@ -72,7 +102,6 @@
           "blockClass":"payment__icon--cash",
           "src":"assets/img/footer/payment/cash.svg"         
         } 
-      }
-    
+      }   
       
 }

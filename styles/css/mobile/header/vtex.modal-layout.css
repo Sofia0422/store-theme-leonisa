@@ -33,7 +33,20 @@
     .triggerContainer--mobile__search--modal-active{
         margin-top: 17px;
         margin-left: 0;
-        margin-right: 7rem;
-        padding-left: 1rem;        
+        margin-right: 5rem;
+        padding-left: 2rem;        
+    }
+}
+
+@media  (max-width: 375px) {  
+    .triggerContainer--mobile__search--modal-active{            
+        margin-right: 2rem;             
+    }
+}
+
+@media  (max-width: 320px) {      
+    .triggerContainer--mobile__search--modal-active{       
+        margin-right: 1rem;
+        padding-left: 1.2rem;              
     }
 }

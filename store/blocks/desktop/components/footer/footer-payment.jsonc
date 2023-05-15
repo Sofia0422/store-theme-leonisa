@@ -8,7 +8,11 @@
           ],       
         "props":{
             "blockClass":"desktop__payment--container-row",
-            "fullWidth": true
+            "colSizing":"auto",
+            "fullWidth": false,
+            "horizontalAlign":"center",
+            "colGap": 4
+
         }  
     },
 

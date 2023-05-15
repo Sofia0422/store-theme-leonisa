@@ -1,0 +1,89 @@
+{   
+    "flex-layout.row#global__header_locator":{
+      "title":"Main container of the location modal in header",
+        "children":[      
+            "modal-trigger#global__locator--modal"
+        ],
+        "props":{
+          "blockClass":"global__header_locator"
+        }      
+      },
+
+      "image#global__header--locale":{
+        "title":"Icon flag locator in header",
+        "props":{
+          "blockClass":"global__locale--icon",
+          "src":"assets/img/global/location/colombia.svg",
+          "maxWidth":"36px"                
+        } 
+      },
+
+    "modal-trigger#global__locator--modal":{
+      "title":"Main container modal - activator and layout",
+        "children":[ 
+            "image#global__header--locale",     
+            "modal-layout#global__locator--container"
+        ],
+        "props":{
+            "blockClass":"global__locator--modal-active"
+        }
+    },
+    "modal-layout#global__locator--container":{
+      "title":"Main container of header and content modal",
+        "children":[
+          "modal-content#global__locator--modal",          
+          "flex-layout.col#global__locator--options" 
+        ],
+        "props":{
+          "blockClass":"global__modal--locator-layout",
+          "scroll": "body"                 
+        }
+      },
+      "modal-content#global__locator--modal": {
+        "title": "Container Modal section locator global",
+        "children": [
+          "modal-header#global__locator--modal"    
+        ],
+        "props": {
+          "blockClass":"global__locator--modal" 
+        }
+      },
+
+      "modal-header#global__locator--modal":{
+        "title":"Modal locator header",
+        "children":[
+          "rich-text#modal__content--title"
+      ],
+        "props": {
+          "blockClass": "modal__header--title",
+          "iconCloseSize":25 
+        }
+      },
+      "rich-text#modal__content--title": {
+        "title":"Main title modal locator",
+        "props": {
+          "text": "Selecciona tu País",
+          "blockClass":"modal__content--title"
+        }
+    }, 
+
+      "flex-layout.col#global__locator--options":{
+        "title":"Main container for locator options",
+        "children":[
+          "flex-layout.row#locator__icon-title--option-1",
+          "flex-layout.row#locator__content--option-1",
+          "flex-layout.row#locator__icon-title--option-2",
+          "flex-layout.row#locator__content--option-2",
+          "flex-layout.row#locator__icon-title--option-3",
+          "flex-layout.row#locator__content--option-3",
+          "flex-layout.row#locator__icon-title--option-4",
+          "flex-layout.row#locator__content--option-4"
+
+        ],
+        "props":{
+          /* "preventVerticalStretch":true, */            
+          "blockClass":"global__locator--options"
+        }
+      }     
+      
+}

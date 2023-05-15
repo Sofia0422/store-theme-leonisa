@@ -1,0 +1,42 @@
+.emailInputContainer--tablet__input--email :global(.vtex-input-prefix__group){
+    border-radius: 50px 0 0 50px;
+    background: #fff;
+    color: #2c2a29!important;  
+    border: none;       
+}
+
+.formSubmitContainer--tablet__button--submit{
+    background-color: #ffffff;
+    border-radius: 0 50px 50px 0;
+}
+
+.formSubmitContainer--tablet__button--submit :global(.vtex-button){
+    border-radius: 0 50px 50px 0;
+    background-color: #d73043;    
+    /* margin-left: 6.65rem; */
+    transform: translateX(107px);
+    border: 1px solid transparent;
+}
+
+.formSubmitContainer--tablet__button--submit :global(.vtex-button__label){
+    line-height: 1.42;
+    text-align: center;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    color: #ffffff;   
+}
+
+@media  (max-width: 375px) {
+    .formSubmitContainer--tablet__button--submit :global(.vtex-button){          
+        /* margin-left: 5.72rem;  */ 
+        transform: translateX(92px);      
+    }    
+}
+@media  (max-width: 320px) {
+    .formSubmitContainer--tablet__button--submit :global(.vtex-button){          
+        /* margin-left: 4rem; */ 
+        transform: translateX(64px);       
+    }    
+}

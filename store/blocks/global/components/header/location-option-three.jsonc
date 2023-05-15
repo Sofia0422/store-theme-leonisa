@@ -1,0 +1,211 @@
+{
+    //Options 3  
+      "flex-layout.row#locator__icon-title--option-3":{
+        "title":"Icon and title container of option three",
+        "children":[
+          "icon#global__locator--icon",
+          "rich-text#locator__title--options-3"          
+        ],
+        "props": {
+          "colSizing":"auto",
+          "colGap":3,
+          "blockClass": "locator__icon-title--options"
+        }        
+      },    
+
+      "rich-text#locator__title--options-3":{
+        "title":"Title for option three",
+        "props": {
+          "text": "Europa",
+          "blockClass":"locator__title--options"
+        }
+      },
+      "flex-layout.row#locator__content--option-3":{
+        "title":"Countries container for option two",
+        "children":[
+          "flex-layout.col#locator__option-3--country-1",
+          "flex-layout.col#locator__option-3--country-2",
+          "flex-layout.col#locator__option-3--country-3",
+          "flex-layout.col#locator__option-3--country-4",
+          "flex-layout.col#locator__option-3--country-5",
+          "flex-layout.col#locator__option-3--country-6"
+        ],
+        "props":{
+          "colSizing":"auto",
+          "colGap":9,
+          "blockClass":"locator__content--option-2"
+        }
+      },
+
+      //Country one
+      "flex-layout.col#locator__option-3--country-1":{
+        "title":"Image and name container of country one",
+        "children":[
+          "image#locator__option-3--eu",
+          "rich-text#locator__country--name-eu" 
+        ],
+        "props":{
+          "paddingRight": 6
+        }
+      },
+      "image#locator__option-3--eu":{
+        "title":"Icon Europe flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/europa.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-eu" :{
+        "title":"Continent name - Europa",
+        "props": {
+          "text": "[Europa](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country two
+       "flex-layout.col#locator__option-3--country-2":{
+        "title":"Image and name container of country two",
+        "children":[
+          "image#locator__option-3--uk",
+          "rich-text#locator__country--name-uk" 
+        ],
+        "props":{
+          "paddingRight": 4
+        }
+      },
+      "image#locator__option-3--uk":{
+        "title":"Icon UK flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/uk.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-uk" :{
+        "title":"Country name - UK",
+        "props": {
+          "text": "[UK](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+      //Country three
+      "flex-layout.col#locator__option-3--country-3":{
+        "title":"Image and name container of country three",
+        "children":[
+          "image#locator__option-3--es",
+          "rich-text#locator__country--name-es" 
+        ],
+        "props":{
+          "paddingRight": 2
+        }
+      },
+      "image#locator__option-3--es":{
+        "title":"Icon Spain flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/espana.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-es" :{
+        "title":"Country name - Spain",
+        "props": {
+          "text": "[España](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+
+       //Country four
+       "flex-layout.col#locator__option-3--country-4":{
+        "title":"Image and name container of country four",
+        "children":[
+          "image#locator__option-3--al",
+          "rich-text#locator__country--name-al" 
+        ]
+      },
+      "image#locator__option-3--al":{
+        "title":"Icon Germany flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/alemania.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-al" :{
+        "title":"Country name - Germany",
+        "props": {
+          "text": "[Alemania](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+
+      //Country five
+      "flex-layout.col#locator__option-3--country-5":{
+        "title":"Image and name container of country five",
+        "children":[
+          "image#locator__option-3--fr",
+          "rich-text#locator__country--name-fr" 
+        ],
+        "props":{
+          "paddingRight": 4
+        }
+      },
+      "image#locator__option-3--fr":{
+        "title":"Icon France flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/francia.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-fr" :{
+        "title":"Country name - France",
+        "props": {
+          "text": "[Francia](/)",
+          "blockClass":"locator__country--name"
+        }
+      },
+       //Country six
+       "flex-layout.col#locator__option-3--country-6":{
+        "title":"Image and name container of country six",
+        "children":[
+          "image#locator__option-3--it",
+          "rich-text#locator__country--name-it" 
+        ]
+      },
+      "image#locator__option-3--it":{
+        "title":"Icon Italy flag - option three ",
+        "props":{
+          "blockClass":"locator__country--icon",
+          "src":"assets/img/global/location/italia.svg",
+          "maxWidth":"36px",
+          "link":{
+            "url":"/"
+          }                 
+        } 
+      },
+      "rich-text#locator__country--name-it" :{
+        "title":"Country name - Italy",
+        "props": {
+          "text": "[Italia](/)",
+          "blockClass":"locator__country--name"
+        }
+      }
+
+}

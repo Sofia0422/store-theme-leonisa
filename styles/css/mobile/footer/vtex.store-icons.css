@@ -4,24 +4,24 @@
     transition: all .1s ease-in;
     color: #2a2c29;
     position: absolute;
-    left: 44rem;
+    transform: translateX(350px);
 }
 
 
 @media  (max-width: 425px) {
     .caretIcon--disclosure__icon{
-        left: 24.2rem;
+        transform: translateX(180px);
     }
 }
 
 @media  (max-width: 375px) {
     .caretIcon--disclosure__icon{
-        left: 21.2rem;
+        transform: translateX(155px);
     }
 }
 
 @media  (max-width: 320px) {
     .caretIcon--disclosure__icon{
-        left: 18.2rem;
+        transform: translateX(126px);
     }
 }
