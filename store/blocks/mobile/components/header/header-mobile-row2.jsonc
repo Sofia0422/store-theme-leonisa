@@ -6,7 +6,7 @@
         "children": [
           "drawer#mobile__header_menu",        
           "flex-layout.col#mobile__header--search",           
-          "locale-switcher#mobile__header--locale",
+          "flex-layout.row#global__header_locator",
           "login#global__header",
           "minicart.v2"
         ],      
@@ -194,15 +194,7 @@
         "url":"https://co.pinterest.com/"
       }
     }      
-  },
- 
-
-    //Locale-switcher
-    "locale-switcher#mobile__header--locale":{
-      "props":{
-        "blockClass":"mobile__locale--icon"
-      }
-    }
+  }
   
       
 }

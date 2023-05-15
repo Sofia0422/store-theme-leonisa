@@ -68,6 +68,25 @@
     font-weight: 500;
 }
 
+.wrapper--tablet__subscribe--text, .wrapper--tablet__discount--text, .wrapper--tablet__agree--text, .link--tablet__agree--text{
+    color: #ffffff;
+}
+
+.paragraph--tablet__subscribe--text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.paragraph--tablet__discount--text{
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+}
+
+.container--tablet__agree--text{
+    margin-top: -20px;
+}
+
 
 @media  (max-width: 425px) {
       

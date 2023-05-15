@@ -2,9 +2,6 @@
     padding: 10px 10px 10px 0;
 }
 
-/* .emailInputContainer--footer__input--email::placeholder :global(.vtex-styleguide-9-x-input){
-    color: #2a2c29;
-} */
 
 .emailInputContainer--footer__input--email :global(.vtex-input-prefix__group){
     border: none
