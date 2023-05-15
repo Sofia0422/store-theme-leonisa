@@ -3,14 +3,13 @@
    /*  transform: translateX(50px); */
 }
 
-
-
 @media  (max-width: 1024px){
     .triggerContainer--global__locator--modal-active{            
         margin-right: 6rem; 
-        margin-top: 16px                  
+        margin-top: 22px                  
     } 
 }
+
 
 @media  (max-width: 425px){
     .triggerContainer--global__locator--modal-active{            
