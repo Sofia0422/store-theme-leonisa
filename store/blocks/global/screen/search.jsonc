@@ -7,7 +7,7 @@
               "simulationBehavior": "default",
               "orderByField":"OrderByScoreASC",
               "installmentCriteria":"MAX_WITHOUT_INTEREST",
-              "maxItemsPerpage":10
+              "maxItemsPerpage":5
             }
         }            
     },

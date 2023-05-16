@@ -3,6 +3,10 @@
     border: none
 }
 
+.element--global__list-product-container{
+    height: auto !important;
+}
+
 .price_installmentContainer, .price_listPriceContainer{
     display: none;
 }

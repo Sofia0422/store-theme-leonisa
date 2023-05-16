@@ -1,6 +1,6 @@
 .triggerContainer--global__locator--modal-active{
     margin-top: 8px;
-   /*  transform: translateX(50px); */
+    cursor: pointer;
 }
 
 @media  (max-width: 1024px){

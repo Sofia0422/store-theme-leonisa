@@ -3,27 +3,65 @@
     "flex-layout.row#department__breadcrumb":{
         "title":"Department  breadcrumb container row",
         "children":[
-            "flex-layout.col#department__breadcrumb"
-        ]
+            "flex-layout.col#department__breadcrumb"            
+        ],
+        "props":{
+            "blockClass":"department__breadcrumb--row"
+        }
     },
     "flex-layout.col#department__breadcrumb":{
+        "title":"Department  breadcrumb container column",
         "children":[
-            "breadcrumb.search"
+            "breadcrumb.search"             
         ],
         "props":{
             "blockClass":"department__breadcrumb--col"
         }
-
     },
     
     "flex-layout.row#department__results":{
         "title":"Department Results container",
-        "children":[
-            "gallery-layout-switcher"/* ,
-            "search-content#phone" */
-        ]
+        "children":[  
+            "filter-navigator.v3",          
+            /*"gallery-layout-switcher",*/
+            "search-content#search__result--container"             
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"department__results--container"
+        }
     },
-    "gallery-layout-switcher":{
+    "search-content#search__result--container":{
+        "title":"Container search result",
+        "blocks":[            
+            "gallery#search__result--gallery",
+            "not-found"
+        ],
+        "props":{
+            "blockClass":"search__result--content"
+        }
+    },
+    "gallery#search__result--gallery":{
+        "title":"Search result gallery",
+        "props":{
+            "blockClass":"search__result--gallery",
+            "layouts":[
+                {
+                    "name":"main-grid",
+                    "component":"MainGrid",
+                    "itemsPerRow":{
+                        "desktop":3,
+                        "tablet":2,
+                        "phone":1
+                    }
+                }                
+            ],
+            "MainGrid":"product-summary.shelf#global__list--product"          
+        }
+    },
+
+
+    /* "gallery-layout-switcher":{
         "children":[
             "gallery-layout-option#grid__two--columns",
             "gallery-layout-option#grid__one--column"
@@ -41,5 +79,19 @@
             "name":"grid-one-column",
             "blockClass":"grid__selector--one-column"
         }
-    }   
+    }    */
+
+    "filter-navigator.v3": {
+        "props": {
+          "facetOrdering": [
+            {
+              "key": "brand",
+              "orderBy": "name",
+              "order": "ASC"
+            }
+          ],
+          "drawerDirectionMobile":"drawerRight",
+          "blockClass":"search__filter--navigator"
+        }
+      }
 }

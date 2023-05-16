@@ -28,5 +28,11 @@
     height: auto !important;
 }
 
+.flexRowContent--department__results--container{
+    display: flex;
+    justify-content: space-evenly;
+}
 
-
+.flexColChild--department__breadcrumb--col{
+    padding-left: 2.8rem;
+}
