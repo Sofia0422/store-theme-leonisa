@@ -51,8 +51,7 @@
 
  .minicartCheckoutButton--checkout__button :global(.vtex-button){
     height: 60px;
-    margin-top: -1rem;
-    background-color: #99cc5c;
+    margin-top: -1rem;   
     border-radius: 50px;
  }
 

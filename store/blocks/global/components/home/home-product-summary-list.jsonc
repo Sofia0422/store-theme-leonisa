@@ -29,7 +29,7 @@
     "props":{
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight":400,
+      "maxHeight":300,
       "blockClass": "global__products--image"
     }
   },

@@ -1,0 +1,14 @@
+.flexRowContent--department__results--container{
+    /* display: flex;
+    justify-content: space-evenly; */
+    padding: 0 6rem;
+}
+
+.flexColChild--department__breadcrumb--col{
+    padding-left: 2.8rem;
+}
+
+.flexColChild--list__product--info :global(.vtex-button){
+    background-color: transparent;
+    border: none;
+}
