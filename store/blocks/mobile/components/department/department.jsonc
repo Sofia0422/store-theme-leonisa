@@ -2,8 +2,8 @@
     "search-result-layout.mobile#department":{
         "title":"Search result for mobile view",
         "children":[
-            "flex-layout.row#department__breadcrumb",
-            "flex-layout.row#department__results"
+            "flex-layout.row#department__breadcrumb"/* ,
+            "flex-layout.row#department__results" */
         ]
     }
 }

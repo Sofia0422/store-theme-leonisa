@@ -1,0 +1,217 @@
+{   //Slider
+
+    "slider-layout#global__plp--slider":{
+        "title": "Slider-layout PLP",
+        "props":{
+          "centerMode":"to-the-left",
+          "centerModeSlidesGap":3,
+          "showPaginationDots": "never", 
+          "arrowSize":25,
+          "itemsPerPage":{
+            "desktop":5,
+            "tablet":3,
+            "phone":1
+          },
+          "infinite": true,
+          "blockClass": "global__plp--slider"    
+        },
+        "children":[
+          "image#plp__global--slider-one",
+          "image#plp__global--slider-two",
+          "image#plp__global--slider-three",
+          "image#plp__global--slider-four",
+          "image#plp__global--slider-five",
+          "image#plp__global--slider-six",
+          "image#plp__global--slider-seven",
+          "image#plp__global--slider-five",
+          "image#plp__global--slider-six",
+          "image#plp__global--slider-seven",
+          "image#plp__global--slider-eight",
+          "image#plp__global--slider-nine",
+          "image#plp__global--slider-ten",
+          "image#plp__global--slider-eleven",
+          "image#plp__global--slider-twelve",
+          "image#plp__global--slider-thirteen",
+          "image#plp__global--slider-fourteen",
+          "image#plp__global--slider-fifteen",
+          "image#plp__global--slider-sixteen",
+          "image#plp__global--slider-seventeen"      
+        ]
+      },
+      
+      "image#plp__global--slider-one": {
+        "title":"Image one of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-1.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-two": {
+        "title":"Image two of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-2.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-three": {
+        "title":"Image three of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-3.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      
+      "image#plp__global--slider-four": {
+        "title":"Image four of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-4.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      
+      "image#plp__global--slider-five": {
+        "title":"Image five of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-5.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      
+      "image#plp__global--slider-six": {
+        "title":"Image six of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-6.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      
+      "image#plp__global--slider-seven": {
+        "title":"Image seven of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-7.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-eight": {
+        "title":"Image eight of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-8.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-nine": {
+        "title":"Image nine of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-9.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-ten": {
+        "title":"Image ten of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-10.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-eleven": {
+        "title":"Image eleven of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-11.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-twelve": {
+        "title":"Image twelve of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-12.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-thirteen": {
+        "title":"Image thirteen of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-13.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-fourteen": {
+        "title":"Image fourteen of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-14.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-fifteen": {
+        "title":"Image fifteen of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-15.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-sixteen": {
+        "title":"Image sixteen of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-16.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      },
+      "image#plp__global--slider-seventeen": {
+        "title":"Image seventeen of plp slider",
+        "props":{
+          "blockClass": "plp__slider--img",
+          "src":"assets/img/global/slider-plp/slide-17.avif",
+          "link":{
+            "url":"/"
+          }
+        }      
+      }
+      
+}

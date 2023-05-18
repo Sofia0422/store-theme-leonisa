@@ -2,8 +2,11 @@
     "search-result-layout.desktop#department":{
         "title":"Search result for desktop view",
         "children":[
+            "flex-layout.row#department__title",
+            "flex-layout.row#department__slider",            
             "flex-layout.row#department__breadcrumb",
-            "flex-layout.row#department__results"            
+            "flex-layout.row#department__results--filter",
+            "flex-layout.row#department__results--content"              
         ],
         "props":{
             "pagination": "show-more",            

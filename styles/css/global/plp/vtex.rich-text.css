@@ -1,0 +1,29 @@
+.container--text__layout--option{
+    padding: 0 0.3rem;
+}
+
+.wrapper--label__best--seller-text{
+    color: #fff;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.container--label__best--seller-text{
+    padding: 4px 12px;
+}
+
+.wrapper--global__plp--title{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+.container--global__plp--title{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.filterMessage--search__filter--navigator {
+    margin-top: 1.1rem;
+}

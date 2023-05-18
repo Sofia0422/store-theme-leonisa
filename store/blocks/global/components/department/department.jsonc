@@ -1,4 +1,33 @@
-{       
+{   
+    "flex-layout.row#department__title":{
+        "title":"Department title container",
+        "children":[
+            "rich-text#global__plp--title"
+        ],
+        "props":{
+            "blockClass":"department__title"
+        }
+    },
+
+    "rich-text#global__plp--title":{
+        "title":"Department title",
+        "props":{
+            "text":"Brasieres y sostenes",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":"global__plp--title"
+        }
+    },
+    
+    "flex-layout.row#department__slider":{
+        "title":"Slider department container",
+        "children":[
+            "slider-layout#global__plp--slider"
+        ],
+        "props":{
+            "blockClass":"department__slider"
+        }
+    },    
 
     "flex-layout.row#department__breadcrumb":{
         "title":"Department  breadcrumb container row",
@@ -9,6 +38,7 @@
             "order-by.v2"             
         ],
         "props":{
+            /* "horizontalAlign":"center", */
             "blockClass":"department__breadcrumb--row"
         }
     },
@@ -21,8 +51,29 @@
             "blockClass":"department__breadcrumb--col"
         }
     },
+
+    "flex-layout.row#department__results--filter":{
+        "title": "Department search results filter",
+        "children":[
+            "filter-navigator.v3"
+        ],
+        "props":{            
+            "blockClass":"search__result--filter"
+        }
+    },
+    "flex-layout.row#department__results--content":{
+        "title": "Department search results content products",
+        "children":[
+            "search-content#search__result--container" 
+        ],
+        "props":{            
+            "blockClass":"search__result--content"
+        }
+    },
+
+
     
-    "flex-layout.row#department__results":{
+    /* "flex-layout.row#department__results":{
         "title":"Department Results container",
         "children":[  
             "flex-layout.col#search__result--filter",
@@ -51,7 +102,7 @@
         "props":{            
             "blockClass":"search__result--content"
         }
-    },
+    }, */
 
 
     "search-content#search__result--container":{
@@ -111,12 +162,22 @@
     "flex-layout.col#list__product--image":{
         "title":"Product List image container",
         "children":[
-            "product-summary-image#plp__list--image"
+            "stack-layout#plp__label--best-seller"            
         ],
         "props":{
             "blockClass":"list__product--image"
         }
     },
+    "stack-layout#plp__label--best-seller":{
+        "title":"Stack layout best sellers in plp",
+        "children":[
+            "product-summary-image#plp__list--image",
+            "flex-layout.row#stack__layout--container"
+        ],
+        "props":{      
+          "blockClass":"label__best--seller"
+        }
+      },
     "flex-layout.col#list__product--info":{
         "title":"Product List info container",
         "children":[
@@ -202,17 +263,17 @@
       "rich-text#option-grid": {
         "title": "gallery layout switcher option grid text",
         "props": {
-          "text": "Grid",
+          "text": "Cuadrícula",
           "textColor": "c-auto",
-          "blockClass": "layout-option"
+          "blockClass": "text__layout--option"
         }
       },
       "rich-text#option-list": {
         "title": "gallery layout switcher option list text",
         "props": {
-          "text": "List",
+          "text": "Lista",
           "textColor": "c-auto",
-          "blockClass": "layout-option"
+          "blockClass": "text__layout--option"
         }
       },
 
@@ -234,6 +295,7 @@
               "order": "ASC"
             }
           ],
+          "initiallyCollapsed":"true",
           "drawerDirectionMobile":"drawerRight",
           "blockClass":"search__filter--navigator"
         }

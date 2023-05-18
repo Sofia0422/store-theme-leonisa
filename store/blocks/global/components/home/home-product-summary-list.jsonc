@@ -11,19 +11,46 @@
   },
   "product-summary.shelf#global__list--product": {
     "children": [   
-      "product-summary-image#global__product--image",   
+      "stack-layout#label__best--seller",         
       "product-summary-name",
       "product-summary-price",      
       "product-summary-space",
       "product-rating-inline",      
       "add-to-cart-button",
       "flex-layout.row#shelf__drops--color-container"      
-      /* "product-summary-buy-button" */
     ],
     "props":{
       "blockClass":"global__list-product-container"
     }
   },
+  "stack-layout#label__best--seller":{
+    "title":"Stack layout best sellers",
+    "children":[
+      "product-summary-image#global__product--image",
+      "flex-layout.row#stack__layout--container"
+    ],
+    "props":{      
+      "blockClass":"label__best--seller"
+    }
+  },
+  "flex-layout.row#stack__layout--container":{
+    "title":"Stack layout best sellers container",
+    "children":[
+      "rich-text#stack__best-seller--text"
+    ],
+    "props":{
+      "blockClass":"stack__layout--container"
+    }
+  },
+  "rich-text#stack__best-seller--text":{
+    "props":{
+      "text":"Más Vendido",
+      "blockClass":"label__best--seller-text"
+    } 
+  },
+
+
+
   "product-summary-image#global__product--image":{
     "title":"Product summary images",
     "props":{
