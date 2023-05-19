@@ -1,0 +1,54 @@
+.flexRowContent--department__results--container{
+    padding-top: 1.5rem;
+    padding-left: 7.5rem !important;
+    padding-right: 5rem !important;
+    
+}
+
+.flexColChild--department__breadcrumb--col{
+    padding-left: 2.8rem;
+}
+
+.flexColChild--list__product--info :global(.vtex-button){
+    background-color: transparent;
+    border: none;
+}
+
+.flexRowContent--department__breadcrumb--row{
+    padding-top: 3.5rem;
+    padding-bottom: 0;
+    padding-left: 0.5rem !important;
+    /* padding-right: 2.5rem !important; */
+}
+
+.flexRowContent--stack__layout--container{
+    border-radius: 5px 0;
+    background-color: gray;     
+}
+
+.flexRow--department__slider{
+    padding-left: 3.5rem;
+    padding-right: 2.5rem;
+}
+
+.flexRow--department__closure--text-row{
+    padding: 0 4rem;
+}
+
+@media  (max-width: 1024px){
+    .flexRow--department__slider{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 2.5rem;
+    }   
+    .flexRow--department__slider :global(.vtex-store-components-3-x-container){
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    } 
+    .flexRow--department__closure--text-row{
+        padding: 0 0.6rem;
+    }
+}
+
+
+

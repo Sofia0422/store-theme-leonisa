@@ -1,0 +1,32 @@
+{
+    
+    "responsive-layout.desktop#text__option--grid": {
+        "title": "gallery layout switcher option grid",
+        "children": [
+          "rich-text#option-grid"
+        ]
+      },
+      "responsive-layout.desktop#text__option--list": {
+        "title": "gallery layout switcher option list",
+        "children": [
+          "rich-text#option-list"
+        ]
+      },
+      "rich-text#option-grid": {
+        "title": "gallery layout switcher option grid text",
+        "props": {
+          "text": "Cuadrícula",
+          "textColor": "c-auto",
+          "blockClass": "text__layout--option"
+        }
+      },
+      "rich-text#option-list": {
+        "title": "gallery layout switcher option list text",
+        "props": {
+          "text": "Lista",
+          "textColor": "c-auto",
+          "blockClass": "text__layout--option"
+        }
+      }
+
+}

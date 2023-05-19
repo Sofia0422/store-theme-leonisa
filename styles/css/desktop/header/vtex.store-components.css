@@ -1,0 +1,65 @@
+.imageElement--desktop__header_item--image1, .imageElement--desktop__header_item--image2, .imageElement--desktop__header_item--image3{
+    margin-top: 7px;
+    padding: 0 12px;  
+}
+
+.imageElement--desktop__header_item--image1{
+    margin-top: 10px;   
+}
+
+.imageElement--desktop__header_item--image2{
+    margin-top: 10px;
+    padding-left: 18px;   
+    padding-right: 10px;  
+}
+
+.imageElement--desktop__header_item--image3{    
+    padding-left: 35px
+}
+
+.imageElementLink--desktop__header_item--image1, .imageElementLink--desktop__header_item--image2{
+    border-right: 1px solid #676564;
+}
+
+.searchIcon--desktop__header--search{  
+    position: absolute;
+    margin-left: -186px ;
+    width: 25px;
+    height: 25px;
+}
+
+.searchIcon--header__search--modal{       
+    width: 25px;
+    height: 25px;  
+    position: absolute;
+    margin-left: -11.5rem; 
+}
+
+.searchBarContainer {
+    padding-top: 0.6rem !important; 
+    border-radius: 6px;    
+    width: 180px !important;      
+}
+
+.searchBarInnerContainer--header__search--modal{
+    margin-left: 2rem;
+}
+
+.paddingInput--desktop__header--search{
+    padding-right: 20px;
+}
+
+.autoCompleteOuterContainer--header__search--modal :first-child{
+    border: none;     
+    padding-top: 1px;     
+}
+
+.autoCompleteOuterContainer--desktop__header--search :global(.vtex-input-prefix__group){
+    border-radius: 50px;
+
+}
+
+.logoImage--desktop__header--logo{
+    width: 210px !important;
+    height: 50px;
+}

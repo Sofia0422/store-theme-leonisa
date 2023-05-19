@@ -1,0 +1,58 @@
+{
+    "flex-layout.row#department__results--filter-order":{
+        "title":"Search results - filter and order container for mobile view",
+        "children":[
+            "flex-layout.col#mobile__search--results-filter",
+            "flex-layout.col#mobile__search--results-order"
+        ],
+        "props":{    
+            /* "colGap":4,  */       
+            "blockClass":"mobile__results--filter-order"
+        }        
+    },
+    "flex-layout.col#mobile__search--results-filter":{
+        "title": "Search results filter mobile view",
+        "children":[
+            "filter-navigator.v3#mobile__filter--navigator"
+        ],
+        "props":{            
+            "blockClass":"mobile__search--result-filter"
+        }
+    },
+    "filter-navigator.v3#mobile__filter--navigator": {
+        "props": {
+          "facetOrdering": [
+            {
+              "key": "brand",
+              "orderBy": "name",
+              "order": "ASC"
+            }
+          ],
+          "showQuantityBadgeOnMobile":true,
+          "initiallyCollapsed":"true",
+          "drawerDirectionMobile":"drawerRight",
+          "blockClass":"mobile__filter--navigator"
+        }
+      },
+
+    "flex-layout.col#mobile__search--results-order":{
+        "title": "Search results order mobile view",
+        "children":[
+            "order-by.v2#mobile__search--results-order"
+        ],
+        "props":{            
+            "blockClass":"mobile__search--result-order"
+        }
+    },
+    "order-by.v2#mobile__search--results-order":{
+        "props": {
+            "showOrderTitle":false,
+            "hiddenOptions":[
+                "",
+                "OrderByBestDiscountDESC"
+            ],
+            "blockClass":"mobile__result--order-by"
+          }
+    }
+
+}

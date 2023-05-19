@@ -1,0 +1,16 @@
+.flexRowContent--mobile__results--filter-order{
+    /* flex-wrap: wrap;*/
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.flexRowContent--mobile__results--filter-order :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 48% !important;
+}
+
+.flexRow--mobile__results--filter-order :global(.vtex-store-components-3-x-container){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
