@@ -3,6 +3,10 @@
     border: none
 }
 
+.element--global__list-product-container{
+    height: auto !important;   
+}
+
 .price_installmentContainer, .price_listPriceContainer{
     display: none;
 }
@@ -18,5 +22,12 @@
 
 .nameContainer {
     padding-bottom: 0.5rem;
+}
+
+@media  (max-width: 375px){
+    .element--global__list-product-container{
+        height: 100% !important;   
+    }
+    
 }
 

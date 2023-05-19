@@ -1,0 +1,97 @@
+.filtersWrapperMobile--mobile__filter--navigator{
+    border: 1px solid #bbbbbb;
+    border-radius: 50px;   
+    height: 44px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.orderByButton--mobile__result--order-by{
+    border: 1px solid #bbbbbb;
+    border-radius: 50px;    
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderByText--mobile__result--order-by{
+    font-size: 14px;
+    color: #2a2c29;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: math-auto;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    display: block;
+}
+
+.filterPopupTitle--mobile__filter--navigator{
+    color: #2a2c29;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: math-auto;   
+    letter-spacing: .05em;
+    font-size: 14px;
+    transform: translateX(37px);
+}
+.filterIcon--mobile__filter--navigator{
+    transform: rotate(90deg);
+}
+
+.filterPopupArrowIcon--mobile__filter--navigator{
+    transform: translateX(-36px);
+}
+
+.filterQuantityBadge--mobile__filter--navigator{
+    top: 0.1rem;
+    right: -5rem;
+    background-color: transparent;
+    color: #2a2c29;
+    font-size: 14px;
+    border: 1px solid;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+    border-radius: 50px;
+}
+.accordionFilterItemTag--mobile__filter--navigator :global(.vtex-tag){
+    background-color: transparent;
+    color: #2a2c29;
+    font-size: 14px;
+    border: 1px solid;
+    border-bottom-color: transparent !important;
+    border-top-color: transparent !important;
+}
+
+.accordionFilterItemTitle--mobile__filter--navigator{
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: 12px;
+}
+
+.accordionFilterContainer--mobile__filter--navigator{
+    padding-left: 1rem;
+}
+    
+.filterBreadcrumbsText--mobile__filter--navigator {
+    font-size: calc(28px*.73);
+    font-weight: 500;
+}
+
+
+
+
+
+
+@media  (max-width: 425px){
+    .orderByText--mobile__result--order-by{
+        font-size: 13.7px;       
+    }        
+} 
+
+@media  (max-width: 320px){
+    .gallery--search__result--gallery--main-grid {
+        width: auto !important;
+    }
+    .galleryItem--search__result--gallery--main-grid{
+        padding: 0.3rem !important;
+    }
+}
