@@ -37,8 +37,7 @@
             "gallery-layout-switcher",
             "order-by.v2"             
         ],
-        "props":{
-            /* "horizontalAlign":"center", */
+        "props":{            
             "blockClass":"department__breadcrumb--row"
         }
     },
@@ -51,6 +50,48 @@
             "blockClass":"department__breadcrumb--col"
         }
     },
+    "gallery-layout-switcher":{
+        "title":"Gallery layout switcher",
+        "children":[
+            "gallery-layout-option#grid__two--columns",
+            "gallery-layout-option#list__one--column"
+        ]
+    },
+    "gallery-layout-option#grid__two--columns":{
+        "title":"Gallery layout switcher grid",
+        "children":[
+            "icon-grid",
+            "responsive-layout.desktop#text__option--grid"
+        ],
+        "props":{
+            "name":"main-grid",
+            "blockClass":"grid__selector--two-columns"
+        }
+    },
+    "gallery-layout-option#list__one--column":{
+        "title":"Gallery layout switcher list",
+        "children":[
+            "icon-inline-grid",
+            "responsive-layout.desktop#text__option--list"
+        ],
+        "props":{
+            "name":"main-list",
+            "blockClass":"grid__selector--one-column"
+        }
+    },   
+    
+    "order-by.v2":{
+        "props": {
+            "showOrderTitle":false,
+            "hiddenOptions":[
+                "",
+                "OrderByBestDiscountDESC"
+            ],
+            "blockClass":"search__result--order-by"
+          }
+
+    },
+
 
     "flex-layout.row#department__results--filter":{
         "title": "Department search results filter",
@@ -61,6 +102,22 @@
             "blockClass":"search__result--filter"
         }
     },
+    
+    "filter-navigator.v3": {
+        "props": {
+          "facetOrdering": [
+            {
+              "key": "brand",
+              "orderBy": "name",
+              "order": "ASC"
+            }
+          ],
+          "initiallyCollapsed":"true",
+          "drawerDirectionMobile":"drawerRight",
+          "blockClass":"search__filter--navigator"
+        }
+      },
+
     "flex-layout.row#department__results--content":{
         "title": "Department search results content products",
         "children":[
@@ -70,40 +127,6 @@
             "blockClass":"search__result--content"
         }
     },
-
-
-    
-    /* "flex-layout.row#department__results":{
-        "title":"Department Results container",
-        "children":[  
-            "flex-layout.col#search__result--filter",
-            "flex-layout.col#search__result--content"               
-                                  
-        ],
-        "props":{            
-            "blockClass":"department__results--container"
-        }
-    },
-    "flex-layout.col#search__result--filter":{
-        "title": "search results filter",
-        "children":[
-            "filter-navigator.v3"
-        ],
-        "props":{
-            "width":"15%",
-            "blockClass":"search__result--filter"
-        }
-    },
-    "flex-layout.col#search__result--content":{
-        "title": "search results content products",
-        "children":[
-            "search-content#search__result--container" 
-        ],
-        "props":{            
-            "blockClass":"search__result--content"
-        }
-    }, */
-
 
     "search-content#search__result--container":{
         "title":"Container search result",
@@ -126,7 +149,7 @@
                     "itemsPerRow":{
                         "desktop":3,
                         "tablet":2,
-                        "phone":1
+                        "phone":2
                     }
                 },
                 {
@@ -216,88 +239,48 @@
           "blockClass": "plp__product--price"
         }
       },
-    
 
-
-    "gallery-layout-switcher":{
-        "title":"Gallery layout switcher",
+      "flex-layout.row#department__closure--text":{
+        "title": "Closure text container of section department",
         "children":[
-            "gallery-layout-option#grid__two--columns",
-            "gallery-layout-option#list__one--column"
-        ]
-    },
-    "gallery-layout-option#grid__two--columns":{
-        "title":"Gallery layout switcher grid",
-        "children":[
-            "icon-grid",
-            "responsive-layout.desktop#text__option--grid"
+            "flex-layout.col#department__closure--text"           
         ],
         "props":{
-            "name":"main-grid",
-            "blockClass":"grid__selector--two-columns"
+            "blockClass":"department__closure--text-row"
         }
-    },
-    "gallery-layout-option#list__one--column":{
-        "title":"Gallery layout switcher list",
+      },
+      "flex-layout.col#department__closure--text":{
+        "title":"Closure text container column of section department",
         "children":[
-            "icon-inline-grid",
-            "responsive-layout.desktop#text__option--list"
+            "rich-text#global__closure--text-title",
+            "rich-text#global__closure--text-choice",
+            "rich-text#global__closure--text-options"
         ],
         "props":{
-            "name":"main-list",
-            "blockClass":"grid__selector--one-column"
-        }
-    },   
-    "responsive-layout.desktop#text__option--grid": {
-        "title": "gallery layout switcher option grid",
-        "children": [
-          "rich-text#option-grid"
-        ]
-      },
-      "responsive-layout.desktop#text__option--list": {
-        "title": "gallery layout switcher option list",
-        "children": [
-          "rich-text#option-list"
-        ]
-      },
-      "rich-text#option-grid": {
-        "title": "gallery layout switcher option grid text",
-        "props": {
-          "text": "Cuadrícula",
-          "textColor": "c-auto",
-          "blockClass": "text__layout--option"
-        }
-      },
-      "rich-text#option-list": {
-        "title": "gallery layout switcher option list text",
-        "props": {
-          "text": "Lista",
-          "textColor": "c-auto",
-          "blockClass": "text__layout--option"
+            "blockClass":"department__closure--text-col"
         }
       },
 
-
-    "order-by.v2":{
-        "props": {
-            "showOrderTitle":false,
-            "blockClass":"search__result--order-by"
-          }
-
-    },
-
-    "filter-navigator.v3": {
-        "props": {
-          "facetOrdering": [
-            {
-              "key": "brand",
-              "orderBy": "name",
-              "order": "ASC"
-            }
-          ],
-          "initiallyCollapsed":"true",
-          "drawerDirectionMobile":"drawerRight",
-          "blockClass":"search__filter--navigator"
+      "rich-text#global__closure--text-title":{
+        "title":"Closure title of section department",
+        "props":{
+            "text":"Conoce todos los brasieres y tipos de brasier",
+            "blockClass":"global__closure--text-title"
+        }
+      },
+      "rich-text#global__closure--text-choice":{
+        "title":"Choice paragraph of closure text - section department",
+        "props":{
+            "text":"Elegir [**brasieres cómodos**](/), [**bralettes y tops**](/) para cada ocasión es una tarea sencilla gracias a la variedad de estilos, diseño, tallas y colores que tenemos en Leonisa. Toda mujer debe tener su **sostén** favorito, pero no te limites, descubre todos los **tipos de brasier** para mujer y elige tu favorito.",
+            "blockClass":"global__closure--text"
+        }
+      },
+      "rich-text#global__closure--text-options":{
+        "title":"Options paragraph of closure text - section department",
+        "props":{
+            "text":"En Leonisa contamos con [**brasieres strapless**](/), [**brasieres con relleno**](/),[**brasieres sin varillas**](/), [**brasieres para embarazadas**](/), [**brasieres reductores**](/), [**brasieres push up**](/), [**bralettes**](/), [**brasieres copa completa**](/) y muchas opciones más, en una variedad de tallas y estilos que te encantarán, solo recuerda elegir la talla más adecuada para ti.",
+            "blockClass":"global__closure--text"
         }
       }
+
 }

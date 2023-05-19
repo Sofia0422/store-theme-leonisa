@@ -9,8 +9,8 @@
           "arrowSize":25,
           "itemsPerPage":{
             "desktop":5,
-            "tablet":3,
-            "phone":1
+            "tablet":10,
+            "phone":6
           },
           "infinite": true,
           "blockClass": "global__plp--slider"    

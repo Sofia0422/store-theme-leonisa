@@ -1,0 +1,12 @@
+{
+    "search-result-layout.mobile#department":{
+        "title":"Search result for mobile view",
+        "children":[
+            "flex-layout.row#department__title",
+            "flex-layout.row#department__slider", 
+            "flex-layout.row#department__results--filter-order",
+            "flex-layout.row#department__results--content",
+            "flex-layout.row#department__closure--text"   
+        ]
+    }
+}

@@ -1,9 +1,4 @@
 
-/* .galleryItem--search__result--gallery{
-    max-width: 100% !important;
-    
-} */
-
 .filterTemplateOverflow--search__filter--navigator :global(.vtex-slider__base-internal){
     background-color: #2a2c29
 }
@@ -29,9 +24,8 @@
 
 .orderByOptionsContainer{
     width: 60%;
-    margin-right: 4rem;
-    margin-top: 46px;
-    
+    /* margin-right: 4.5rem; */
+    margin-top: 46px;    
 }
 
 .orderByText--search__result--order-by {
@@ -45,8 +39,10 @@
 
 .orderByDropdown--search__result--order-by{
     display: flex;
-    justify-content: center;
-    transform: translateX(34px);
+    justify-content: right;
+    transform: translateX(-41px);
+    position: relative;
+    z-index: 9999;
 }
 
 .filterPopupTitle--search__result--order-by {    
@@ -76,7 +72,7 @@
     flex-direction: row;
     justify-content: left;
     gap: 1rem;
-    padding: 2rem 7rem;
+    padding: 2rem 4rem;
 }
 
 .caretIcon--search__filter--navigator{
@@ -84,6 +80,17 @@
     width: 10px;
     height: 10px;
 }
+
+@media  (max-width: 1024px){
+    .orderByOptionsContainer{
+        width: 100%;  
+    }
+}
+
+
+
+
+
 
 
 

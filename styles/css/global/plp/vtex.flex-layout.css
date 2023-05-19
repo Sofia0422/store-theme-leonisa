@@ -31,3 +31,24 @@
     padding-right: 2.5rem;
 }
 
+.flexRow--department__closure--text-row{
+    padding: 0 4rem;
+}
+
+@media  (max-width: 1024px){
+    .flexRow--department__slider{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 2.5rem;
+    }   
+    .flexRow--department__slider :global(.vtex-store-components-3-x-container){
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    } 
+    .flexRow--department__closure--text-row{
+        padding: 0 0.6rem;
+    }
+}
+
+
+

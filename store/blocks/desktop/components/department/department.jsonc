@@ -1,17 +1,32 @@
 {
-    "search-result-layout.desktop#department":{
-        "title":"Search result for desktop view",
-        "children":[
-            "flex-layout.row#department__title",
-            "flex-layout.row#department__slider",            
-            "flex-layout.row#department__breadcrumb",
-            "flex-layout.row#department__results--filter",
-            "flex-layout.row#department__results--content"              
-        ],
-        "props":{
-            "pagination": "show-more",            
-            "defaultGalleryLayout": "general-grid",
-            "blockClass": "search__layout--desktop"
+    
+    "responsive-layout.desktop#text__option--grid": {
+        "title": "gallery layout switcher option grid",
+        "children": [
+          "rich-text#option-grid"
+        ]
+      },
+      "responsive-layout.desktop#text__option--list": {
+        "title": "gallery layout switcher option list",
+        "children": [
+          "rich-text#option-list"
+        ]
+      },
+      "rich-text#option-grid": {
+        "title": "gallery layout switcher option grid text",
+        "props": {
+          "text": "Cuadrícula",
+          "textColor": "c-auto",
+          "blockClass": "text__layout--option"
         }
-    }
+      },
+      "rich-text#option-list": {
+        "title": "gallery layout switcher option list text",
+        "props": {
+          "text": "Lista",
+          "textColor": "c-auto",
+          "blockClass": "text__layout--option"
+        }
+      }
+
 }
