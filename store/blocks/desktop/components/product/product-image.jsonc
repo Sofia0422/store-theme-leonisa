@@ -1,0 +1,28 @@
+{
+    "product-images#desktop__product--info-image":{
+        "title":"Product image props",
+        "props":{
+            "blockClass":"desktop__product--info-image",
+            "showPaginationDots":false,            
+            "ModalZoom":"modal-layout#product__image--zoom",
+            "zoomMode":"open-modal",
+            "aspectRatio":"1:1"           
+        }
+    },
+     "modal-layout#product__image--zoom":{
+        "children":[
+            "product-images.high-quality-image#product__image--modal"         
+        ],
+        "props":{
+            "blockClass":"product__image--zoom"
+        }
+    },
+    "product-images.high-quality-image#product__image--modal":{
+        "props":{ 
+            "blockClass":"product__image--modal",        
+            "imageSizes":[500],          
+            "zoomMode":"in-place-click",
+            "zoomFactor":2            
+        }
+    } 
+}

@@ -1,0 +1,18 @@
+.flexRowContent--mobile__product--add-button :global(.vtex-button ) {
+    border-radius: 50px;
+}
+
+.flexRowContent--mobile__product--add-button :global(.vtex-button__label){
+    visibility: hidden;
+    padding: 22px 0 !important;
+}
+.flexRowContent--mobile__product--add-button :global(.vtex-button__label)::before{
+    visibility: visible; 
+    position: absolute;   
+    content: "AGREGAR A TU BOLSA";
+    font-size: 16px;
+    font-weight: bold;
+    white-space: normal;
+    letter-spacing: 0.15em;  
+    line-height: 1.42;      
+}

@@ -1,0 +1,126 @@
+.wrapper--pdp__stack--best-seller{
+    background-color: gray;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+}
+
+.container--pdp__size--guide-text {
+    justify-content: right;
+}
+
+.wrapper--pdp__size--guide-text{
+    padding: 5px 0;
+    font-size: 12px;    
+}
+
+.link--pdp__size--guide-text{
+    color: #2a2c29 !important;
+}
+
+.wrapper--pdp__taxes--text{
+    font-size: 14px;
+}
+
+.wrapper--pdp__color--options-title{
+    font-weight:bolder; 
+    color: #2a2c29; 
+    letter-spacing: .08em;
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper--payment__addi--text{
+    font-size: 12px;
+}
+.link--payment__addi--text{
+    color: rgb(60, 106, 240);
+}
+
+.wrapper--product__inventory--text{
+    font-size: calc(16px *.92);    
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+    color: #2a2c29;
+
+}
+
+.wrapper--product__assurance--tex-1{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+    color: #2a2c29;
+}
+
+.wrapper--product__assurance--tex-2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+    color: #2a2c29;
+}
+
+.container--product__disclosure--text-title{
+    padding: 15px 25px 15px 15px
+}
+
+.wrapper--product__disclosure--text-title{
+    letter-spacing: .3em;
+    font-size: .75em;
+}
+
+.container--size__rich--text-title, .container--shipping__rich--text-title, .container--returns__rich--text-title{
+    margin-bottom: 25px;
+}
+.container--returns__rich--text-title {
+    margin-top: 50px;
+}
+
+.wrapper--size__rich--text-title, .wrapper--shipping__rich--text-title, .wrapper--returns__rich--text-title{
+    color: #0197a1;
+    font-size: calc(28px *.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.wrapper--size__rich--text-content, .wrapper--shipping__rich--text-content, .wrapper--returns__rich--text-content{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+    color: #2a2c29;
+    margin-bottom: 20px;
+}
+.link--size__rich--text-content{
+    color: #2a2c29;
+}
+
+.link--shipping__rich--text-content{
+    color: #d73043;
+    text-decoration: none;
+}
+
+@media  (max-width: 768px){
+    .wrapper--pdp__color--options-title {
+        margin-top: 20px;
+    } 
+} 
+
+@media  (max-width: 425px){
+    .wrapper--product__assurance--tex-1, .wrapper--product__assurance--tex-2 {
+        font-size: 15px;
+    } 
+    .wrapper--product__disclosure--text-title{      
+        font-size: .74em;
+    }
+}
+
