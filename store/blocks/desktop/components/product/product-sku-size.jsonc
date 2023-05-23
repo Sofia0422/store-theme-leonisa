@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#product__sku-size--container":{
+        "title":"Product sku and size guide container for desktop view",
+        "children":[
+            "sku-selector",
+            "rich-text#pdp__size--guide-text"
+        ],
+        "props":{
+            "blockClass":"product__sku-size--container"
+        }
+    },
+    "rich-text#pdp__size--guide-text":{
+        "title":"Size guide text",
+        "props":{
+            "text":"[GUIA DE TALLAS](/)",
+            "blockClass":"pdp__size--guide-text"
+        }
+    }
+}

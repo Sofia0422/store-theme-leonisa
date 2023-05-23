@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#product__shipping--container":{
+        "title":"Product shipping container for pdp in desktop view",
+        "children":[
+            "link#product__inventory--icon",
+            "rich-text#product__inventory--text"
+        ],
+        "props":{
+            "blockClass":"product__shipping--container"
+        }
+    },
+    "link#product__inventory--icon": {
+        "title": "Product inventory icon in pdp",
+        "props": {          
+          "label":"",       
+          "blockClass":"product__inventory--icon"
+        }
+      },
+    
+
+    "rich-text#product__inventory--text":{
+        "title":"Product inventory icon",
+        "props":{
+            "text":"Disponible para envío",
+            "blockClass":"product__inventory--text"
+        }
+    }
+
+}

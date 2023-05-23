@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#product__rating-id--container":{
+        "title":"Product rating and identifier container for desktop view",
+        "children":[
+            "product-rating-inline",
+            "product-identifier.product"
+        ],
+        "props":{
+            "blockClass":"product__rating-id--container"
+        }        
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#product__disclosure--container-row":{
+        "title":"Product disclosure container main",
+        "children":[
+            "flex-layout.col#product__disclosure--container-col"
+        ],
+        "props":{
+            "blockClass":"product__disclosure--container-row",
+            "fullWidth": true
+        }         
+    },
+
+    "flex-layout.col#product__disclosure--container-col":{
+        "title":"Product diclosure container column",
+        "children":["disclosure-layout-group#product__items--group"],
+        "props":{
+            "blockClass":"product__disclosure--container-col"
+        }
+    },
+    
+    "disclosure-layout-group#product__items--group":{
+        "title":"Disclosure for product items group",
+        "children":[
+            "disclosure-layout#description",
+            "disclosure-layout#size__guide",
+            "disclosure-layout#shipping__returns"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"product__items--group",
+            "maxVisible":"many"
+        }
+    }
+}

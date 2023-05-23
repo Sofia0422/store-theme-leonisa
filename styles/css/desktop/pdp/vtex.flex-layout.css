@@ -1,0 +1,181 @@
+.flexRowContent--desktop__product--information :global(.vtex-button){
+    border-radius: 50px;
+}
+
+.flexRowContent--desktop__product--information :global(.vtex-button__label){
+    visibility: hidden;
+    padding: 18px 0 !important;
+}
+.flexRowContent--desktop__product--information :global(.vtex-button__label)::before{
+    visibility: visible; 
+    position: absolute;   
+    content: "AGREGAR A TU BOLSA";
+    font-size: 16px;
+    font-weight: bold;
+    white-space: normal;
+    letter-spacing: 0.15em;  
+    line-height: 1.42;      
+}
+
+.flexRow--product__rating-id--container{
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 25px;
+}
+
+.flexRow--desktop__product--breadcrumb-row, .flexRow--desktop__product--information{
+    padding: 0 7.5rem;
+}
+
+.flexColChild--desktop__product--breadcrumb-col :global(.vtex-breadcrumb-1-x-link){
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    line-height: 1.2;
+}
+.flexColChild--desktop__product--breadcrumb-col :global(.vtex-breadcrumb-1-x-term){
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+}
+
+
+
+.flexRowContent--product__price-taxes--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;
+    padding-right: 0.5rem !important;
+}
+.flexRowContent--pdp__drops--color-container {
+    justify-content: left !important;
+    transform: translateX(-108px)
+}
+
+.flexRowContent--pdp__drops--color-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;    
+    padding-left: 3rem;
+}
+
+.flexColChild--desktop__product--info-data{
+    padding-bottom: 1.2rem !important;
+}
+
+.flexRow--pdp__drops--color-container, .flexRowContent--product__price-taxes--container{
+    margin-top: -20px;
+}
+
+.flexRowContent--product__payment-methods--container{
+   margin-top: 15px;
+}
+
+.flexRowContent--product__payment-methods--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding-right: 0.5rem !important;
+    width: auto !important;
+}    
+
+.flexRowContent--product__shipping--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;
+    padding-right: 0.5rem !important;
+}
+.flexRowContent--product__assurance--container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.flexRowContent--product__assurance--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;
+    padding-right: 0.5rem !important;
+    align-items: center;
+}
+
+.flexColChild--product__assurance--text-container{
+    padding-bottom: 0 !important;
+}
+.flexCol--product__assurance--text-container{
+    height: fit-content;
+}
+
+.flexRowContent--desktop__product--reviews :global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
+    font-size: 20px;
+    color:rgb(44, 42, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    background: transparent;
+    border-width: 0px;
+    border-style: none;
+    border-color: transparent;
+    border-radius: 0px;
+}
+.flexRowContent--desktop__product--reviews :global(.vtex-reviews-and-ratings-3-x-container){
+    margin: 0 4rem !important;
+}
+.flexRowContent--desktop__product--reviews :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;
+}
+
+@media  (max-width: 1024px){
+    .flexRow--pdp__stack--layout-container{
+        margin-top: 30px;
+        padding: 0 0.8rem;
+    }
+    .flexRow--product__rating-id--container{
+        border-bottom: none;  
+        padding: 0 1.2rem;     
+    } 
+    .flexRowContent--pdp__drops--color-container {
+        margin-top: 30px;
+    }  
+    .flexRowContent--pdp__drops--color-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){          
+        padding-left: 5rem;
+    } 
+    .flexRowContent--pdp__drops--color-container {      
+        transform: translateX(-143px)
+    }
+    .flexRowContent--product__sku-size--container{
+        margin-top: 20px;
+    }
+    .flexRowContent--product__price-taxes--container{
+        margin-top: 5px;
+    }
+    .flexRowContent--product__payment-methods--container{
+        margin-top: 25px;
+        padding-left: 0.5rem;
+     }
+     .flexRow--product__shipping--container{
+        display: flex;
+        justify-content: center;
+        margin: 25px 0;
+     }
+     .flexRowContent--product__shipping--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+       margin-top: -2px;
+    }
+    .flexRowContent--product__assurance--container {        
+        margin-top: 15px;
+    }       
+    .flexCol--product__disclosure--container-col{
+        margin-top: 20px;
+        padding: 0 1.2rem;   
+    }  
+    .flexRowContent--desktop__product--reviews :global(.vtex-reviews-and-ratings-3-x-container){
+        margin: 0 2rem !important;
+    }
+    .flexRow--pdp__color--options-container, .flexRow--product__sku-size--container,.flexRow--product__price-taxes--container, .flexRowContent--product__payment-methods--container, .flexRow--mobile__product--add-button{
+        padding: 0 1.2rem;
+    }
+} 
+
+ @media  (max-width: 425px){
+    .flexRowContent--pdp__drops--color-container, .flexRowContent--product__price-taxes--container, .flexRowContent--product__rating-id--container, .flexRowContent--product__shipping--container, .flexRowContent--product__sku-size--container{
+        display: flex;        
+    }
+    .flexRowContent--product__payment-methods--container{
+        display: flex;
+        flex-wrap: wrap;        
+    }          
+} 
+

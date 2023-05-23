@@ -1,0 +1,113 @@
+.skuSelectorName{
+    text-transform: uppercase;
+    font-weight:bolder; 
+    color: #2a2c29; 
+    letter-spacing: .15em;
+    font-size: .9em;  
+}
+
+.skuSelectorOptionsList{
+    margin-left: 0 !important;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.frameAround{ 
+    border: none; 
+} 
+
+.skuSelectorItem{
+    height: 33px;
+    min-width: 70px;
+    border-radius: 0;
+}
+
+
+.skuSelectorItem--selected{
+    height: 33px;
+    min-width: 70px;
+    background-color: #2a2c29;     
+}
+
+.skuSelectorItem--selected :global(.vtex-store-components-3-x-valueWrapper){
+    color: #fff;
+}
+
+.skuSelectorInternalBox{
+    border-color: #bbbbbb;
+    border-radius:0 ;
+}
+
+.valueWrapper{
+    margin-left: 0.7rem !important;     
+}
+
+.price_sellingPrice--pdp_product--price{
+    font-weight: bold;
+    font-size: 16px !important;
+}
+
+.productBrand {
+    font-size: calc(28px *.85);
+    font-weight: 500;
+    line-height: 1;
+}
+
+.imageElementLink--payment__addi--icon{
+    margin-top: -5px;
+}
+.productDescriptionTitle {
+    display: none;
+}
+
+.productDescriptionText{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+    color: #2a2c29;
+    margin-bottom: 20px;
+}
+
+.imageElement--measure__step--one, .imageElement--measure__step--two{
+    width: 300px;
+    height: 162px;
+    padding: 0 9rem;
+    margin-bottom: 10px;
+}
+.shareLabel {
+    display: none;
+}
+.shareContainer{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #cccccc;
+    padding: 20px 0;
+    margin-top: -18px;
+}
+
+
+@media  (max-width: 1024px){
+    .productNameContainer{
+        padding: 2rem;
+    }
+    .skuSelectorSubcontainer{
+        margin-bottom: 1.2rem;
+    }
+    .imageElement--measure__step--one, .imageElement--measure__step--two{        
+        padding: 0 13rem;
+    }   
+    .shareContainer{        
+        margin-top: 3px;
+        margin: 0 1.2rem;
+    }     
+} 
+
+@media  (max-width: 425px){
+    .imageElement--payment__addi--logo{
+        height: 06em;
+    }    
+}
+
+
+/* skuSelectorOptionsList */

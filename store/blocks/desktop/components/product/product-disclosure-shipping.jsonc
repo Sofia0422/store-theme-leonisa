@@ -1,0 +1,88 @@
+{
+    "disclosure-layout#shipping__returns":{
+        "title":"Disclosure layout for product shipping and returns",
+        "children":[
+            "disclosure-trigger#shipping__returns",
+            "disclosure-content#shipping__returns"           
+        ],
+        "props":{
+            "blockClass":"disclosure__shipping--returns-container"
+        }
+    },
+   
+    "disclosure-trigger#shipping__returns":{
+        "title":"Disclosure trigger for product shipping and returns",
+        "children":[
+            "rich-text#shipping__returns", 
+            "disclosure-state-indicator#product__disclosure"
+        ],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#shipping__returns":{
+        "title":"Product shipping and returns title",
+        "props":{
+            "text": "ENVÍOS Y DEVOLUCIONES",
+            "blockClass":"product__disclosure--text-title"
+        }
+    },    
+
+    "disclosure-content#shipping__returns":{
+        "title":"Disclosure content - product size guide",
+        "children":["menu#shipping__returns"],
+        "props":{
+            "blockClass":"disclosure__content--description"
+        }
+    },
+    "menu#shipping__returns":{
+        "title":"Menu - product shipping and returns",
+        "children":[
+            "rich-text#shipping__title",
+            "rich-text#shipping__content--one",
+            "rich-text#shipping__content--two",
+            "rich-text#returns__title",
+            "rich-text#returns__content"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu--size-guide"
+        }
+    },
+    "rich-text#shipping__title":{
+        "title":"Shipping title",
+        "props":{
+            "text": "Envíos",
+            "blockClass":"shipping__rich--text-title"
+        }
+    },
+    "rich-text#shipping__content--one":{
+        "title":"Shipping content one",
+        "props":{
+            "text": "$6.400 a **ciudades principales** ó $6.900 a ciudades intermedias. [**GRATIS**](/) por compras de $60.000 o más. Entrega de 4-7 días hábiles.",
+            "blockClass":"shipping__rich--text-content"
+        }
+    },
+    "rich-text#shipping__content--two":{
+        "title":"Shipping content two",
+        "props":{
+            "text": "$19.900 a **poblaciones** ó [**GRATIS**](/) por compras de $70.000 o más. Entrega de 10-12 días hábiles.",
+            "blockClass":"shipping__rich--text-content"
+        }
+    },
+    "rich-text#returns__title":{
+        "title":"Returns title",
+        "props":{
+            "text": "Cambios y Devoluciones",
+            "blockClass":"returns__rich--text-title"
+        }
+    },
+    "rich-text#returns__content":{
+        "title":"Retunrs content",
+        "props":{
+            "text": "Con Leonisa tienes tu satisfacción 100% garantizada; si por algún motivo no estás satisfecho con tu compra, tienes hasta **30 días** para un cambio o **5 días hábiles** para la devolución de tu dinero.",
+            "blockClass":"returns__rich--text-content"
+        }
+    }
+    
+}

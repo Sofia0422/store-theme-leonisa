@@ -1,0 +1,18 @@
+.productImageTag--mobile__product--info-image{
+    padding-left: 2.5rem;
+}
+
+.productImage--mobile__product--info-image{
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.content--mobile__product--info-image{
+    padding: 0 1.2rem;
+}    
+
+@media  (max-width: 425px){
+    .productImageTag--mobile__product--info-image{
+        padding-left: 0;
+    } 
+      
+} 

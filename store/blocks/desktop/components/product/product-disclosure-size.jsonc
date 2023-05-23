@@ -1,0 +1,144 @@
+{
+    "disclosure-layout#size__guide":{
+        "title":"Disclosure layout for product size guide",
+        "children":[
+            "disclosure-trigger#size__guide",
+            "disclosure-content#size__guide"           
+        ],
+        "props":{
+            "blockClass":"disclosure__size--guide-container"
+        }
+    },
+   
+    "disclosure-trigger#size__guide":{
+        "title":"Disclosure trigger for product size guide",
+        "children":[
+            "rich-text#size__guide", 
+            "disclosure-state-indicator#product__disclosure"
+        ],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#size__guide":{
+        "title":"Product size guide title",
+        "props":{
+            "text": "GUIA DE TALLAS",
+            "blockClass":"product__disclosure--text-title"
+        }
+    },    
+
+    "disclosure-content#size__guide":{
+        "title":"Disclosure content - product size guide",
+        "children":["menu#size__guide"],
+        "props":{
+            "blockClass":"disclosure__content--description"
+        }
+    },
+    "menu#size__guide":{
+        "title":"Menu - product size guide",
+        "children":[
+            "rich-text#size__title",
+            "rich-text#size__content",
+            "rich-text#measure__title",
+            "rich-text#measure__content",
+            "rich-text#measure__step--one-title",
+            "rich-text#measure__step--one-content",
+            "image#measure__step--one",
+            "rich-text#measure__step--two-title",
+            "rich-text#measure__step--two-content",
+            "image#measure__step--two",
+            "rich-text#query__title",
+            "rich-text#query__content"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu--size-guide"
+        }
+    },
+    "rich-text#size__title":{
+        "title":"Find your size title",
+        "props":{
+            "text": "Encuentra tu talla",
+            "blockClass":"size__rich--text-title"
+        }
+    },
+    "rich-text#size__content":{
+        "title":"Find your size content",
+        "props":{
+            "text": "Encuentra la talla perfecta del brasier que se ajusta a tu cuerpo utilizando el siguiente módulo:",
+            "blockClass":"size__rich--text-content"
+        }
+    },
+    "rich-text#measure__title":{
+        "title":"How to measure yourself title",
+        "props":{
+            "text": "Conoce como medirte",
+            "blockClass":"size__rich--text-title"
+        }
+    },
+    "rich-text#measure__content":{
+        "title":"How to measure yourself content",
+        "props":{
+            "text": "Al momento de medirte usa un brasier cómodo y sin almohadillas, para que tus medidas no se vean alteradas.",
+            "blockClass":"size__rich--text-content"
+        }
+    },
+    "rich-text#measure__step--one-title":{
+        "title":"How to measure yourself title - step one",
+        "props":{
+            "text": "**Paso 1: Base**",
+            "blockClass":"size__rich--text-tit"
+        }
+    },
+    "rich-text#measure__step--one-content":{
+        "title":"How to measure yourself content - step one",
+        "props":{
+            "text": "Mide en centímetros el contorno de tu base, ubicando la cinta métrica justo debajo del busto rodeando tu torso.",
+            "blockClass":"size__rich--text-content"
+        }
+    },
+    "image#measure__step--one": {
+        "title":"How to measure yourself image - step one",
+        "props":{
+          "blockClass": "measure__step--one",
+          "src":"assets/img/global/bra-size-paso1.avif"             
+        }        
+      },
+    "rich-text#measure__step--two-title":{
+        "title":"How to measure yourself title - step two",
+        "props":{
+            "text": "**Paso 1: Base**",
+            "blockClass":"size__rich--text-tit"
+        }
+    },
+    "rich-text#measure__step--two-content":{
+        "title":"How to measure yourself content - step two",
+        "props":{
+            "text": "Mide en centímetros el contorno de tu busto, por la parte más sobresaliente.",
+            "blockClass":"size__rich--text-content"
+        }
+    },
+    "image#measure__step--two":{
+        "title":"How to measure yourself image - step two",
+        "props":{
+          "blockClass": "measure__step--two",
+          "src":"assets/img/global/bra-size-paso2.avif"             
+        } 
+    },
+    "rich-text#query__title":{
+        "title":"Queries title",
+        "props":{
+            "text": "¿Aún tienes dudas?",
+            "blockClass":"size__rich--text-title"
+        }
+    },
+    "rich-text#query__content":{
+        "title":"Queries content",
+        "props":{
+            "text": "Comunícate a nuestra **Línea de Atención al cliente** [**01-8000-521234**](/) y recibe asesoría de nuestras expertas.",
+            "blockClass":"size__rich--text-content"
+        }
+    }
+    
+}

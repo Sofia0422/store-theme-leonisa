@@ -1,0 +1,30 @@
+.caretIcon--disclosure__product--icon{
+    width: 10px;
+    height: 10px;
+    transition: all .1s ease-in;
+    color: #2a2c29;
+    position: absolute;
+    transform: translateX(265px);
+}
+
+@media  (max-width: 1024px){
+    .caretIcon--disclosure__product--icon{
+        transform: translateX(350px);
+    }
+}
+
+@media  (max-width: 425px){
+    .caretIcon--disclosure__product--icon{
+        transform: translateX(180px);
+    }
+}
+@media  (max-width: 375px){
+    .caretIcon--disclosure__product--icon{
+        transform: translateX(155px);
+    }
+}
+@media  (max-width: 320px){
+    .caretIcon--disclosure__product--icon{
+        transform: translateX(125px);
+    }
+}

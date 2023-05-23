@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#desktop__product--breadcrumb":{
+        "title":"Product breadcrumb main container for desktop view",
+        "children":[
+            "flex-layout.col#desktop__product--breadcrumb"            
+        ],
+        "props":{
+            "blockClass":"desktop__product--breadcrumb-row"
+        }
+    },
+    "flex-layout.col#desktop__product--breadcrumb":{
+        "title":"Product breadcrumb column container for desktop view",
+        "children":["breadcrumb"],
+        "props":{
+            "blockClass":"desktop__product--breadcrumb-col"
+        }
+    }
+}

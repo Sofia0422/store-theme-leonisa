@@ -1,0 +1,26 @@
+{
+    "responsive-layout.mobile#product__details":{
+        "title": "Product details Mobile view ",
+        "children": [            
+            /* "flex-layout.col#mobile__product--information", */
+            "flex-layout.row#pdp__stack--layout-container",                      
+            "vtex.store-components:product-name",
+            "flex-layout.row#product__rating-id--container",
+            "flex-layout.row#mobile__product--info-image",
+            "flex-layout.row#pdp__color--options-container",
+            "flex-layout.row#product__sku-size--container",
+            "flex-layout.row#product__price-taxes--container",
+            "flex-layout.row#product__payment-methods--container",
+            "product-quantity#product__quantity", 
+            "flex-layout.row#product__shipping--container",
+            "flex-layout.row#mobile__product--add-button",
+            "flex-layout.row#product__assurance--container",
+            "flex-layout.row#product__disclosure--container-row",
+            "share", 
+            "flex-layout.row#global__home--product-summary",
+            "flex-layout.row#desktop__product--reviews"/* ,
+            "product-reviews" */         
+        ]
+      }    
+
+}

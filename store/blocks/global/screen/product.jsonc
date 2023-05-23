@@ -1,0 +1,11 @@
+{
+    "store.product":{
+        "title":"Responsive layout product details",
+        "children":[
+            /* "responsive-layout.phone#product__details",
+            "responsive-layout.tablet#product__details",  */
+            "responsive-layout.mobile#product__details",             
+            "responsive-layout.desktop#product__details"           
+        ]
+    }
+}
