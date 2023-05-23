@@ -1,0 +1,62 @@
+{
+    "flex-layout.row#pdp__color--options-container":{
+        "title":"Color options container row",
+        "children":[
+            "flex-layout.col#pdp__color--options-container"
+        ],
+        "props":{
+          "blockClass":"pdp__color--options-container"
+        }
+    },
+    "flex-layout.col#pdp__color--options-container":{
+        "title":"Color options container column",
+        "children":[
+            "rich-text#pdp__color--options-title",
+            "flex-layout.row#pdp__drops--color-container"
+        ],
+        "props":{
+          "blockClass":"pdp__color--options-container"
+        }
+    },
+
+    "rich-text#pdp__color--options-title":{
+        "props":{
+            "text":"COLOR",
+            "blockClass":"pdp__color--options-title"
+          } 
+    },
+
+    "flex-layout.row#pdp__drops--color-container":{
+        "title":"Color options container",
+        "children":[
+          "link.product#pdp__drops--color-1",
+          "link.product#pdp__drops--color-2",
+          "link.product#pdp__drops--color-3"
+        ],
+        "props":{
+          "blockClass":"pdp__drops--color-container"
+        }
+      },
+      "link.product#pdp__drops--color-1": {
+        "title": "First drop color in pdp",
+        "props": {
+          "href": "/{slug}/p",       
+          "blockClass": "pdp__drops--color-1"
+        }
+      },
+      "link.product#pdp__drops--color-2": {
+        "title": "Second drop color in pdp",
+        "props": {
+          "href": "/{slug}/p",
+          "label":".",       
+          "blockClass": "pdp__drops--color-2"
+        }
+      },
+      "link.product#pdp__drops--color-3": {
+        "title": "Third drop color in pdp",
+        "props": {
+          "href": "/{slug}/p",            
+          "blockClass": "pdp__drops--color-3"
+        }
+      }
+}

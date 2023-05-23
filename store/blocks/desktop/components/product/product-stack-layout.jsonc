@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#pdp__stack--layout-container":{
+        "title":"Stack layout best sellers container in PDP",
+        "children":[
+            "rich-text#pdp__stack--best-seller"
+        ],
+        "props":{
+          "blockClass":"pdp__stack--layout-container"
+        }
+      },
+      "rich-text#pdp__stack--best-seller":{
+        "props":{
+          "text":"Más Vendido",
+          "blockClass":"pdp__stack--best-seller"
+        } 
+      }
+}

@@ -25,7 +25,9 @@
 .orderByOptionsContainer{
     width: 60%;
     /* margin-right: 4.5rem; */
-    margin-top: 46px;    
+    margin-top: 46px;  
+    /* position: relative;
+    z-index: 9999;   */
 }
 
 .orderByText--search__result--order-by {
@@ -42,7 +44,7 @@
     justify-content: right;
     transform: translateX(-41px);
     position: relative;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .filterPopupTitle--search__result--order-by {    

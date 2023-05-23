@@ -11,7 +11,8 @@
   },
   "product-summary.shelf#global__list--product": {
     "children": [   
-      "stack-layout#label__best--seller",         
+      "stack-layout#label__best--seller",  
+      /* "vtex.product-highlights@2.x:product-highlights#collection",*/               
       "product-summary-name",
       "product-summary-price",      
       "product-summary-space",
@@ -23,11 +24,38 @@
       "blockClass":"global__list-product-container"
     }
   },
+
+ /*  "vtex.product-highlights@2.x:product-highlights#collection":{
+    "title":"Highlight text best sellers",
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Más Vendido"]
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#collection"     
+    ]
+  },
+  "product-highlight-wrapper#collection":{
+    "children": ["product-highlight-text"]       
+  }, 
+
+  "product-highlight-text":{
+    "props": {
+      "message": "{highlightName}",
+      "blockClass":"highlight__text--best-seller"
+    }
+  }, */
+
   "stack-layout#label__best--seller":{
     "title":"Stack layout best sellers",
     "children":[
       "product-summary-image#global__product--image",
       "flex-layout.row#stack__layout--container"
+      /* "vtex.product-highlights@2.x:product-highlights#collection" */
+      
     ],
     "props":{      
       "blockClass":"label__best--seller"
@@ -77,7 +105,7 @@
         "tablet":2,
         "phone":1        
       },
-      "showNavigationArrows":"always"
+      "showNavigationArrows":"never"
     }
   },
 

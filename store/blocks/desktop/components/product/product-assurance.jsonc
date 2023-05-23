@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#product__assurance--container":{
+        "title":"Product aasurance container",
+        "children":[
+            "flex-layout.col#product__assurance--icon-container",
+            "flex-layout.col#product__assurance--text-container"
+        ],
+        "props":{
+            "blockClass":"product__assurance--container"
+        }
+    },
+    "flex-layout.col#product__assurance--icon-container":{
+        "title":"Product aasurance icon container",
+        "children":[
+            "image#product__assurance--icon"            
+        ],
+        "props":{
+            "blockClass":"product__assurance--icon-container"
+        }
+    },
+    "image#product__assurance--icon" :{
+        "title":"Assurance icon",
+        "props":{
+          "src": "assets/img/global/assurance1.png"
+          
+        }      
+      },
+    "flex-layout.col#product__assurance--text-container":{
+        "title":"Product aasurance text container",
+        "children":[
+            "rich-text#product__assurance--tex-1",
+            "rich-text#product__assurance--tex-2"              
+        ],
+        "props":{
+            "blockClass":"product__assurance--text-container"
+        }
+    },
+    "rich-text#product__assurance--tex-1":{
+        "title":"Product aasurance textc one",
+        "props":{
+            "text":"LA PRENDA IDEAL . GARANTIZADA",
+            "blockClass":"product__assurance--tex-1"
+        }
+
+    },
+    "rich-text#product__assurance--tex-2":{
+        "title":"Product aasurance textc two",
+        "props":{
+            "text":"Envío Gratis* y 30 días para cambios.",
+            "blockClass":"product__assurance--tex-2"
+        }
+    }
+}

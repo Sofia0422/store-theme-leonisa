@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#product__price-taxes--container":{
+        "title":"Product price and taxes container for desktop view",
+        "children":[
+            "product-price#pdp_product--price",
+            "rich-text#pdp__taxes--text"
+        ],
+        "props":{
+            "blockClass":"product__price-taxes--container"
+        }
+    },
+    "rich-text#pdp__taxes--text":{
+        "title":"Taxes text",
+        "props":{
+            "text":"IVA incluido",
+            "blockClass":"pdp__taxes--text"
+        }
+    },
+
+    "product-price#pdp_product--price":{
+        "title":"Product price for pdp",
+        "props":{
+            "blockClass":"pdp_product--price"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#product__payment-methods--container":{
+        "title":"Payment method Addi container",
+        "children":[
+            "image#payment__addi--icon",
+            "rich-text#payment__addi--text-1",
+            "image#payment__addi--logo",
+            "rich-text#payment__addi--text-2"
+        ],
+        "props":{
+            "blockClass":"product__payment-methods--container"
+        }
+    },
+    "image#payment__addi--icon":{
+        "props":{
+            "blockClass": "payment__addi--icon",
+            "src":"assets/img/global/addi-icon.png",
+            "maxWidth":"28px",
+            "maxHeight":"28px",
+            "link":{
+              "url":"/"
+            }     
+          }
+    },
+    "rich-text#payment__addi--text-1":{
+        "title":"Payment Addi text one",
+        "props":{
+            "text":"Compra a 3 cuotas sin interés de **$ 23.330** con",
+            "blockClass":"payment__addi--text"
+        }
+    },
+    "image#payment__addi--logo":{
+        "props":{
+            "blockClass": "payment__addi--logo",
+            "src":"assets/img/global/addi-logo.svg",
+            "maxWidth":"initial",
+            "maxHeight":"0.8em",
+            "link":{
+              "url":"/"
+            }     
+          }
+    },
+    "rich-text#payment__addi--text-2":{
+        "title":"Payment Addi text two",
+        "props":{
+            "text":"[Pide un presupuesto](/)",
+            "blockClass":"payment__addi--text"
+        }
+    }
+
+}

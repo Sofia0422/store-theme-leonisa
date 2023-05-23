@@ -1,0 +1,70 @@
+{
+    "disclosure-layout#description":{
+        "title":"Disclosure layout for product description",
+        "children":[
+            "disclosure-trigger#description",
+            "disclosure-content#description"           
+        ],
+        "props":{
+            "blockClass":"disclosure__description--container"
+        }
+    },
+   
+    "disclosure-trigger#description":{
+        "title":"Disclosure trigger for product description",
+        "children":[
+            "rich-text#description", 
+            "disclosure-state-indicator#product__disclosure"
+        ],
+        "props":{
+            "blockClass":"disclosure__trigger--container"
+        }
+    },
+    "rich-text#description":{
+        "title":"Product description title",
+        "props":{
+            "text": "DESCRIPCIÓN",
+            "blockClass":"product__disclosure--text-title"
+        }
+    },
+    "disclosure-state-indicator#product__disclosure": {
+        "title":"Disclosure state indicator",
+        "props": {
+          "Show": "icon-caret#down__product--disclosure",
+          "Hide": "icon-caret#up__product--disclosure",
+          "blockClass":"disclosure__state--product-indicator"
+        }
+      },
+      "icon-caret#down__product--disclosure": {
+        "title":"Disclosure state indicator - icon caret down",
+        "props": {
+          "orientation": "down",
+          "blockClass":"disclosure__product--icon"
+        }
+      },
+      "icon-caret#up__product--disclosure": {
+        "title":"Disclosure state indicator - icon caret up",
+        "props": {
+          "orientation": "up",
+          "blockClass":"disclosure__product--icon"
+        }
+      },
+
+    "disclosure-content#description":{
+        "title":"Disclosure content - product description",
+        "children":["menu#description"],
+        "props":{
+            "blockClass":"disclosure__content--description"
+        }
+    },
+    "menu#description":{
+        "title":"Menu- product description",
+        "children":[
+            "product-description"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"disclosure__menu--description"
+        }
+    }
+}

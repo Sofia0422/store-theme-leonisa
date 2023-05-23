@@ -1,0 +1,13 @@
+.product-identifier__label, .product-identifier__separator{
+    display: none;
+}
+
+.product-identifier--productReference {
+    padding-left: 14rem;
+}
+
+@media  (max-width: 425px){
+    .product-identifier--productReference {
+        padding-left: 8rem;
+    }
+}

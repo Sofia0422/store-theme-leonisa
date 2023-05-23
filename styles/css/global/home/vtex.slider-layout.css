@@ -23,3 +23,14 @@
     margin-bottom: 50px;
     padding: 0 70px;
 }
+
+.slide--global__slider--list-product{
+    margin: 0 0.5rem;
+}
+
+@media  (max-width: 425px){
+    .sliderTrackContainer--global__slider--list-product{
+        padding: 0;
+    }
+   
+}
