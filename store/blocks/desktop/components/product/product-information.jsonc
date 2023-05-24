@@ -63,5 +63,23 @@
         "props":{
             "blockClass":"desktop__product--reviews"
         }
-    }   
+    },
+    "flex-layout.row#product__purchase--options-container":{
+        "title":"Other purchase options title container",
+        "children":[
+            "rich-text#purchase__options--title"
+        ],
+        "props":{
+            "blockClass":"product__purchase--options-container"
+        }
+    },
+    "rich-text#purchase__options--title":{
+        "title":"Purchase options title",
+        "props":{
+            "blockClass":"purchase__options--title",
+            "text":"Otras personas también compraron",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }  
 }

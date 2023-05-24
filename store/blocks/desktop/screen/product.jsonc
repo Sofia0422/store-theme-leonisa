@@ -4,6 +4,7 @@
         "children": [
             "flex-layout.row#desktop__product--breadcrumb",
             "flex-layout.row#desktop__product--information",
+            "flex-layout.row#product__purchase--options-container",
             "flex-layout.row#global__home--product-summary",
             "flex-layout.row#desktop__product--reviews"                     
         ]

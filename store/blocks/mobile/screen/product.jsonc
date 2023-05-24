@@ -17,6 +17,7 @@
             "flex-layout.row#product__assurance--container",
             "flex-layout.row#product__disclosure--container-row",
             "share", 
+            "flex-layout.row#product__purchase--options-container",
             "flex-layout.row#global__home--product-summary",
             "flex-layout.row#desktop__product--reviews"/* ,
             "product-reviews" */         

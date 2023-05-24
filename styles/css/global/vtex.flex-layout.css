@@ -1,0 +1,11 @@
+.flexCol--terms-conditions__main--container{
+    padding: 30px 40px;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+@media  (max-width: 1024px){
+    .flexCol--terms-conditions__main--container{
+        padding: 30px .0625rem;        
+    }
+}
