@@ -33,10 +33,7 @@
     width: 9px !important;
     height: 9px;
     background: #54c63a;
-    border-radius: 9px;
-    /* position: absolute;
-    left: 0;
-    top: 0; */
+    border-radius: 9px;    
     content: "";
     margin: 7px;
 }
@@ -48,15 +45,15 @@
 
 
 /* @media  (max-width: 425px) {
-    .link--shelf__drops--color-1{
+    .link--pdp__drops--color-1{
         left:1.2rem;
-        width: 24% !important;             
+        max-width:35% !important;             
     }
-    .link--shelf__drops--color-2{        
-        width: 24% !important;             
+    .link--pdp__drops--color-2{        
+        max-width: 35% !important;             
     }    
-    .link--shelf__drops--color-3{
+    .link--pdp__drops--color-3{
         right: 1.2rem ;
-        width: 24% !important;             
+        max-width: 35% !important;             
     }     
 } */

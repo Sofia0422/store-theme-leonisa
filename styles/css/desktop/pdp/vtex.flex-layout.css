@@ -16,6 +16,9 @@
     letter-spacing: 0.15em;  
     line-height: 1.42;      
 }
+.flexRowContent--desktop__product--information{
+    margin-bottom: 0 !important;
+}
 
 .flexRow--product__rating-id--container{
     border-bottom: 1px solid #bbbbbb;
@@ -117,6 +120,7 @@
 .flexRowContent--desktop__product--reviews :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: auto !important;
 }
+
 
 @media  (max-width: 1024px){
     .flexRow--pdp__stack--layout-container{
