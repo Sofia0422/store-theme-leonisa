@@ -4,9 +4,13 @@
     transition: all .1s ease-in;
     color: #2a2c29;
     position: absolute;
-    transform: translateX(350px);
+    transform: translateX(462px);
 }
-
+@media  (max-width: 768px) {
+    .caretIcon--disclosure__icon{
+        transform: translateX(350px);
+    }
+}
 
 @media  (max-width: 425px) {
     .caretIcon--disclosure__icon{

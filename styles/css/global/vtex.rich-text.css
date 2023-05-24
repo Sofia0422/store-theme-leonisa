@@ -1,3 +1,56 @@
 .paragraph{
     margin: 0px;
 }
+
+.container--input__section--title{
+    margin-bottom: 50px;   
+}
+
+.wrapper--input__section--title{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    color: #2a2c29;
+}
+
+.container--section__text--content{
+    /* margin-bottom: 25px; */
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.025em;
+    line-height: 1.2;
+}
+
+.link--section__text--content, .link--section__text--content-1{
+    color: #2a2c29;
+}
+
+.container--section__text--title{
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.wrapper--section__text--title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: #2a2c29;
+}
+
+.wrapper--section__text--content-1{
+    margin-bottom: 25px;
+}
+
+@media  (max-width: 768px){
+    .wrapper--input__section--title{
+        font-size: 23px;        
+    }
+    .container--input__section--title{
+        margin-bottom: 30px;   
+    }
+    .wrapper--section__text--title{        
+        font-size: 18px;        
+    }
+}

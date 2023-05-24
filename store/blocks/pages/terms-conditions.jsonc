@@ -1,0 +1,139 @@
+{
+    "store.custom#terms-conditions":{
+        "title":"Custom page - Terms and Conditions ",
+        "blocks":[
+            "flex-layout.row#terms-conditions__main--container-row"           
+        ]
+    },
+    "flex-layout.row#terms-conditions__main--container-row":{
+        "children":[
+            "flex-layout.col#terms-conditions__main--container-col"
+        ]
+    },
+
+    "flex-layout.col#terms-conditions__main--container-col":{
+        "title":"Terms and Conditions page - main container",
+        "children":[
+            "rich-text#input__section--title",
+            "rich-text#input__section--content",
+            "rich-text#links__section--title",
+            "rich-text#links__section--content",
+            "rich-text#brands__section--title",
+            "rich-text#brands__section--content",
+            "rich-text#licenses__section--title",
+            "rich-text#licenses__section--content-one",
+            "rich-text#licenses__section--content-two",
+            "rich-text#liability__section--title",
+            "rich-text#liability__section--content-one",
+            "rich-text#liability__section--content-two",
+            "rich-text#liability__section--content-three",
+            "rich-text#liability__section--content-four"
+         
+        ],
+        "props":{
+            "blockClass":"terms-conditions__main--container"
+        }
+    },  
+    "rich-text#input__section--title":{
+        "title":"Input section title",
+        "props":{
+            "text":"Términos y Condiciones de Uso",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":"input__section--title"
+        }
+    },
+    "rich-text#input__section--content":{
+        "title":"Input section content",
+        "props":{
+            "text":"La siguiente información aplica para todos los visitantes del sitio [leonisa.co](/). El uso implica la conformidad con nuestros Términos de Privacidad y Seguridad, así como de nuestras Condiciones de Uso. C.I. G&LINGERIE S.A.S. se reserva el derecho de modificar estos términos en cualquier momento.",
+            "blockClass":"section__text--content"            
+        }
+    },
+    "rich-text#links__section--title":{
+        "title":"Links section title",
+        "props":{
+            "text":"Vínculos",
+            "blockClass":"section__text--title"              
+        }
+    },
+    "rich-text#links__section--content":{
+        "title":"Links section content",
+        "props":{
+            "text":"No podemos certificar que la información personal que se envía a cualquier página Web vinculada a la nuestra esté segura, pues se trata de páginas externas a la nuestra que operan de manera independiente. Se prohíbe el vínculo de cualquier página hacia [leonisa.co](/) sin previa autorización.",
+            "blockClass":"section__text--content"            
+        }
+
+    },
+    "rich-text#brands__section--title":{
+        "title":"Brands section title",
+        "props":{
+            "text":"Marcas",
+            "blockClass":"section__text--title"              
+        }
+    },
+    "rich-text#brands__section--content":{
+        "title":"Brands section content",
+        "props":{
+            "text":"C.I. G&LINGERIE S.A.S. y las demás compañías que comercializan sus productos en [leonisa.co](/) se reservan todos los derechos que conciernen a sus marcas. Estas marcas, nombres, logos y/o imágenes asociadas están registradas y protegidas por la ley. Los usuarios de [leonisa.co](/) no tienen derecho a utilizar estos logos, marcas, y/o imágenes. C.I. G&LINGERIE S.A.S. no tolera el uso de sus marcas/ nombres en metatags y/o texto escondido. Al utilizar nuestras marcas/nombres en 'metatag keywords' usted está infringiendo la ley.",
+            "blockClass":"section__text--content"            
+        }
+    },
+    "rich-text#licenses__section--title":{
+        "title":"Licenses section title",
+        "props":{
+            "text":"Licencias",
+            "blockClass":"section__text--title"              
+        }
+    },
+    "rich-text#licenses__section--content-one":{
+        "title":"Brands section content one",
+        "props":{
+            "text":"Todos los bienes intangibles tales como software o códigos HTML, textos, fotografías, imágenes, videos, entre otros, que sean usados, publicados, insertados o incluidos en este sitio son de propiedad de C.I. G&LINGERIE S.A.S. y se encuentran protegidos por la ley.",
+            "blockClass":"section__text--content-1"            
+        }
+    },
+    "rich-text#licenses__section--content-two":{
+        "title":"Brands section content two",
+        "props":{
+            "text":"Los usuarios de [leonisa.co](/) no tienen autorización para copiar, reproducir, publicar, transmitir, distribuir, modificar, crear derivados de nuestra Página Web, vender, licenciar y/o utilizar esta Página Web para propósitos comerciales.",
+            "blockClass":"section__text--content"  
+
+        }
+    },
+    "rich-text#liability__section--title":{
+        "title":"Licenses section title",
+        "props":{
+            "text":"Exclusión de Responsabilidad",
+            "blockClass":"section__text--title"              
+        }
+    },
+    "rich-text#liability__section--content-one":{
+        "title":"Exclusion of Liability section content one",
+        "props":{
+            "text":"C.I. G&LINGERIE S.A.S. no se responsabiliza por la interpretación, análisis y comprensión del contenido publicado en este sitio. El acceso a [leonisa.co](/) se provee a nuestros usuarios como se presenta y de acuerdo con nuestra disponibilidad, sin garantía de ninguna clase a menos que ya esté previamente expresada o implícita.",
+            "blockClass":"section__text--content-1"              
+        }
+    },
+    "rich-text#liability__section--content-two":{
+        "title":"Exclusion of Liability section content two",
+        "props":{
+            "text":"Es responsabilidad del usuario el acceso y uso del material publicado desde jurisdicciones en las cuales tal material y contenido se encuentre prohibido por las leyes. Los usuarios de [leonisa.co](/) que no se encuentren en Colombia lo hacen por iniciativa propia y observando las leyes locales.",
+            "blockClass":"section__text--content"
+        }
+    },
+    "rich-text#liability__section--content-three":{
+        "title":"Exclusion of Liability section content three",
+        "props":{
+            "text":"C.I. G&LINGERIE S.A.S. administra la Página Web [leonisa.co](/) desde Colombia. Por lo tanto, los términos de la misma se rigen por la normatividad de dicho país.",
+            "blockClass":"section__text--content-1"
+        }
+    },
+    "rich-text#liability__section--content-four":{
+        "title":"Exclusion of Liability section content four",
+        "props":{
+            "text":"En ningún caso C.I. G&LINGERIE S.A.S. será responsable por los daños o consecuencias directas, incidentales o indirectas que el uso de esta Página Web o alguno de sus links pueda causar.",
+            "blockClass":"section__text--content-1"
+        }
+    }    
+}

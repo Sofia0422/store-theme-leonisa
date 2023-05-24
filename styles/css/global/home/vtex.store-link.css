@@ -29,14 +29,14 @@
 @media  (max-width: 425px) {
     .link--shelf__drops--color-1{
         left:1.2rem;
-        width: 24% !important;             
+        width: 35% !important;             
     }
     .link--shelf__drops--color-2{        
-        width: 24% !important;             
+        width: 35% !important;             
     }    
     .link--shelf__drops--color-3{
         right: 1.2rem ;
-        width: 24% !important;             
+        width: 35% !important;             
     }     
 }
 
