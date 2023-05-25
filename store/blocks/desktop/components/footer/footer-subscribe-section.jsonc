@@ -15,19 +15,20 @@
     "rich-text#desktop__discount":{
         "title":"rich-text discounts",
         "props":{
-          "blockClass":"desktop__subscribe--text-1",          
+          "blockClass":"desktop__subscribe--text-1",
           "text":"Recibe **15% de descuento** en tu primera compra. Enteráte de lanzamientos, tendencias y ofertas especiales."
         }
     },
     "rich-text#desktop__privacy--policy":{
         "title":"rich-text privacy policy",
         "props":{
-          "blockClass":"desktop__subscribe--text-2",          
+          "blockClass":"desktop__subscribe--text-2",
           "text":"Ver [Politica de Privacidad](https://www.google.com/)"
         }
     },
 
     "flex-layout.row#desktop__icons--container":{
+      "title":"Icons container in desktop view",
         "children":[
           "image#desktop__socialnetwork--icon-insta",
           "image#desktop__socialnetwork--icon-face",
@@ -42,40 +43,40 @@
         "title":"Icon instagram in footer",
         "props":{
           "blockClass":"desktop__icon--general",
-          "src":"assets/img/footer/social-network/instagram-icon.svg",          
+          "src":"assets/img/footer/social-network/instagram-icon.svg",
           "link":{
             "url":"https://www.instagram.com/"
           }
-        } 
+        }
       },
       "image#desktop__socialnetwork--icon-face":{
         "title":"Icon facebook in footer",
         "props":{
           "blockClass":"desktop__icon--general",
-          "src":"assets/img/footer/social-network/facebook-icon.svg",          
+          "src":"assets/img/footer/social-network/facebook-icon.svg",
           "link":{
             "url":"https://es-la.facebook.com/"
           }
-        }       
+        }
       },
       "image#desktop__socialnetwork--icon-yout":{
         "title":"Icon youtube in footer",
         "props":{
           "blockClass":"desktop__icon--general",
-          "src":"assets/img/footer/social-network/youtube-icon.svg",          
+          "src":"assets/img/footer/social-network/youtube-icon.svg",
           "link":{
             "url":"https://www.youtube.com/"
           }
-        }      
+        }
       },
       "image#desktop__socialnetwork--icon-pint":{
         "title":"Icon pinterest in footer",
         "props":{
           "blockClass":"desktop__icon--general",
-          "src":"assets/img/footer/social-network/pinterest-icon.svg",          
+          "src":"assets/img/footer/social-network/pinterest-icon.svg",
           "link":{
             "url":"https://co.pinterest.com/"
           }
-        }      
+        }
       }
 }

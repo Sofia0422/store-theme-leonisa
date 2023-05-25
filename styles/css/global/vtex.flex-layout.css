@@ -3,9 +3,9 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-.flexColChild--terms-conditions__main--container{
+/* .flexColChild--terms-conditions__main--container{
   margin-bottom: 25px;
-}
+} */
 
 @media  (max-width: 1024px){
     .flexCol--contact-us__main--container{

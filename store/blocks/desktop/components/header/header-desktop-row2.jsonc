@@ -11,71 +11,78 @@
         "fullWidth": true,
         "blockClass": "desktop__header-row2_elements"
       },
-      "children": [             
-        "flex-layout.col#desktop__header_search", 
-        "flex-layout.col#spacer",                   
+      "children": [
+        "flex-layout.col#desktop__header_search",
+        "flex-layout.col#spacer",
         "flex-layout.col#desktop__header_logo",
         "flex-layout.col#spacer",
-        "flex-layout.col#desktop__header_icons"         
+        "flex-layout.col#desktop__header_icons"
       ]
     },
-    
-  
-  // Search - autocomplete  
+
+
+  // Search - autocomplete
   "flex-layout.col#desktop__header_search":{
-    "children":[      
-      "modal-trigger#desktop__search--modal"]      
+    "title":"Header search container in desktop view",
+    "children":[
+      "modal-trigger#desktop__search--modal"]
   },
 
   "autocomplete-result-list.v2#desktop":{
+    "title":"Autocomplete result in desktop view",
     "blocks":["product-summary.shelf#global__listproduct--search"]
   },
 
   "search-bar#desktop__header_search":{
+    "title":"Header search bar in desktop view",
     /* "blocks":["autocomplete-result-list.v2#desktop"], */
     "props":{
       "blockClass":"desktop__header--search",
       "openAutocompleteOnFocus":true,
-      "autocompleteAlignment":"left"       
+      "autocompleteAlignment":"left"
     }
   },
 
   // Search - modal
 
   "modal-trigger#desktop__search--modal":{
-    "children":[ 
-      "search-bar#desktop__header_search",     
+    "title":"Search modal trigger container in desktop view",
+    "children":[
+      "search-bar#desktop__header_search",
       "modal-layout#desktop__search--modal"
     ],
     "props":{
       "blockClass":"desktop__search--modal-active"
     }
-    
-  },  
-  
+
+  },
+
   "modal-layout#desktop__search--modal":{
+    "title":"Search modal layout container in desktop view",
     "children":[
       "modal-content#desktop__search--modal"],
     "props":{
-      "blockClass":"desktop__modal--search-layout"         
+      "blockClass":"desktop__modal--search-layout"
     }
   },
   "modal-content#desktop__search--modal": {
-    "title": "Container Modal section search desktop",
+    "title": "Search modal container in desktop view",
     "children": [
       "modal-header#desktop__search--modal"
     ],
     "props": {
-      "blockClass":"desktop__modal--search-content" 
+      "blockClass":"desktop__modal--search-content"
     }
   },
   "modal-header#desktop__search--modal": {
+    "title": "Search modal header in desktop view",
     "children":["search-bar#desktop__search--modal"],
     "props": {
-      "blockClass": "desktop__modal--header" 
+      "blockClass": "desktop__modal--header"
     }
-  },  
+  },
   "search-bar#desktop__search--modal":{
+    "title": "Search bar modal container in desktop view",
     "blocks":["autocomplete-result-list.v2#desktop"],
     "props":{
       "blockClass":"header__search--modal",
@@ -83,20 +90,21 @@
       "autocompleteAlignment":"left"
     }
   },
-     
+
     //logo
     "flex-layout.col#desktop__header_logo": {
+      "title": "Logo container in header desktop view",
       "props": {
         "blockClass":"desktop__header_container--logo",
         "verticalAlign": "middle"
       },
       "children": [
-          "logo#desktop__header_leonisa"        
+          "logo#desktop__header_leonisa"
       ]
     },
     "logo#desktop__header_leonisa": {
       "title": "Logo",
-      "props": {      
+      "props": {
         "href": "/",
         "url": "assets/img/header/logo-leonisa.jpg",
         "width": "180",
@@ -106,14 +114,16 @@
 
   //Icons
   "flex-layout.col#desktop__header_icons":{
+    "title": "Header icons container in desktop view - col",
     "children":[
       "flex-layout.row#header__icons--container"
-    ], 
+    ],
     "props":{
       "blockClass":"header__icons--column"
     }
   },
   "flex-layout.row#header__icons--container":{
+    "title": "Header icons container in desktop view - row",
     "children":[
       "flex-layout.row#global__header_locator",
       "login#global__header",
@@ -122,6 +132,6 @@
     "props":{
       "blockClass":"header__icons--container"
     }
-  }  
-    
+  }
+
 }
