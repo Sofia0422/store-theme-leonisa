@@ -1,4 +1,4 @@
-{  
+{
     "rich-text#desktop__home--text-two":{
     "title":"rich-text home two",
       "props":{
@@ -7,8 +7,9 @@
         "textPosition": "CENTER",
         "text":"Una experiencia de compra única"
       }
-  },    
+  },
     "flex-layout.row#desktop__home--experience":{
+      "title":"Experience section container",
         "children":[
           "flex-layout.col#desktop__experience--shipment",
           "flex-layout.col#desktop__experience--change",
@@ -19,12 +20,13 @@
           "blockClass":"desktop__experience--container-row"
         }
       },
-    
+
       "flex-layout.col#desktop__experience--shipment":{
+        "title":"Experience shipment section container",
         "children":[
           "image#desktop__experience--shipment",
           "rich-text#desktop__experience--shipment",
-          "rich-text#desktop__experience--general"      
+          "rich-text#desktop__experience--general"
         ],
         "props":{
           "blockClass":"desktop__experience--shipment-col"
@@ -34,7 +36,7 @@
         "title":"Shipment image in experience section",
         "props":{
           "blockClass":"desktop__experience--image",
-          "src":"assets/img/global/experience-section/icono-envios_360x.avif",          
+          "src":"assets/img/global/experience-section/icono-envios_360x.avif",
           "link":{
             "url":"/"
           }
@@ -57,14 +59,15 @@
             "textPosition": "CENTER",
             "text":"[Ver más](https://developers.vtex.com/docs/guides/welcome)"
           }
-      }, 
-    
-    
+      },
+
+
       "flex-layout.col#desktop__experience--change":{
+        "title":"Experience Change container",
         "children":[
           "image#desktop__experience--change",
           "rich-text#desktop__experience--change",
-          "rich-text#desktop__experience--general"      
+          "rich-text#desktop__experience--general"
         ],
         "props":{
           "blockClass":"desktop__experience--change-col"
@@ -74,7 +77,7 @@
         "title":"Change image in experience section",
         "props":{
           "blockClass":"desktop__experience--image",
-          "src":"assets/img/global/experience-section/icono-cambia-devuelve_360x.avif",          
+          "src":"assets/img/global/experience-section/icono-cambia-devuelve_360x.avif",
           "link":{
             "url":"/"
           }
@@ -88,13 +91,14 @@
             "textPosition": "CENTER",
             "text":"[**Cambia o devuelve** sin complicaciones](https://developers.vtex.com/docs/guides/welcome)"
           }
-      },  
-    
+      },
+
       "flex-layout.col#desktop__experience--order":{
+        "title":"Experience order container",
         "children":[
           "image#desktop__experience--order",
           "rich-text#desktop__experience--order",
-          "rich-text#desktop__experience--general"      
+          "rich-text#desktop__experience--general"
         ],
         "props":{
           "blockClass":"desktop__experience--order-col"
@@ -104,7 +108,7 @@
         "title":"Order image in experience section",
         "props":{
           "blockClass":"desktop__experience--image",
-          "src":"assets/img/global/experience-section/icono-estado-orden_360x.avif",          
+          "src":"assets/img/global/experience-section/icono-estado-orden_360x.avif",
           "link":{
             "url":"/"
           }
@@ -118,12 +122,13 @@
             "textPosition": "CENTER",
             "text":"[Consulta fácilmente el **estado de tu orden**](https://developers.vtex.com/docs/guides/welcome)"
           }
-      },  
+      },
       "flex-layout.col#desktop__experience--advisory":{
+        "title":"Experience advisory section container",
         "children":[
           "image#desktop__experience--advisory",
           "rich-text#desktop__experience--advisory",
-          "rich-text#desktop__experience--general"      
+          "rich-text#desktop__experience--general"
         ],
         "props":{
           "blockClass":"desktop__experience--advisory-col"
@@ -133,7 +138,7 @@
         "title":"Advisory image in experience section",
         "props":{
           "blockClass":"desktop__experience--image",
-          "src":"assets/img/global/experience-section/icono-contactanos_360x.avif",          
+          "src":"assets/img/global/experience-section/icono-contactanos_360x.avif",
           "link":{
             "url":"/"
           }

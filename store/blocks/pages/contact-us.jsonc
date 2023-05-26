@@ -1,0 +1,66 @@
+{
+    "store.custom#contact-us":{
+      "title":"Custom page - Contact Us",
+      "blocks":[
+            "flex-layout.row#contact-us__main--container-row"
+      ]
+    },
+    "flex-layout.row#contact-us__main--container-row":{
+      "children":[
+          "flex-layout.col#contact-us__main--container-col"
+      ]
+  },
+
+  "flex-layout.col#contact-us__main--container-col":{
+      "title":"Contact Us page - main container",
+      "children":[
+          "rich-text#contact-us__section--title",
+          "rich-text#contact-us__section--content",
+          "rich-text#schedules__section--content",
+          "rich-text#whatsapp__section--title",
+          "rich-text#number__section--content",
+          "whatsapp-button"
+      ],
+      "props":{
+          "blockClass":"terms-conditions__main--container"
+      }
+  },
+  "rich-text#contact-us__section--title":{
+      "title":"Input section title",
+      "props":{
+          "text":"Contáctanos",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass":"contact-us__section--title"
+      }
+  },
+  "rich-text#contact-us__section--content":{
+      "title":"Contact us section content",
+      "props":{
+          "text":"Queremos asesorarte en tu compra o ayudarte con tu pedido. Escoge uno de los siguientes medios para comunicarte con nosotros. Si estás dentro del horario, te recomendamos chatear con nosotros, te contestaremos de inmediato.",
+          "blockClass":"contact-us__section--content"
+      }
+  },
+  "rich-text#schedules__section--content":{
+    "title":"Shedules section content",
+    "props":{
+        "text":"Horario: Lunes a Viernes: 7:30am a 7:00pm - Sábado: 8:00am a 1:00pm",
+        "blockClass":"schedules__section--content"
+    }
+  },
+  "rich-text#whatsapp__section--title":{
+    "title":"Whatsapp section title",
+      "props":{
+          "text":"WhatsApp · envíanos un mensaje",
+          "blockClass":"whatsapp__section--title"
+      }
+  },
+  "rich-text#number__section--content":{
+    "title":"Number section content",
+    "props":{
+        "text":"[+57 3014789563](/)",
+        "blockClass":"number__section--content"
+    }
+  }
+
+}
