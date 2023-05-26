@@ -3,19 +3,21 @@
         "title":"Image home one",
         "props":{
           "blockClass":"desktop__home--image-one",
-          "src":"assets/img/home/desktop/image-one.jpg",        
+          "src":"assets/img/home/desktop/image-one.jpg",
           "link":{
             "url":"/"
           }
         }
       },
       "flex-layout.row#desktop__home--text":{
-        "children":["flex-layout.col#desktop__home--text-col"],   
+        "title":"Text home section one container - row",
+        "children":["flex-layout.col#desktop__home--text-col"],
         "props":{
-          "blockClass":"desktop__home--text-container"      
+          "blockClass":"desktop__home--text-container"
         }
       },
       "flex-layout.col#desktop__home--text-col":{
+        "title":"Text home section one container - col",
         "children":[
           "rich-text#desktop__home--text-1",
           "rich-text#desktop__home--text-2"
@@ -39,23 +41,23 @@
             "text":"que funcionan de verdad"
           }
       },
-    
+
       "flex-layout.row#desktop__home--one-imgs":{
         "title":"Home image container one",
-        "children":[      
+        "children":[
           "image#desktop__home--image-two",
           "image#desktop__home--image-three"
         ],
         "props":{
           "blockClass":"desktop__image--container-one"
         }
-        
+
       },
       "image#desktop__home--image-two":{
         "title":"Image home two",
         "props":{
           "blockClass":"desktop__home--image-two",
-          "src":"assets/img/home/desktop/image-two.jpg",          
+          "src":"assets/img/home/desktop/image-two.jpg",
           "link":{
             "url":"/"
           }
@@ -65,7 +67,7 @@
         "title":"Image home three",
         "props":{
           "blockClass":"desktop__home--image-three",
-          "src":"assets/img/home/desktop/image-three.jpg",          
+          "src":"assets/img/home/desktop/image-three.jpg",
           "link":{
             "url":"/"
           }
@@ -73,7 +75,7 @@
       },
       "flex-layout.row#desktop__home--two-imgs":{
         "title":"Home image container two",
-        "children":[      
+        "children":[
           "image#desktop__home--image-four",
           "image#desktop__home--image-five",
           "image#desktop__home--image-six"
@@ -81,13 +83,13 @@
         "props":{
           "blockClass":"desktop__image--container-two"
         }
-       
+
       },
       "image#desktop__home--image-four":{
         "title":"Image home four",
         "props":{
           "blockClass":"desktop__home--image-four",
-          "src":"assets/img/home/desktop/image-four.jpg",          
+          "src":"assets/img/home/desktop/image-four.jpg",
           "link":{
             "url":"/"
           }
@@ -97,7 +99,7 @@
         "title":"Image home five",
         "props":{
           "blockClass":"desktop__home--image-five",
-          "src":"assets/img/home/desktop/image-five.jpg",          
+          "src":"assets/img/home/desktop/image-five.jpg",
           "link":{
             "url":"/"
           }
@@ -107,16 +109,16 @@
         "title":"Image home six",
         "props":{
           "blockClass":"desktop__home--image-six",
-          "src":"assets/img/home/desktop/image-six.jpg",          
+          "src":"assets/img/home/desktop/image-six.jpg",
           "link":{
             "url":"/"
           }
         }
       },
-    
+
       "flex-layout.row#desktop__home--three-imgs":{
         "title":"Home image container three",
-        "children":[      
+        "children":[
           "image#desktop__home--image-seven",
           "image#desktop__home--image-eight"
         ],
@@ -128,7 +130,7 @@
         "title":"Image home seven",
         "props":{
           "blockClass":"desktop__home--image-seven",
-          "src":"assets/img/home/desktop/image-seven.jpg",          
+          "src":"assets/img/home/desktop/image-seven.jpg",
           "link":{
             "url":"/"
           }
@@ -138,7 +140,7 @@
         "title":"Image home eight",
         "props":{
           "blockClass":"desktop__home--image-eight",
-          "src":"assets/img/home/desktop/image-eight.jpg",          
+          "src":"assets/img/home/desktop/image-eight.jpg",
           "link":{
             "url":"/"
           }
@@ -146,7 +148,7 @@
       },
       "flex-layout.row#desktop__home--four-imgs":{
         "title":"Home image container four",
-        "children":[      
+        "children":[
           "image#desktop__home--image-nine",
           "image#desktop__home--image-ten",
           "image#desktop__home--image-eleven"
@@ -159,7 +161,7 @@
         "title":"Image home nine",
         "props":{
           "blockClass":"desktop__home--image-nine",
-          "src":"assets/img/home/desktop/image-nine.jpg",          
+          "src":"assets/img/home/desktop/image-nine.jpg",
           "link":{
             "url":"/"
           }
@@ -169,7 +171,7 @@
         "title":"Image home ten",
         "props":{
           "blockClass":"desktop__home--image-ten",
-          "src":"assets/img/home/desktop/image-ten.jpg",          
+          "src":"assets/img/home/desktop/image-ten.jpg",
           "link":{
             "url":"/"
           }
@@ -179,7 +181,7 @@
         "title":"Image home eleven",
         "props":{
           "blockClass":"desktop__home--image-eleven",
-          "src":"assets/img/home/desktop/image-eleven.jpg",          
+          "src":"assets/img/home/desktop/image-eleven.jpg",
           "link":{
             "url":"/"
           }
@@ -196,19 +198,19 @@
         "title":"Image home twelve",
         "props":{
           "blockClass":"desktop__home--image-twelve",
-          "src":"assets/img/home/desktop/image-twelve.jpg",          
+          "src":"assets/img/home/desktop/image-twelve.jpg",
           "link":{
             "url":"/"
           }
         }
       },
-    
+
       "info-card#desktop__home--best-seller":{
         "title":"Info-car for best seller",
         "props": {
           "id": "info-card-best-seller",
           "isFullModeStyle": true,
-          "textPosition": "center",      
+          "textPosition": "center",
           "headline": "Los más vendidos",
           "callToActionText": "TODOS",
           "callToActionUrl": "/",

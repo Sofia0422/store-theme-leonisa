@@ -4,7 +4,7 @@
         "props": {
           "id": "info-card-blog",
           "isFullModeStyle": true,
-          "textPosition": "center",      
+          "textPosition": "center",
           "headline": "Blog Leonisa",
           "callToActionText": "VER TODO",
           "callToActionUrl": "/",
@@ -17,14 +17,15 @@
         "children":[
           "flex-layout.col#desktop__blog--one",
           "flex-layout.col#desktop__blog--two",
-          "flex-layout.col#desktop__blog--three"       
+          "flex-layout.col#desktop__blog--three"
         ],
-        "props":{      
-          "blockClass":"desktop__image--container-twelve"    
+        "props":{
+          "blockClass":"desktop__image--container-twelve"
         }
       },
-    
+
       "flex-layout.col#desktop__blog--one":{
+        "title":"Blog section one container",
         "children":[
           "image#desktop__home--blog-one",
           "rich-text#desktop__blog-one--text-1",
@@ -35,7 +36,7 @@
         "title":"Section Leonisa blog image one",
         "props":{
           "blockClass":"desktop__blog--one",
-          "src":"assets/img/home/desktop/blog-one.jpg",          
+          "src":"assets/img/home/desktop/blog-one.jpg",
           "link":{
             "url":"/"
           }
@@ -59,8 +60,9 @@
             "text":"Alimentáte De Manera Consciente"
           }
       },
-    
+
       "flex-layout.col#desktop__blog--two":{
+        "title":"Blog section two container",
         "children":[
           "image#desktop__home--blog-two",
           "rich-text#desktop__blog-two--text-1",
@@ -71,7 +73,7 @@
         "title":"Section Leonisa blog image two",
         "props":{
           "blockClass":"desktop__blog--two",
-          "src":"assets/img/home/desktop/blog-two.jpg",          
+          "src":"assets/img/home/desktop/blog-two.jpg",
           "link":{
             "url":"/"
           }
@@ -95,19 +97,20 @@
             "text":"8 Prendas Por Las Que Estabas Esperando"
           }
       },
-    
+
       "flex-layout.col#desktop__blog--three":{
+        "title":"Blog section three container",
         "children":[
           "image#desktop__home--blog-three",
           "rich-text#desktop__blog-three--text-1",
           "rich-text#desktop__blog-three--text-2"
         ]
-      },  
+      },
       "image#desktop__home--blog-three":{
         "title":"Section Leonisa blog image three",
         "props":{
           "blockClass":"desktop__blog--three",
-          "src":"assets/img/home/desktop/blog-three.jpg",          
+          "src":"assets/img/home/desktop/blog-three.jpg",
           "link":{
             "url":"/"
           }

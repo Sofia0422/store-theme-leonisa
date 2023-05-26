@@ -1,26 +1,28 @@
 {
     "flex-layout.row#mobile__policies--container-row":{
-        "title":"Policies main container", 
-        "children":["menu#mobile__footer--policies"],       
-        "props":{            
-            "blockClass":"mobile__policies--container-row"           
-        }  
+        "title":"Policies main container",
+        "children":["menu#mobile__footer--policies"],
+        "props":{
+            "blockClass":"mobile__policies--container-row"
+        }
     },
 
     "menu#mobile__footer--policies":{
+      "title":"Menu policies container",
         "children":[
             "menu-item#term-and-conds",
             "menu-item#privacy",
             "menu-item#data-protection",
             "menu-item#consent",
-            "menu-item#accessibility" 
+            "menu-item#accessibility"
         ],
-        "props":{            
-            "blockClass":"policies__menu--container-row"           
-        } 
+        "props":{
+            "blockClass":"policies__menu--container-row"
+        }
     },
 
     "menu-item#term-and-conds":{
+      "title":"Menu item Terms and Conditions section",
         "props":{
             "id":"menu-term-and-conds",
             "type": "custom",
@@ -85,8 +87,8 @@
             "iconProps": {
                 "id": "icon-acces",
                 "size": 20,
-                "viewBox": "0 0 16 16"               
-              },            
+                "viewBox": "0 0 16 16"
+              },
             "blockClass":"policies__menu--item"
         }
     },

@@ -10,18 +10,19 @@
         }
     },
     "menu#desktop__connect":{
+      "title":"Connect menu container en desktop view",
         "children":[
             "menu-item#desktop__privileges",
             "menu-item#desktop__shoppers",
             "menu-item#desktop__for--you",
             "menu-item#desktop__shopping",
             "menu-item#desktop__mail--list",
-            "menu-item#desktop__partners", 
+            "menu-item#desktop__partners",
             "menu-item#desktop__limited--edition",
             "menu-item#desktop__store--locator",
             "menu-item#desktop__wholesales",
             "menu-item#desktop__sell--catalog",
-            "menu-item#desktop__work--with-us"        
+            "menu-item#desktop__work--with-us"
         ],
         "props":{
             "orientation": "vertical",
@@ -29,6 +30,7 @@
         }
     },
     "menu-item#desktop__privileges":{
+      "title":"Menu item Privileges in desktop view",
         "props":{
             "id":"menu-privileges",
             "type": "custom",
@@ -42,6 +44,7 @@
         }
     },
     "menu-item#desktop__shoppers":{
+      "title":"Menu item Shoopers in desktop view",
         "props":{
             "id":"menu-shopper",
             "type": "custom",
@@ -55,6 +58,7 @@
         }
     },
     "menu-item#desktop__for--you":{
+      "title":"Menu item for you in desktop view",
         "props":{
             "id":"menu-for-you",
             "type": "custom",
@@ -68,6 +72,7 @@
         }
     },
     "menu-item#desktop__shopping":{
+      "title":"Menu item Shopping in desktop view",
         "props":{
             "id":"menu-shopping",
             "type": "custom",
@@ -81,6 +86,7 @@
         }
     },
     "menu-item#desktop__mail--list":{
+      "title":"Menu item Main list in desktop view",
         "props":{
             "id":"menu-mail-list",
             "type": "custom",
@@ -94,6 +100,7 @@
         }
     },
     "menu-item#desktop__partners":{
+      "title":"Menu item Partners in desktop view",
         "props":{
             "id":"menu-partners",
             "type": "custom",
@@ -107,6 +114,7 @@
         }
     },
     "menu-item#desktop__limited--edition":{
+      "title":"Menu item Limited Edition in desktop view",
         "props":{
             "id":"menu-limited-edition",
             "type": "custom",
@@ -120,6 +128,7 @@
         }
     },
     "menu-item#desktop__store--locator":{
+      "title":"Menu item Store locatorin desktop view",
         "props":{
             "id":"menu-store-locator",
             "type": "custom",
@@ -133,6 +142,7 @@
         }
     },
     "menu-item#desktop__wholesales":{
+      "title":"Menu item Wholesales in desktop view",
         "props":{
             "id":"menu-wholesales",
             "type": "custom",
@@ -146,6 +156,7 @@
         }
     },
     "menu-item#desktop__sell--catalog":{
+      "title":"Menu item Sell catalog in desktop view",
         "props":{
             "id":"menu-sell-catalog",
             "type": "custom",
@@ -159,6 +170,7 @@
         }
     },
     "menu-item#desktop__work--with-us":{
+      "title":"Menu item Work with Us in desktop view",
         "props":{
             "id":"menu-work-with-us",
             "type": "custom",

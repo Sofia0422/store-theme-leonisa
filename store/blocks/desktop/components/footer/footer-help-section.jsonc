@@ -10,13 +10,14 @@
         }
     },
     "menu#desktop__help":{
+      "title":"Help menu container in desktop view",
         "children":[
             "menu-item#desktop__contact--us",
             "menu-item#desktop__order--state",
             "menu-item#desktop__shipping",
             "menu-item#desktop__changes",
             "menu-item#desktop__offerts",
-            "menu-item#desktop__questions"         
+            "menu-item#desktop__questions"
         ],
         "props":{
             "orientation": "vertical",
@@ -24,12 +25,13 @@
         }
     },
     "menu-item#desktop__contact--us":{
+      "title":"Menu item Contact Us in desktop view",
         "props":{
             "id":"menu-contact-us",
             "type": "custom",
             "itemProps":{
                 "type":"internal",
-                "href":"/",
+                "href":"/contactanos",
                 "tagTitle":"Contáctanos",
                 "text":"Contáctanos"
             },
@@ -37,6 +39,7 @@
         }
     },
     "menu-item#desktop__order--state":{
+      "title":"Menu item Order State in desktop view",
         "props":{
             "id":"menu-order-state",
             "type": "custom",
@@ -50,6 +53,7 @@
         }
     },
     "menu-item#desktop__shipping":{
+      "title":"Menu item Shipping in desktop view",
         "props":{
             "id":"menu-shipping",
             "type": "custom",
@@ -63,6 +67,7 @@
         }
     },
     "menu-item#desktop__changes":{
+      "title":"Menu item Changes an Returns in desktop view",
         "props":{
             "id":"menu-changes",
             "type": "custom",
@@ -76,6 +81,7 @@
         }
     },
     "menu-item#desktop__offerts":{
+      "title":"Menu item Offerts in desktop view",
         "props":{
             "id":"menu-offerts",
             "type": "custom",
@@ -89,6 +95,7 @@
         }
     },
     "menu-item#desktop__questions":{
+      "title":"Menu item Questions in desktop view",
         "props":{
             "id":"menu-questions",
             "type": "custom",

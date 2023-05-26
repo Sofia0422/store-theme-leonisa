@@ -1,7 +1,8 @@
 {
   //Department one
-    //Category one 
+    //Category one
     "menu-item#desktop__menu_category--one":{
+      "title": "Menu Item Girdles categoryin desktop view",
         "props":{
           "id": "category-one-menu",
           "type":"custom",
@@ -17,6 +18,7 @@
       },
       //Category two
       "menu-item#desktop__menu_category--two":{
+        "title": "Menu Item Bras and Bralettes category in desktop view",
         "props":{
           "id": "category-one-desktop",
           "type":"custom",
@@ -29,11 +31,12 @@
             "text":"NUEVOS BRASIERES Y BRALETTES"
           }
         }
-        
-      },     
-      
+
+      },
+
       //Category three
       "menu-item#desktop__menu_category--three":{
+        "title": "Menu Item Bra N°1 categoryin desktop view",
         "props":{
           "id": "category-three-desktop",
           "type":"custom",
@@ -49,6 +52,7 @@
       },
       //Category four
       "menu-item#desktop__menu_category--four":{
+        "title": "Menu Item Best selling bras category in desktop view",
         "props":{
           "id": "category-four-desktop",
           "type":"custom",
@@ -64,6 +68,7 @@
       },
       //Category five
       "menu-item#desktop__menu_category--five":{
+        "title": "Menu Item Bra style category in desktop view",
         "props":{
           "id": "category-five-desktop",
           "type":"custom",
@@ -79,11 +84,12 @@
       },
       //Category six
       "menu-item#desktop__menu_category--six":{
+        "title": "Menu Item Bra types category in desktop view",
         "props":{
           "id": "category-six-desktop",
           "type":"custom",
           "onMountBehavior":"open",
-          "blockClass":"menu__category",  
+          "blockClass":"menu__category",
           "itemProps":{
             "type":"external",
             "href":"/",
@@ -92,7 +98,7 @@
             "text":"TIPOS DE BRASIER"
           }
         },
-        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--six"]               
+        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--six"]
       },
       "vtex.menu@2.x:submenu#desktop__subcategories_category--six":{
         "title":"Category six section",
@@ -110,15 +116,16 @@
           "menu-item#desktop__menu_subcategory--seven-six",
           "menu-item#desktop__menu_subcategory--eight-six",
           "menu-item#desktop__menu_subcategory--nine-six",
-          "menu-item#desktop__menu_subcategory--ten-six"   
+          "menu-item#desktop__menu_subcategory--ten-six"
         ]
       },
       //Category seven
       "menu-item#desktop__menu_category--seven":{
+        "title": "Menu Item Bust size category in desktop view",
         "props":{
           "id": "category-seven-desktop",
           "type":"custom",
-          "onMountBehavior":"open",  
+          "onMountBehavior":"open",
           "blockClass":"menu__category",
           "itemProps":{
             "type":"external",
@@ -128,7 +135,7 @@
             "text":"TAMAÑO DE BUSTO"
           }
         },
-        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--seven"] 
+        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--seven"]
       },
       "vtex.menu@2.x:submenu#desktop__subcategories_category--seven":{
         "title":"Category seven section",
@@ -140,15 +147,16 @@
           "menu-item#desktop__menu_subcategory--one-seven",
           "menu-item#desktop__menu_subcategory--two-seven",
           "menu-item#desktop__menu_subcategory--three-seven" ,
-          "menu-item#desktop__menu_subcategory--four-seven"           
+          "menu-item#desktop__menu_subcategory--four-seven"
         ]
       },
       //Category eight
       "menu-item#desktop__menu_category--eight":{
+        "title": "Menu Item Benefits category in desktop view",
         "props":{
           "id": "category-eight-desktop",
           "type":"custom",
-          "onMountBehavior":"open",  
+          "onMountBehavior":"open",
           "blockClass":"menu__category",
           "itemProps":{
             "type":"external",
@@ -158,7 +166,7 @@
             "text":"BENEFICIOS"
           }
         },
-        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--eight"] 
+        "blocks":["vtex.menu@2.x:submenu#desktop__subcategories_category--eight"]
       },
       "vtex.menu@2.x:submenu#desktop__subcategories_category--eight":{
         "title":"Category eight section",
@@ -175,13 +183,14 @@
           "menu-item#desktop__menu_subcategory--six-eight",
           "menu-item#desktop__menu_subcategory--seven-eight",
           "menu-item#desktop__menu_subcategory--eight-eight",
-          "menu-item#desktop__menu_subcategory--nine-eight"  
+          "menu-item#desktop__menu_subcategory--nine-eight"
         ]
-      }, 
-    
+      },
+
     //Department two
-    //Category one 
+    //Category one
     "menu-item#desktop__menu_category--two-one":{
+      "title": "Menu Item see all panties category in desktop view",
       "props":{
         "id": "category-one-menu",
         "type":"custom",
@@ -209,9 +218,9 @@
           "text":"NUEVOS PANTIES"
         }
       }
-      
-    },     
-    
+
+    },
+
     //Category three
     "menu-item#desktop__menu_category--two-three":{
       "props":{
@@ -257,7 +266,7 @@
           "text":"TIPOS DE PANTIES"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dtwo"]   
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dtwo"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dtwo":{
       "title":"Category six section",
@@ -272,7 +281,7 @@
         "menu-item#desktop__menu_subcategory--four-cfive-dtwo",
         "menu-item#desktop__menu_subcategory--five-cfive-dtwo",
         "menu-item#desktop__menu_subcategory--six-cfive-dtwo",
-        "menu-item#desktop__menu_subcategory--seven-cfive-dtwo"    
+        "menu-item#desktop__menu_subcategory--seven-cfive-dtwo"
       ]
     },
     //Category six
@@ -281,7 +290,7 @@
         "id": "category-six-desktop",
         "type":"custom",
         "onMountBehavior":"open",
-        "blockClass":"menu__category",  
+        "blockClass":"menu__category",
         "itemProps":{
           "type":"external",
           "href":"/",
@@ -290,7 +299,7 @@
           "text":"BENEFICIOS"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dtwo"]               
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dtwo"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dtwo":{
       "title":"Subcategory one category six - department two",
@@ -303,7 +312,7 @@
         "menu-item#desktop__menu_subcategory--two-csix-dtwo",
         "menu-item#desktop__menu_subcategory--three-csix-dtwo",
         "menu-item#desktop__menu_subcategory--four-csix-dtwo",
-        "menu-item#desktop__menu_subcategory--five-csix-dtwo"           
+        "menu-item#desktop__menu_subcategory--five-csix-dtwo"
       ]
     },
     //Category seven
@@ -311,7 +320,7 @@
       "props":{
         "id": "category-seven-desktop",
         "type":"custom",
-        "onMountBehavior":"open",  
+        "onMountBehavior":"open",
         "blockClass":"menu__category",
         "itemProps":{
           "type":"external",
@@ -321,7 +330,7 @@
           "text":"MATERIALES"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dtwo"] 
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dtwo"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dtwo":{
       "title":"Subcategory one category seven - department two",
@@ -331,12 +340,12 @@
       },
       "children":[
         "menu-item#desktop__menu_subcategory--one-cseven-dtwo",
-        "menu-item#desktop__menu_subcategory--two-cseven-dtwo"            
+        "menu-item#desktop__menu_subcategory--two-cseven-dtwo"
       ]
     },
-    
+
     //Department three
-    //Category one 
+    //Category one
     "menu-item#desktop__menu_category--three-one":{
       "props":{
         "id": "category-one-menu",
@@ -365,9 +374,9 @@
           "text":"NUEVAS FAJAS"
         }
       }
-      
-    },     
-    
+
+    },
+
     //Category three
     "menu-item#desktop__menu_category--three-three":{
       "props":{
@@ -398,7 +407,7 @@
           "text":"BENEFICIOS"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dthree"]   
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dthree"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-four-dthree":{
       "title":"Category four section",
@@ -412,7 +421,7 @@
         "menu-item#desktop__menu_subcategory--three-cfour-dthree" ,
         "menu-item#desktop__menu_subcategory--four-cfour-dthree",
         "menu-item#desktop__menu_subcategory--five-cfour-dthree",
-        "menu-item#desktop__menu_subcategory--six-cfour-dthree" 
+        "menu-item#desktop__menu_subcategory--six-cfour-dthree"
       ]
     },
     //Category five
@@ -430,7 +439,7 @@
           "text":"TIPOS DE FAJAS"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dthree"]   
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dthree"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-five-dthree":{
       "title":"Category five section",
@@ -445,7 +454,7 @@
         "menu-item#desktop__menu_subcategory--four-cfive-dthree",
         "menu-item#desktop__menu_subcategory--five-cfive-dthree",
         "menu-item#desktop__menu_subcategory--six-cfive-dthree",
-        "menu-item#desktop__menu_subcategory--seven-cfive-dthree"    
+        "menu-item#desktop__menu_subcategory--seven-cfive-dthree"
       ]
     },
     //Category six
@@ -454,7 +463,7 @@
         "id": "category-six-desktop",
         "type":"custom",
         "onMountBehavior":"open",
-        "blockClass":"menu__category",  
+        "blockClass":"menu__category",
         "itemProps":{
           "type":"external",
           "href":"/",
@@ -463,7 +472,7 @@
           "text":"ZONAS A CONTROLAR"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dthree"]               
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dthree"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-six-dthree":{
       "title":"Subcategory one category six - department three",
@@ -476,7 +485,7 @@
         "menu-item#desktop__menu_subcategory--two-csix-dthree",
         "menu-item#desktop__menu_subcategory--three-csix-dthree",
         "menu-item#desktop__menu_subcategory--four-csix-dthree",
-        "menu-item#desktop__menu_subcategory--five-csix-dthree"           
+        "menu-item#desktop__menu_subcategory--five-csix-dthree"
       ]
     },
     //Category seven
@@ -484,7 +493,7 @@
       "props":{
         "id": "category-seven-desktop",
         "type":"custom",
-        "onMountBehavior":"open",  
+        "onMountBehavior":"open",
         "blockClass":"menu__category",
         "itemProps":{
           "type":"internal",
@@ -494,7 +503,7 @@
           "text":"TIPOS DE COMPRESIÓN"
         }
       },
-      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dthree"] 
+      "blocks":["vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dthree"]
     },
     "vtex.menu@2.x:submenu#desktop__subcategories-one_category-seven-dthree":{
       "title":"Subcategory one category seven - department three",
@@ -506,7 +515,7 @@
         "menu-item#desktop__menu_subcategory--one-cseven-dthree",
         "menu-item#desktop__menu_subcategory--two-cseven-dthree",
         "menu-item#desktop__menu_subcategory--three-cseven-dthree",
-        "menu-item#desktop__menu_subcategory--four-cseven-dthree"  
+        "menu-item#desktop__menu_subcategory--four-cseven-dthree"
       ]
-    }    
+    }
 }

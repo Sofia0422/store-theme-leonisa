@@ -1,11 +1,11 @@
 
-{ 
+{
   "responsive-layout.desktop#home__sections":{
     "title": "Home sections Desktop ",
     "children": [
-      "flex-layout.row#desktop__home--section-1",                 
+      "flex-layout.row#desktop__home--section-1",
       "flex-layout.row#global__home--product-summary",
-      /* "flex-layout.row#home__custom-query--global",  */      
+      /* "flex-layout.row#home__custom-query--global",  */
       "flex-layout.row#desktop__home--section-2"
     ]
   },
@@ -13,11 +13,11 @@
   "flex-layout.row#desktop__home--section-1": {
     "title": "Desktop row with elements part 1",
     "children": [
-      "flex-layout.col#desktop__home--section-1"      
+      "flex-layout.col#desktop__home--section-1"
     ],
     "props":{
       "blockClass":"desktop__home--section-one",
-      "fullWidth":true      
+      "fullWidth":true
     }
   },
 
@@ -25,7 +25,7 @@
     "title":"Elements container section one",
     "children":[
       "image#desktop__home--image-one",
-      "flex-layout.row#desktop__home--text",     
+      "flex-layout.row#desktop__home--text",
       "flex-layout.row#desktop__home--one-imgs",
       "flex-layout.row#desktop__home--two-imgs",
       "flex-layout.row#desktop__home--three-imgs",
@@ -41,18 +41,18 @@
   "flex-layout.row#desktop__home--section-2":{
     "title": "desktop Row with elements part 2",
     "children": [
-      "flex-layout.col#desktop__home--section-2"      
+      "flex-layout.col#desktop__home--section-2"
     ],
     "props":{
       "fullWidth":true,
-      "blockClass":"desktop__home--section-one"    
+      "blockClass":"desktop__home--section-one"
     }
   },
 
-  
+
   "flex-layout.col#desktop__home--section-2":{
     "title":"Elements container section two",
-    "children":[      
+    "children":[
       "flex-layout.row#desktop__home--six-imgs",
       "flex-layout.row#desktop__home--seven-imgs",
       "rich-text#desktop__home--text-two",
@@ -65,7 +65,7 @@
       "flex-layout.row#desktop__home--eleven-imgs",
       "info-card#desktop__home--blog",
       "flex-layout.row#desktop__home--twelve-imgs",
-      "flex-layout.row#desktop__home--newsletter"       
+      "flex-layout.row#desktop__home--newsletter"
     ],
     "props":{
       "blockClass":"home__section--two-container"
