@@ -7,15 +7,6 @@
       "responsive-layout.desktop#home__sections",
       "whatsapp-button"
     ]
-  },
-
-  "whatsapp-button":{
-    "title":"WhatsApp Button component",
-    "props":{
-      "logo":"assets/img/global/social_whatsapp_icon_158172.png",
-      "phone": "573014789563",
-      "message":"Leonisa"
-    }
   }
 }
 

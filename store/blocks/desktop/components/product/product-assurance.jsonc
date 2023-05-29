@@ -12,7 +12,7 @@
     "flex-layout.col#product__assurance--icon-container":{
         "title":"Product aasurance icon container",
         "children":[
-            "image#product__assurance--icon"            
+            "image#product__assurance--icon"
         ],
         "props":{
             "blockClass":"product__assurance--icon-container"
@@ -21,15 +21,15 @@
     "image#product__assurance--icon" :{
         "title":"Assurance icon",
         "props":{
-          "src": "assets/img/global/assurance1.png"
-          
-        }      
+          "src": "assets/img/global/pdp/assurance1.png"
+
+        }
       },
     "flex-layout.col#product__assurance--text-container":{
         "title":"Product aasurance text container",
         "children":[
             "rich-text#product__assurance--tex-1",
-            "rich-text#product__assurance--tex-2"              
+            "rich-text#product__assurance--tex-2"
         ],
         "props":{
             "blockClass":"product__assurance--text-container"

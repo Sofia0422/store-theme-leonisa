@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#desktop__home--section-1": {
+    "title": "Desktop row with elements part 1",
+    "children": [
+      "flex-layout.col#desktop__home--section-1"
+    ],
+    "props":{
+      "blockClass":"desktop__home--section-one",
+      "fullWidth":true
+    }
+  },
+
+  "flex-layout.col#desktop__home--section-1"  :{
+    "title":"Elements container section one",
+    "children":[
+      "image#desktop__home--image-one",
+      "flex-layout.row#desktop__home--text",
+      "flex-layout.row#desktop__home--one-imgs",
+      "flex-layout.row#desktop__home--two-imgs",
+      "flex-layout.row#desktop__home--three-imgs",
+      "flex-layout.row#desktop__home--four-imgs",
+      "flex-layout.row#desktop__home--five-img",
+      "info-card#desktop__home--best-seller"
+    ],
+    "props":{
+      "blockClass":"home__section--one-container"
+    }
+  },
+
+  "flex-layout.row#desktop__home--section-2":{
+    "title": "desktop Row with elements part 2",
+    "children": [
+      "flex-layout.col#desktop__home--section-2"
+    ],
+    "props":{
+      "fullWidth":true,
+      "blockClass":"desktop__home--section-one"
+    }
+  },
+
+
+  "flex-layout.col#desktop__home--section-2":{
+    "title":"Elements container section two",
+    "children":[
+      "flex-layout.row#desktop__home--six-imgs",
+      "flex-layout.row#desktop__home--seven-imgs",
+      "rich-text#desktop__home--text-two",
+      "flex-layout.row#desktop__home--experience",
+      "flex-layout.row#desktop__home--eight-imgs",
+      "flex-layout.row#desktop__home--nine-imgs",
+      "flex-layout.row#desktop__home--ten-imgs",
+      "slider-layout#global__home--slider",
+      "rich-text#desktop__home--text-three",
+      "flex-layout.row#desktop__home--eleven-imgs",
+      "info-card#desktop__home--blog",
+      "flex-layout.row#desktop__home--twelve-imgs",
+      "flex-layout.row#desktop__home--newsletter"
+    ],
+    "props":{
+      "blockClass":"home__section--two-container"
+    }
+  }
+}

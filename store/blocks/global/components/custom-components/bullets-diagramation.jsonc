@@ -1,0 +1,63 @@
+{
+  "list-context.bullet-group":{
+    "title":"My bullet list context",
+    "children":["slider-layout#bullet-group"],
+    "props":{
+      "bullets":[
+        {
+          "image":"assets/img/global/bullets-diagramation/ropa-fem.avif",
+          "titleBullet":"Ropa Femenina",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/bullets-diagramation/ropa-juvenil.avif",
+          "titleBullet":"Ropa Juvenil",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/bullets-diagramation/ropa-deport.avif",
+          "titleBullet":"Ropa Deportiva",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/bullets-diagramation/pijamas.avif",
+          "titleBullet":"Pijamas",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/bullets-diagramation/ropa-ninos.avif",
+          "titleBullet":"Ropa para niños",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/bullets-diagramation/accesorios.avif",
+          "titleBullet":"Accesorios",
+          "link":{
+            "url":"/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group":{
+    "title":"Slider layout for Bullets group",
+    "props":{
+      "itemsPerpage":{
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite":true
+    }
+  }
+}

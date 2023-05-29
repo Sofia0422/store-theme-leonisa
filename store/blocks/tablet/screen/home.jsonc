@@ -2,87 +2,11 @@
   "responsive-layout.tablet#home__sections":{
     "title": "Home sections tablet ",
     "children": [
-      "flex-layout.row#tablet__home--section-1",                
-      "flex-layout.row#global__home--product-summary",                  
+      "flex-layout.row#tablet__home--section-1",
+      "flex-layout.row#global__home--product-summary",
+      "list-context.bullet-group",
       "flex-layout.row#tablet__home--section-2"
     ]
-  },
-  "flex-layout.row#tablet__home--section-1": {
-    "title": "tablet Row with elements part 1",
-    "children": [
-      "flex-layout.col#tablet__home--section-1"      
-    ],
-    "props":{
-      "blockClass":"home__section--one",
-      "fullWidth":true      
-    }
-  },
-
-  "flex-layout.col#tablet__home--section-1"  :{
-    "title":"Elements container section one",
-    "children":[
-      "image#tablet__home--image-one",
-      "flex-layout.row#tablet__home--text",
-      "image#tablet__home--image-two",
-      "image#tablet__home--image-three",
-      "image#tablet__home--image-four",
-      "image#tablet__home--image-five",
-      "image#tablet__home--image-six",
-      "image#tablet__home--image-seven",
-      "image#tablet__home--image-eight",
-      "image#tablet__home--image-nine",
-      "image#tablet__home--image-ten",
-      "image#tablet__home--image-eleven",          
-      "image#tablet__home--image-twelve",  
-      "info-card#tablet__home--best-seller"
-    ],
-    "props":{
-      "blockClass":"home__section--one-container"
-    }
-  },
-  
-
-  "flex-layout.row#tablet__home--section-2":{
-    "title": "tablet Row with elements part 2",
-    "children": [
-      "flex-layout.col#tablet__home--section-2"      
-    ],
-    "props":{
-      "fullWidth":true,
-      "blockClass":"home__section--two"     
-    }
-  },
-
-  "flex-layout.col#tablet__home--section-2":{
-    "title":"Elements container section two",
-    "children":[      
-      "image#tablet__home--image-thirteen",
-      "image#tablet__home--image-fourteen",
-      "image#tablet__home--image-fifteen",      
-      "rich-text#tablet__home--text-two",
-      "flex-layout.row#tablet__home--experience",
-      "image#tablet__home--image-sixteen",
-      "image#tablet__home--image-seventeen",
-      "image#tablet__home--image-eighteen",
-      "image#tablet__home--image-nineteen", 
-      "slider-layout#global__home--slider",
-      "rich-text#tablet__home--text-three",
-      "image#tablet__home--lqs-one",
-      "image#tablet__home--lqs-two",
-      "image#tablet__home--lqs-three",
-      "image#tablet__home--lqs-four",     
-      "info-card#tablet__home--blog",
-      "flex-layout.row#tablet__blog--container-1",
-      "flex-layout.row#tablet__blog--container-2",
-      "flex-layout.row#tablet__blog--container-3",
-      "flex-layout.row#tablet__home--newsletter"     
-    ],
-    "props":{
-      "blockClass":"home__section--two-container"
-    }
   }
-
-
 }
 
-/* "flex-layout.row#home__custom-query--tablet", */ 

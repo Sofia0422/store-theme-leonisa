@@ -3,17 +3,17 @@
         "title":"Disclosure layout for product size guide",
         "children":[
             "disclosure-trigger#size__guide",
-            "disclosure-content#size__guide"           
+            "disclosure-content#size__guide"
         ],
         "props":{
             "blockClass":"disclosure__size--guide-container"
         }
     },
-   
+
     "disclosure-trigger#size__guide":{
         "title":"Disclosure trigger for product size guide",
         "children":[
-            "rich-text#size__guide", 
+            "rich-text#size__guide",
             "disclosure-state-indicator#product__disclosure"
         ],
         "props":{
@@ -26,7 +26,7 @@
             "text": "GUIA DE TALLAS",
             "blockClass":"product__disclosure--text-title"
         }
-    },    
+    },
 
     "disclosure-content#size__guide":{
         "title":"Disclosure content - product size guide",
@@ -102,8 +102,8 @@
         "title":"How to measure yourself image - step one",
         "props":{
           "blockClass": "measure__step--one",
-          "src":"assets/img/global/bra-size-paso1.avif"             
-        }        
+          "src":"assets/img/global/pdp/bra-size-paso1.avif"
+        }
       },
     "rich-text#measure__step--two-title":{
         "title":"How to measure yourself title - step two",
@@ -123,8 +123,8 @@
         "title":"How to measure yourself image - step two",
         "props":{
           "blockClass": "measure__step--two",
-          "src":"assets/img/global/bra-size-paso2.avif"             
-        } 
+          "src":"assets/img/global/pdp/bra-size-paso2.avif"
+        }
     },
     "rich-text#query__title":{
         "title":"Queries title",
@@ -140,5 +140,5 @@
             "blockClass":"size__rich--text-content"
         }
     }
-    
+
 }

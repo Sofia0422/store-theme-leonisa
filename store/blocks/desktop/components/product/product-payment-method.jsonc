@@ -14,12 +14,12 @@
     "image#payment__addi--icon":{
         "props":{
             "blockClass": "payment__addi--icon",
-            "src":"assets/img/global/addi-icon.png",
+            "src":"assets/img/global/pdp/addi-icon.png",
             "maxWidth":"28px",
             "maxHeight":"28px",
             "link":{
               "url":"/"
-            }     
+            }
           }
     },
     "rich-text#payment__addi--text-1":{
@@ -32,12 +32,12 @@
     "image#payment__addi--logo":{
         "props":{
             "blockClass": "payment__addi--logo",
-            "src":"assets/img/global/addi-logo.svg",
+            "src":"assets/img/global/pdp/addi-logo.svg",
             "maxWidth":"initial",
             "maxHeight":"0.8em",
             "link":{
               "url":"/"
-            }     
+            }
           }
     },
     "rich-text#payment__addi--text-2":{
